@@ -8,7 +8,8 @@ import {
   IonSegmentButton,
   IonLabel,
   IonPage,
-  IonToolbar
+  IonToolbar,
+  IonButton
 } from '@ionic/react';
 
 function Schneiden() {
@@ -30,6 +31,10 @@ function Schneiden() {
             <IonChip>
               <IonLabel color="danger">Fleisch</IonLabel>
             </IonChip>
+            <IonChip>
+              <IonLabel color="default">Hauptgericht</IonLabel>
+            </IonChip>
+            <IonButton fill='outline'>Wählen</IonButton>
           </>
         );
       case "Two":
@@ -40,6 +45,10 @@ function Schneiden() {
             <IonChip>
               <IonLabel color="success">Vegetarisch</IonLabel>
             </IonChip>
+            <IonChip>
+              <IonLabel color="default">Hauptgericht</IonLabel>
+            </IonChip>
+            <IonButton fill='outline'>Wählen</IonButton>
           </>
         );
       case "Three":
@@ -50,6 +59,10 @@ function Schneiden() {
             <IonChip>
               <IonLabel color="primary">Vegan</IonLabel>
             </IonChip>
+            <IonChip>
+              <IonLabel color="default">Hauptgericht</IonLabel>
+            </IonChip>
+            <IonButton fill='outline'>Wählen</IonButton>
           </>
         );
       default:
