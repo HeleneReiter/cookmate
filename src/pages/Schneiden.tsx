@@ -25,30 +25,30 @@ function Schneiden() {
       case "One":
         return (
           <>
-            <h2>Card Titel - One</h2>
-            <p>Card Text - One</p>
+            <h2>Rezept 1</h2>
+            <p>Gemüsepfanne mit Huhn</p>
             <IonChip>
-              <IonLabel>Chip Label - One</IonLabel>
+              <IonLabel color="danger">Fleisch</IonLabel>
             </IonChip>
           </>
         );
       case "Two":
         return (
           <>
-            <h2>Card Titel - Two</h2>
-            <p>Card Text - Two</p>
+            <h2>Rezept 2</h2>
+            <p>Gemüseauflauf</p>
             <IonChip>
-              <IonLabel>Chip Label - Two</IonLabel>
+              <IonLabel color="success">Vegetarisch</IonLabel>
             </IonChip>
           </>
         );
       case "Three":
         return (
           <>
-            <h2>Card Titel - Three</h2>
-            <p>Card Text - Three</p>
+            <h2>Rezept 3</h2>
+            <p>Gemüsebowl</p>
             <IonChip>
-              <IonLabel>Chip Label - Three</IonLabel>
+              <IonLabel color="primary">Vegan</IonLabel>
             </IonChip>
           </>
         );
