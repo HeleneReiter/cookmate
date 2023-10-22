@@ -10,7 +10,9 @@ import {
   IonPage,
   IonToolbar,
   IonButton,
-  IonRouterOutlet
+  IonRouterOutlet,
+  IonButtons,
+  IonBackButton
 } from '@ionic/react';
 import { Link } from 'react-router-dom'; // Importieren Sie Link aus react-router-dom
 
@@ -77,6 +79,9 @@ function Schneiden() {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+          <IonButtons slot="start">
+            <IonBackButton defaultHref="/home" />
+          </IonButtons>
          <IonSegment scrollable={true} value={currentSegment} onIonChange={handleSegmentChange}>
             <IonSegmentButton value="One">
               One
