@@ -29,6 +29,7 @@ import "@ionic/react/css/display.css";
 import "./theme/variables.css";
 import Menu from "./components/menu";
 import Schneiden from "./pages/Schneiden";
+import RezeptRoutes from './RezeptRoutes';
 
 setupIonicReact();
 
@@ -44,6 +45,12 @@ const App: React.FC = () => (
           <Route exact path="/schneiden" component={Schneiden}></Route>
           <Route exact path="/">
             <Redirect to="/home" />
+          </Route>
+          <Route exact path="/rezeptOne" component={RezeptRoutes}></Route>
+          <Route exact path="/rezeptTwo" component={RezeptRoutes}></Route>
+          <Route exact path="/rezeptThree" component={RezeptRoutes}></Route>
+          <Route exact path="/">
+          <Redirect to="/home" />
           </Route>
         </IonRouterOutlet>
       </IonSplitPane>

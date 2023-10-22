@@ -9,8 +9,14 @@ import {
   IonLabel,
   IonPage,
   IonToolbar,
-  IonButton
+  IonButton,
+  IonRouterOutlet
 } from '@ionic/react';
+import { Link } from 'react-router-dom'; // Importieren Sie Link aus react-router-dom
+
+
+
+
 
 function Schneiden() {
   const [currentSegment, setCurrentSegment] = useState("One"); // Initialer Segmentwert
@@ -34,7 +40,6 @@ function Schneiden() {
             <IonChip>
               <IonLabel color="default">Hauptgericht</IonLabel>
             </IonChip>
-            <IonButton fill='outline'>Wählen</IonButton>
           </>
         );
       case "Two":
@@ -48,7 +53,6 @@ function Schneiden() {
             <IonChip>
               <IonLabel color="default">Hauptgericht</IonLabel>
             </IonChip>
-            <IonButton fill='outline'>Wählen</IonButton>
           </>
         );
       case "Three":
@@ -62,7 +66,6 @@ function Schneiden() {
             <IonChip>
               <IonLabel color="default">Hauptgericht</IonLabel>
             </IonChip>
-            <IonButton fill='outline'>Wählen</IonButton>
           </>
         );
       default:
@@ -92,6 +95,10 @@ function Schneiden() {
       <IonCard>
         <IonCardContent>
           {renderCardContent()}
+          <div style={{ marginBottom: '16px' }}></div>
+          <Link to={`/rezept${currentSegment}`}> {/* Erstellt den Link zu "/rezept1", "/rezept2", oder "/rezept3" basierend auf dem aktuellen Segment */}
+            <IonButton fill='outline'>Zum Rezept</IonButton>
+          </Link>
         </IonCardContent>
       </IonCard>
     </IonPage>
