@@ -12,17 +12,17 @@ const Schneiden: React.FC = () => {
       <IonContent>
         <RecipeCard
           titleOne="Rezept 1"
-          descriptionOne="Gemüsepfanne mit Huhn"
+          descriptionOne="Veganes Currysüppchen"
           recipeCategoryLabelOne="Fleisch"
           recipeCategoryColorOne="danger"
 
           titleTwo="Rezept 2"
-          descriptionTwo="Gemüseauflauf"
+          descriptionTwo="Veganes Currysüppchen"
           recipeCategoryLabelTwo="Vegetarisch"
           recipeCategoryColorTwo="success"
 
           titleThree="Rezept 3"
-          descriptionThree="Gemüsebowl"
+          descriptionThree="Veganes Currysüppchen"
           recipeCategoryLabelThree="Vegan"
           recipeCategoryColorThree="primary"
 
