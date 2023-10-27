@@ -27,7 +27,7 @@ const Home: React.FC = () => {
           </IonCardContent>
         </IonCard>
 
-        <IonCard href='/MandS' routerDirection='forward'>  
+        <IonCard href='/marinieren' routerDirection='forward'>  
           <img src='assets/images/Cooking_image.jpg' alt="CookingImage"></img>
           <IonCardHeader>
             <IonCardSubtitle> Lerne Soßen anzurühren und richtig zu marinieren</IonCardSubtitle>
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
           </IonCardHeader>
           <IonCardContent>
             <p> hier kommen dann noch die schwierigkeitsgrade</p>
-            <IonRouterLink href='/MandS' routerDirection='forward'> Marinieren und Soßen </IonRouterLink>
+            <IonRouterLink href='/marinieren' routerDirection='forward'> Marinieren und Soßen </IonRouterLink>
           </IonCardContent>
         </IonCard>
 

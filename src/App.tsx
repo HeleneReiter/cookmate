@@ -28,8 +28,9 @@ import "@ionic/react/css/display.css";
 /* Theme variables */
 import "./theme/variables.css";
 import Menu from "./components/menu";
-import Schneiden from "./pages/Schneiden";
+import Schneiden from "./pages/Levels/Schneiden";
 import RezeptRoutes from './RezeptRoutes';
+import Marinieren from "./pages/Levels/Marinieren";
 
 setupIonicReact();
 
@@ -42,16 +43,32 @@ const App: React.FC = () => (
           <Route exact path="/home">
             <Home />
           </Route>
+
+
           <Route exact path="/schneiden" component={Schneiden}></Route>
           <Route exact path="/">
           <Redirect to="/home" />
           </Route>
-          <Route exact path="/rezeptOne" component={RezeptRoutes}></Route>
-          <Route exact path="/rezeptTwo" component={RezeptRoutes}></Route>
-          <Route exact path="/rezeptThree" component={RezeptRoutes}></Route>
+         
+          
+          <Route exact path="/marinieren" component={Marinieren}></Route>
           <Route exact path="/">
           <Redirect to="/home" />
           </Route>
+
+  
+          <Route exact path="/rezept1_One" component={RezeptRoutes}></Route>
+          <Route exact path="/rezept1_Two" component={RezeptRoutes}></Route>
+          <Route exact path="/rezept1_Three" component={RezeptRoutes}></Route>
+
+          <Route exact path="/rezept2_One" component={RezeptRoutes}></Route>
+          <Route exact path="/rezept2_Two" component={RezeptRoutes}></Route>
+          <Route exact path="/rezept2_Three" component={RezeptRoutes}></Route>
+          <Route exact path="/">
+          <Redirect to="/home" />
+          </Route>
+
+
         </IonRouterOutlet>
       </IonSplitPane>
     </IonReactRouter>

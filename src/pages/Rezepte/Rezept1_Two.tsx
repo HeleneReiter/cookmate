@@ -13,7 +13,7 @@ import {
   IonLabel
 } from '@ionic/react';
 
-const RezeptTwo: React.FC = () => {
+const Rezept1_Two: React.FC = () => {
   // Simulierte Rezeptdaten (ersetze diese mit echten Daten)
   const rezept = {
     name: 'Gemüsepfanne mit Huhn',
@@ -49,4 +49,4 @@ const RezeptTwo: React.FC = () => {
   );
 };
 
-export default RezeptTwo;
+export default Rezept1_Two;

@@ -1,22 +1,34 @@
-// RezeptRoutes.tsx
 import React from 'react';
 import { Route, Switch, Link } from 'react-router-dom';
 
-import Rezept1 from './pages/Rezepte/RezeptOne';
-import Rezept2 from './pages/Rezepte/RezeptTwo';
-import Rezept3 from './pages/Rezepte/RezeptThree';
+import Rezept1_One from './pages/Rezepte/Rezept1_One';
+import Rezept1_Two from './pages/Rezepte/Rezept1_Two';
+import Rezept1_Three from './pages/Rezepte/Rezept1_Three';
+import Rezept2_One from './pages/Rezepte/Rezept2_One';
+import Rezept2_Two from './pages/Rezepte/Rezept2_Two';
+import Rezept2_Three from './pages/Rezepte/Rezept2_Three';
 
 const RezeptRoutes = () => {
   return (
     <Switch>
-      <Route path="/rezeptOne">
-        <Rezept1 />
+      <Route path="/rezept1_One">
+        <Rezept1_One />
       </Route>
-      <Route path="/rezeptTwo">
-        <Rezept2 />
+      <Route path="/rezept1_Two">
+        <Rezept1_Two />
       </Route>
-      <Route path="/rezeptThree">
-        <Rezept3 />
+      <Route path="/rezept1_Three">
+        <Rezept1_Three />
+      </Route>
+
+      <Route path="/rezept2_One">
+        <Rezept2_One />
+      </Route>
+      <Route path="/rezept2_Two">
+        <Rezept2_Two />
+      </Route>
+      <Route path="/rezept2_Three">
+        <Rezept2_Three />
       </Route>
     </Switch>
   );
