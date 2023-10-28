@@ -13,18 +13,18 @@ const Schneiden: React.FC = () => {
         <RecipeCard
           titleOne="Rezept 1"
           descriptionOne="Veganes Currysüppchen"
-          recipeCategoryLabelOne="Fleisch"
-          recipeCategoryColorOne="danger"
+          recipeCategoryLabelOne="Hauptspeise"
+          recipeCategoryColorOne="default"
 
           titleTwo="Rezept 2"
           descriptionTwo="Veganes Currysüppchen"
-          recipeCategoryLabelTwo="Vegetarisch"
-          recipeCategoryColorTwo="success"
+          recipeCategoryLabelTwo="Hauptspeise"
+          recipeCategoryColorTwo="default"
 
           titleThree="Rezept 3"
           descriptionThree="Veganes Currysüppchen"
-          recipeCategoryLabelThree="Vegan"
-          recipeCategoryColorThree="primary"
+          recipeCategoryLabelThree="Hauptspeise"
+          recipeCategoryColorThree="default"
 
           id="1_"
         />

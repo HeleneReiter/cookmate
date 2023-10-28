@@ -13,18 +13,18 @@ const Marinieren: React.FC = () => {
         <RecipeCard
           titleOne="Rezept 1"
           descriptionOne="Gemüsepfanne mit Huhn"
-          recipeCategoryLabelOne="Fleisch"
-          recipeCategoryColorOne="danger"
+          recipeCategoryLabelOne="Hauptspeise"
+          recipeCategoryColorOne="default"
 
           titleTwo="Rezept 2"
           descriptionTwo="Gemüseauflauf"
-          recipeCategoryLabelTwo="Vegetarisch"
-          recipeCategoryColorTwo="success"
+          recipeCategoryLabelTwo="Hauptspeise"
+          recipeCategoryColorTwo="default"
 
           titleThree="Rezept 3"
           descriptionThree="Gemüsebowl"
-          recipeCategoryLabelThree="Vegan"
-          recipeCategoryColorThree="primary"
+          recipeCategoryLabelThree="Hauptspeise"
+          recipeCategoryColorThree="default"
 
           id="2_"
         />
