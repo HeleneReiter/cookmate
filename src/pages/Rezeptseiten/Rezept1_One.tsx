@@ -13,7 +13,7 @@ import {
   IonLabel,
   IonButton,
 } from '@ionic/react';
-import Apfelstrudel from '/Users/helenereiter/git/cookmate_test/src/pages/Rezepte/Text/Apfelstrudel.json'; 
+import Apfelstrudel from '/Users/helenereiter/git/cookmate_test/src/pages/Rezeptseiten/Rezepte/Apfelstrudel.json'; 
 
 const Rezept1_One: React.FC = () => {
   // Define the recipe data as an object

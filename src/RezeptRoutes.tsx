@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Switch, Link } from 'react-router-dom';
 
-import Rezept1_One from './pages/Rezepte/Rezept1_One';
-import Rezept1_Two from './pages/Rezepte/Rezept1_Two';
-import Rezept1_Three from './pages/Rezepte/Rezept1_Three';
-import Rezept2_One from './pages/Rezepte/Rezept2_One';
-import Rezept2_Two from './pages/Rezepte/Rezept2_Two';
-import Rezept2_Three from './pages/Rezepte/Rezept2_Three';
+import Rezept1_One from './pages/Rezeptseiten/Rezept1_One';
+import Rezept1_Two from './pages/Rezeptseiten/Rezept1_Two';
+import Rezept1_Three from './pages/Rezeptseiten/Rezept1_Three';
+import Rezept2_One from './pages/Rezeptseiten/Rezept2_One';
+import Rezept2_Two from './pages/Rezeptseiten/Rezept2_Two';
+import Rezept2_Three from './pages/Rezeptseiten/Rezept2_Three';
 
 const RezeptRoutes = () => {
   return (
