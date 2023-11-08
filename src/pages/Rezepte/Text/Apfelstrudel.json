@@ -1,0 +1,44 @@
+{
+    "name": "Apfelstrudel",
+    "portionen": 4,
+    "arbeitszeit": "30 min",
+    "arbeitsschritte": 8,
+    "schwierigkeit": "mittel",
+    "zutaten": [
+      {
+        "name": "Äpfel",
+        "menge": "1 kg"
+      },
+      {
+        "name": "Zucker",
+        "menge": "100 g"
+      },
+      {
+        "name": "Zimt",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Semmelbrösel",
+        "menge": "50 g"
+      },
+      {
+        "name": "Butter",
+        "menge": "100 g"
+      },
+      {
+        "name": "Strudelteig",
+        "menge": "1 Pkg."
+      }
+    ],
+    "anleitung": [
+      "Äpfel schälen, entkernen und in dünne Scheiben schneiden.",
+      "Zucker und Zimt vermischen und über die Äpfel streuen.",
+      "Semmelbrösel in Butter goldbraun rösten.",
+      "Strudelteig ausrollen und mit der Butter-Semmelbrösel-Mischung bestreichen.",
+      "Die Äpfel auf dem Teig verteilen und den Strudel einrollen.",
+      "Den Strudel auf ein mit Backpapier ausgelegtes Backblech legen und im vorgeheizten Ofen bei 180°C ca. 40 Minuten backen.",
+      "Den Apfelstrudel aus dem Ofen nehmen und etwas abkühlen lassen.",
+      "Den Apfelstrudel in Stücke schneiden und servieren."
+    ]
+  }
+  

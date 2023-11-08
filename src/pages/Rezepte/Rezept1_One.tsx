@@ -11,20 +11,25 @@ import {
   IonList,
   IonItem,
   IonLabel,
-  IonToggle,
-  IonButton
+  IonButton,
 } from '@ionic/react';
+import Apfelstrudel from '/Users/helenereiter/git/cookmate_test/src/pages/Rezepte/Text/Apfelstrudel.json'; 
 
 const Rezept1_One: React.FC = () => {
-  // Simulierte Rezeptdaten (ersetze diese mit echten Daten)
+  // Define the recipe data as an object
   const rezept = {
-    name: 'Gemüsepfanne mit Huhn',
-    zutaten: ['Huhn', 'Paprika', 'Zucchini', 'Zwiebeln', 'Gewürze']
+    name: Apfelstrudel.name,
+    portionen: Apfelstrudel.portionen,
+    arbeitszeit: Apfelstrudel.arbeitszeit,
+    arbeitsschritte: Apfelstrudel.arbeitsschritte,
+    schwierigkeit: Apfelstrudel.schwierigkeit,
+    zutaten: Apfelstrudel.zutaten,
+    anleitung: Apfelstrudel.anleitung,
   };
 
   // Zustand für das Anzeigen des zusätzlichen Textes
   const [showMoreText, setShowMoreText] = useState(false);
-  const buttonLabel = showMoreText ? 'Weniger anzeigen' : 'Mehr anzeigen'; 
+  const buttonLabel = showMoreText ? 'Weniger anzeigen' : 'Mehr anzeigen';
 
   // Funktion zum Umschalten des Zustands
   const toggleShowMore = () => {
@@ -49,13 +54,20 @@ const Rezept1_One: React.FC = () => {
             <IonList>
               {rezept.zutaten.map((zutat, index) => (
                 <IonItem key={index}>
-                  <IonLabel>{zutat}</IonLabel>
+                  <IonLabel>
+                    {zutat.menge} {zutat.name}
+                  </IonLabel>
                 </IonItem>
               ))}
             </IonList>
             {showMoreText ? (
               <div>
-                <p>Rezept mit den ganzen Anleitungen Schritt für Schritt</p>
+                <h3>Anleitung:</h3>
+                <ol>
+                  {rezept.anleitung.map((schritt, index) => (
+                    <li key={index}>{schritt}</li>
+                  ))}
+                </ol>
               </div>
             ) : null}
             <p onClick={toggleShowMore}>{buttonLabel}</p>
