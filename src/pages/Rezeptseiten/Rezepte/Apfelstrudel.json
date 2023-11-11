@@ -4,6 +4,9 @@
     "arbeitszeit": "30 min",
     "arbeitsschritte": 8,
     "schwierigkeit": "mittel",
+    "kategorie": "Nachspeise", 
+    "learning": "Backen",
+    "label": "Vegetarisch",
     "zutaten": [
       {
         "name": "Äpfel",
