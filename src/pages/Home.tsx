@@ -1,48 +1,45 @@
+// MainPage.tsx
+
 import React from 'react';
-import { IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonMenuButton, IonPage, IonRouterLink, IonTitle, IonToolbar } from '@ionic/react';
-import './CSS/Home.css';
+import { IonContent, IonHeader, IonPage, IonToolbar, IonCard, IonCardContent, IonButton } from '@ionic/react';
+import { Link } from 'react-router-dom';
+
+import '/Users/helenereiter/git/cookmate_test/src/pages/CSS/Home.css';
 
 const Home: React.FC = () => {
+  const categories = [
+    { name: 'Basics', levels: [1, 2, 3, 4] },
+    { name: 'Schneiden', levels: [1, 2, 3] },
+    { name: 'Marinieren & Soßen', levels: [1, 2, 3] },
+    { name: 'Backen', levels: [1, 2, 3] },
+    { name: 'Teig', levels: [1, 2, 3] },
+    { name: 'Gewürze', levels: [1, 2, 3] },
+    { name: 'Anrichten', levels: [1, 2, 3] },
+  ];
+
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonButtons slot='start'>
-            <IonMenuButton />
-          </IonButtons>
-          <IonTitle>Home</IonTitle>
+          <h1>Home</h1>
         </IonToolbar>
       </IonHeader>
-      <IonContent scrollY>
-
-        <IonCard href='/schneiden' routerDirection='forward'>  
-          <img src='assets/images/Cooking_image.jpg' alt="CookingImage"></img>
-          <IonCardHeader>
-            <IonCardSubtitle> Lerne richtig zu schneiden </IonCardSubtitle>
-            <IonCardTitle> Schneiden</IonCardTitle>
-          </IonCardHeader>
-          <IonCardContent>
-            <p> hier kommen dann noch die schwierigkeitsgrade</p>
-            <IonRouterLink href='/schneiden' routerDirection='forward'> Schneiden</IonRouterLink>
-          </IonCardContent>
-        </IonCard>
-
-        <IonCard href='/marinieren' routerDirection='forward'>  
-          <img src='assets/images/Cooking_image.jpg' alt="CookingImage"></img>
-          <IonCardHeader>
-            <IonCardSubtitle> Lerne Soßen anzurühren und richtig zu marinieren</IonCardSubtitle>
-            <IonCardTitle> Marinieren und Soßen </IonCardTitle>
-          </IonCardHeader>
-          <IonCardContent>
-            <p> hier kommen dann noch die schwierigkeitsgrade</p>
-            <IonRouterLink href='/marinieren' routerDirection='forward'> Marinieren und Soßen </IonRouterLink>
-          </IonCardContent>
-        </IonCard>
-
+      <IonContent>
+        {categories.map((category, index) => (
+          <IonCard key={index} className="category-card">
+            <IonCardContent >
+              <h2 >{category.name}</h2>
+              {category.levels.map((level, levelIndex) => (
+                <Link key={levelIndex} to={`/${category.name.toLowerCase()}/level${level}`}>
+                  <IonButton className='levelButton' key={levelIndex} fill='clear'>Level {level}</IonButton>
+                </Link>
+              ))}
+            </IonCardContent>
+          </IonCard>
+        ))}
       </IonContent>
     </IonPage>
   );
 };
 
 export default Home;
-

@@ -1,0 +1,30 @@
+.category-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  margin: 1rem;
+  text-align: center;
+  justify-content: space-around; /* Änderung: Center statt space-between */
+  margin: 10px;
+}
+
+.category-card h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px;
+}
+
+.levelButton {
+  width: 70px; 
+  height: 70px; 
+  border-radius: 50%; /* Kreis */
+  margin: 10px; 
+  text-align: center;
+  font-size: 14px; 
+  background-color: #007bff; 
+  color: #fff; 
+  text-decoration: none;
+}
+
+

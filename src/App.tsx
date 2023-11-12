@@ -28,9 +28,10 @@ import "@ionic/react/css/display.css";
 /* Theme variables */
 import "./theme/variables.css";
 import Menu from "./components/menu";
-import Schneiden from "./pages/Levels/Schneiden";
 import RezeptRoutes from './RezeptRoutes';
-import Marinieren from "./pages/Levels/Marinieren";
+import SchneidenLevel1 from "./pages/Levels/SchneidenLevel1";
+import SchneidenLevel2 from "./pages/Levels/SchneidenLevel2";
+import SchneidenLevel3 from "./pages/Levels/SchneidenLevel3";
 
 setupIonicReact();
 
@@ -45,18 +46,10 @@ const App: React.FC = () => (
           </Route>
 
 
-          <Route exact path="/schneiden" component={Schneiden}></Route>
-          <Route exact path="/">
-          <Redirect to="/home" />
-          </Route>
+          <Route exact path="/schneiden/level1" component={SchneidenLevel1}></Route>
+          <Route exact path="/schneiden/level2" component={SchneidenLevel2}></Route>
+          <Route exact path="/schneiden/level3" component={SchneidenLevel3}></Route>
          
-          
-          <Route exact path="/marinieren" component={Marinieren}></Route>
-          <Route exact path="/">
-          <Redirect to="/home" />
-          </Route>
-
-  
           <Route exact path="/rezept1_One" component={RezeptRoutes}></Route>
           <Route exact path="/rezept1_Two" component={RezeptRoutes}></Route>
           <Route exact path="/rezept1_Three" component={RezeptRoutes}></Route>

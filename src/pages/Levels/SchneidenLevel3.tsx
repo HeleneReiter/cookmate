@@ -6,31 +6,31 @@ import {
 
 import RecipeCard from '../eigeneKomponenten/RecipeCard'; // Stellen Sie sicher, dass der Importpfad korrekt ist
 
-const Marinieren: React.FC = () => {
+const SchneidenLevel3: React.FC = () => {
   return (
     <IonPage>
       <IonContent>
         <RecipeCard
           titleOne="Rezept 1"
-          descriptionOne="Gemüsepfanne mit Huhn"
+          descriptionOne="Muggle"
           recipeCategoryLabelOne="Hauptspeise"
           recipeCategoryColorOne="default"
 
           titleTwo="Rezept 2"
-          descriptionTwo="Gemüseauflauf"
+          descriptionTwo="Muggle"
           recipeCategoryLabelTwo="Hauptspeise"
           recipeCategoryColorTwo="default"
 
           titleThree="Rezept 3"
-          descriptionThree="Gemüsebowl"
+          descriptionThree="Muggle"
           recipeCategoryLabelThree="Hauptspeise"
           recipeCategoryColorThree="default"
 
-          id="2_"
+          id="3_"
         />
       </IonContent>
     </IonPage>
   );
 };
 
-export default Marinieren;
+export default SchneidenLevel3;

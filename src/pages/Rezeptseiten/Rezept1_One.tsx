@@ -25,6 +25,9 @@ const Rezept1_One: React.FC = () => {
     schwierigkeit: Apfelstrudel.schwierigkeit,
     zutaten: Apfelstrudel.zutaten,
     anleitung: Apfelstrudel.anleitung,
+    label: Apfelstrudel.label,
+    learning: Apfelstrudel.learning,
+    kategorie: Apfelstrudel.kategorie,
   };
 
   // Zustand für das Anzeigen des zusätzlichen Textes
@@ -41,7 +44,7 @@ const Rezept1_One: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton defaultHref="/schneiden" />
+            <IonBackButton defaultHref="/schneiden/level1" />
           </IonButtons>
           <h1>Rezeptvorschau</h1>
         </IonToolbar>
