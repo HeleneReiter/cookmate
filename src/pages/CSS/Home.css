@@ -1,3 +1,38 @@
+
+.home h1 {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px;
+}
+
+.basics-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.basics-card h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px;
+}
+
+.basicsButton {
+  width: 200px; 
+  height: 70px; 
+  margin: 2em;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px; 
+  background-color: #007bff; 
+  color: #fff; 
+  text-decoration: none;
+  display: flex;
+}
+
 .category-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -7,6 +42,8 @@
   justify-content: space-around; /* Änderung: Center statt space-between */
   margin: 10px;
 }
+
+
 
 .category-card h2 {
   font-size: 30px;
