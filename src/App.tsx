@@ -32,6 +32,7 @@ import RezeptRoutes from './RezeptRoutes';
 import SchneidenLevel1 from "./pages/Levels/SchneidenLevel1";
 import SchneidenLevel2 from "./pages/Levels/SchneidenLevel2";
 import SchneidenLevel3 from "./pages/Levels/SchneidenLevel3";
+import page from "./pages/Levels/page";
 
 setupIonicReact();
 

@@ -1,10 +1,9 @@
-// MainPage.tsx
 
 import React from 'react';
 import { IonContent, IonHeader, IonPage, IonToolbar, IonCard, IonCardContent, IonButton } from '@ionic/react';
 import { Link } from 'react-router-dom';
 
-import '/Users/helenereiter/git/cookmate_test/src/pages/CSS/Home.css';
+import './CSS/Home.css';
 
 const Home: React.FC = () => {
   const basics = [

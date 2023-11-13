@@ -10,7 +10,6 @@ import {
   IonPage,
   IonToolbar,
   IonButton,
-  IonRouterOutlet,
   IonButtons,
   IonBackButton
 } from '@ionic/react';
@@ -112,7 +111,7 @@ const RecipeCard: React.FC<RecipeProps> = ({
           <IonButtons slot="start">
             <IonBackButton defaultHref="/home" />
           </IonButtons>
-          <IonSegment scrollable={true} value={currentSegment} onIonChange={handleSegmentChange}>
+          <IonSegment swipe-gesture={true} value={currentSegment} onIonChange={handleSegmentChange}>
             <IonSegmentButton value="One">One</IonSegmentButton>
             <IonSegmentButton value="Two">Two</IonSegmentButton>
             <IonSegmentButton value="Three">Three</IonSegmentButton>
