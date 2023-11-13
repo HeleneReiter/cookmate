@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.example.app',
-  appName: 'CookMate',
+  appId: 'io.ionic.starter',
+  appName: 'cookmate_test',
   webDir: 'build',
   server: {
     androidScheme: 'https'
@@ -10,3 +10,4 @@ const config: CapacitorConfig = {
 };
 
 export default config;
+

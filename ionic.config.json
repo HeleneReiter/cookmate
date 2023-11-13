@@ -1,5 +1,7 @@
 {
   "name": "cookmate_test",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }
