@@ -1,0 +1,116 @@
+{
+  "name": "Gemüse-Lasagne",
+  "portionen": 4,
+  "arbeitszeit": "60 min",
+  "arbeitsschritte": 25,
+  "schwierigkeit": "schwer",
+  "kategorie": "Hauptspeise",
+  "learning": "schneiden",
+  "label": "vegetarisch",
+  "zutaten": [
+    
+    {
+      "name": "Champignons",
+      "menge": "200 g"
+    },
+    {
+      "name": "Zwiebel",
+      "menge": "1 Stk"
+    },
+    {
+      "name": "Knoblauch Zehen",
+      "menge": "2 Stk"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Möhren",
+      "menge": "2 Stk"
+    },
+    {
+      "name": "Zucchini",
+      "menge": "1 Stk"
+    },
+    {
+      "name": "Dose gehackte Tomaten",
+      "menge": "1 Stk"
+    },
+    {
+      "name": "Salz",
+      "menge": "1-2 TL"
+    },
+    {
+      "name": "Paprikapulver",
+      "menge": "1 TL"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "½-1 TL"
+    },
+    {
+      "name": "Oregano getrocknet",
+      "menge": "1 EL"
+    },
+    {
+      "name": "Butter",
+      "menge": "40 g"
+    },
+    {
+      "name": "Mehl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Milch",
+      "menge": "300 ml"
+    },
+    {
+      "name": "Salz",
+      "menge": "etwas"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "etwas"
+    },
+    {
+      "name": "Muskatnuss, gerieben",
+      "menge": "etwas"
+    },
+    {
+      "name": "geriebener Käse z.B. Gouda oder Emmentaler",
+      "menge": "200 g"
+    },
+    {
+      "name": "Basilikum",
+      "menge": "etwas"
+    }
+  ],
+  "anleitung": [
+    "Die Zwiebel und den Knoblauch schälen und fein würfeln.",
+    "Die Champignons putzen und in Scheiben schneiden.",
+    "Die Möhren schälen und in Stifte schneiden.",
+    "Die Zucchini waschen und ebenfalls in Stifte schneiden.",
+    "Die anderen Zutaten bereitstellen.",
+    "Eine Pfanne ohne Öl erhitzen und die Champignons darin anbraten bis sie braun sind.",
+    "Die Zwiebel-, die Knoblauch-Würfel und das Olivenöl dazugeben und für 1 Minute anbraten.",
+    "Dann die Möhren- und Zucchini Stifte in die Pfanne geben und ebenfalls für 3-4 Minuten anbraten.",
+    "Die gehackten Tomaten dazu geben und aufkochen lassen. Mit Salz, Pfeffer, Paprikapulver und Oregano würzen.",
+    "Die Soße kochen lassen.",
+    "Jetzt den Backofen auf 200° Ober-/Unterhitze aufheizen.",
+    "Währenddessen die Béchamelsoße zubereiten.",
+    "In einer weiteren Pfanne die Butter schmelzen.",
+    "Das Mehl dazu geben. Unter ständigem Rühren mit einem Schneebesen mit der Butter verrühren.",
+    "Die Milch dazu gießen und die Soße aufkochen lassen.",
+    "Mit einer Prise Salz, Pfeffer und nach Geschmack etwas Muskatnuss die Béchamelsoße würzen. Anschließend vom Herd nehmen und zur Seite stellen.",
+    "Zum Schichten der Lasagne zuerst etwas Gemüse-Tomaten-Soße in eine Auflaufform geben.",
+    "Auf die erste Gemüse-Schicht kommen die Lasagne Platten ohne Béchamelsoße.",
+    "Auf die Lasagne Platten kommt dann eine Schicht Gemüse-Tomaten Soße und anschließend etwas Béchamelsoße.",
+    "Dann folgt wieder eine Schicht Lasagne Platten.",
+    "Das ganze so lange wiederholen bis die Soße aufgebraucht ist.",
+    "Achtung: Die obere Schicht, bevor der Käse auf die Lasagne kommt, muss aus Soße bestehen.",
+    "Als letzten Schritt den geriebenen Käse auf der Lasagne verteilen.",
+    "Die Lasagne in den vorgeheizten Backofen geben und für ca. 30 Minuten backen.",
+    "Vor dem Servieren mit etwas Basilikum bestreuen."
+  ]
+}

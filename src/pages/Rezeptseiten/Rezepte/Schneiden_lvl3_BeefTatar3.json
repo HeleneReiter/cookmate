@@ -1,0 +1,74 @@
+{
+  "name": "Beef-Tatar",
+  "portionen": 4,
+  "arbeitszeit": "20 min",
+  "arbeitsschritte": 4,
+  "schwierigkeit": "schwer",
+  "kategorie": "Hauptspeise",
+  "learning": "schneiden",
+  "label": "",
+  "zutaten": [
+    {
+      "name": "Rindsfilet",
+      "menge": "500 g"
+    },
+    {
+      "name": "Zwiebeln",
+      "menge": "2 Stk"
+    },
+    {
+      "name": "Essiggurken",
+      "menge": "4 Stk"
+    },
+    {
+      "name": "Kapern",
+      "menge": "50 g"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "3 EL"
+    },
+    {
+      "name": "Eigelb",
+      "menge": "2 Stk"
+    },
+    {
+      "name": "Senf",
+      "menge": "1 EL"
+    },
+    {
+      "name": "Paprikapulver",
+      "menge": "1 Prise"
+    },
+    {
+      "name": "Tomatensauce",
+      "menge": "1 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "1 Prise"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "1 Prise"
+    },
+    {
+      "name": "Petersilie, gehackt",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Cognac",
+      "menge": "1 Schuss"
+    },
+    {
+      "name": "Toastbrot",
+      "menge": "8 Scheiben"
+    }
+  ],
+  "anleitung": [
+    "Rinderfilet sorgfältig von Haut und Sehnen befreien und sehr fein hacken.",
+    "Zwiebeln schälen und sehr fein hacken. Essiggurken und Kapern ebenfalls fein schneiden.",
+    "Fleisch mit Gemüse, Öl, Eigelb, Paprikapulver, Senf und Tomatensauce in einer Schüssel gut verrühren. Mit Salz, Pfeffer, Petersilie und Cognac verfeinern.",
+    "Aus der Masse kleine Laibchen formen oder einen Servierring zum Formen verwenden und mit Toastbrot oder Weißbrot und Salat servieren."
+  ]
+}

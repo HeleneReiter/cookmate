@@ -1,0 +1,100 @@
+{
+    "name": "Asiatisches Gemüse",
+    "portionen": 4,
+    "arbeitszeit": "40 min",
+    "arbeitsschritte": 17,
+    "schwierigkeit": "einfach",
+    "kategorie": "Hauptspeise", 
+    "learning": "schneiden",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Champignons",
+        "menge": "250 g"
+      },
+      {
+        "name": "Zuckerschoten",
+        "menge": "250 g"
+      },
+      {
+        "name": "rote Paprikaschote",
+        "menge": "1"
+      },
+      {
+        "name": "Lauchstange",
+        "menge": "1"
+      },
+      {
+        "name": "Möhren",
+        "menge": "2"
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "2"
+      },
+      {
+        "name": "Ingwer (daumengroß)",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Koriander",
+        "menge": "½ Bd."
+      },
+      {
+        "name": "Rapsöl",
+        "menge": "3 EL"
+      },
+      {
+        "name": "Currypaste (rot oder gelb)",
+        "menge": "2 TL"
+      },
+      {
+        "name": "Speisestärke",
+        "menge": "2 TL"
+      },
+      {
+        "name": "Sesamsamen",
+        "menge": "3 EL"
+      },
+      {
+        "name": "Limettensaft",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Agavendicksaft",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Sojasauce",
+        "menge": "4 EL"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "etwas"
+      },
+      {
+        "name": "Basmati-Reis",
+        "menge": "250 g"
+      }
+    ],
+    "anleitung": [
+      "Champignons putzen und je nach Größe vierteln oder Sechsteln, Zuckerschoten waschen, putzen und quer halbieren. ",
+      "Paprikaschote halbieren, Kerngehäuse entfernen, waschen und in ca. 1,5 cm große Stücke schneiden. ",
+      "Lauch längs halbieren, gründlich waschen, abtropfen lassen und in 1,5 cm dicke halbe Ringe schneiden.",
+      "Möhren waschen, putzen, schälen und in dünne, ca. 3 cm lange Streifen schneiden. ",
+      "Knoblauch abziehen und hacken.",
+      "Ingwer schälen und klein schneiden. ",
+      "Koriander abbrausen, trockenschütteln und hacken.",
+      "Basmatireis nach Packungsanweisung kochen.",
+      "Rapsöl in einem Wok oder einer weiten Pfanne erhitzen.",
+      "Knoblauch und Ingwer darin 2-3 Minuten braten, dann Möhren-Stifte und Lauch-Ringe hinzufügen und weitere 2-3 Minuten braten. ",
+      "Zuletzt Champignons, Paprika-Stücke und Zuckerschoten dazugeben und 2 Minuten unter Wenden mitbraten.",
+      "Die Currypaste dazugeben und in dem Gemüse auflösen, kurz mitbraten. ",
+      "Speisestärke mit 200 ml lauwarmem Wasser glattrühren und das Gemüse damit ablöschen, etwa 3 Minuten leicht köcheln lassen.",
+      "Sesamsamen in einer Pfanne ohne Öl anrösten, beiseitestellen.",
+      "Das Gemüse mit Limettensaft, Agavendicksaft und Sojasauce würzen und mit Pfeffer abschmecken.",
+      "Basmatireis abgießen, auf 4 Teller verteilen und das asiatische Gemüse dazugeben.",
+      "Mit geröstetem Sesam und Koriander bestreuen und servieren."
+    ]
+  }
+  

@@ -1,0 +1,78 @@
+{
+  "name": "Chili con Carne",
+  "portionen": 4,
+  "arbeitszeit": "50 min",
+  "arbeitsschritte": 4,
+  "schwierigkeit": "schwer",
+  "kategorie": "Hauptspeise",
+  "learning": "schneiden",
+  "label": "",
+  "zutaten": [
+    {
+      "name": "Zwiebel",
+      "menge": "1 Stk"
+    },
+    {
+      "name": "Paprika (rot, gelb oder orange)",
+      "menge": "2 Stk"
+    },
+    {
+      "name": "Öl",
+      "menge": "1 Schuss"
+    },
+    {
+      "name": "Faschiertes (vom Rind)",
+      "menge": "500 g"
+    },
+    {
+      "name": "Tomaten (geschält, aus der Dose)",
+      "menge": "1 Dose"
+    },
+    {
+      "name": "Rindsuppe",
+      "menge": "500 ml"
+    },
+    {
+      "name": "Tomatenmark",
+      "menge": "1 EL"
+    },
+    {
+      "name": "Knoblauchzehen",
+      "menge": "3 Stk"
+    },
+    {
+      "name": "Salz",
+      "menge": "1 Prise"
+    },
+    {
+      "name": "Cayennepfeffer",
+      "menge": "1 Prise"
+    },
+    {
+      "name": "Kreuzkümmel",
+      "menge": "0.5 TL"
+    },
+    {
+      "name": "Paprikapulver (edelsüß)",
+      "menge": "1 Prise"
+    },
+    {
+      "name": "Chilischote",
+      "menge": "1 Stk"
+    },
+    {
+      "name": "Kidneybohnen (aus der Dose)",
+      "menge": "1 Dose"
+    },
+    {
+      "name": "Mais (aus der Dose)",
+      "menge": "1 Dose"
+    }
+  ],
+  "anleitung": [
+    "Zuerst Zwiebel fein hacken und Paprika in kleine Würfel schneiden. Dann Öl in einem Topf erhitzen und Zwiebel darin anschwitzen. Fleisch hinzufügen und scharf anbraten.",
+    "Danach Tomatenmark und Dosentomaten einrühren und mit der Rindsuppe aufgießen - alles ca. 20 Minuten köcheln lassen.",
+    "Zum Würzen den Knoblauch durch die Presse drücken und zusätzlich mit Salz, Cayennepfeffer, Kreuzkümmel und Paprikapulver abschmecken.",
+    "Nun noch Bohnen, Paprika und den Mais hinzufügen. Je nach gewünschter Schärfe Chiligewürz oder Chilischoten beigeben und alles ca. 20 Minuten bei geringer Hitze ziehen lassen."
+  ]
+}

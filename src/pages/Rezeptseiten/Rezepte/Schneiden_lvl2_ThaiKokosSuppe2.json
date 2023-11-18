@@ -1,0 +1,69 @@
+{
+  "name": "Thai-Kokos-Suppe mit Gemüse",
+  "portionen": 4,
+  "arbeitszeit": "30 min",
+  "arbeitsschritte": 5,
+  "schwierigkeit": "mittel",
+  "kategorie": "Suppe",
+  "learning": "schneiden",
+  "label": "vegan",
+  "zutaten": [
+    {
+      "name": "Knoblauchzehen",
+      "menge": "2"
+    },
+    {
+      "name": "Ingwer, walnussgroßes Stück",
+      "menge": "1"
+    },
+    {
+      "name": "Karotten",
+      "menge": "2"
+    },
+    {
+      "name": "braune Champignons",
+      "menge": "200 g"
+    },
+    {
+      "name": "Brokkoli",
+      "menge": "1"
+    },
+    {
+      "name": "Spitzkohl",
+      "menge": "1/2"
+    },
+    {
+      "name": "Kokosöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "grüne Currypaste",
+      "menge": "2 EL"
+    },
+    {
+      "name": "kochende Gemüsebrühe",
+      "menge": "1,2 l"
+    },
+    {
+      "name": "Kokosmilch",
+      "menge": "400 ml"
+    },
+    {
+      "name": "Sojasauce",
+      "menge": "4 EL"
+    },
+    {
+      "name": "Limette",
+      "menge": "1/2"
+    },
+    {
+      "name": "Koriander (optional), Handvoll",
+      "menge": "1"
+    }
+  ],
+  "anleitung": [
+    "Knoblauch und Ingwer schälen und fein hacken. Karotten schälen und in Scheiben schneiden. Pilze putzen und in Scheiben schneiden. Brokkoli in Röschen teilen. Spitzkohl entstrunken und in dünne Streifen schneiden.",
+    "Kokosöl in einem großen Topf erhitzen und Knoblauch, Ingwer und Currypaste darin für 1 Minute bei mittlerer Hitze garen. Brokkoli, Karotten und Pilze hinzufügen und kurz braten, dann mit Gemüsebrühe und Kokosmilch ablöschen. Aufkochen, Spitzkohl hinzufügen und köcheln lassen, bis das Gemüse gar aber noch knackig ist.",
+    "Mit Sojasauce und Limettensaft abschmecken. Koriander hacken und mit der Suppe genießen."
+  ]
+}

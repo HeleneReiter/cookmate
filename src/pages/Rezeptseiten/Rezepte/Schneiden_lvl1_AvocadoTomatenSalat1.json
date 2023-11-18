@@ -1,0 +1,59 @@
+{
+  "name": "Avocado-Tomaten-Salat",
+  "portionen": 4,
+  "arbeitszeit": "20 min",
+  "arbeitsschritte": 5,
+  "schwierigkeit": "einfach",
+  "kategorie": "Salat",
+  "learning": "schneiden",
+  "label": "vegan",
+  "zutaten": [
+    {
+      "name": "Zitrone",
+      "menge": "1"
+    },
+    {
+      "name": "brauner Zucker",
+      "menge": "1⁄2 TL"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "gemahlener Pfeffer",
+      "menge": "etwas"
+    },
+    {
+      "name": "Salz",
+      "menge": "etwas"
+    },
+    {
+      "name": "Kirschtomaten",
+      "menge": "400 g"
+    },
+    {
+      "name": "Lauchzwiebel",
+      "menge": "1 Bd."
+    },
+    {
+      "name": "mittelgroße, reife Avocados",
+      "menge": "2"
+    },
+    {
+      "name": "glatte Petersilie (optional)",
+      "menge": "1⁄2 Bd."
+    },
+    {
+      "name": "Vollkornbrötchen",
+      "menge": "4"
+    }
+  ],
+  "anleitung": [
+    "Für das Dressing Zitrone auspressen, Zitronensaft mit dem Zucker verrühren, damit sich dieser gut löst. Öl unterrühren und mit Pfeffer und etwas Salz würzen.",
+    "Kirschtomaten waschen, halbieren. Lauchzwiebeln putzen, waschen, in feine Ringe schneiden.",
+    "Avocados waschen, mit einem Messer ringsherum vorsichtig aufschneiden (halbieren), Seiten gegeneinander verdrehen und auseinandernehmen. Den Avocadokern vorsichtig herauslösen (Achtung: Verletzungsgefahr!). Das Fruchtfleisch mithilfe eines Esslöffels herausnehmen, würfeln.",
+    "Optional die Petersilie abbrausen, trockenschütteln und fein hacken.",
+    "Tomatenhälften, Avocadowürfel, Lauchzwiebelringe und gehackte Petersilie in einer Schüssel mischen. Dressing darüber geben, mischen und kurz durchziehen lassen, servieren. Tomaten-Avocado-Salat mit den Vollkornbrötchen servieren."
+  ]
+}

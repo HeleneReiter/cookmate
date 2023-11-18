@@ -1,0 +1,70 @@
+{
+  "name": "Vegane Misosuppe",
+  "portionen": 4,
+  "arbeitszeit": "40 min",
+  "arbeitsschritte": 4,
+  "schwierigkeit": "mittel",
+  "kategorie": "Suppe",
+  "learning": "schneiden",
+  "label": "vegan",
+  "zutaten": [
+    {
+      "name": "Knoblauchzehe",
+      "menge": "1"
+    },
+    {
+      "name": "Ingwer (daumengroß)",
+      "menge": "1 Stk."
+    },
+    {
+      "name": "Frühlingszwiebeln",
+      "menge": "3"
+    },
+    {
+      "name": "Shiitakepilze (alternativ: Champignons)",
+      "menge": "200 g"
+    },
+    {
+      "name": "Möhren",
+      "menge": "3"
+    },
+    {
+      "name": "Pak Choi",
+      "menge": "2"
+    },
+    {
+      "name": "Räuchertofu",
+      "menge": "175 g"
+    },
+    {
+      "name": "Sesamöl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Sojasauce",
+      "menge": "1 EL"
+    },
+    {
+      "name": "Chiliflocken",
+      "menge": "etwas"
+    },
+    {
+      "name": "eifreie Asia-Nudeln (z.B. Udon-, Ramen- oder Soba-Nudeln)",
+      "menge": "200 g"
+    },
+    {
+      "name": "Gemüsebrühe",
+      "menge": "1 1/2 L"
+    },
+    {
+      "name": "Miso-Paste",
+      "menge": "2 EL"
+    }
+  ],
+  "anleitung": [
+    "Knoblauch abziehen und Ingwer mithilfe eines Teelöffels schälen. Beides fein hacken. Frühlingszwiebeln waschen und in Ringe schneiden. Pilze putzen und in Scheiben schneiden. Möhren ggf. schälen und in ca. 5 cm lange, dünne Streifen schneiden. Pak Choi waschen, der Länge nach halbieren und Blätter sowie Strünke in grobe Stücke schneiden.",
+    "Räuchertofu in kleine Würfel schneiden und in einer Pfanne mit 1 EL Sesamöl ca. 5-10 Minuten goldbraun anbraten, zum Schluss mit 1 EL Sojasauce und Chiliflocken vermischen und von der Herdplatte nehmen. Nudeln nach Packungsangabe garen, abgießen und beiseitestellen.",
+    "Übriges Sesamöl (1 EL) in einem großen Topf erhitzen und Ingwer sowie Knoblauch ca. 2-3 Minuten andünsten. Gemüsebrühe angießen und aufkochen lassen. Möhren, Pak Choi und Shiitake-Pilze zufügen. Gemüse 10 Minuten garen. 1 Schöpflöffel Brühe entnehmen und in einem separaten Schälchen mit Miso-Paste vermischen.",
+    "Suppe vom Herd nehmen, zwei Drittel der Frühlingszwiebeln sowie Wasser-Miso-Gemisch zufügen. Dann die Brühe mit 1 EL Sojasauce und Chiliflocken abschmecken. Suppe samt Gemüseeinlagen auf vier Tellern aufteilen, dann Nudeln sowie Räuchertofu zufügen und alles mit den übrigen Frühlingszwiebeln toppen."
+  ]
+}

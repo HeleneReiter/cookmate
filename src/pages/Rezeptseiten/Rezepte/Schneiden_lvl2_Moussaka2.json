@@ -1,0 +1,92 @@
+{
+  "name": "Griechische Moussaka",
+  "portionen": 4,
+  "arbeitszeit": "105 min",
+  "arbeitsschritte": 6,
+  "schwierigkeit": "einfach",
+  "kategorie": "Hauptspeise",
+  "learning": "schneiden",
+  "label": "",
+  "zutaten": [
+    {
+      "name": "Kartoffeln",
+      "menge": "1 kg"
+    },
+    {
+      "name": "Aubergine",
+      "menge": "1(ca. 350 g)"
+    },
+    {
+      "name": "Salz",
+      "menge": "etwas"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "etwas"
+    },
+    {
+      "name": "Zwiebel",
+      "menge": "1"
+    },
+    {
+      "name": "Knoblauchzehen",
+      "menge": "2"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "4 EL"
+    },
+    {
+      "name": "große Tomaten",
+      "menge": "3"
+    },
+    {
+      "name": "Rinder- oder Lammhack",
+      "menge": "500 g"
+    },
+    {
+      "name": "Oregano",
+      "menge": "3-4 Stiele"
+    },
+    {
+      "name": "stückige Tomaten (Dose à 500 g)",
+      "menge": "1"
+    },
+    {
+      "name": "Zimt",
+      "menge": "1 gestrichener TL"
+    },
+    {
+      "name": "Butter",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Mehl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Milch",
+      "menge": "375 ml"
+    },
+    {
+      "name": "Gemüsebrühe (instant)",
+      "menge": "1 TL"
+    },
+    {
+      "name": "Eier (Gr. M)",
+      "menge": "2"
+    },
+    {
+      "name": "Parmesan (Stück)",
+      "menge": "75 g"
+    }
+  ],
+  "anleitung": [
+    "Kartoffeln waschen und in kochendem Wasser ca. 20 Minuten garen. Aubergine waschen, trocken tupfen und in ca. 1 cm dicke Scheiben schneiden. Auf Küchenpapier legen, leicht salzen und ca. 15 Minuten ziehen lassen. Zwiebel und Knoblauchzehen schälen und fein würfeln.",
+    "Auberginenscheiben mit Küchenpapier abtupfen. 3 EL Öl in einer Pfanne erhitzen, Auberginen darin portionsweise unter Wenden goldbraun braten. Mit Pfeffer würzen. Auf Küchenpapier abtropfen lassen.",
+    "Kartoffeln abgießen, abschrecken, pellen und in ca. 0,5 cm dicke Scheiben schneiden. Tomaten waschen und in gleichmäßig dicke Scheiben schneiden.",
+    "1 EL Öl in einer Pfanne erhitzen. Hack darin unter Wenden krümelig braten. Zwiebel und Knoblauch kurz mitbraten. Mit Salz und Pfeffer würzen. Oregano waschen, trocken schütteln, hacken und zufügen. Stückige Tomaten einrühren, alles aufkochen und ca. 5 Minuten köcheln lassen. Mit Salz, Pfeffer und Zimt abschmecken.",
+    "Für die Béchamelsoße die Butter schmelzen und Mehl darin hell anschwitzen. Milch, 250 ml Wasser und Gemüsebrühe einrühren, aufkochen und ca. 5 Minuten köcheln. Mit Salz und Pfeffer würzen und vom Herd ziehen. Eier verquirlen. 4 EL Soße in die Eier einrühren, dann alles in die übrige heiße Soße rühren.",
+    "Eine rechteckige Auflaufform mit Fett einstreichen. Erst Kartoffeln, dann Hack einschichten. Nun dachziegelartig abwechselnd mit Auberginen- und Tomatenscheiben belegen. Soße darübergießen und Käse mit einer Reibe direkt darüberreiben. Im vorgeheizten Backofen (E-Herd: 200 °C/Umluft: 175 °C/Gas: s. Hersteller) ca. 40 Minuten goldbraun backen."
+  ]
+}
