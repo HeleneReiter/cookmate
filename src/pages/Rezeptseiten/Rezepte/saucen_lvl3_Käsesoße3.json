@@ -1,0 +1,67 @@
+{
+  "name": "Käsesoße",
+  "portionen": 1,
+  "arbeitszeit": "20 min",
+  "arbeitsschritte": 5,
+  "schwierigkeit": "schwer",
+  "kategorie": "Soße",
+  "learning": "Soßen",
+  "label": "vegetarisch",
+  "zutaten": [
+    {
+      "name": "Butter",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Zwiebel",
+      "menge": "1"
+    },
+    {
+      "name": "Knoblauchzehen",
+      "menge": "3"
+    },
+    {
+      "name": "Mehl",
+      "menge": "3 EL"
+    },
+    {
+      "name": "Milch",
+      "menge": "300 ml"
+    },
+    {
+      "name": "Jalapenos (Ringe, aus dem Glas)",
+      "menge": "20"
+    },
+    {
+      "name": "Cheddar (gerieben)",
+      "menge": "200 g"
+    },
+    {
+      "name": "Schmelzkäse",
+      "menge": "200 g"
+    },
+    {
+      "name": "Paprikapulver",
+      "menge": "1 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "Nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "Nach Geschmack"
+    },
+    {
+      "name": "Kreuzkümmel",
+      "menge": "Nach Geschmack"
+    }
+  ],
+  "anleitung": [
+    "Zwiebeln, Knoblauch und Jalapeños fein hacken.",
+    "Butter in einem Topf zum Schmelzen bringen und die Zwiebeln zusammen mit dem Knoblauch darin dünsten.",
+    "Die gedünsteten Zwiebeln und den Knoblauch mit Mehl bestäuben und unterrühren.",
+    "Die Milch nach und nach zugeben und unter Rühren zum Köcheln bringen.",
+    "Den Käse bei schwacher bis mittlerer Hitze hineinschmelzen, die Jalapeños unterrühren und mit den Gewürzen abschmecken."
+  ]
+}

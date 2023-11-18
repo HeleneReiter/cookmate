@@ -1,0 +1,40 @@
+{
+  "name": "Hollandaise",
+  "portionen": 1,
+  "arbeitszeit": "20 min",
+  "arbeitsschritte": 6,
+  "schwierigkeit": "schwer",
+  "kategorie": "Soße",
+  "learning": "Soßen",
+  "label": "vegetarisch",
+  "zutaten": [
+    {
+      "name": "Butter",
+      "menge": "250 g"
+    },
+    {
+      "name": "Eigelb",
+      "menge": "3"
+    },
+    {
+      "name": "Wasser",
+      "menge": "3 EL"
+    },
+    {
+      "name": "Zitronensaft frisch gepresst",
+      "menge": "1 EL"
+    },
+    {
+      "name": "Salz, Pfeffer weiß, Cayennepfeffer",
+      "menge": "etwas"
+    }
+  ],
+  "anleitung": [
+    "Butter zerlassen, aber nicht erhitzen.",
+    "Eigelb mit Wasser, Zitronensaft und etwas Salz in eine runde Schüssel geben und auf ein heißes Wasserbad stellen.",
+    "Mit einem Schneebesen rühren, bis die Masse cremig ist und ihr Volumen etwa verdoppelt hat.",
+    "Gefäß aus dem Wasserbad nehmen.",
+    "Flüssige Butter nach und nach unterziehen, zuerst teelöffel-, dann esslöffelweise.",
+    "Mit Salz, Pfeffer und Cayenne abschmecken."
+  ]
+}

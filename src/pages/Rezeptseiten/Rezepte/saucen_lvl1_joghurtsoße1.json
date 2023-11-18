@@ -1,0 +1,47 @@
+{
+    "name": "Joghurt-Kräuter-Dressing",
+    "portionen": 4,
+    "arbeitszeit": "45 min",
+    "arbeitsschritte": 4,
+    "schwierigkeit": "einfach",
+    "kategorie": "Soße",
+    "learning": "Soßen",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Joghurt",
+        "menge": "1 Becher"
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "4 Stk"
+      },
+      {
+        "name": "Kräuter",
+        "menge": "1 Bund"
+      },
+      {
+        "name": "Essig",
+        "menge": "1 Schuss"
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "2 TL"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 Prise"
+      }
+    ],
+    "anleitung": [
+      "Die Kräuter waschen und fein hacken",
+      "Knoblauch schälen und pressen.",
+      "Olivenöl, Kräuter, Knoblauch, Essig, Salz, Pfeffer und Joghurt in einer Schüssel vermengen.",
+      "Für 30 Min. durchziehen lassen und anschließend servieren."
+    ]
+  }
+  

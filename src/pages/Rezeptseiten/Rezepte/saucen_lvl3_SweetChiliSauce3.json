@@ -1,0 +1,44 @@
+{
+  "name": "Scharfe Chilisauce",
+  "portionen": 1,
+  "arbeitszeit": "15 min",
+  "arbeitsschritte": 2,
+  "schwierigkeit": "einfach",
+  "kategorie": "Soße",
+  "learning": "Soßen",
+  "label": "vegan",
+  "zutaten": [
+    {
+      "name": "Chilischoten",
+      "menge": "3 Stk"
+    },
+    {
+      "name": "Meersalz",
+      "menge": "1 TL"
+    },
+    {
+      "name": "Wasser",
+      "menge": "260 ml"
+    },
+    {
+      "name": "Zucker",
+      "menge": "175 g"
+    },
+    {
+      "name": "Essig",
+      "menge": "85 ml"
+    },
+    {
+      "name": "Knoblauchzehen",
+      "menge": "5 Stk"
+    },
+    {
+      "name": "Speisestärke",
+      "menge": "1.5 EL"
+    }
+  ],
+  "anleitung": [
+    "Zuerst alle Zutaten außer der Stärke mithilfe eines Stabmixers zu einer einheitlichen Masse schlagen.",
+    "In einem Topf bis zur gewünschten Konsistenz einköcheln lassen. Nun Stärke mit 2-3 Esslöffel Wasser anrühren und alles noch einige Minuten köcheln lassen."
+  ]
+}

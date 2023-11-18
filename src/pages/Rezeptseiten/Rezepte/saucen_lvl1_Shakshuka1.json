@@ -1,0 +1,70 @@
+{
+  "name": "Shakshuka",
+  "portionen": 2,
+  "arbeitszeit": "45 min",
+  "arbeitsschritte": 8,
+  "schwierigkeit": "einfach",
+  "kategorie": "Hauptspeise",
+  "learning": "Soßen",
+  "label": "vegetarisch",
+  "zutaten": [
+    {
+      "name": "Zwiebel",
+      "menge": "1 Stk"
+    },
+    {
+      "name": "Knoblauchzehe",
+      "menge": "1 Stk"
+    },
+    {
+      "name": "rote Paprika",
+      "menge": "1 Stk"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "3 EL"
+    },
+    {
+      "name": "gemahlener Kreuzkümmel (Cumin)",
+      "menge": "1 TL"
+    },
+    {
+      "name": "edelsüßes Paprikapulver",
+      "menge": "1 TL"
+    },
+    {
+      "name": "Cayennepfeffer oder gemahlenes Chilipulver",
+      "menge": "1/4 TL"
+    },
+    {
+      "name": "Dose ganze geschälte Tomaten (400 g)",
+      "menge": "1 Stk"
+    },
+    {
+      "name": "Salz und Pfeffer",
+      "menge": "Nach Geschmack"
+    },
+    {
+      "name": "Feta",
+      "menge": "100 g"
+    },
+    {
+      "name": "Eier",
+      "menge": "4 Stk"
+    },
+    {
+      "name": "frischer Koriander oder Petersilie",
+      "menge": "2-3 EL"
+    }
+  ],
+  "anleitung": [
+    "Zwiebel schälen, halbieren und in feine Scheiben schneiden.",
+    "Knoblauch schälen und fein hacken.",
+    "Paprika waschen, vierteln, entkernen und quer in dünne Streifen schneiden.",
+    "Olivenöl in einer Pfanne erhitzen und Zwiebel sowie Paprika bei kleiner Hitze für etwa 20 Minuten schmoren, bis sie weich sind. Gelegentlich umrühren. In den letzten Minuten den gehackten Knoblauch hinzufügen.",
+    "Kreuzkümmel, Paprikapulver und Cayennepfeffer oder Chilipulver hinzufügen und für etwa 1 Minute rösten.",
+    "Ganze Tomaten zur Pfanne geben und vorsichtig mit einem Pfannenwender zerdrücken. Mit Salz und Pfeffer würzen und etwa 10-15 Minuten einkochen lassen.",
+    "Feta zerbröckeln und unter die Sauce rühren. Mit einem Esslöffel vier Mulden in die Oberfläche drücken und je ein Ei in jede Mulde schlagen. Pfanne abdecken und alles für weitere 10 Minuten garen, bis das Eiweiß gestockt ist. Das Eigelb sollte nach Geschmack noch flüssig sein.",
+    "Vor dem Servieren das Shakshuka mit frischem Koriander oder Petersilie bestreuen."
+  ]
+}

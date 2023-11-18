@@ -1,0 +1,36 @@
+{
+  "name": "Schokoladensauce",
+  "portionen": 4,
+  "arbeitszeit": "13 min",
+  "arbeitsschritte": 2,
+  "schwierigkeit": "Nicht angegeben",
+  "kategorie": "Saucen",
+  "learning": "",
+  "label": "Nicht angegeben",
+  "zutaten": [
+    {
+      "name": "Schokolade",
+      "menge": "100 g"
+    },
+    {
+      "name": "Zucker",
+      "menge": "50 g"
+    },
+    {
+      "name": "Maizena",
+      "menge": "3 EL"
+    },
+    {
+      "name": "Butter",
+      "menge": "10 g"
+    },
+    {
+      "name": "Milch",
+      "menge": "250 ml"
+    }
+  ],
+  "anleitung": [
+    "Die Schokolade reiben oder in kleine Stücke brechen und in eine Schüssel geben.",
+    "Dann mit den restlichen Zutaten vermischen und unter ständigem Rühren im Wasserbad schmelzen lassen."
+  ]
+}

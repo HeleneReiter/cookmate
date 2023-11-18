@@ -1,0 +1,40 @@
+{
+  "name": "Knoblauchsoße",
+  "portionen": 2,
+  "arbeitszeit": "20 min",
+  "arbeitsschritte": 2,
+  "schwierigkeit": "mittel",
+  "kategorie": "Soße",
+  "learning": "Soßen",
+  "label": "vegetarisch",
+  "zutaten": [
+    {
+      "name": "Knoblauchzehen",
+      "menge": "8 Stk"
+    },
+    {
+      "name": "Öl",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Sojasauce (hell)",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Chilisauce (süß)",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Suppe (klar)",
+      "menge": "40 ml"
+    },
+    {
+      "name": "Butter",
+      "menge": "1 EL"
+    }
+  ],
+  "anleitung": [
+    "Den Knoblauch schälen und klein hacken. Dann in einer Pfanne im Öl auf mittlerer Flamme anbraten.",
+    "Anschließend mit der Suppe ablöschen. Nun Butter, Sojasauce und Chilisauce dazugeben und solange rühren, bis die Sauce eindickt."
+  ]
+}

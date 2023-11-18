@@ -1,0 +1,71 @@
+{
+  "name": "Rotweinsoße",
+  "portionen": 1,
+  "arbeitszeit": "40 min",
+  "arbeitsschritte": 5,
+  "schwierigkeit": "mittel",
+  "kategorie": "Soße",
+  "learning": "Soßen",
+  "label": "vegan",
+  "zutaten": [
+    {
+      "name": "Zwiebel",
+      "menge": "½"
+    },
+    {
+      "name": "Karotte",
+      "menge": "¼"
+    },
+    {
+      "name": "Lauch",
+      "menge": "¼ Stange"
+    },
+    {
+      "name": "Sellerie",
+      "menge": "20 g"
+    },
+    {
+      "name": "Tomatenmark",
+      "menge": "½ TL"
+    },
+    {
+      "name": "Mehl",
+      "menge": "½ EL"
+    },
+    {
+      "name": "Rotwein, vegan",
+      "menge": "50 ml"
+    },
+    {
+      "name": "Gemüsebrühe",
+      "menge": "250 ml"
+    },
+    {
+      "name": "Lorbeerblatt",
+      "menge": "1"
+    },
+    {
+      "name": "Pimentkörner",
+      "menge": "2"
+    },
+    {
+      "name": "Salz",
+      "menge": "etwas"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "etwas"
+    },
+    {
+      "name": "Öl",
+      "menge": "etwas"
+    }
+  ],
+  "anleitung": [
+    "Die Zwiebelhälfte vierteln und die Schnittflächen in einem heißen Topf ohne Öl braun rösten.",
+    "Das restliche Gemüse in grobe Stücke schneiden, mit 2 EL Öl in den Topf mit der Zwiebel geben und rösten, bis es Farbe annimmt.",
+    "Nun das Tomatenmark und das Mehl hinzufügen und ca. 3 Minuten anrösten. Mit dem Rotwein ablöschen und die Flüssigkeit einziehen lassen. ",
+    "Gemüsebrühe, Lorbeerblatt und Pimentkörner hinzufügen (diese am besten in einem Teesieb einhängen) und 15 Minuten köcheln lassen.",
+    "Mit Salz und Pfeffer abschmecken, mit einem Pürierstab alles fein pürieren und durch ein Sieb streichen. Ist die Soße zu dick, noch etwas Gemüsebrühe hinzufügen, ist sie zu dünn, einfach etwas einkochen lassen."
+  ]
+}

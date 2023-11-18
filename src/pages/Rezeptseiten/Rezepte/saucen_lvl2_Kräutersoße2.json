@@ -1,0 +1,53 @@
+{
+  "name": "Kräutersoße",
+  "portionen": 4,
+  "arbeitszeit": "15 min",
+  "arbeitsschritte": 3,
+  "schwierigkeit": "mittel",
+  "kategorie": "Soße",
+  "learning": "Soßen",
+  "label": "vegetarisch",
+  "zutaten": [
+    {
+      "name": "Butter",
+      "menge": "40 g"
+    },
+    {
+      "name": "Dinkelmehl",
+      "menge": "40 g"
+    },
+    {
+      "name": "Gemüsebrühe",
+      "menge": "250 ml"
+    },
+    {
+      "name": "Milch",
+      "menge": "250 ml"
+    },
+    {
+      "name": "Kräuter, TK",
+      "menge": "3 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Muskat",
+      "menge": "nach Geschmack"
+    },
+    {
+      "name": "Zitronensaft",
+      "menge": "nach Geschmack"
+    }
+  ],
+  "anleitung": [
+    "Die Butter in einem Topf erhitzen.",
+    "Das Mehl auf einmal dazugeben und anschwitzen.",
+    "Nun die Flüssigkeit langsam unter Rühren dazugeben und aufkochen lassen. Die Kräuter in die Soße geben und mit den Gewürzen und Zitronensaft kräftig abschmecken."
+  ]
+}
