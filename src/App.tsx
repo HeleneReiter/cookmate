@@ -34,6 +34,7 @@ import SchneidenLevel2 from "./pages/Levels/SchneidenLevel2";
 import SchneidenLevel3 from "./pages/Levels/SchneidenLevel3";
 import page from "./pages/Levels/page";
 import StepOne from "./pages/Rezeptseiten/Arbeitsschritte/StepOne";
+import StepTwo from "./pages/Rezeptseiten/Arbeitsschritte/StepTwo";
 
 setupIonicReact();
 
@@ -60,9 +61,8 @@ const App: React.FC = () => (
           <Route exact path="/rezept2_Two" component={RezeptRoutes}></Route>
           <Route exact path="/rezept2_Three" component={RezeptRoutes}></Route>
 
-
-        
-
+          <Route exact path="/StepOne" component={StepOne}></Route>
+          <Route exact path="/StepTwo" component={StepTwo}></Route>
 
 
           <Route exact path="/">

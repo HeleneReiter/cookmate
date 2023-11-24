@@ -10,7 +10,8 @@ import {
   IonCardContent,
   IonList,
   IonItem,
-  IonLabel
+  IonLabel,
+  IonButton
 } from '@ionic/react';
 import Apfelstrudel from './Rezepte/Apfelstrudel.json';
 import StepOne from './Arbeitsschritte/StepOne';
@@ -52,7 +53,6 @@ const Rezept1_One: React.FC = () => {
       <IonContent>
         <IonCard>
         
-          <img src="assets/Animation/Knoblaub_schneiden.gif" alt="Knoblauch" />
           <IonCardContent>
             <h2>{rezept.name}</h2>
             <h3>Zutaten:</h3>
@@ -76,7 +76,7 @@ const Rezept1_One: React.FC = () => {
               </div>
             ) : null}
             <p onClick={toggleShowMore}>{buttonLabel}</p>
-            
+            <IonButton routerLink='/StepOne'> Start </IonButton>
             
           </IonCardContent>
         </IonCard>

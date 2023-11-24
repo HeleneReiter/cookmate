@@ -1,8 +1,8 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonToolbar, IonCard, IonCardContent, IonButton, IonicSlides, IonItemSliding } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonToolbar, IonCard, IonCardContent, IonButton } from '@ionic/react';
 import { Link } from 'react-router-dom';
 
-const StepOne: React.FC = () => {
+const StepTwo: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -10,10 +10,10 @@ const StepOne: React.FC = () => {
           <h1>Arbeitsschritt 1</h1>
         </IonToolbar>
       </IonHeader>
-     
       <IonContent>
         <IonCard>
           <IonCardContent>
+           
             
             <img src="assets/Animation/Knoblaub_schneiden.gif" alt="Knoblauch" />
 
@@ -28,4 +28,4 @@ const StepOne: React.FC = () => {
   );
 };
 
-export default StepOne;
+export default StepTwo;
