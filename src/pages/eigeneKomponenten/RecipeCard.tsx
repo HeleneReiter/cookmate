@@ -24,17 +24,19 @@ interface RecipeProps {
   descriptionOne: string;
   recipeCategoryLabelOne: string;
   recipeCategoryColorOne: string;
-  img: string;
+  imgOne: string;
 
   titleTwo: string;
   descriptionTwo: string;
   recipeCategoryLabelTwo: string;
   recipeCategoryColorTwo: string;
+  imgTwo: string;
 
   titleThree: string;
   descriptionThree: string;
   recipeCategoryLabelThree: string;
   recipeCategoryColorThree: string;
+  imgThree: string;
 }
 
 const RecipeCard: React.FC<RecipeProps> = ({
@@ -42,17 +44,19 @@ const RecipeCard: React.FC<RecipeProps> = ({
   descriptionOne,
   recipeCategoryLabelOne,
   recipeCategoryColorOne,
-  img,
+  imgOne,
 
   titleTwo,
   descriptionTwo,
   recipeCategoryLabelTwo,
   recipeCategoryColorTwo,
+  imgTwo,
 
   titleThree,
   descriptionThree,
   recipeCategoryLabelThree,
   recipeCategoryColorThree,
+  imgThree,
   id,
 }) => {
   const [currentSegment, setCurrentSegment] = useState("One");
@@ -61,6 +65,19 @@ const RecipeCard: React.FC<RecipeProps> = ({
     const newSegmentValue = event.detail.value as string;
     setCurrentSegment(newSegmentValue);
   };
+
+  const renderImage = () => {
+    switch (currentSegment) {
+      case "One":
+        return (imgOne);
+      case "Two":
+        return (imgTwo);
+      case "Three":
+        return (imgThree);
+      default:
+        return null;
+    }
+  }
 
   const renderCardContent = () => {
     switch (currentSegment) {
@@ -116,7 +133,7 @@ const RecipeCard: React.FC<RecipeProps> = ({
 
   return (
     <IonPage style={{
-      backgroundImage: `url(${img})`,
+      backgroundImage: `url(${renderImage()})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center'}}> 
       <IonHeader>

@@ -12,21 +12,23 @@ const SchneidenLevel2: React.FC = () => {
       <IonContent>
         <RecipeCard
           titleOne="Rezept 1"
-          descriptionOne="Muggle"
+          descriptionOne="Misosuppe"
           recipeCategoryLabelOne="Hauptspeise"
           recipeCategoryColorOne="default"
-          img="assets/Bildrecherche/schneiden_lvl2_misosuppe.JPG"
+          imgOne="assets/Bildrecherche/schneiden_lvl2_misosuppe.JPG"
 
 
           titleTwo="Rezept 2"
-          descriptionTwo="Muggle"
+          descriptionTwo="Moussaka"
           recipeCategoryLabelTwo="Hauptspeise"
           recipeCategoryColorTwo="default"
+          imgTwo="assets/Bildrecherche/schneiden_lvl2_moussaka.JPG"
 
           titleThree="Rezept 3"
-          descriptionThree="Muggle"
+          descriptionThree="Thaikokossuppe"
           recipeCategoryLabelThree="Hauptspeise"
           recipeCategoryColorThree="default"
+          imgThree="assets/Bildrecherche/schneiden_lvl2_thaikokossuppe.JPG"
 
           id="2_"
         />
