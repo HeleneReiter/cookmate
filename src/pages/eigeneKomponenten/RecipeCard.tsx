@@ -67,9 +67,6 @@ const RecipeCard: React.FC<RecipeProps> = ({
       case "One":
         return (
           <>
-            
-              
-            <img alt="Silhouette of mountains" src={img} />
             <h2>{titleOne}</h2>
             <p>{descriptionOne}</p>
             <IonChip>
@@ -118,7 +115,10 @@ const RecipeCard: React.FC<RecipeProps> = ({
   };
 
   return (
-    <IonPage>
+    <IonPage style={{
+      backgroundImage: `url(${img})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'}}> 
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">

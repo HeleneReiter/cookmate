@@ -6,7 +6,7 @@ import {
 
 import RecipeCard from '../eigeneKomponenten/RecipeCard'; // Stellen Sie sicher, dass der Importpfad korrekt ist
 
-import Apfelstrudel from '/Users/helenereiter/git/cookmate_test/src/pages/Rezeptseiten/Rezepte/Apfelstrudel.json'; 
+import Apfelstrudel from '../Rezeptseiten/Rezepte/Apfelstrudel.json'; 
 
 const SchneidenLevel1: React.FC = () => {
     const rezept2 = {
