@@ -15,6 +15,8 @@ const SchneidenLevel2: React.FC = () => {
           descriptionOne="Muggle"
           recipeCategoryLabelOne="Hauptspeise"
           recipeCategoryColorOne="default"
+          img="assets/Bildrecherche/schneiden_lvl2_misosuppe.JPG"
+
 
           titleTwo="Rezept 2"
           descriptionTwo="Muggle"

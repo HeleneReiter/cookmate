@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   IonCard,
   IonCardContent,
@@ -11,9 +11,12 @@ import {
   IonToolbar,
   IonButton,
   IonButtons,
-  IonBackButton
-} from '@ionic/react';
-import { Link } from 'react-router-dom';
+  IonBackButton,
+  IonCardHeader,
+  IonCardTitle,
+  IonCardSubtitle,
+} from "@ionic/react";
+import { Link } from "react-router-dom";
 
 interface RecipeProps {
   id: string;
@@ -21,6 +24,7 @@ interface RecipeProps {
   descriptionOne: string;
   recipeCategoryLabelOne: string;
   recipeCategoryColorOne: string;
+  img: string;
 
   titleTwo: string;
   descriptionTwo: string;
@@ -38,18 +42,18 @@ const RecipeCard: React.FC<RecipeProps> = ({
   descriptionOne,
   recipeCategoryLabelOne,
   recipeCategoryColorOne,
-  
+  img,
+
   titleTwo,
   descriptionTwo,
   recipeCategoryLabelTwo,
   recipeCategoryColorTwo,
-  
+
   titleThree,
   descriptionThree,
   recipeCategoryLabelThree,
   recipeCategoryColorThree,
-  id 
-
+  id,
 }) => {
   const [currentSegment, setCurrentSegment] = useState("One");
 
@@ -63,42 +67,51 @@ const RecipeCard: React.FC<RecipeProps> = ({
       case "One":
         return (
           <>
+            
+              
+            <img alt="Silhouette of mountains" src={img} />
             <h2>{titleOne}</h2>
             <p>{descriptionOne}</p>
             <IonChip>
-            <IonLabel color="danger">Fleisch</IonLabel>
+              <IonLabel color="danger">Fleisch</IonLabel>
             </IonChip>
             <IonChip>
-              <IonLabel color={recipeCategoryColorOne}>{recipeCategoryLabelOne}</IonLabel>
+              <IonLabel color={recipeCategoryColorOne}>
+                {recipeCategoryLabelOne}
+              </IonLabel>
             </IonChip>
           </>
         );
       case "Two":
         return (
-            <>
-              <h2>{titleTwo}</h2>
-              <p>{descriptionTwo}</p>
-              <IonChip>
+          <>
+            <h2>{titleTwo}</h2>
+            <p>{descriptionTwo}</p>
+            <IonChip>
               <IonLabel color="success">Vegetarisch</IonLabel>
-              </IonChip>
-              <IonChip>
-                <IonLabel color={recipeCategoryColorTwo}>{recipeCategoryLabelTwo}</IonLabel>
-              </IonChip>
-            </>
-          );
+            </IonChip>
+            <IonChip>
+              <IonLabel color={recipeCategoryColorTwo}>
+                {recipeCategoryLabelTwo}
+              </IonLabel>
+            </IonChip>
+          </>
+        );
       case "Three":
         return (
-            <>
-              <h2>{titleThree}</h2>
-              <p>{descriptionThree}</p>
-              <IonChip>
+          <>
+            <h2>{titleThree}</h2>
+            <p>{descriptionThree}</p>
+            <IonChip>
               <IonLabel color="primary">Vegan</IonLabel>
-              </IonChip>
-              <IonChip>
-                <IonLabel color={recipeCategoryColorThree}>{recipeCategoryLabelThree}</IonLabel>
-              </IonChip>
-            </>
-          );
+            </IonChip>
+            <IonChip>
+              <IonLabel color={recipeCategoryColorThree}>
+                {recipeCategoryLabelThree}
+              </IonLabel>
+            </IonChip>
+          </>
+        );
       default:
         return null;
     }
@@ -111,7 +124,11 @@ const RecipeCard: React.FC<RecipeProps> = ({
           <IonButtons slot="start">
             <IonBackButton defaultHref="/home" />
           </IonButtons>
-          <IonSegment swipe-gesture={true} value={currentSegment} onIonChange={handleSegmentChange}>
+          <IonSegment
+            swipe-gesture={true}
+            value={currentSegment}
+            onIonChange={handleSegmentChange}
+          >
             <IonSegmentButton value="One">One</IonSegmentButton>
             <IonSegmentButton value="Two">Two</IonSegmentButton>
             <IonSegmentButton value="Three">Three</IonSegmentButton>
@@ -122,7 +139,7 @@ const RecipeCard: React.FC<RecipeProps> = ({
       <IonCard>
         <IonCardContent>
           {renderCardContent()}
-          <div style={{ marginBottom: '16px' }}></div>
+          <div style={{ marginBottom: "16px" }}></div>
           <Link to={`/rezept${id}${currentSegment}`}>
             <IonButton fill="outline">Zum Rezept</IonButton>
           </Link>

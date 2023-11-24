@@ -31,6 +31,7 @@ const SchneidenLevel1: React.FC = () => {
           descriptionOne= "Gericht mit Fleisch"
           recipeCategoryLabelOne= "Hauptspeise"
           recipeCategoryColorOne= "default"
+          img="assets/Bildrecherche/schneiden_lvl1_asiatischesgemüse.JPG"
 
           titleTwo="Rezept 2"
           descriptionTwo={rezept2.name}

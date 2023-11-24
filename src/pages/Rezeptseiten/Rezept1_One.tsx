@@ -54,6 +54,7 @@ const Rezept1_One: React.FC = () => {
           <IonCardContent>
             <h2>{rezept.name}</h2>
             <h3>Zutaten:</h3>
+            <h3>Zutaten:</h3>
             <IonList>
               {rezept.zutaten.map((zutat, index) => (
                 <IonItem key={index}>
