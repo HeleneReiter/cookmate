@@ -10,10 +10,10 @@ import {
   IonCardContent,
   IonList,
   IonItem,
-  IonLabel,
-  IonButton,
+  IonLabel
 } from '@ionic/react';
 import Apfelstrudel from './Rezepte/Apfelstrudel.json';
+import StepOne from './Arbeitsschritte/StepOne';
 
 const Rezept1_One: React.FC = () => {
   // Define the recipe data as an object
@@ -51,9 +51,10 @@ const Rezept1_One: React.FC = () => {
       </IonHeader>
       <IonContent>
         <IonCard>
+        
+          <img src="assets/Animation/Knoblaub_schneiden.gif" alt="Knoblauch" />
           <IonCardContent>
             <h2>{rezept.name}</h2>
-            <h3>Zutaten:</h3>
             <h3>Zutaten:</h3>
             <IonList>
               {rezept.zutaten.map((zutat, index) => (
@@ -75,7 +76,8 @@ const Rezept1_One: React.FC = () => {
               </div>
             ) : null}
             <p onClick={toggleShowMore}>{buttonLabel}</p>
-            <IonButton>Start</IonButton>
+            
+            
           </IonCardContent>
         </IonCard>
       </IonContent>

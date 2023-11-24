@@ -28,7 +28,7 @@ const SchneidenLevel1: React.FC = () => {
       <IonContent>
         <RecipeCard
           titleOne="Rezept 1"
-          descriptionOne= "gebratene Nudeln"
+          descriptionOne= "Chinesisch gebratene Nudeln"
           recipeCategoryLabelOne= "Hauptspeise"
           recipeCategoryColorOne= "default"
           imgOne="assets/Bildrecherche/schneiden_lvl1_gebratenenudeln_.JPG"

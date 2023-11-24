@@ -19,6 +19,7 @@ const Home: React.FC = () => {
   ];
 
   return (
+    
     <IonPage>
       <IonHeader>
         <IonToolbar className='home'>
@@ -51,6 +52,7 @@ const Home: React.FC = () => {
           </IonCard>
         ))}
       </IonContent>
+      
     </IonPage>
   );
 };
