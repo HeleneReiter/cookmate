@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonContent, IonHeader, IonPage, IonToolbar, IonCard, IonCardContent, IonButton } from '@ionic/react';
-import { Link } from 'react-router-dom';
+
 
 const StepTwo: React.FC = () => {
   return (

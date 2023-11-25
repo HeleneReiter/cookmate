@@ -12,9 +12,6 @@ import {
   IonButton,
   IonButtons,
   IonBackButton,
-  IonCardHeader,
-  IonCardTitle,
-  IonCardSubtitle,
 } from "@ionic/react";
 import { Link } from "react-router-dom";
 

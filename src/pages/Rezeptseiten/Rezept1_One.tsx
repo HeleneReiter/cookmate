@@ -14,7 +14,6 @@ import {
   IonButton
 } from '@ionic/react';
 import Apfelstrudel from './Rezepte/Apfelstrudel.json';
-import StepOne from './Arbeitsschritte/StepOne';
 
 const Rezept1_One: React.FC = () => {
   // Define the recipe data as an object
