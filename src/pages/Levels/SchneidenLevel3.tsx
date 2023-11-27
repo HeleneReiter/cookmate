@@ -17,7 +17,6 @@ const SchneidenLevel3: React.FC = () => {
           recipeCategoryColorOne="default"
           imgOne="assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG"
 
-
           titleTwo="Rezept 2"
           descriptionTwo="Chili con Carne"
           recipeCategoryLabelTwo="Hauptspeise"

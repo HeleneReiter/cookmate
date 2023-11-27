@@ -75,7 +75,7 @@ const Rezept1_One: React.FC = () => {
               </div>
             ) : null}
             <p onClick={toggleShowMore}>{buttonLabel}</p>
-            <IonButton routerLink='/StepOne'> Start </IonButton>
+            <IonButton routerLink='/SchneidenRezept1'> Jetzt Kochen! </IonButton>
             
           </IonCardContent>
         </IonCard>

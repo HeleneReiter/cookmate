@@ -1,5 +1,7 @@
 import {
+  IonBackButton,
   IonButton,
+  IonButtons,
   IonCard,
   IonContent,
   IonHeader,
@@ -15,13 +17,14 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+
 interface SlideData {
   title: string;
   description: string;
   image: string;
 }
 
-const StepOne: React.FC = () => {
+const MarinierenRezept1: React.FC = () => {
   const data: SlideData[] = [
     {
       title: "Step 1",
@@ -58,29 +61,34 @@ const StepOne: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+        <IonButtons slot="start">
+            <IonBackButton defaultHref="/marinieren/level1" />
+          </IonButtons>
           <h1>Arbeitsschritte</h1>
         </IonToolbar>
       </IonHeader>
       <IonContent scrollX>
-        <IonCard>
+        
         <Swiper
           onSwiper={setSwiper}
           spaceBetween={100}
           slidesPerView={1}
-          scrollbar={{ draggable: true }}
-          pagination={{ clickable: true }}
+          scrollbar={{ draggable: false }}
+          
 
         >
           {data.map((slide, index) => (
             <SwiperSlide key={`slide_${index}`}>
-              <h2>{slide.title}</h2>
+              <IonCard>
+              <h2 className="" >{slide.title}</h2>
               <p>{slide.description}</p>
               <img src={slide.image}  />
+              </IonCard>
             </SwiperSlide>
           ))}
       
         </Swiper>
-        </IonCard>
+        
         <IonButton onClick={goPrev}>Prev</IonButton>
         <IonButton onClick={goNext}>Next</IonButton>
       </IonContent>
@@ -88,4 +96,4 @@ const StepOne: React.FC = () => {
   );
 };
 
-export default StepOne;
+export default MarinierenRezept1;

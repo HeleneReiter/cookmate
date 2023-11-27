@@ -32,9 +32,10 @@ import RezeptRoutes from './RezeptRoutes';
 import SchneidenLevel1 from "./pages/Levels/SchneidenLevel1";
 import SchneidenLevel2 from "./pages/Levels/SchneidenLevel2";
 import SchneidenLevel3 from "./pages/Levels/SchneidenLevel3";
-import page from "./pages/Levels/page";
-import StepOne from "./pages/Rezeptseiten/Arbeitsschritte/StepOne";
-import StepTwo from "./pages/Rezeptseiten/Arbeitsschritte/StepTwo";
+import MarinierenLevel1 from "./pages/Levels/MarinierenLevel1";
+import SchneidenRezept1 from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept1";
+import SchneidenRezept2 from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept2";
+import SchneidenRezept3 from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept3";
 
 setupIonicReact();
 
@@ -52,6 +53,7 @@ const App: React.FC = () => (
           <Route exact path="/schneiden/level1" component={SchneidenLevel1}></Route>
           <Route exact path="/schneiden/level2" component={SchneidenLevel2}></Route>
           <Route exact path="/schneiden/level3" component={SchneidenLevel3}></Route>
+          <Route exact path="/marinieren/level1" component={MarinierenLevel1}></Route>
          
           <Route exact path="/rezept1_One" component={RezeptRoutes}></Route>
           <Route exact path="/rezept1_Two" component={RezeptRoutes}></Route>
@@ -61,9 +63,10 @@ const App: React.FC = () => (
           <Route exact path="/rezept2_Two" component={RezeptRoutes}></Route>
           <Route exact path="/rezept2_Three" component={RezeptRoutes}></Route>
 
-          <Route exact path="/StepOne" component={StepOne}></Route>
-          <Route exact path="/StepTwo" component={StepTwo}></Route>
-
+          <Route exact path="/SchneidenRezept1" component={SchneidenRezept1}></Route>
+          <Route exact path="/SchneidenRezept2" component={SchneidenRezept2}></Route>
+          <Route exact path="/SchneidenRezept3" component={SchneidenRezept3}></Route>
+          
 
           <Route exact path="/">
           <Redirect to="/home" />
