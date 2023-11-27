@@ -13,7 +13,6 @@ import {
   IonButtons,
   IonBackButton,
 } from "@ionic/react";
-import { Link } from "react-router-dom";
 
 interface RecipeProps {
   id: string;
@@ -66,15 +65,15 @@ const RecipeCard: React.FC<RecipeProps> = ({
   const renderImage = () => {
     switch (currentSegment) {
       case "One":
-        return (imgOne);
+        return imgOne;
       case "Two":
-        return (imgTwo);
+        return imgTwo;
       case "Three":
-        return (imgThree);
+        return imgThree;
       default:
         return null;
     }
-  }
+  };
 
   const renderCardContent = () => {
     switch (currentSegment) {
@@ -129,10 +128,13 @@ const RecipeCard: React.FC<RecipeProps> = ({
   };
 
   return (
-    <IonPage style={{
-      backgroundImage: `url(${renderImage()})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center'}}> 
+    <IonPage
+      style={{
+        backgroundImage: `url(${renderImage()})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
@@ -154,9 +156,13 @@ const RecipeCard: React.FC<RecipeProps> = ({
         <IonCardContent>
           {renderCardContent()}
           <div style={{ marginBottom: "16px" }}></div>
-          <Link to={`/rezept${id}${currentSegment}`}>
-            <IonButton fill="outline">Zum Rezept</IonButton>
-          </Link>
+
+          <IonButton
+            routerLink={`/rezept${id}${currentSegment}`}
+            fill="outline"
+          >
+            Zum Rezept
+          </IonButton>
         </IonCardContent>
       </IonCard>
     </IonPage>

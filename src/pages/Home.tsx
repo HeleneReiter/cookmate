@@ -16,7 +16,7 @@ const Home: React.FC = () => {
   const basics = [
     {
       name: "Basics",
-      categories: ["Schneiden", "Marinieren/Soßen", "Teig", "Gewürze"],
+      categories: ["Schneiden", "Marinieren", "Teig", "Gewürze"],
     },
   ];
   const categories = [
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
               <h2>{category.name}</h2>
               {category.categories.map((basic, levelIndex) => (
                 <IonButton
-                  routerLink={`/${category.name.toLowerCase()}/level${basic}`}
+                  routerLink={`/${category.name.toLowerCase()}/${basic}`}
                   className="basicsButton"
                   key={levelIndex}
                   fill="clear"
