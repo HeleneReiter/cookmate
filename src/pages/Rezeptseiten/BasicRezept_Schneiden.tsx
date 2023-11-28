@@ -13,10 +13,9 @@ import {
   IonLabel,
   IonButton
 } from '@ionic/react';
-import Apfelstrudel from './Rezepte/Apfelstrudel.json';
+import Apfelstrudel from './Rezepte/Apfelstrudel.json'; //zu grischischer salat ändern
 
 const BasicRezept_Schneiden: React.FC = () => {
-  // Define the recipe data as an object
   const rezept = {
     name: Apfelstrudel.name,
     portionen: Apfelstrudel.portionen,
@@ -30,11 +29,9 @@ const BasicRezept_Schneiden: React.FC = () => {
     kategorie: Apfelstrudel.kategorie,
   };
 
-  // Zustand für das Anzeigen des zusätzlichen Textes
   const [showMoreText, setShowMoreText] = useState(false);
   const buttonLabel = showMoreText ? 'Weniger anzeigen' : 'Mehr anzeigen';
 
-  // Funktion zum Umschalten des Zustands
   const toggleShowMore = () => {
     setShowMoreText(!showMoreText);
   };

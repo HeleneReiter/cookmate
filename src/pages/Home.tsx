@@ -8,7 +8,6 @@ import {
   IonCardContent,
   IonButton,
 } from "@ionic/react";
-import { Link } from "react-router-dom";
 
 import "./CSS/Home.css";
 

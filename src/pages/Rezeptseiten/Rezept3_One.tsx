@@ -13,7 +13,7 @@ import {
   IonLabel,
   IonButton
 } from '@ionic/react';
-import Rezept from './Rezepte/Schneiden_lvl2_ThaiKokosSuppe2.json';
+import Rezept from './Rezepte/Schneiden_lvl3_BeefTatar3.json';
 
 const Rezept2_One: React.FC = () => {
   const rezept = {
@@ -41,7 +41,7 @@ const Rezept2_One: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton defaultHref="/schneiden/level2" />
+            <IonBackButton defaultHref="/schneiden/level3" />
           </IonButtons>
           <h1>Rezeptvorschau</h1>
         </IonToolbar>
@@ -72,7 +72,7 @@ const Rezept2_One: React.FC = () => {
               </div>
             ) : null}
             <p onClick={toggleShowMore}>{buttonLabel}</p>
-            <IonButton routerLink='/SchneidenRezept2'> Jetzt Kochen! </IonButton>
+            <IonButton routerLink='/SchneidenRezept3'> Jetzt Kochen! </IonButton>
             
           </IonCardContent>
         </IonCard>

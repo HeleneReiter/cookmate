@@ -16,6 +16,7 @@ import '@ionic/react/css/ionic-swiper.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import Rezept from '../Rezepte/saucen_lvl1_Schokosoße1.json';
 
 
 interface SlideData {
@@ -25,23 +26,24 @@ interface SlideData {
 }
 
 const MarinierenRezept1: React.FC = () => {
-  const data: SlideData[] = [
-    {
-      title: "Step 1",
-      description: "Description",
-      image: "/assets/Animation/Knoblaub_schneiden.gif",
-    },
-    {
-      title: "Step 2",
-      description: "Description",
-      image: "/assets/Animation/Knoblaub_schneiden.gif",
-    },
-    {
-      title: "Step 3",
-      description: "Description",
-      image: "/assets/Animation/Knoblaub_schneiden.gif",
-    },
-  ];
+  const rezept = {
+    name: Rezept.name,
+    portionen: Rezept.portionen,
+    arbeitszeit: Rezept.arbeitszeit,
+    arbeitsschritte: Rezept.arbeitsschritte,
+    schwierigkeit: Rezept.schwierigkeit,
+    zutaten: Rezept.zutaten,
+    anleitung: Rezept.anleitung,
+    label: Rezept.label,
+    learning: Rezept.learning,
+    kategorie: Rezept.kategorie,
+  };
+
+  const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte}, (_, index) => ({
+    title: `Step ${index + 1}`,
+    description: rezept.anleitung[index], 
+    image: "/assets/Animation/Knoblauch_schneiden.gif", // später drurch rezept.bilder[index] ersetzen, muss bei Json hinzugefügt werden 
+  }));
 
   const [swiper, setSwiper] = useState<any>(null);
 

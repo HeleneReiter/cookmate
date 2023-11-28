@@ -16,10 +16,10 @@ import {
 const BasicTeig: React.FC = () => {
   return (
     <IonPage
-    style={{
-      background: "url(/assets/Bildrecherche/teig_lvl1_fladenbrot.JPG)",
-      backgroundSize: "cover",
-      backgroundPosition: "center",
+      style={{
+        background: "url(/assets/Bildrecherche/teig_lvl1_palatschinke.JPG)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <IonHeader>
@@ -40,7 +40,9 @@ const BasicTeig: React.FC = () => {
             <IonChip>
               <IonLabel color="default">Hauptspeise</IonLabel>
             </IonChip>
-            <IonButton routerLink="/BasicRezept_Teig" fill="outline">Zum Rezept</IonButton>
+            <IonButton routerLink="/BasicRezept_Teig" fill="outline">
+              Zum Rezept
+            </IonButton>
           </IonCardContent>
         </IonCard>
       </IonContent>

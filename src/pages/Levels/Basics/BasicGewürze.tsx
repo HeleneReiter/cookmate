@@ -16,10 +16,10 @@ import {
 const BasicGewürze: React.FC = () => {
   return (
     <IonPage
-    style={{
-      background: "url(/assets/Bildrecherche/teig_lvl1_fladenbrot.JPG)",
-      backgroundSize: "cover",
-      backgroundPosition: "center",
+      style={{
+        background: "url(/assets/Bildrecherche/gewuerze_lvl1_fetatomatenauflauf.JPG)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <IonHeader>
@@ -40,7 +40,9 @@ const BasicGewürze: React.FC = () => {
             <IonChip>
               <IonLabel color="default">Hauptspeise</IonLabel>
             </IonChip>
-            <IonButton routerLink="/BasicRezept_Gewürze" fill="outline">Zum Rezept</IonButton>
+            <IonButton routerLink="/BasicRezept_Gewürze" fill="outline">
+              Zum Rezept
+            </IonButton>
           </IonCardContent>
         </IonCard>
       </IonContent>

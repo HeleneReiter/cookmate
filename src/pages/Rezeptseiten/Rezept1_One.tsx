@@ -13,28 +13,25 @@ import {
   IonLabel,
   IonButton
 } from '@ionic/react';
-import Apfelstrudel from './Rezepte/Apfelstrudel.json';
+import Rezept from './Rezepte/Schneiden_lvl1_GebrateneNudeln1.json';
 
 const Rezept1_One: React.FC = () => {
-  // Define the recipe data as an object
   const rezept = {
-    name: Apfelstrudel.name,
-    portionen: Apfelstrudel.portionen,
-    arbeitszeit: Apfelstrudel.arbeitszeit,
-    arbeitsschritte: Apfelstrudel.arbeitsschritte,
-    schwierigkeit: Apfelstrudel.schwierigkeit,
-    zutaten: Apfelstrudel.zutaten,
-    anleitung: Apfelstrudel.anleitung,
-    label: Apfelstrudel.label,
-    learning: Apfelstrudel.learning,
-    kategorie: Apfelstrudel.kategorie,
+    name: Rezept.name,
+    portionen: Rezept.portionen,
+    arbeitszeit: Rezept.arbeitszeit,
+    arbeitsschritte: Rezept.arbeitsschritte,
+    schwierigkeit: Rezept.schwierigkeit,
+    zutaten: Rezept.zutaten,
+    anleitung: Rezept.anleitung,
+    label: Rezept.label,
+    learning: Rezept.learning,
+    kategorie: Rezept.kategorie,
   };
 
-  // Zustand für das Anzeigen des zusätzlichen Textes
   const [showMoreText, setShowMoreText] = useState(false);
   const buttonLabel = showMoreText ? 'Weniger anzeigen' : 'Mehr anzeigen';
 
-  // Funktion zum Umschalten des Zustands
   const toggleShowMore = () => {
     setShowMoreText(!showMoreText);
   };

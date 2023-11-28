@@ -4,7 +4,7 @@ import {
   IonPage,
 } from '@ionic/react';
 
-import RecipeCard from '../eigeneKomponenten/RecipeCard'; // Stellen Sie sicher, dass der Importpfad korrekt ist
+import RecipeCard from '../eigeneKomponenten/RecipeCard'; 
 
 const SchneidenLevel3: React.FC = () => {
   return (
@@ -12,22 +12,22 @@ const SchneidenLevel3: React.FC = () => {
       <IonContent>
         <RecipeCard
           titleOne="Rezept 1"
-          descriptionOne="Chili con Carne"
+          descriptionOne="Beef Tatar"
           recipeCategoryLabelOne="Hauptspeise"
           recipeCategoryColorOne="default"
-          imgOne="assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG"
+          imgOne="assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG" // hier fehlt das bild von beef tatar
 
           titleTwo="Rezept 2"
-          descriptionTwo="Chili con Carne"
+          descriptionTwo="Misosuppe"
           recipeCategoryLabelTwo="Hauptspeise"
           recipeCategoryColorTwo="default"
-          imgTwo="assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG"
+          imgTwo="assets/Bildrecherche/schneiden_lvl2_misosuppe.JPG"
 
           titleThree="Rezept 3"
-          descriptionThree="Chili con Carne"
+          descriptionThree="Moussaka"
           recipeCategoryLabelThree="Hauptspeise"
           recipeCategoryColorThree="default"
-          imgThree="assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG"
+          imgThree="assets/Bildrecherche/schneiden_lvl2_moussaka.JPG"
 
           id="3_"
         />
