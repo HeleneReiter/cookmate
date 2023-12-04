@@ -46,7 +46,7 @@ const SchneidenRezept2: React.FC = () => {
   };
 
   const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte }, (_, index) => ({
-    title: `Step ${index + 1}`,
+    title: `Schritt ${index + 1}`,
     description: rezept.anleitung[index],  // hier fehlen noch 2 Schritte bei der Anleitung!
     image: "/assets/Animation/Knoblauch_schneiden.gif", // später drurch rezept.bilder[index] ersetzen, muss bei Json hinzugefügt werden 
   }));

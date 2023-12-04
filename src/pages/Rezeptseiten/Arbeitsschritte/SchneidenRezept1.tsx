@@ -14,7 +14,7 @@ import {
   IonPage,
   IonToolbar,
 } from "@ionic/react";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -46,13 +46,13 @@ const SchneidenRezept1: React.FC = () => {
   };
 
   const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte }, (_, index) => ({
-    title: `Step ${index + 1}`,
+    title: `Schritt ${index + 1}`,
     description: rezept.anleitung[index],
-    image: "/assets/Animation/Knoblauch_schneiden.gif", // später drurch rezept.bilder[index] ersetzen, muss bei Json hinzugefügt werden 
+    image: "/assets/Animation/Knoblauch_schneiden.gif",
   }));
 
-
   const [swiper, setSwiper] = useState<any>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const goNext = () => {
     if (swiper) {
@@ -66,6 +66,9 @@ const SchneidenRezept1: React.FC = () => {
     }
   };
 
+  const dismissModal = () => {
+    setIsModalOpen(false);
+  };
 
   return (
     <IonPage>
@@ -94,16 +97,16 @@ const SchneidenRezept1: React.FC = () => {
               </IonCard>
             </SwiperSlide>
           ))}
-
         </Swiper>
 
         <IonModal
-          trigger="open-modal"
-          isOpen={false}
+          isOpen={isModalOpen}
+          onDidDismiss={dismissModal}
           initialBreakpoint={0.92}
           breakpoints={[0, 0.25, 0.5, 0.75, 0.92]}
         >
           <IonContent className="ion-padding">
+          <IonButton onClick={dismissModal}>Close</IonButton>
             <IonCardContent>
               <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>
@@ -124,13 +127,11 @@ const SchneidenRezept1: React.FC = () => {
               </ol>
             </IonCardContent>
           </IonContent>
+          
         </IonModal>
       </IonContent>
       <IonFooter>
-        <IonButton onClick={goPrev}>Prev</IonButton>
-        <IonButton id="open-modal"> Rezept anzeigen
-        </IonButton>
-        <IonButton onClick={goNext}>Next</IonButton>
+        <IonButton onClick={() => setIsModalOpen(true)}>Übersicht</IonButton>
       </IonFooter>
     </IonPage>
   );

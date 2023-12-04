@@ -27,17 +27,17 @@ interface SlideData {
 const BasicSchneidenRezept1: React.FC = () => {
   const data: SlideData[] = [
     {
-      title: "Step 1",
+      title: "Schritt 1",
       description: "Description",
       image: "/assets/Animation/Knoblaub_schneiden.gif",
     },
     {
-      title: "Step 2",
+      title: "Schritt 2",
       description: "Description",
       image: "/assets/Animation/Knoblaub_schneiden.gif",
     },
     {
-      title: "Step 3",
+      title: "Schritt 3",
       description: "Description",
       image: "/assets/Animation/Knoblaub_schneiden.gif",
     },

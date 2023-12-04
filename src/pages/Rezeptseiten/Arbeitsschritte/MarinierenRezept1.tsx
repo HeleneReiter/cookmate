@@ -46,7 +46,7 @@ const MarinierenRezept1: React.FC = () => {
   };
 
   const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte }, (_, index) => ({
-    title: `Step ${index + 1}`,
+    title: `Schritt ${index + 1}`,
     description: rezept.anleitung[index],
     image: "/assets/Animation/Knoblauch_schneiden.gif", // später drurch rezept.bilder[index] ersetzen, muss bei Json hinzugefügt werden 
   }));
