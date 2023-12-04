@@ -77,6 +77,8 @@ const Rezept1_One: React.FC = () => {
           </IonCardContent>
         </IonCard>
       </IonContent>
+
+      
     </IonPage>
   );
 };

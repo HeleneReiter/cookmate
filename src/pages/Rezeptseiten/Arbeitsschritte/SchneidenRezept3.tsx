@@ -3,8 +3,14 @@ import {
   IonButton,
   IonButtons,
   IonCard,
+  IonCardContent,
   IonContent,
+  IonFooter,
   IonHeader,
+  IonItem,
+  IonLabel,
+  IonList,
+  IonModal,
   IonPage,
   IonToolbar,
 } from "@ionic/react";
@@ -92,12 +98,44 @@ const SchneidenRezept3: React.FC = () => {
           ))}
       
         </Swiper>
-        
-        <IonButton onClick={goPrev}>Prev</IonButton>
-        <IonButton onClick={goNext}>Next</IonButton>
+        <IonModal
+          trigger="open-modal"
+          isOpen={false}
+          initialBreakpoint={0.92}
+          breakpoints={[0, 0.25, 0.5, 0.75, 0.92]}
+        >
+          <IonContent className="ion-padding">
+            <IonCardContent>
+              <h2>{rezept.name}</h2>
+              <h3>Zutaten:</h3>
+              <IonList>
+                {rezept.zutaten.map((zutat, index) => (
+                  <IonItem key={index}>
+                    <IonLabel>
+                      {zutat.menge} {zutat.name}
+                    </IonLabel>
+                  </IonItem>
+                ))}
+              </IonList>
+              <h3>Anleitung:</h3>
+              <ol>
+                {rezept.anleitung.map((schritt, index) => (
+                  <li key={index}>{schritt}</li>
+                ))}
+              </ol>
+            </IonCardContent>
+          </IonContent>
+        </IonModal>
       </IonContent>
+      <IonFooter>
+        <IonButton onClick={goPrev}>Prev</IonButton>
+        <IonButton id="open-modal"> Rezept anzeigen
+        </IonButton>
+        <IonButton onClick={goNext}>Next</IonButton>
+      </IonFooter>
     </IonPage>
   );
 };
+
 
 export default SchneidenRezept3;
