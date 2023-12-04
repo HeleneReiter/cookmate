@@ -1,0 +1,76 @@
+{
+  "name": "Griechischer Salat",
+  "portionen": 4,
+  "arbeitszeit": "20 min",
+  "arbeitsschritte": 8,
+  "schwierigkeit": "ganz einfach",
+  "kategorie": "Salat",
+  "learning": "Schneiden",
+  "label": "Vegetarisch",
+  "zutaten": [
+    {
+      "name": "Rote Zwiebeln",
+      "menge": "3 Stk"
+    },
+    {
+      "name": "Salatgurke",
+      "menge": "1 Stk"
+    },
+    {
+      "name": "Tomaten",
+      "menge": "500 g"
+    },
+    {
+      "name": "Römersalatherzen",
+      "menge": "2"
+    },
+    {
+      "name": "Schwarze Oliven",
+      "menge": "75 g"
+    },
+    {
+      "name": "Schafskäse",
+      "menge": "200 g"
+    },
+    {
+      "name": "Weißwein-Essig",
+      "menge": "100 ml"
+    },
+    {
+      "name": "Zitronensaft",
+      "menge": "2 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "1 Prise"
+    },
+    {
+      "name": "Pfeffer",
+      "menge": "1 Prise"
+    },
+    {
+      "name": "Zucker",
+      "menge": "1 Prise"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "4 EL"
+    },
+    {
+      "name": "Pfefferonen",
+      "menge": "(nach Belieben)"
+    },
+  ],
+  "anleitung": [
+    "Zwiebeln schälen und in Ringe schneiden. Gemüse waschen.", 
+	"Gurke in mundgerechte Stücke schneiden",
+	"Tomaten in mundgerechte Stücke schneiden",
+	"Salat in mundgerechte Stücke schneiden",
+	"Schafskäse in Würfel schneiden.",
+	"Für das Dressing Essig, Zitronensaft, Salz, Pfeffer und Zucker verrühren. Anschließend Öl unterschlagen.",
+	"Gemüse und Schafskäsewürfel in einer Salatschüssel miteinander vermengen.
+Oliven und Pfefferonen auf den Salat geben.",
+	"Dressing über den Salat träufeln und mit Pfeffer bestreuen.",
+	"Tipp: Dazu schmeckt Fladenbrot, Gyros und Tsatsiki."
+  ]
+}

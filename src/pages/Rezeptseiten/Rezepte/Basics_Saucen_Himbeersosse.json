@@ -1,0 +1,37 @@
+{
+  "name": "Himbeersoße",
+  "portionen": 4,
+  "arbeitszeit": "10 min",
+  "arbeitsschritte": 2,
+  "schwierigkeit": "einfach",
+  "kategorie": "Soße",
+  "learning": "Soßen",
+  "label": "Vegan",
+  "zutaten": [
+    {
+      "name": "Himbeeren",
+      "menge": "400 g"
+    },
+    {
+      "name": "Wasser",
+      "menge": "6 EL"
+    },
+    {
+      "name": "Zucker",
+      "menge": "5 EL"
+    },
+    {
+      "name": "Vanillezucker",
+      "menge": "1 Pk"
+    },
+    {
+      "name": "Zitronensaft",
+      "menge": "2 EL"
+    }
+  ],
+  "anleitung": [
+    "Himbeeren mit Wasser, Zitronensaft, Zucker und Vanillezucker in einem Topf geben, Himbeeren einmal aufkochen 
+lassen", 
+	"Anschließend die Fruchtmasse durch ein feinmaschiges Sieb in eine kleine Schüssel durchpassieren. Die Sauce im Kühlschrank erkalten lassen."
+  ]
+}

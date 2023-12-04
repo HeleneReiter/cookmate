@@ -1,0 +1,48 @@
+{
+  "name": "Palatschinken",
+  "portionen": 5,
+  "arbeitszeit": "30 min",
+  "arbeitsschritte": 5,
+  "schwierigkeit": "einfach",
+  "kategorie": "Nachspeise",
+  "learning": "Teig",
+  "label": "Vegetarisch",
+  "zutaten": [
+    {
+      "name": "Mehl",
+      "menge": "250 g"
+    },
+    {
+      "name": "Milch",
+      "menge": "0.5 L"
+    },
+    {
+      "name": "Eier",
+      "menge": "2 Stk"
+    },
+    {
+      "name": "Salz",
+      "menge": "1 Prise"
+    },
+    {
+      "name": "Öl (oder Butter)",
+      "menge": "1 Schuss"
+    },
+    {
+      "name": "Staubzucker",
+      "menge": "1 EL"
+    },
+    {
+      "name": "Marmelade",
+      "menge": "4 EL"
+    }
+  ],
+  "anleitung": [
+    "Mehl, Milch, Eier und Salz mit dem Schneebesen in einer Schüssel glatt rühren. ", 
+	"Ca. 10 Minuten stehen lassen, dadurch wird der Teig etwas dicker und danach nochmals gut durchrühren. Tipp: Sollte der Palatschinkenteig zu dick sein, mit etwas Mineralwasser oder Soda verdünnen.",
+	"In einer beschichteten Pfanne einen Schuss Öl erhitzen (das Öl soll ganz heiß sein, aber nicht zu rauchen beginnen, dann gelingt die erste Palatschinke sofort).",
+	"Etwas Teig (am besten mit einem Schöpfer) mittig in die heiße Pfanne hineingegeben. Die Pfanne dabei immer wieder schwenken, sodass der Boden gleichmäßig dünn mit Teig bedeckt ist.",
+	"Mit dem Pfannenwender die Palatschinke mehrmals wenden und von beiden Seiten goldgelb ausbacken.",
+	"Tipp: Mit beliebigen Zutaten (Marmelade, Nutella, Schinken & Käse etc.) die Palatschinken bestreichen bzw. belegen und zusammenrollen."
+  ]
+}
