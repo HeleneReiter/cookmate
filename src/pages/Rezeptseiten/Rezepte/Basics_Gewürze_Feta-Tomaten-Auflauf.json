@@ -1,0 +1,59 @@
+{
+  "name": "Feta-Tomaten-Auflauf",
+  "portionen": 2,
+  "arbeitszeit": "35 min",
+  "arbeitsschritte": 5,
+  "schwierigkeit": "einfach",
+  "kategorie": "Hauptspeise",
+  "learning": "Gewürze",
+  "label": "Vegetarisch",
+  "zutaten": [
+    {
+      "name": "Tomaten",
+      "menge": "350 g"
+    },
+    {
+      "name": "Peperoni (grün, eingelegt)",
+      "menge": "4 Stk"
+    },
+    {
+      "name": "El Kalamata Oliven",
+      "menge": "3 EL"
+    },
+    {
+      "name": "Salz",
+      "menge": "1 Prise"
+    },
+ 	{
+      "name": "Pfeffer",
+      "menge": "1 Prise"
+    },
+ 	{
+      "name": "Zucker",
+      "menge": "1 Prise"
+    },
+    {
+      "name": "Oregano",
+      "menge": "1 TL"
+    },
+    {
+      "name": "Olivenöl",
+      "menge": "1 EL"
+    },
+    {
+      "name": "Schafskäse",
+      "menge": "140 g"
+    },
+    {
+      "name": "Baguette",
+      "menge": "1/2"
+    }
+  ],
+  "anleitung": [
+    "Ofen auf 240 Grad (Umluft 220 Grad) vorheizen.", 
+	"Von den Tomaten den Stielansatz entfernen. Tomaten grob würfeln. Von den Peperoni den Stiel entfernen, Schoten in Ringe schneiden.",
+	"Tomaten, Peperoni, Oliven, etwas Salz, Pfeffer, 1 Prise Zucker, Oregano und Olivenöl mischen und in 2 Auflaufformen (à ca. 15 cm ∅ ) geben. Je eine Scheibe Schafskäse drauf setzen.",
+	"Im heißen Ofen auf einem Rost auf der mittleren Schiene 20 Min. überbacken.",
+	"Aus dem Ofen nehmen und mit einer Gabel gut durchmischen. Mit Baguette servieren."
+  ]
+}

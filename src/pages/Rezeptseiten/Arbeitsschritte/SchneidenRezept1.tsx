@@ -48,7 +48,7 @@ const SchneidenRezept1: React.FC = () => {
   const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte }, (_, index) => ({
     title: `Schritt ${index + 1}`,
     description: rezept.anleitung[index],
-    image: "/assets/Animation/Knoblauch_schneiden.gif",
+    image: "/assets/Animation/Knoblaub_schneiden.gif", // später drurch rezept.bilder[index] ersetzen, muss bei Json hinzugefügt werden
   }));
 
   const [swiper, setSwiper] = useState<any>(null);

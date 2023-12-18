@@ -60,6 +60,8 @@ import Rezept1_One from "./pages/Rezeptseiten/Rezept1_One";
 import Rezept2_One from "./pages/Rezeptseiten/Rezept2_One";
 import Rezept3_One from "./pages/Rezeptseiten/Rezept3_One";
 import Rezept4_One from "./pages/Rezeptseiten/Rezept4_One";
+import Start from "./pages/Start";
+import Loading from "./pages/Loading";
 
 
 setupIonicReact();
@@ -70,9 +72,11 @@ const App: React.FC = () => (
       <IonSplitPane contentId="main">
         <Menu />
         <IonRouterOutlet id="main">
-          <Route exact path="/home">
-            <Home />
-          </Route>
+          <Route path="/start" component={Start} exact />
+          <Route path="/loading" component={Loading} exact />
+          <Redirect from="/loading" to="/home" exact />
+          <Route path="/home" component={Home} exact />
+      
 
           <Route exact path="/basics/schneiden" component={BasicSchneiden}></Route>
           <Route exact path="/basics/marinieren" component={BasicMarinieren}></Route>
@@ -107,10 +111,8 @@ const App: React.FC = () => (
           
 
           <Route exact path="/">
-          <Redirect to="/home" />
+          <Redirect from="/" to="/start" exact />
           </Route>
-
-
         </IonRouterOutlet>
       </IonSplitPane>
     </IonReactRouter>

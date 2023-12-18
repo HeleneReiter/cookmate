@@ -1,0 +1,23 @@
+.introduction-loading {
+    background-color: #040c0f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.introduction-loading .loading-wrapper {
+    background-color: #040c0f;
+    height: 852px;
+    position: relative;
+    width: 393px;
+}
+
+.introduction-loading .loading {
+    height: 852px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 393px;
+}
