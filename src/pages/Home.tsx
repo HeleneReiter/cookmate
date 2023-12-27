@@ -15,7 +15,7 @@ const Home: React.FC = () => {
   const basics = [
     {
       name: "Basics",
-      categories: ["Schneiden", "Marinieren", "Teig", "Gewürze"],
+      categories: ["Schneiden", "Marinieren", "Teig", "Gewurze"],
     },
   ];
   const categories = [
@@ -23,22 +23,31 @@ const Home: React.FC = () => {
     { name: "Marinieren", levels: [1, 2, 3] },
     { name: "Backen", levels: [1, 2, 3] },
     { name: "Teig", levels: [1, 2, 3] },
-    { name: "Gewürze", levels: [1, 2, 3] },
+    { name: "Gewurze", levels: [1, 2, 3] },
+  ];
+  const bonus = [
     { name: "Anrichten", levels: [1, 2, 3] },
+
   ];
 
+  {/* 
+      This is a multi-line comment
+      You can add more details here if needed.
+    */}
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar className="home">
+        {/*<IonToolbar className="home">
           <h1>Home</h1>
         </IonToolbar>
+        */}
       </IonHeader>
       <IonContent>
         {basics.map((category, index) => (
           <IonCard key={index} className="basics-card">
             <IonCardContent>
               <h2>{category.name}</h2>
+              <h3>Pflicht!</h3>
               {category.categories.map((basic, levelIndex) => (
                 <IonButton
                   routerLink={`/${category.name.toLowerCase()}/${basic}`}
@@ -46,7 +55,10 @@ const Home: React.FC = () => {
                   key={levelIndex}
                   fill="clear"
                 >
-                  {basic}
+                  <div className="button-inner-content">
+                    <span className="chapter">Kapitel</span>
+                    {basic}
+                  </div>
                 </IonButton>
               ))}
             </IonCardContent>
@@ -55,6 +67,7 @@ const Home: React.FC = () => {
         {categories.map((category, index) => (
           <IonCard key={index} className="category-card">
             <IonCardContent>
+              <h4>Kapitel</h4>
               <h2>{category.name}</h2>
               {category.levels.map((level, levelIndex) => (
                 <IonButton
@@ -63,9 +76,29 @@ const Home: React.FC = () => {
                   key={levelIndex}
                   fill="clear"
                 >
-                  Level {level}
+                  LV{level}
                 </IonButton>
               ))}
+            </IonCardContent>
+          </IonCard>
+        ))}
+        {bonus.map((category, index) => (
+          <IonCard key={index} className="bonus-card">
+            <IonCardContent>
+              <h2>Bonus!</h2>
+              <h3>{category.name}</h3>
+              {category.levels.map((level, levelIndex) => (
+                <IonButton
+                  routerLink={`/${category.name.toLowerCase()}/level${level}`}
+                  className="levelButton"
+                  key={levelIndex}
+                  fill="clear"
+                >
+                  LV{level}
+                </IonButton>
+              ))}
+              <h4>Wow,</h4>
+              <h4>geschafft!</h4>
             </IonCardContent>
           </IonCard>
         ))}
