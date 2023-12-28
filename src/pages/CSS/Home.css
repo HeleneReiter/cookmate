@@ -38,7 +38,17 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.basics-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1); /* Adjust the alpha value for darkness */
+  pointer-events: none;
 }
 
 .basics-card h2 {
@@ -134,10 +144,21 @@ h2 {
   text-align: center;
   color: white;
   border-radius: 0;
-  background-color: #040C0F;
   background-image: url("../../../public/assets/Elemente/Backgroundimage.jpg");
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.bonus-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for darkness */
+  pointer-events: none;
 }
 
 .bonus-card h2 { /* Bonus! */
@@ -145,7 +166,7 @@ h2 {
   font-weight: 600;
   text-align: left;
   margin: 10px;
-  color:white;
+  color: white;
 }
 
 .bonus-card h3 { /* Anrichten */
