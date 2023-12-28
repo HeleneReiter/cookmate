@@ -14,6 +14,16 @@ const Start: React.FC = () => {
         <div className="overlap-group-wrapper">
           <div className="overlap-group">
             <img
+              className="logo-home"
+              src="/assets/Elemente/Logo_ohnebackground.png"
+            />
+            
+            <img
+              className="chefs-touch"
+              src="/assets/Elemente/ChefsTouchYourKitchen.svg"
+            />
+
+            <img
               onClick={handleStartClick}
               className="jetzt-starten"
               alt="Jetzt starten"

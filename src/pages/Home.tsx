@@ -30,10 +30,6 @@ const Home: React.FC = () => {
 
   ];
 
-  {/* 
-      This is a multi-line comment
-      You can add more details here if needed.
-    */}
   return (
     <IonPage>
       <IonHeader>
@@ -90,7 +86,7 @@ const Home: React.FC = () => {
               {category.levels.map((level, levelIndex) => (
                 <IonButton
                   routerLink={`/${category.name.toLowerCase()}/level${level}`}
-                  className="levelButton"
+                  className="bonuslevel"
                   key={levelIndex}
                   fill="clear"
                 >
