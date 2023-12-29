@@ -124,34 +124,44 @@ h3 {
 
 
 /* Stil für das Segment-Container */
+/* funkt nicht!*/
 ion-segment {
     background: transparent;
     border-radius: 20px;
     margin: -40px 0px -80px 0px;
+    
 }
   
 /* Stil für nicht ausgewählte Segment-Buttons */
-ion-segment-button {
+/* funkt nicht!*/
+.SegmentButton {
     width: 30px;
     height: 30px;
-    background-color: blue;
+    background-color: black;
     border-radius: 50%; 
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     font-weight: bold;
+    border-color: #D50032 !important;
+    border-width: 2px !important;
 }
 
 /* Stil für den ausgewählten Segment-Button */
-ion-segment-button.segment-button-checked {
-    color: #ffffff; 
-    background-color: red;
-    background: transparent; 
-    border-radius: 50px;
-    border-width: 6px; 
-    border-color: #D50032; 
+/* funkt nicht!*/
+.SegmentButton.segment-button-checked {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-color: #D50032 !important;
+    border-width: 2px !important;
 }
+
 
 ion-header {
     position: relative;

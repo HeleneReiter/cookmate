@@ -167,13 +167,13 @@ const RecipeCard: React.FC<RecipeProps> = ({
         value={currentSegment}
         onIonChange={handleSegmentChange}
       >
-        <IonSegmentButton value="One">
+        <IonSegmentButton className="SegmentButton" value="One">
           <div className="circle"></div>
         </IonSegmentButton>
-        <IonSegmentButton value="Two">
+        <IonSegmentButton className="SegmentButton" value="Two">
           <div className="circle"></div>
         </IonSegmentButton>
-        <IonSegmentButton value="Three">
+        <IonSegmentButton className="SegmentButton" value="Three">
           <div className="circle"></div>
         </IonSegmentButton>
       </IonSegment>
