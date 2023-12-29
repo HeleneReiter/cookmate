@@ -14,7 +14,7 @@ import {
   IonPage,
   IonToolbar,
 } from "@ionic/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -64,7 +64,14 @@ const BasicTeigRezept1: React.FC = () => {
     if (swiper) {
       swiper.slidePrev();
     }
-  };
+  }
+
+  const [showTimer, setShowTimer] = useState(false);
+
+  const handleSlideChange = () => {
+    const currentSlideIndex = swiper.realIndex; 
+    setShowTimer(currentSlideIndex === 1); 
+  }
 
   return (
     <IonPage>
@@ -83,8 +90,7 @@ const BasicTeigRezept1: React.FC = () => {
           spaceBetween={100}
           slidesPerView={1}
           scrollbar={{ draggable: false }}
-          
-
+          onSlideChange={handleSlideChange}
         >
           {data.map((slide, index) => (
             <SwiperSlide key={`slide_${index}`}>
@@ -97,6 +103,15 @@ const BasicTeigRezept1: React.FC = () => {
           ))}
       
         </Swiper>
+
+        {/* Render timer button only on slide index 1 */}
+        {showTimer && (
+          <IonButton onClick={() => alert('Timer started')}>
+            Start Timer
+          </IonButton>
+
+        )}
+
         
         <IonModal
           trigger="open-modal"
