@@ -42,16 +42,16 @@ const SchneidenRezept1: React.FC = () => {
     label: Rezept.label,
     learning: Rezept.learning,
     kategorie: Rezept.kategorie,
+    bilder: Rezept.bilder,
   };
 
   const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte }, (_, index) => ({
     title: `Schritt ${index + 1}`,
     description: rezept.anleitung[index],
-    image: "/assets/Animation/Knoblaub_schneiden.gif", // später drurch rezept.bilder[index] ersetzen, muss bei Json hinzugefügt werden
+    image: rezept.bilder[index], 
   }));
 
   const [swiper, setSwiper] = useState<any>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const goNext = () => {
     if (swiper) {
@@ -65,9 +65,6 @@ const SchneidenRezept1: React.FC = () => {
     }
   };
 
-  const dismissModal = () => {
-    setIsModalOpen(false);
-  };
 
   return (
     <IonPage>
@@ -99,13 +96,12 @@ const SchneidenRezept1: React.FC = () => {
         </Swiper>
 
         <IonModal
-          isOpen={isModalOpen}
-          onDidDismiss={dismissModal}
-          initialBreakpoint={0.92}
-          breakpoints={[0, 0.25, 0.5, 0.75, 0.92]}
+          trigger="open-modal"
+          isOpen={false}
+          initialBreakpoint={0.95}
+          breakpoints={[0, 0.95]}
         >
           <IonContent className="ion-padding">
-          <IonButton onClick={dismissModal}>Close</IonButton>
             <IonCardContent>
               <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>
@@ -126,11 +122,13 @@ const SchneidenRezept1: React.FC = () => {
               </ol>
             </IonCardContent>
           </IonContent>
-          
         </IonModal>
       </IonContent>
       <IonFooter>
-        <IonButton onClick={() => setIsModalOpen(true)}>Übersicht</IonButton>
+        <IonButton onClick={goPrev}>Prev</IonButton>
+        <IonButton id="open-modal"> Rezept anzeigen
+        </IonButton>
+        <IonButton onClick={goNext}>Next</IonButton>
       </IonFooter>
     </IonPage>
   );

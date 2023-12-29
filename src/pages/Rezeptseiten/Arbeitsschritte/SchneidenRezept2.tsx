@@ -43,12 +43,13 @@ const SchneidenRezept2: React.FC = () => {
     label: Rezept.label,
     learning: Rezept.learning,
     kategorie: Rezept.kategorie,
+    bilder: Rezept.bilder,
   };
 
   const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte }, (_, index) => ({
     title: `Schritt ${index + 1}`,
-    description: rezept.anleitung[index],  // hier fehlen noch 2 Schritte bei der Anleitung!
-    image: "/assets/Animation/Knoblauch_schneiden.gif", // später drurch rezept.bilder[index] ersetzen, muss bei Json hinzugefügt werden 
+    description: rezept.anleitung[index],
+    image: rezept.bilder[index], 
   }));
 
   const [swiper, setSwiper] = useState<any>(null);
@@ -98,8 +99,8 @@ const SchneidenRezept2: React.FC = () => {
         <IonModal
           trigger="open-modal"
           isOpen={false}
-          initialBreakpoint={0.92}
-          breakpoints={[0, 0.25, 0.5, 0.75, 0.92]}
+          initialBreakpoint={0.95}
+          breakpoints={[0, 0.95]}
         >
           <IonContent className="ion-padding">
             <IonCardContent>
