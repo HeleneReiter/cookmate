@@ -16,13 +16,13 @@ src: url('../../../public/assets/fonts/BenguiatGothicStd-Bold.otf') format('open
   
 h1 {
     font-family: 'AnythingSkribble';
-    font-size: 580px;
+    font-size: 50px;
     font-weight: 600;
 }
 
 h2 {
     font-family: 'AnythingSkribble';
-    font-size: 500px;
+    font-size: 50px;
     font-weight: 600;
     color: white;
 }

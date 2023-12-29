@@ -31,7 +31,6 @@ interface SlideData {
 }
 
 const SchneidenRezept1: React.FC = () => {
-
   const rezept = {
     name: Rezept.name,
     portionen: Rezept.portionen,

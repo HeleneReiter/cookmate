@@ -24,7 +24,7 @@ const Rezeptvorschau: React.FC = () => {
   };
 
   const handleCloseClick = () => {
-    window.location.href = "/RecipeCard"; /* Stimmt hier nicht!!*/
+    window.location.href = "/RecipeCard"; 
   };
   
   return (
