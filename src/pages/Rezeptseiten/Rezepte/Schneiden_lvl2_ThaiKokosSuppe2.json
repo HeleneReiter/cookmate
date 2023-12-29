@@ -62,8 +62,20 @@
     }
   ],
   "anleitung": [
-    "Knoblauch und Ingwer schälen und fein hacken. Karotten schälen und in Scheiben schneiden. Pilze putzen und in Scheiben schneiden. Brokkoli in Röschen teilen. Spitzkohl entstrunken und in dünne Streifen schneiden.",
+    "Knoblauch und Ingwer schälen und fein hacken.",
+    "Karotten schälen und in Scheiben schneiden.",
     "Kokosöl in einem großen Topf erhitzen und Knoblauch, Ingwer und Currypaste darin für 1 Minute bei mittlerer Hitze garen. Brokkoli, Karotten und Pilze hinzufügen und kurz braten, dann mit Gemüsebrühe und Kokosmilch ablöschen. Aufkochen, Spitzkohl hinzufügen und köcheln lassen, bis das Gemüse gar aber noch knackig ist.",
+    "Pilze putzen und in Scheiben schneiden.",
+    "Brokkoli in Röschen teilen. Spitzkohl entstrunken und in dünne Streifen schneiden.",
     "Mit Sojasauce und Limettensaft abschmecken. Koriander hacken und mit der Suppe genießen."
+  ],
+
+  "bilder": [
+    "/assets/Animation/Knoblaub_schneiden.gif",
+    "", 
+    "/assets/Animation/Topf_allgemein.gif",
+    "/assets/Animation/Schneiden_LVL2_Pilze_schneiden.gif",
+    "/assets/Animation/Schneiden_LVL2_Brokkoli.png",
+    ""
   ]
 }

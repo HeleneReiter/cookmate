@@ -30,8 +30,13 @@
     }
   ],
   "anleitung": [
-    "Himbeeren mit Wasser, Zitronensaft, Zucker und Vanillezucker in einem Topf geben, Himbeeren einmal aufkochen 
-lassen", 
+  "Himbeeren mit Wasser, Zitronensaft, Zucker und Vanillezucker in einem Topf geben, Himbeeren einmal aufkochen lassen", 
 	"Anschließend die Fruchtmasse durch ein feinmaschiges Sieb in eine kleine Schüssel durchpassieren. Die Sauce im Kühlschrank erkalten lassen."
-  ]
+  ],
+
+  "bilder": [
+    "/assets/Animation/Topf_allgemein.gif",
+    "/assets/Animation/Basis_saucen_sieb.gif"
+    ]
+
 }

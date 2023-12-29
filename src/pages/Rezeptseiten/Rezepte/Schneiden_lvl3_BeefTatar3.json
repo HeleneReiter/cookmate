@@ -70,5 +70,13 @@
     "Zwiebeln schälen und sehr fein hacken. Essiggurken und Kapern ebenfalls fein schneiden.",
     "Fleisch mit Gemüse, Öl, Eigelb, Paprikapulver, Senf und Tomatensauce in einer Schüssel gut verrühren. Mit Salz, Pfeffer, Petersilie und Cognac verfeinern.",
     "Aus der Masse kleine Laibchen formen oder einen Servierring zum Formen verwenden und mit Toastbrot oder Weißbrot und Salat servieren."
+  ],
+
+  "bilder": [
+    "/assets/Animation/Schneiden_LVL3_Fleisch_Schneiden.gif",
+    "", 
+    "/assets/Animation/Schneiden_LVL3_Schüssel_Beef_Tartare.gif",
+    "/assets/Animation/Schneiden_LVL3_Fleisch_Formen.gif"
   ]
+
 }

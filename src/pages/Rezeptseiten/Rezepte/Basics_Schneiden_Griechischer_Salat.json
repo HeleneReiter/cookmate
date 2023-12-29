@@ -63,13 +63,25 @@
   ],
   "anleitung": [
     "Zwiebeln schälen und in Ringe schneiden. Gemüse waschen.", 
-	"Gurke in mundgerechte Stücke schneiden",
-	"Tomaten in mundgerechte Stücke schneiden",
-	"Salat in mundgerechte Stücke schneiden",
-	"Schafskäse in Würfel schneiden.",
-	"Für das Dressing Essig, Zitronensaft, Salz, Pfeffer und Zucker verrühren. Anschließend Öl unterschlagen.",
-	"Gemüse und Schafskäsewürfel in einer Salatschüssel miteinander vermengen.Oliven und Pfefferonen auf den Salat geben.",
-	"Dressing über den Salat träufeln und mit Pfeffer bestreuen.",
-	"Tipp: Dazu schmeckt Fladenbrot, Gyros und Tsatsiki."
+	  "Gurke in mundgerechte Stücke schneiden",
+	  "Tomaten in mundgerechte Stücke schneiden",
+	  "Salat in mundgerechte Stücke schneiden",
+	  "Schafskäse in Würfel schneiden.",
+	  "Für das Dressing Essig, Zitronensaft, Salz, Pfeffer und Zucker verrühren. Anschließend Öl unterschlagen.",
+	  "Gemüse und Schafskäsewürfel in einer Salatschüssel miteinander vermengen.Oliven und Pfefferonen auf den Salat geben.",
+	  "Dressing über den Salat träufeln und mit Pfeffer bestreuen.",
+	  "Tipp: Dazu schmeckt Fladenbrot, Gyros und Tsatsiki."
+  ],
+
+  "bilder": [
+    "/assets/Animation/Knoblauch_schneiden.gif",
+    "/assets/Animation/Basics_Gurke_Schneiden.gif",
+    "/assets/Animation/Basics_Tomate_Schneiden.gif",
+    "/assets/Animation/Basics_Salat_Schneiden.gif",
+    "/assets/Animation/Basics_Schafskäse_Schneiden.gif",
+    "/assets/Animation/Basics_Schüssel_Salat.gif",
+    "/assets/Animation/Basics_Schüssel_Salat.gif",
+    "/assets/Animation/Basics_Schüssel_Salat_Dressing.gif",
+    ""
   ]
 }
