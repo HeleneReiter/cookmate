@@ -13,20 +13,20 @@ import {
   IonLabel,
   IonButton
 } from '@ionic/react';
-import Apfelstrudel from './Rezepte/Apfelstrudel.json'; //zu grischischer salat ändern
+import GriechischerSalat from './Rezepte/Basics_Schneiden_Griechischer_Salat.json'; //zu grischischer salat ändern
 
 const BasicRezept_Schneiden: React.FC = () => {
   const rezept = {
-    name: Apfelstrudel.name,
-    portionen: Apfelstrudel.portionen,
-    arbeitszeit: Apfelstrudel.arbeitszeit,
-    arbeitsschritte: Apfelstrudel.arbeitsschritte,
-    schwierigkeit: Apfelstrudel.schwierigkeit,
-    zutaten: Apfelstrudel.zutaten,
-    anleitung: Apfelstrudel.anleitung,
-    label: Apfelstrudel.label,
-    learning: Apfelstrudel.learning,
-    kategorie: Apfelstrudel.kategorie,
+    name: GriechischerSalat.name,
+    portionen: GriechischerSalat.portionen,
+    arbeitszeit: GriechischerSalat.arbeitszeit,
+    arbeitsschritte: GriechischerSalat.arbeitsschritte,
+    schwierigkeit: GriechischerSalat.schwierigkeit,
+    zutaten: GriechischerSalat.zutaten,
+    anleitung: GriechischerSalat.anleitung,
+    label: GriechischerSalat.label,
+    learning: GriechischerSalat.learning,
+    kategorie: GriechischerSalat.kategorie,
   };
 
   const [showMoreText, setShowMoreText] = useState(false);
@@ -36,20 +36,27 @@ const BasicRezept_Schneiden: React.FC = () => {
     setShowMoreText(!showMoreText);
   };
 
+  const handleCloseClick = () => {
+    window.location.href = "/basics/Schneiden";
+  };
+
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton defaultHref="/basics/Schneiden" />
-          </IonButtons>
-          <h1>Rezeptvorschau</h1>
-        </IonToolbar>
-      </IonHeader>
+    <IonPage
+      style={{
+      backgroundImage: `url("/assets/Bildrecherche/schneiden_lvl1_griechischersalat.JPG")`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}
+    >
       <IonContent>
         <IonCard>
-        
           <IonCardContent>
+            <img
+            onClick={handleCloseClick}
+            className="close"
+            alt="schließen"
+            src="/assets/Elemente/close_white.png" style={{ position: 'absolute', right: '20px'}}
+            />
             <h2>{rezept.name}</h2>
             <h3>Zutaten:</h3>
             <IonList>

@@ -5,7 +5,7 @@ import "./CSS/Start.css";
 
 const Start: React.FC = () => {
   const handleStartClick = () => {
-    window.location.href = "/loading";
+    window.location.href = "/Loading.tsx";
   };
 
   return (
