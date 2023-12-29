@@ -18,7 +18,7 @@ import "../CSS/Rezeptvorschau.css";
 
 import Rezept from './Rezepte/Schneiden_lvl3_BeefTatar3.json';
 
-const Rezept2_One: React.FC = () => {
+const Rezept3_One: React.FC = () => {
   const rezept = {
     name: Rezept.name,
     portionen: Rezept.portionen,
@@ -84,4 +84,4 @@ const Rezept2_One: React.FC = () => {
   );
 };
 
-export default Rezept2_One;
+export default Rezept3_One;

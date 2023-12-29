@@ -56,10 +56,12 @@ import SchneidenRezept3 from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenReze
 
 import MarinierenLevel1 from "./pages/Levels/MarinierenLevel1";
 import MarinierenRezept1 from "./pages/Rezeptseiten/Arbeitsschritte/MarinierenRezept1";
+
 import Rezept1_One from "./pages/Rezeptseiten/Rezept1_One";
 import Rezept2_One from "./pages/Rezeptseiten/Rezept2_One";
 import Rezept3_One from "./pages/Rezeptseiten/Rezept3_One";
 import Rezept4_One from "./pages/Rezeptseiten/Rezept4_One";
+
 import Start from "./pages/Start";
 import Loading from "./pages/Loading";
 
@@ -74,7 +76,7 @@ const App: React.FC = () => (
         <IonRouterOutlet id="main">
           <Route path="/start" component={Start} exact />
           <Route path="/loading" component={Loading} exact />
-          <Redirect from="/loading" to="/home" exact />
+
           <Route path="/home" component={Home} exact />
       
 

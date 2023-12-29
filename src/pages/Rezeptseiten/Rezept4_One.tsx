@@ -15,7 +15,7 @@ import {
 } from '@ionic/react';
 import Rezept from './Rezepte/saucen_lvl1_Schokosoße1.json';
 
-const Rezept2_One: React.FC = () => {
+const Rezept4_One: React.FC = () => {
   const rezept = {
     name: Rezept.name,
     portionen: Rezept.portionen,
@@ -81,4 +81,4 @@ const Rezept2_One: React.FC = () => {
   );
 };
 
-export default Rezept2_One;
+export default Rezept4_One;

@@ -14,7 +14,7 @@ import {
 } from '@ionic/react';
 
 import '../eigeneKomponenten/Rezeptvorschau'
-import '../CSS/Rezeptvorschau.css';
+
 
 const Rezeptvorschau: React.FC = () => {
   // Simulierte Rezeptdaten (ersetze diese mit echten Daten)
@@ -24,7 +24,7 @@ const Rezeptvorschau: React.FC = () => {
   };
 
   const handleCloseClick = () => {
-    window.location.href = "/RecipeCard.tsx"; /* Stimmt hier nicht!!*/
+    window.location.href = "/RecipeCard"; /* Stimmt hier nicht!!*/
   };
   
   return (
