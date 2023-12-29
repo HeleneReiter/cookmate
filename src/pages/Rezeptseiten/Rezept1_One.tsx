@@ -13,6 +13,10 @@ import {
   IonLabel,
   IonButton
 } from '@ionic/react';
+
+import '../CSS/Rezeptvorschau.css';
+import '../eigeneKomponenten/Rezeptvorschau'
+
 import Rezept from './Rezepte/Schneiden_lvl1_GebrateneNudeln1.json';
 
 const Rezept1_One: React.FC = () => {
@@ -36,20 +40,21 @@ const Rezept1_One: React.FC = () => {
     setShowMoreText(!showMoreText);
   };
 
+  const handleCloseClick = () => {
+    window.location.href = "/schneiden/level1";
+  };
+
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton defaultHref="/schneiden/level1" />
-          </IonButtons>
-          <h1>Rezeptvorschau</h1>
-        </IonToolbar>
-      </IonHeader>
       <IonContent>
         <IonCard>
-        
           <IonCardContent>
+            <img
+                onClick={handleCloseClick}
+                className="close"
+                alt="schließen"
+                src="/assets/Elemente/close_white.png"
+              />
             <h2>{rezept.name}</h2>
             <h3>Zutaten:</h3>
             <IonList>
@@ -72,10 +77,9 @@ const Rezept1_One: React.FC = () => {
               </div>
             ) : null}
             <p onClick={toggleShowMore}>{buttonLabel}</p>
-            <IonButton routerLink='/SchneidenRezept1'> Jetzt Kochen! </IonButton>
-            
           </IonCardContent>
         </IonCard>
+        <IonButton routerLink='/SchneidenRezept1'> Jetzt Kochen! </IonButton>
       </IonContent>
 
       

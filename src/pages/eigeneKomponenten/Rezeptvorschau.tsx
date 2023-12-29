@@ -13,6 +13,9 @@ import {
   IonLabel
 } from '@ionic/react';
 
+import '../eigeneKomponenten/Rezeptvorschau'
+import '../CSS/Rezeptvorschau.css';
+
 const Rezeptvorschau: React.FC = () => {
   // Simulierte Rezeptdaten (ersetze diese mit echten Daten)
   const rezept = {
@@ -20,19 +23,21 @@ const Rezeptvorschau: React.FC = () => {
     zutaten: ['Huhn', 'Paprika', 'Zucchini', 'Zwiebeln', 'Gewürze']
   };
 
+  const handleCloseClick = () => {
+    window.location.href = "/RecipeCard.tsx"; /* Stimmt hier nicht!!*/
+  };
+  
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton defaultHref="/schneiden" />
-          </IonButtons>
-          <h1>Rezeptvorschau</h1>
-        </IonToolbar>
-      </IonHeader>
       <IonContent>
         <IonCard>
           <IonCardContent>
+            <img
+            onClick={handleCloseClick}
+            className="close"
+            alt="schließen"
+            src="/assets/Elemente/close_white.png" style={{ position: 'absolute', right: '20px'}}
+            />
             <h2>{rezept.name}</h2>
             <h3>Zutaten:</h3>
             <IonList>

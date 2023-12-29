@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family: 'AnythingSkribble';
+    src: url('../../../public/assets/fonts/Anything-Skribble.ttf') format('truetype');
+  }
+  
+@font-face {
+font-family: 'IndieFlower';
+src: url('../../../public/assets/fonts/IndieFlower-Regular.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'BenguiatGothicStd-Bold';
+src: url('../../../public/assets/fonts/BenguiatGothicStd-Bold.otf') format('opentype');
+}
+  
+h1 {
+    font-family: 'AnythingSkribble';
+    font-size: 580px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'AnythingSkribble';
+    font-size: 500px;
+    font-weight: 600;
+    color: white;
+}
+
+h3 {
+    font-family: 'BenguiatGothicStd-Bold';
+    font-size: 60px; 
+    font-weight: 600;
+}
+
+.close{
+    align-items: right;
+}
+
+
+.box {
+    margin-bottom: 30px;
+    background-color: #040C0F;
+}
+
+.custom-ion-card {
+    background-color: #040C0F;
+    /*border-image: linear-gradient(to bottom, #F3DFA2, #7EBDC2) 1;*/
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 30px; /* Abgerundete Ecken */
+    border-color: #F3DFA2;
+    width: 85%;
+    max-height: auto;
+    position: relative;
+    transform: translateY(30%);
+    align-self: center;
+}
+
+.custom-ion-card p {
+    font-family: 'AnythingSkribble';
+    font-size: 60px;
+    font-weight: 200;
+    color: white;
+    line-height: 0.8;
+    padding: 20px;
+    height: auto;
+}
+
+.zumRezept {
+    color: white;
+    font-family: 'BenguiatGothicStd-Bold';
+}
+
+.labelMeat {
+    background-color: #D50032;
+    font-weight: 600;
+    /*position: relative; auf absolut umändern*/
+    /*transform: translateY(-20%);*/
+    font-family: 'BenguiatGothicStd-Bold';
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.labelVeggie {
+    background-color: #F3DFA2;
+    color: white;
+    font-weight: 800;
+    color: black;
+    font-family: 'BenguiatGothicStd-Bold';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.labelVegan {
+    background-color: #7EBDC2;
+    color: white;
+    font-weight: 800;
+    font-family: 'BenguiatGothicStd-Bold';
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+}
+.logo {
+    width: 30%;
+    height: auto;
+    margin: -60px 0px 0 30px;
+}
+
+.labelCategory {
+    background-color: #F3DFA2;
+    color: black;
+    font-weight: 800;
+    font-family: 'BenguiatGothicStd-Bold';
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.info {
+    padding: 0px 20px 20px 20px;
+
+}

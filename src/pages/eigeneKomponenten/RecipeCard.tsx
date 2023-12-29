@@ -14,6 +14,9 @@ import {
   IonBackButton,
 } from "@ionic/react";
 
+
+import '../CSS/Rezeptvorschau.css';
+
 interface RecipeProps {
   id: string;
   titleOne: string;
@@ -62,7 +65,7 @@ const RecipeCard: React.FC<RecipeProps> = ({
     setCurrentSegment(newSegmentValue);
   };
 
-  const renderImage = () => {
+  const renderImage = () => {     {/*Refresh Browser wenn bild nicht cover ist!!*/}
     switch (currentSegment) {
       case "One":
         return imgOne;
@@ -75,19 +78,24 @@ const RecipeCard: React.FC<RecipeProps> = ({
     }
   };
 
+  const handleCloseClick = () => {
+    window.location.href = "/home"; 
+  };
+
   const renderCardContent = () => {
     switch (currentSegment) {
       case "One":
+        
         return (
           <>
-            <h2>{titleOne}</h2>
             <p>{descriptionOne}</p>
-            <IonChip>
-              <IonLabel color="danger">Fleisch</IonLabel>
+            <div className="info"><h2>Schneiden | {titleOne}</h2></div> {/*besser korrigieren*/}
+            <IonChip className="labelMeat">
+              <IonLabel>Fleisch</IonLabel>
             </IonChip>
             <IonChip>
-              <IonLabel color={recipeCategoryColorOne}>
-                {recipeCategoryLabelOne}
+              <IonLabel className="labelCategory" color={recipeCategoryColorOne}>
+                {recipeCategoryLabelOne.toUpperCase()}
               </IonLabel>
             </IonChip>
           </>
@@ -95,14 +103,14 @@ const RecipeCard: React.FC<RecipeProps> = ({
       case "Two":
         return (
           <>
-            <h2>{titleTwo}</h2>
             <p>{descriptionTwo}</p>
-            <IonChip>
-              <IonLabel color="success">Vegetarisch</IonLabel>
+            <div className="info"><h2>Schneiden | {titleTwo}</h2></div> {/*besser korrigieren*/}
+            <IonChip className="labelVeggie">
+              <IonLabel>Vegetarisch</IonLabel>
             </IonChip>
             <IonChip>
-              <IonLabel color={recipeCategoryColorTwo}>
-                {recipeCategoryLabelTwo}
+              <IonLabel className="labelCategory" color={recipeCategoryColorTwo}>
+                {recipeCategoryLabelTwo.toUpperCase()}
               </IonLabel>
             </IonChip>
           </>
@@ -110,14 +118,14 @@ const RecipeCard: React.FC<RecipeProps> = ({
       case "Three":
         return (
           <>
-            <h2>{titleThree}</h2>
             <p>{descriptionThree}</p>
-            <IonChip>
-              <IonLabel color="primary">Vegan</IonLabel>
+            <div className="info"><h2>Schneiden | {titleThree}</h2></div> {/*besser korrigieren*/}
+            <IonChip className="labelVegan">
+              <IonLabel>Vegan</IonLabel>
             </IonChip>
             <IonChip>
-              <IonLabel color={recipeCategoryColorThree}>
-                {recipeCategoryLabelThree}
+              <IonLabel className="labelCategory" color={recipeCategoryColorThree} >
+                {recipeCategoryLabelThree.toUpperCase()}
               </IonLabel>
             </IonChip>
           </>
@@ -129,12 +137,20 @@ const RecipeCard: React.FC<RecipeProps> = ({
 
   return (
     <IonPage
-      style={{
-        backgroundImage: `url(${renderImage()})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+        style={{
+          background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(${renderImage()})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
+      >
+      <img className="logo" src="/assets/Elemente/Logo.png" alt="Logo" />
+      <img
+        onClick={handleCloseClick}
+        className="close"
+        alt="schließen"
+        src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '105px'}}
+      />
+
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
@@ -152,19 +168,19 @@ const RecipeCard: React.FC<RecipeProps> = ({
         </IonToolbar>
       </IonHeader>
 
-      <IonCard>
+      <IonCard className="custom-ion-card">
         <IonCardContent>
           {renderCardContent()}
-          <div style={{ marginBottom: "16px" }}></div>
-
-          <IonButton
-            routerLink={`/rezept${id}${currentSegment}`}
-            fill="outline"
-          >
-            Zum Rezept
-          </IonButton>
+          <div className="box" ></div>
         </IonCardContent>
       </IonCard>
+      <IonButton
+            routerLink={`/rezept${id}${currentSegment}`}
+            fill="clear"
+            className="zumRezept"
+          >
+            <p>Zum Rezept</p>
+          </IonButton>
     </IonPage>
   );
 };
