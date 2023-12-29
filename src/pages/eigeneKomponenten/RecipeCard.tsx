@@ -14,7 +14,6 @@ import {
   IonBackButton,
 } from "@ionic/react";
 
-
 import '../CSS/Rezeptvorschau.css';
 
 interface RecipeProps {
@@ -152,8 +151,6 @@ const RecipeCard: React.FC<RecipeProps> = ({
         src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '105px'}}
       />
 
-
-
       <IonCard className="custom-ion-card">
         <IonCardContent>
           {renderCardContent()}
@@ -179,12 +176,12 @@ const RecipeCard: React.FC<RecipeProps> = ({
       </IonSegment>
 
       <IonButton
-            routerLink={`/rezept${id}${currentSegment}`}
-            fill="clear"
-            className="zumRezept"
-          >
-            <p>Zum Rezept</p>
-          </IonButton>
+        routerLink={`/rezept${id}${currentSegment}`}
+        fill="clear"
+        className="zumRezept"
+      >
+        <p>Zum Rezept</p>
+      </IonButton> 
     </IonPage>
   );
 };

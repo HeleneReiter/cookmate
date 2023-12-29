@@ -81,8 +81,6 @@ const Rezept1_One: React.FC = () => {
         </IonCard>
         <IonButton routerLink='/SchneidenRezept1'> Jetzt Kochen! </IonButton>
       </IonContent>
-
-      
     </IonPage>
   );
 };
