@@ -44,5 +44,14 @@
 	"Etwas Teig (am besten mit einem Schöpfer) mittig in die heiße Pfanne hineingegeben. Die Pfanne dabei immer wieder schwenken, sodass der Boden gleichmäßig dünn mit Teig bedeckt ist.",
 	"Mit dem Pfannenwender die Palatschinke mehrmals wenden und von beiden Seiten goldgelb ausbacken.",
 	"Tipp: Mit beliebigen Zutaten (Marmelade, Nutella, Schinken & Käse etc.) die Palatschinken bestreichen bzw. belegen und zusammenrollen."
+  ],
+
+  "bilder": [
+    "/assets/Animation/Basics_Teig_SchüsselSchneebesen.gif",
+    "/assets/Animation/Basics_Teig_Schüsseltimer.gif",
+    "/assets/Animation/Basics_Teig_Pfanne.png",
+    "/assets/Animation/Basics_Teig_Schöpfer.gif",
+    "/assets/Animation/Basics_Teig_Pfannenwender.png",
+    "/assets/Animation/Basics_Teig_Nutella.png"
   ]
 }

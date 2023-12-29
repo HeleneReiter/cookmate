@@ -32,5 +32,11 @@
   "anleitung": [
     "Die Schokolade reiben oder in kleine Stücke brechen und in eine Schüssel geben.",
     "Dann mit den restlichen Zutaten vermischen und unter ständigem Rühren im Wasserbad schmelzen lassen."
+  ],
+
+  "bilder": [
+    "/assets/Animation/Saucen_lvl1_schoko.gif",
+    "/assets/Animation/Saucen_lvl1_wasserbad.png"
   ]
+   
 }
