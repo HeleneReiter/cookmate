@@ -65,6 +65,7 @@ const RecipeCard: React.FC<RecipeProps> = ({
     setCurrentSegment(newSegmentValue);
   };
 
+
   const renderImage = () => {     {/*Refresh Browser wenn bild nicht cover ist!!*/}
     switch (currentSegment) {
       case "One":
@@ -151,22 +152,7 @@ const RecipeCard: React.FC<RecipeProps> = ({
         src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '105px'}}
       />
 
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton defaultHref="/home" />
-          </IonButtons>
-          <IonSegment
-            swipe-gesture={true}
-            value={currentSegment}
-            onIonChange={handleSegmentChange}
-          >
-            <IonSegmentButton value="One">One</IonSegmentButton>
-            <IonSegmentButton value="Two">Two</IonSegmentButton>
-            <IonSegmentButton value="Three">Three</IonSegmentButton>
-          </IonSegment>
-        </IonToolbar>
-      </IonHeader>
+
 
       <IonCard className="custom-ion-card">
         <IonCardContent>
@@ -174,6 +160,24 @@ const RecipeCard: React.FC<RecipeProps> = ({
           <div className="box" ></div>
         </IonCardContent>
       </IonCard>
+
+  
+      <IonSegment
+        swipe-gesture={true}
+        value={currentSegment}
+        onIonChange={handleSegmentChange}
+      >
+        <IonSegmentButton value="One">
+          <div className="circle"></div>
+        </IonSegmentButton>
+        <IonSegmentButton value="Two">
+          <div className="circle"></div>
+        </IonSegmentButton>
+        <IonSegmentButton value="Three">
+          <div className="circle"></div>
+        </IonSegmentButton>
+      </IonSegment>
+
       <IonButton
             routerLink={`/rezept${id}${currentSegment}`}
             fill="clear"
