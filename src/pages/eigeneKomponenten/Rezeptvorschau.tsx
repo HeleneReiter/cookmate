@@ -13,6 +13,7 @@ import {
   IonLabel
 } from '@ionic/react';
 
+import '../CSS/Rezeptvorschau.css';
 import '../eigeneKomponenten/Rezeptvorschau'
 
 
@@ -29,27 +30,25 @@ const Rezeptvorschau: React.FC = () => {
   
   return (
     <IonPage>
-      <IonContent>
-        <IonCard>
-          <IonCardContent>
-            <img
-            onClick={handleCloseClick}
-            className="close"
-            alt="schließen"
-            src="/assets/Elemente/close_white.png" style={{ position: 'absolute', right: '20px'}}
-            />
-            <h2>{rezept.name}</h2>
-            <h3>Zutaten:</h3>
-            <IonList>
-              {rezept.zutaten.map((zutat, index) => (
-                <IonItem key={index}>
-                  <IonLabel>{zutat}</IonLabel>
-                </IonItem>
-              ))}
-            </IonList>
-          </IonCardContent>
-        </IonCard>
-      </IonContent>
+      <IonCard className="custom-ion-card-rezeptvorschau">
+        <IonCardContent>
+          <img
+          onClick={handleCloseClick}
+          className="close"
+          alt="schließen"
+          src="/assets/Elemente/close_white.png" 
+          />
+          <h2>{rezept.name}</h2>
+          <h3>Zutaten:</h3>
+          <IonList>
+            {rezept.zutaten.map((zutat, index) => (
+              <IonItem key={index}>
+                <IonLabel>{zutat}</IonLabel>
+              </IonItem>
+            ))}
+          </IonList>
+        </IonCardContent>
+      </IonCard>
     </IonPage>
   );
 };

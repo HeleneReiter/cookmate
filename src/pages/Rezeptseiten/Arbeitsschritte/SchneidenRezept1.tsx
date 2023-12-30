@@ -22,6 +22,8 @@ import '@ionic/react/css/ionic-swiper.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+
+import '../../CSS/Arbeitsschritte.css';
 import Rezept from '../Rezepte/Schneiden_lvl1_GebrateneNudeln1.json';
 
 interface SlideData {
@@ -46,9 +48,9 @@ const SchneidenRezept1: React.FC = () => {
   };
 
   const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte }, (_, index) => ({
-    title: `Schritt ${index + 1}`,
-    description: rezept.anleitung[index],
+    title: `Schritt ${index + 1} von ${rezept.arbeitsschritte}`,
     image: rezept.bilder[index], 
+    description: rezept.anleitung[index],
   }));
 
   const [swiper, setSwiper] = useState<any>(null);
@@ -65,44 +67,48 @@ const SchneidenRezept1: React.FC = () => {
     }
   };
 
+  const handleCloseClick = () => {
+    window.location.href = "/schneiden/level1";  /*funktioniert nicht*/
+  };
 
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton defaultHref="/schneiden/level1" />
-          </IonButtons>
-          <h1>Arbeitsschritte</h1>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent scrollX>
-
-        <Swiper
+    <IonPage className="custom-page-background">
+      <IonContent scrollX >
+        <img
+          onClick={handleCloseClick}
+          className="close_dark"
+          alt="schließen"
+          src="/assets/Elemente/close_white.png" style={{ position: 'absolute', right: '40px', top: '60px'}}
+        />
+        <Swiper 
           onSwiper={setSwiper}
           spaceBetween={100}
           slidesPerView={1}
           scrollbar={{ draggable: false }}
         >
           {data.map((slide, index) => (
-            <SwiperSlide key={`slide_${index}`}>
-              <IonCard>
-                <h2 className="" >{slide.title}</h2>
-                <p>{slide.description}</p>
+            <SwiperSlide key={`slide_${index}`} >
+              <IonCard className="card">
                 <img src={slide.image} />
+                <div className="navigation-row">
+                  <IonButton className="navigationbuttons" onClick={goPrev}>&lt;</IonButton>
+                  <h2 className="step">{slide.title.toUpperCase()}</h2>
+                  <IonButton className="navigationbuttons" onClick={goNext}>&gt;</IonButton>
+                </div>
+                <p>{slide.description}</p>
               </IonCard>
             </SwiperSlide>
           ))}
         </Swiper>
 
-        <IonModal
+        <IonModal 
           trigger="open-modal"
           isOpen={false}
           initialBreakpoint={0.95}
           breakpoints={[0, 0.95]}
         >
-          <IonContent className="ion-padding">
-            <IonCardContent>
+          <IonContent className="ion-padding" >
+            <IonCardContent >
               <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>
               <IonList>
@@ -124,12 +130,13 @@ const SchneidenRezept1: React.FC = () => {
           </IonContent>
         </IonModal>
       </IonContent>
-      <IonFooter>
-        <IonButton onClick={goPrev}>Prev</IonButton>
-        <IonButton id="open-modal"> Rezept anzeigen
-        </IonButton>
-        <IonButton onClick={goNext}>Next</IonButton>
-      </IonFooter>
+      <div className="button-with-arrow">
+      <img className="arrow-icon" src="/assets/Elemente/PfeilNachOben.png" alt="Pfeil nach oben" />
+      <IonButton id="open-modal">
+        Übersicht
+      </IonButton>
+    </div>
+
     </IonPage>
   );
 };

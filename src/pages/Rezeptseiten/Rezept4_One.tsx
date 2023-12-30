@@ -13,6 +13,8 @@ import {
   IonLabel,
   IonButton
 } from '@ionic/react';
+
+import '../CSS/Rezeptvorschau.css';
 import Rezept from './Rezepte/saucen_lvl1_Schokosoße1.json';
 
 const Rezept4_One: React.FC = () => {

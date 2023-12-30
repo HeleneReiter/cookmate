@@ -14,8 +14,7 @@ import {
   IonButton
 } from '@ionic/react';
 
-import "../CSS/Rezeptvorschau.css";
-
+import '../CSS/Rezeptvorschau.css';
 import Rezept from './Rezepte/Schneiden_lvl3_BeefTatar3.json';
 
 const Rezept3_One: React.FC = () => {

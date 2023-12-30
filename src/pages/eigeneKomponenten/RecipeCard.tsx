@@ -14,7 +14,7 @@ import {
   IonBackButton,
 } from "@ionic/react";
 
-import '../CSS/Rezeptvorschau.css';
+import '../CSS/RecipeCard.css';
 
 interface RecipeProps {
   id: string;
@@ -146,9 +146,9 @@ const RecipeCard: React.FC<RecipeProps> = ({
       <img className="logo" src="/assets/Elemente/Logo.png" alt="Logo" />
       <img
         onClick={handleCloseClick}
-        className="close"
+        className="close_dark"
         alt="schließen"
-        src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '105px'}}
+        src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px'}}
       />
 
       <IonCard className="custom-ion-card">
