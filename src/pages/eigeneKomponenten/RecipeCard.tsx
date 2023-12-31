@@ -64,7 +64,6 @@ const RecipeCard: React.FC<RecipeProps> = ({
     setCurrentSegment(newSegmentValue);
   };
 
-
   const renderImage = () => {     {/*Refresh Browser wenn bild nicht cover ist!!*/}
     switch (currentSegment) {
       case "One":
@@ -180,7 +179,7 @@ const RecipeCard: React.FC<RecipeProps> = ({
         fill="clear"
         className="zumRezept"
       >
-        <p>Zum Rezept</p>
+        <p>Zum Rezept &gt;</p>
       </IonButton> 
     </IonPage>
   );

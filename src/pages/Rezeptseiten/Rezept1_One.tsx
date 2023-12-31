@@ -34,7 +34,8 @@ const Rezept1_One: React.FC = () => {
   };
 
   const [showMoreText, setShowMoreText] = useState(false);
-  const buttonLabel = showMoreText ? 'Weniger anzeigen' : 'Mehr anzeigen';
+  
+  const buttonLabel = showMoreText ? 'Weniger anzeigen' : 'mehr anzeigen';
 
   const toggleShowMore = () => {
     setShowMoreText(!showMoreText);
@@ -47,7 +48,7 @@ const Rezept1_One: React.FC = () => {
   return (
     <IonPage>
       <IonContent>
-        <IonCard>
+        <IonCard className='custom-ion-card-rezeptvorschau'>
           <IonCardContent>
             <img
                 onClick={handleCloseClick}
@@ -55,20 +56,20 @@ const Rezept1_One: React.FC = () => {
                 alt="schließen"
                 src="/assets/Elemente/close_white.png"
               />
-            <h2>{rezept.name}</h2>
-            <h3>Zutaten:</h3>
+            <h2 style={{ fontSize: '50px', lineHeight: '0.8'}}>{rezept.name}</h2> {/*geht nd mit .css*/}
+            <h3 style={{ fontSize: '20px', lineHeight: '3', color:'white'}}>Zutaten</h3> {/*geht nd mit .css*/}
             <IonList>
               {rezept.zutaten.map((zutat, index) => (
                 <IonItem key={index}>
-                  <IonLabel>
-                    {zutat.menge} {zutat.name}
+                  <IonLabel className='listItem' style={{ fontFamily: 'BenguiatGothicStd-Book' }}> {/*geht nd mit .css*/}
+                    –  {zutat.menge} {zutat.name}
                   </IonLabel>
                 </IonItem>
               ))}
             </IonList>
             {showMoreText ? (
               <div>
-                <h3>Anleitung:</h3>
+                <h3 style={{ fontSize: '20px', lineHeight: '3', color:'white', marginTop:'20px', marginBottom: '-20px'}}>Anleitung:</h3>
                 <ol>
                   {rezept.anleitung.map((schritt, index) => (
                     <li key={index}>{schritt}</li>
@@ -79,7 +80,7 @@ const Rezept1_One: React.FC = () => {
             <p onClick={toggleShowMore}>{buttonLabel}</p>
           </IonCardContent>
         </IonCard>
-        <IonButton routerLink='/SchneidenRezept1'> Jetzt Kochen! </IonButton>
+        <IonButton routerLink='/SchneidenRezept1' className='buttonJetztKochen'> Jetzt Kochen! </IonButton>
       </IonContent>
     </IonPage>
   );

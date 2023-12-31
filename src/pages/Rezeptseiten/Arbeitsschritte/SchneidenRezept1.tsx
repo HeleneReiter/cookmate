@@ -131,11 +131,11 @@ const SchneidenRezept1: React.FC = () => {
         </IonModal>
       </IonContent>
       <div className="button-with-arrow">
-      <img className="arrow-icon" src="/assets/Elemente/PfeilNachOben.png" alt="Pfeil nach oben" />
-      <IonButton id="open-modal">
-        Übersicht
-      </IonButton>
-    </div>
+        <img className="arrow-icon" src="/assets/Elemente/PfeilNachOben.png" alt="Pfeil nach oben" />
+        <IonButton id="open-modal" style={{border: 'none'}}>
+          Übersicht
+        </IonButton>
+      </div>
 
     </IonPage>
   );

@@ -16,20 +16,12 @@
 .card {
     background-color: transparent;
     padding-top: 80px;
+    height: 900px;
 }
-
 
 .custom-page-background {
     --ion-background-color: linear-gradient(to bottom, rgba(4,12,15,1), rgb(7, 21, 27, 1)); 
 }
-
-
-ion-button {
-    --background: transparent; 
-    color: white;
-    --background-activated: transparent; 
-  }
-
 
   
 .navigation-row {
@@ -40,13 +32,20 @@ ion-button {
 }
 
 .navigationbuttons {
-    margin: 0 10px; 
-    background-color: transparent;
-    font-size: 20px;
-    font-weight: 900;
+    --background: transparent; 
+    --background-hover: transparent;
+    --background-activated: transparent;
+    --background-focused: transparent;
     color: #7EBDC2;
     font-family: 'BenguiatGothicStd-Bold';
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    --border-color: transparent;
+    --box-shadow: none;
+    /* Weitere Stile */
 }
+
 
 .step {
     font-family: 'BenguiatGothicStd-Bold';
@@ -63,25 +62,29 @@ ion-button {
     justify-content: center;
     text-align: center;
     background-color: #07151B;
-  }
+    border: none;
+}
   
-  #open-modal {
-    --background: transparent; /* Macht den Button-Hintergrund transparent */
-    --border: none; /* Entfernt die Border */
-    --box-shadow: none; /* Entfernt Schatten */
+#open-modal {
+    --background: transparent; 
+    --border: none; 
+    --box-shadow: none; 
     color: white;
     font-family: 'IndieFlower', cursive;
-    font-size: 1.5em; /* Stellt die Schriftgröße ein */
-    border-radius: 0; /* Entfernt abgerundete Ecken */
-    padding: 10px 20px; /* Fügt Innenabstand hinzu */
-  }
+    font-size: 1.5em; 
+    border-radius: 0; 
+    padding: 10px 20px; 
+    border: none;
+
+}
   
-  .arrow-icon {
-    width: 20px; /* Breite des Pfeilbildes anpassen */
-    height: auto; /* Höhe automatisch anpassen */
-    margin-bottom: -30px; /* Abstand zwischen Pfeil und Button */
-  }
-  
+.arrow-icon {
+    width: 20px;
+    height: auto; 
+    margin-bottom: -30px;
+    border: none;
+}
+
 p {
     font-family: 'BenguiatGothicStd-Book';
     font-size: 16px;

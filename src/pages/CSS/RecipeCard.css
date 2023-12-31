@@ -5,13 +5,13 @@
   }
   
 @font-face {
-font-family: 'IndieFlower';
-src: url('../../../public/assets/fonts/IndieFlower-Regular.ttf') format('truetype');
+    font-family: 'IndieFlower';
+    src: url('../../../public/assets/fonts/IndieFlower-Regular.ttf') format('truetype');
 }
 
 @font-face {
-font-family: 'BenguiatGothicStd-Bold';
-src: url('../../../public/assets/fonts/BenguiatGothicStd-Bold.otf') format('opentype');
+    font-family: 'BenguiatGothicStd-Bold';
+    src: url('../../../public/assets/fonts/BenguiatGothicStd-Bold.otf') format('opentype');
 }
   
 h1 {
@@ -68,10 +68,11 @@ h3 {
     height: auto;
 }
 
-.zumRezept {
+.zumRezept p{
     color: white;
-    font-family: 'BenguiatGothicStd-Bold';
+    font-family: 'IndieFlower';
     font-size: 25px;
+    margin-bottom: -2px;
 }
 
 .labelMeat {

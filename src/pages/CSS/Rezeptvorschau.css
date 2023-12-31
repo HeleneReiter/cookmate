@@ -1,17 +1,68 @@
+@font-face {
+    font-family: 'BenguiatGothicStd-Bold';
+    src: url('../../../public/assets/fonts/BenguiatGothicStd-Bold.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'BenguiatGothicStd-Book';
+    src: url('../../../public/assets/fonts/BenguiatGothicStd-Book.otf') format('opentype');
+}
+
 .close {
     position: relative;
     float: right;
+    transform: translateY(120%);
 }
 
 .custom-ion-card-rezeptvorschau {
-    background-color: pink;
-    border-width: 1.5px;
-    border-style: solid;
-    border-radius: 30px;
-    border-color: #F3DFA2;
-    width: 85%;
-    max-height: auto;
-    position: relative;
-    transform: translateY(20%);
-    align-self: center;
+    width: 90%;
+    margin: 0 auto; /* Fügt automatisch margin links und rechts hinzu */
+    margin-top: 40px;
+    background-color: #040C0F;
 }
+
+.listItem {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'BenguiatGothicStd-Book';
+    color: white;
+    border: transparent;
+}
+
+ion-item{
+    --background:  #040C0F;
+    color: white;
+    --background-activated: #040C0F;
+}
+
+
+.buttonJetztKochen {
+    --background: transparent;
+    color: #F3DFA2;
+    --background-activated: transparent;
+    font-family: 'BenguiatGothicStd-Bold';
+    text-transform: uppercase;
+
+    --border-color: #F3DFA2;
+    --border-style: solid;
+    --border-width: 1px;
+    position: relative;
+    transform: center;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    margin-bottom: 12%;
+    transform: translate(-50%, -50%);
+}
+
+li {
+    font-family: 'BenguiatGothicStd-Book';
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border: transparent;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+

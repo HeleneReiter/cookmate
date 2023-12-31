@@ -13,6 +13,8 @@ import {
   IonToolbar,
 } from "@ionic/react";
 
+import '../../CSS/RecipeCard.css'; /*??*/
+
 const BasicSchneiden: React.FC = () => {
   return (
     <IonPage
