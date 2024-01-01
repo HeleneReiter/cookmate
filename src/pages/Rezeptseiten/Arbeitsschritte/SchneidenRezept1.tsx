@@ -14,7 +14,7 @@ import {
   IonPage,
   IonToolbar,
 } from "@ionic/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -49,7 +49,7 @@ const SchneidenRezept1: React.FC = () => {
 
   const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte }, (_, index) => ({
     title: `Schritt ${index + 1} von ${rezept.arbeitsschritte}`,
-    image: rezept.bilder[index], 
+    image: rezept.bilder[index],
     description: rezept.anleitung[index],
   }));
 
@@ -68,27 +68,70 @@ const SchneidenRezept1: React.FC = () => {
   };
 
   const handleCloseClick = () => {
-    window.location.href = "/schneiden/level1";  /*funktioniert nicht*/
+    window.location.href = "/rezept1_One";
+  };
+
+  // timer
+  // show Timer only when needed
+  const [showTimer, setShowTimer] = useState(false);
+
+  const handleSlideChange = () => {
+    const currentSlideIndex = swiper.realIndex;
+    setShowTimer(currentSlideIndex === 0);
+  }
+
+  // Settings for Timer
+  const [seconds, setSeconds] = useState(900); // 15 minutes in seconds
+  const [isActive, setIsActive] = useState(false);
+
+  useEffect(() => {
+    let intervalId: NodeJS.Timeout;
+
+    if (isActive) {
+      intervalId = setInterval(() => {
+        setSeconds((prevSeconds) => prevSeconds - 1);
+      }, 1000);
+    }
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [isActive]);
+
+  const formatTime = (timeInSeconds: number) => {
+    const minutes = Math.floor(timeInSeconds / 60);
+    const seconds = timeInSeconds % 60;
+    return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+  };
+
+  const toggleTimer = () => {
+    setIsActive((prevIsActive) => !prevIsActive);
+  };
+
+  const resetTimer = () => {
+    setSeconds(600);
+    setIsActive(false);
   };
 
   return (
     <IonPage className="custom-page-background">
       <IonContent scrollX >
-        <img
-          onClick={handleCloseClick}
-          className="close_dark"
-          alt="schließen"
-          src="/assets/Elemente/close_white.png" style={{ position: 'absolute', right: '40px', top: '60px'}}
-        />
-        <Swiper 
+        <Swiper
           onSwiper={setSwiper}
           spaceBetween={100}
           slidesPerView={1}
           scrollbar={{ draggable: false }}
+          onSlideChange={handleSlideChange}
         >
           {data.map((slide, index) => (
             <SwiperSlide key={`slide_${index}`} >
               <IonCard className="card">
+              <img
+                  onClick={handleCloseClick}
+                  className="close_dark"
+                  alt="schließen"
+                  src="/assets/Elemente/close_white.png" style={{ position: 'absolute', right: '25px', top: '35px' }}
+                />
                 <img src={slide.image} />
                 <div className="navigation-row">
                   <IonButton className="navigationbuttons" onClick={goPrev}>&lt;</IonButton>
@@ -96,12 +139,27 @@ const SchneidenRezept1: React.FC = () => {
                   <IonButton className="navigationbuttons" onClick={goNext}>&gt;</IonButton>
                 </div>
                 <p>{slide.description}</p>
+
+
+                {/* showTimer nur bei Seite mit Timer anzeigen -> index = 1 */}
+                {showTimer && (
+
+                  // Button um Zeit zu starten und zu stoppen -> zeigt auch gleichzeitig die Zeit an
+                  <><IonButton className="buttonTimer" onClick={(toggleTimer)}>
+                    {isActive ? formatTime(seconds) : 'Timer Starten'}</IonButton>
+
+
+                    {/* Button um Zeit zurückzusetzen */}
+                    <IonButton className="buttonTimer" onClick={resetTimer}>reset </IonButton></>
+
+
+                )}
               </IonCard>
             </SwiperSlide>
           ))}
         </Swiper>
 
-        <IonModal 
+        <IonModal
           trigger="open-modal"
           isOpen={false}
           initialBreakpoint={0.95}
@@ -132,7 +190,7 @@ const SchneidenRezept1: React.FC = () => {
       </IonContent>
       <div className="button-with-arrow">
         <img className="arrow-icon" src="/assets/Elemente/PfeilNachOben.png" alt="Pfeil nach oben" />
-        <IonButton id="open-modal" style={{border: 'none'}}>
+        <IonButton id="open-modal" style={{ border: 'none' }}>
           Übersicht
         </IonButton>
       </div>

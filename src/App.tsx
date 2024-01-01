@@ -83,7 +83,7 @@ const App: React.FC = () => (
           <Route exact path="/basics/schneiden" component={BasicSchneiden}></Route>
           <Route exact path="/basics/marinieren" component={BasicMarinieren}></Route>
           <Route exact path="/basics/teig" component={BasicTeig}></Route>
-          <Route exact path="/basics/gewürze" component={BasicGewürze}></Route>
+          <Route exact path="/basics/gewurze" component={BasicGewürze}></Route>
 
           <Route exact path="/schneiden/level1" component={SchneidenLevel1}></Route>
           <Route exact path="/schneiden/level2" component={SchneidenLevel2}></Route>

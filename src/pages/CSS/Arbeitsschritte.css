@@ -90,6 +90,29 @@ p {
     font-size: 16px;
     font-weight: 100;
     color: white;
-    padding: 20px;
+    
     line-height: 1.2;
+}
+
+.buttonTimer {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    
+    --background: transparent;
+    color: #F3DFA2;
+    --background-activated: transparent;
+    font-family: 'BenguiatGothicStd-Bold';
+    text-transform: uppercase;
+
+    --border-color: #F3DFA2;
+    --border-style: solid;
+    --border-width: 1px;
+    position: relative;
+    
+    top: 5%;
+    left: 50%;
+    margin-bottom: 12%;
+    transform: translate(-50%, -50%);
 }

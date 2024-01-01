@@ -44,7 +44,7 @@ const BasicRezept_Gewürze: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton defaultHref="/basics/Gewürze" />
+            <IonBackButton defaultHref="/basics/Gewurze" />
           </IonButtons>
           <h1>Rezeptvorschau</h1>
         </IonToolbar>
