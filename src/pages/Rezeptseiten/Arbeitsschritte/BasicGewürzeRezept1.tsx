@@ -49,7 +49,7 @@ const BasicGewürzeRezept1: React.FC = () => {
   };
 
   const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte }, (_, index) => ({
-    title: `Schritt ${index + 1}`,
+    title: `Schritt ${index + 1} von ${rezept.arbeitsschritte}`,
     description: rezept.anleitung[index],
     image: rezept.bilder[index], 
   }));

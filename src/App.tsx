@@ -64,6 +64,7 @@ import Rezept4_One from "./pages/Rezeptseiten/Rezept4_One";
 
 import Start from "./pages/Start";
 import Loading from "./pages/Loading";
+import Finish from "./pages/Finish";
 
 
 setupIonicReact();
@@ -76,6 +77,7 @@ const App: React.FC = () => (
         <IonRouterOutlet id="main">
           <Route path="/start" component={Start} exact />
           <Route path="/loading" component={Loading} exact />
+          <Route path="/finish" component={Finish} exact />
 
           <Route path="/home" component={Home} exact />
       

@@ -14,7 +14,6 @@ import {
 } from '@ionic/react';
 
 import '../CSS/Rezeptvorschau.css';
-import '../eigeneKomponenten/Rezeptvorschau'
 
 
 const Rezeptvorschau: React.FC = () => {
