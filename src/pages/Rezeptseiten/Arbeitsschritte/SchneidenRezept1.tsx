@@ -75,11 +75,6 @@ const SchneidenRezept1: React.FC = () => {
   // show Timer only when needed
   const [showTimer, setShowTimer] = useState(false);
 
-  const handleSlideChange = () => {
-    const currentSlideIndex = swiper.realIndex;
-    setShowTimer(currentSlideIndex === 0);
-  }
-
   // Settings for Timer
   const [seconds, setSeconds] = useState(900); // 15 minutes in seconds
   const [isActive, setIsActive] = useState(false);
@@ -112,6 +107,20 @@ const SchneidenRezept1: React.FC = () => {
     setSeconds(600);
     setIsActive(false);
   };
+
+   // Finish
+   const [showFinish, setShowFinish] = useState(false);
+
+   const handleFinishClick = () => {
+     window.location.href = "/finish";
+ 
+   };
+ 
+   const handleSlideChange = () => {
+     const currentSlideIndex = swiper.realIndex;
+     setShowTimer(currentSlideIndex === 0);
+     setShowFinish(currentSlideIndex === rezept.arbeitsschritte - 1);
+   }
 
   return (
     <IonPage className="custom-page-background">
@@ -148,11 +157,13 @@ const SchneidenRezept1: React.FC = () => {
                   <><IonButton className="buttonTimer" onClick={(toggleTimer)}>
                     {isActive ? formatTime(seconds) : 'Timer Starten'}</IonButton>
 
-
                     {/* Button um Zeit zurückzusetzen */}
                     <IonButton className="buttonTimer" onClick={resetTimer}>reset </IonButton></>
+                )}
 
-
+                {/* showFinish nur bei letzter Seite anzeigen*/}
+                {showFinish && (
+                  <IonButton className="buttonTimer" onClick={handleFinishClick}>Fertig!</IonButton>
                 )}
               </IonCard>
             </SwiperSlide>

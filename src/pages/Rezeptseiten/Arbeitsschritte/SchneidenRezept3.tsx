@@ -66,6 +66,19 @@ const SchneidenRezept3: React.FC = () => {
     }
   };
 
+  // Finish
+  const [showFinish, setShowFinish] = useState(false);
+
+  const handleFinishClick = () => {
+    window.location.href = "/finish";
+
+  };
+
+  const handleSlideChange = () => {
+    const currentSlideIndex = swiper.realIndex;
+    setShowFinish(currentSlideIndex === rezept.arbeitsschritte - 1);
+  }
+
 
   return (
     <IonPage>
@@ -84,8 +97,7 @@ const SchneidenRezept3: React.FC = () => {
           spaceBetween={100}
           slidesPerView={1}
           scrollbar={{ draggable: false }}
-          
-
+          onSlideChange={handleSlideChange}
         >
           {data.map((slide, index) => (
             <SwiperSlide key={`slide_${index}`}>
@@ -93,6 +105,10 @@ const SchneidenRezept3: React.FC = () => {
               <h2 className="" >{slide.title}</h2>
               <p>{slide.description}</p>
               <img src={slide.image}  />
+              {/* showFinish nur bei letzter Seite anzeigen*/}
+              {showFinish && (
+                  <IonButton className="buttonTimer" onClick={handleFinishClick}>Fertig!</IonButton>
+                )}
               </IonCard>
             </SwiperSlide>
           ))}

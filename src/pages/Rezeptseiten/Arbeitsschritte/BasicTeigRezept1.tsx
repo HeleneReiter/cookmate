@@ -77,11 +77,6 @@ const BasicTeigRezept1: React.FC = () => {
   // show Timer only when needed
   const [showTimer, setShowTimer] = useState(false);
 
-  const handleSlideChange = () => {
-    const currentSlideIndex = swiper.realIndex;
-    setShowTimer(currentSlideIndex === 1);
-  }
-
   // Settings for Timer
   const [seconds, setSeconds] = useState(600); // 10 minutes in seconds
   const [isActive, setIsActive] = useState(false);
@@ -118,13 +113,16 @@ const BasicTeigRezept1: React.FC = () => {
   // Finish
   const [showFinish, setShowFinish] = useState(false);
 
-
-
-
   const handleFinishClick = () => {
     window.location.href = "/finish";
 
   };
+
+  const handleSlideChange = () => {
+    const currentSlideIndex = swiper.realIndex;
+    setShowTimer(currentSlideIndex === 1);
+    setShowFinish(currentSlideIndex === rezept.arbeitsschritte - 1);
+  }
 
   return (
     <IonPage className="custom-page-background">
@@ -154,26 +152,25 @@ const BasicTeigRezept1: React.FC = () => {
                 </div>
                 <p>{slide.description}</p>
 
-                {/* showTimer nur bei Seite mit Timer anzeigen -> index = 1 */}
+                {/* showTimer nur bei Seite mit Timer anzeigen*/}
                 {showTimer && (
 
                   // Button um Zeit zu starten und zu stoppen -> zeigt auch gleichzeitig die Zeit an
                   <><IonButton className="buttonTimer" onClick={(toggleTimer)}>
                     {isActive ? formatTime(seconds) : 'Timer Starten'}</IonButton>
-                    
 
                     {/* Button um Zeit zurückzusetzen */}
                     <IonButton className="buttonTimer" onClick={resetTimer}>reset </IonButton></>
+                )}
 
-
+                {/* showFinish nur bei letzter Seite anzeigen*/}
+                {showFinish && (
+                  <IonButton className="buttonTimer" onClick={handleFinishClick}>Fertig!</IonButton>
                 )}
               </IonCard>
             </SwiperSlide>
           ))}
         </Swiper>
-
-
-
 
 
         <IonModal

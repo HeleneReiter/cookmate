@@ -76,11 +76,6 @@ const BasicGewürzeRezept1: React.FC = () => {
   // show Timer only when needed
   const [showTimer, setShowTimer] = useState(false);
 
-  const handleSlideChange = () => {
-    const currentSlideIndex = swiper.realIndex;
-    setShowTimer(currentSlideIndex === 3);
-  }
-
   // Settings for Timer
   const [seconds, setSeconds] = useState(1200); // 20 minutes in seconds
   const [isActive, setIsActive] = useState(false);
@@ -114,6 +109,20 @@ const BasicGewürzeRezept1: React.FC = () => {
     setIsActive(false);
   };
 
+   // Finish
+   const [showFinish, setShowFinish] = useState(false);
+
+   const handleFinishClick = () => {
+     window.location.href = "/finish";
+ 
+   };
+ 
+   const handleSlideChange = () => {
+     const currentSlideIndex = swiper.realIndex;
+     setShowTimer(currentSlideIndex === 3);
+     setShowFinish(currentSlideIndex === rezept.arbeitsschritte - 1);
+   }
+
   return (
     <IonPage className="custom-page-background">
       <IonContent scrollX >
@@ -142,7 +151,7 @@ const BasicGewürzeRezept1: React.FC = () => {
                 </div>
                 <p>{slide.description}</p>
 
-                {/* showTimer nur bei Seite mit Timer anzeigen -> index = 1 */}
+                {/* showTimer nur bei Seite mit Timer anzeigen*/}
                 {showTimer && (
 
                   // Button um Zeit zu starten und zu stoppen -> zeigt auch gleichzeitig die Zeit an
@@ -152,8 +161,10 @@ const BasicGewürzeRezept1: React.FC = () => {
 
                     {/* Button um Zeit zurückzusetzen */}
                     <IonButton className="buttonTimer" onClick={resetTimer}>reset </IonButton></>
-
-
+                )}
+                {/* showFinish nur bei letzter Seite anzeigen*/}
+                {showFinish && (
+                  <IonButton className="buttonTimer" onClick={handleFinishClick}>Fertig!</IonButton>
                 )}
               </IonCard>
             </SwiperSlide>

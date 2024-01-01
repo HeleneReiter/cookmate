@@ -71,6 +71,19 @@ const BasicMarinierenRezept1: React.FC = () => {
     
   };
 
+  // Finish
+  const [showFinish, setShowFinish] = useState(false);
+
+  const handleFinishClick = () => {
+    window.location.href = "/finish";
+
+  };
+
+  const handleSlideChange = () => {
+    const currentSlideIndex = swiper.realIndex;
+    setShowFinish(currentSlideIndex === rezept.arbeitsschritte - 1);
+  }
+
   return (
     <IonPage className="custom-page-background">
       <IonContent scrollX >
@@ -79,6 +92,7 @@ const BasicMarinierenRezept1: React.FC = () => {
           spaceBetween={100}
           slidesPerView={1}
           scrollbar={{ draggable: false }}
+          onSlideChange={handleSlideChange}
         >
           {data.map((slide, index) => (
             <SwiperSlide key={`slide_${index}`} >
@@ -96,6 +110,10 @@ const BasicMarinierenRezept1: React.FC = () => {
                   <IonButton className="navigationbuttons" onClick={goNext}>&gt;</IonButton>
                 </div>
                 <p>{slide.description}</p>
+                {/* showFinish nur bei letzter Seite anzeigen*/}
+                {showFinish && (
+                  <IonButton className="buttonTimer" onClick={handleFinishClick}>Fertig!</IonButton>
+                )}
 
               </IonCard>
             </SwiperSlide>
