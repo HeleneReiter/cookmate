@@ -15,7 +15,7 @@ import {
 } from '@ionic/react';
 
 import '../CSS/Rezeptvorschau.css';
-import '../eigeneKomponenten/Rezeptvorschau'
+
 
 import Rezept from './Rezepte/Schneiden_lvl1_GebrateneNudeln1.json';
 

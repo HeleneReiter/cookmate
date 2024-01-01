@@ -78,19 +78,14 @@ const SchneidenRezept2: React.FC = () => {
      const currentSlideIndex = swiper.realIndex;
      setShowFinish(currentSlideIndex === rezept.arbeitsschritte - 1);
    }
+   
+   const handleCloseClick = () => {
+    window.location.href = "/schneiden/level2"; 
+  };
 
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton defaultHref="/schneiden/level2" />
-          </IonButtons>
-          <h1>Arbeitsschritte</h1>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent scrollX>
-
+    <IonPage className="custom-page-background">
+      <IonContent scrollX >
         <Swiper
           onSwiper={setSwiper}
           spaceBetween={100}
@@ -99,11 +94,23 @@ const SchneidenRezept2: React.FC = () => {
           onSlideChange={handleSlideChange}
         >
           {data.map((slide, index) => (
-            <SwiperSlide key={`slide_${index}`}>
-              <IonCard>
-                <h2 className="" >{slide.title}</h2>
-                <p>{slide.description}</p>
+            <SwiperSlide key={`slide_${index}`} >
+              <IonCard className="card">
+              <img
+                  onClick={handleCloseClick}
+                  className="close_dark"
+                  alt="schließen"
+                  src="/assets/Elemente/close_white.png" style={{ position: 'absolute', right: '25px', top: '35px' }}
+                />
                 <img src={slide.image} />
+                <div className="navigation-row">
+                  <IonButton className="navigationbuttons" onClick={goPrev}>&lt;</IonButton>
+                  <h2 className="step">{slide.title.toUpperCase()}</h2>
+                  <IonButton className="navigationbuttons" onClick={goNext}>&gt;</IonButton>
+
+                </div>
+                <p>{slide.description}</p>
+
                 {/* showFinish nur bei letzter Seite anzeigen*/}
                 {showFinish && (
                   <IonButton className="buttonTimer" onClick={handleFinishClick}>Fertig!</IonButton>
@@ -111,8 +118,8 @@ const SchneidenRezept2: React.FC = () => {
               </IonCard>
             </SwiperSlide>
           ))}
-
         </Swiper>
+
 
         <IonModal
           trigger="open-modal"
@@ -120,8 +127,8 @@ const SchneidenRezept2: React.FC = () => {
           initialBreakpoint={0.95}
           breakpoints={[0, 0.95]}
         >
-          <IonContent className="ion-padding">
-            <IonCardContent>
+          <IonContent className="ion-padding" >
+            <IonCardContent >
               <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>
               <IonList>
@@ -143,15 +150,15 @@ const SchneidenRezept2: React.FC = () => {
           </IonContent>
         </IonModal>
       </IonContent>
-      <IonFooter>
-        <IonButton onClick={goPrev}>Prev</IonButton>
-        <IonButton id="open-modal"> Rezept anzeigen
+      <div className="button-with-arrow">
+        <img className="arrow-icon" src="/assets/Elemente/PfeilNachOben.png" alt="Pfeil nach oben" />
+        <IonButton id="open-modal" style={{ border: 'none' }}>
+          Übersicht
         </IonButton>
-        <IonButton onClick={goNext}>Next</IonButton>
-      </IonFooter>
+      </div>
+
     </IonPage>
   );
 };
-
 
 export default SchneidenRezept2;

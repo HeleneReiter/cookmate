@@ -13,21 +13,20 @@ import {
   IonLabel,
   IonButton
 } from '@ionic/react';
-import Apfelstrudel from './Rezepte/Apfelstrudel.json';
+import Rezept from './Rezepte/Basics_Saucen_Himbeersosse.json';
 
 const BasicRezept_Marinieren: React.FC = () => {
-  // Define the recipe data as an object
   const rezept = {
-    name: Apfelstrudel.name,
-    portionen: Apfelstrudel.portionen,
-    arbeitszeit: Apfelstrudel.arbeitszeit,
-    arbeitsschritte: Apfelstrudel.arbeitsschritte,
-    schwierigkeit: Apfelstrudel.schwierigkeit,
-    zutaten: Apfelstrudel.zutaten,
-    anleitung: Apfelstrudel.anleitung,
-    label: Apfelstrudel.label,
-    learning: Apfelstrudel.learning,
-    kategorie: Apfelstrudel.kategorie,
+    name: Rezept.name,
+    portionen: Rezept.portionen,
+    arbeitszeit: Rezept.arbeitszeit,
+    arbeitsschritte: Rezept.arbeitsschritte,
+    schwierigkeit: Rezept.schwierigkeit,
+    zutaten: Rezept.zutaten,
+    anleitung: Rezept.anleitung,
+    label: Rezept.label,
+    learning: Rezept.learning,
+    kategorie: Rezept.kategorie,
   };
 
   // Zustand für das Anzeigen des zusätzlichen Textes
@@ -39,34 +38,35 @@ const BasicRezept_Marinieren: React.FC = () => {
     setShowMoreText(!showMoreText);
   };
 
+  const handleCloseClick = () => {
+    window.location.href = "/basics/Marinieren";
+  };
+
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton defaultHref="/basics/Marinieren" />
-          </IonButtons>
-          <h1>Rezeptvorschau</h1>
-        </IonToolbar>
-      </IonHeader>
       <IonContent>
-        <IonCard>
-        
+        <IonCard className='custom-ion-card-rezeptvorschau'>
           <IonCardContent>
-            <h2>{rezept.name}</h2>
-            <h3>Zutaten:</h3>
+            <img
+                onClick={handleCloseClick}
+                className="close"
+                alt="schließen"
+                src="/assets/Elemente/close_white.png"
+              />
+            <h2 style={{ fontSize: '50px', lineHeight: '0.8'}}>{rezept.name}</h2> {/*geht nd mit .css*/}
+            <h3 style={{ fontSize: '20px', lineHeight: '3', color:'white'}}>Zutaten</h3> {/*geht nd mit .css*/}
             <IonList>
               {rezept.zutaten.map((zutat, index) => (
                 <IonItem key={index}>
-                  <IonLabel>
-                    {zutat.menge} {zutat.name}
+                  <IonLabel className='listItem' style={{ fontFamily: 'BenguiatGothicStd-Book' }}> {/*geht nd mit .css*/}
+                    –  {zutat.menge} {zutat.name}
                   </IonLabel>
                 </IonItem>
               ))}
             </IonList>
             {showMoreText ? (
               <div>
-                <h3>Anleitung:</h3>
+                <h3 style={{ fontSize: '20px', lineHeight: '3', color:'white', marginTop:'20px', marginBottom: '-20px'}}>Anleitung:</h3>
                 <ol>
                   {rezept.anleitung.map((schritt, index) => (
                     <li key={index}>{schritt}</li>
@@ -75,10 +75,9 @@ const BasicRezept_Marinieren: React.FC = () => {
               </div>
             ) : null}
             <p onClick={toggleShowMore}>{buttonLabel}</p>
-            <IonButton routerLink='/BasicMarinierenRezept1'> Jetzt Kochen! </IonButton>
-            
           </IonCardContent>
         </IonCard>
+        <IonButton routerLink='/BasicMarinierenRezept1' className='buttonJetztKochen'> Jetzt Kochen! </IonButton>
       </IonContent>
     </IonPage>
   );
