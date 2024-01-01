@@ -15,7 +15,7 @@ const SchneidenLevel3: React.FC = () => {
           descriptionOne="Beef Tatar"
           recipeCategoryLabelOne="Hauptspeise"
           recipeCategoryColorOne="default"
-          imgOne="assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG" // hier fehlt das bild von beef tatar
+          imgOne="assets/Bildrecherche/schneiden_lvl3_beeftartare.JPG"
 
           titleTwo="Rezept 2"
           descriptionTwo="Misosuppe"

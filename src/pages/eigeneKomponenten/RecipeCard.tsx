@@ -92,9 +92,9 @@ const RecipeCard: React.FC<RecipeProps> = ({
             <IonChip className="labelMeat">
               <IonLabel>Fleisch</IonLabel>
             </IonChip>
-            <IonChip>
-              <IonLabel className="labelCategory" color={recipeCategoryColorOne}>
-                {recipeCategoryLabelOne.toUpperCase()}
+            <IonChip className="labelCategory" >
+              <IonLabel >
+                {recipeCategoryLabelOne}
               </IonLabel>
             </IonChip>
           </>
@@ -107,9 +107,9 @@ const RecipeCard: React.FC<RecipeProps> = ({
             <IonChip className="labelVeggie">
               <IonLabel>Vegetarisch</IonLabel>
             </IonChip>
-            <IonChip>
-              <IonLabel className="labelCategory" color={recipeCategoryColorTwo}>
-                {recipeCategoryLabelTwo.toUpperCase()}
+            <IonChip className="labelCategory" >
+              <IonLabel >
+                {recipeCategoryLabelTwo}
               </IonLabel>
             </IonChip>
           </>
@@ -122,9 +122,9 @@ const RecipeCard: React.FC<RecipeProps> = ({
             <IonChip className="labelVegan">
               <IonLabel>Vegan</IonLabel>
             </IonChip>
-            <IonChip>
-              <IonLabel className="labelCategory" color={recipeCategoryColorThree} >
-                {recipeCategoryLabelThree.toUpperCase()}
+            <IonChip className="labelCategory" >
+              <IonLabel>
+                {recipeCategoryLabelThree}
               </IonLabel>
             </IonChip>
           </>

@@ -4,7 +4,7 @@ import {
   IonPage,
 } from '@ionic/react';
 
-import RecipeCard from '../eigeneKomponenten/RecipeCard'; // Stellen Sie sicher, dass der Importpfad korrekt ist
+import RecipeCard from '../eigeneKomponenten/RecipeCard'; 
 
 const SchneidenLevel2: React.FC = () => {
   return (

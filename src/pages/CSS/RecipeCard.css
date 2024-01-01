@@ -66,6 +66,7 @@ h3 {
     line-height: 0.8;
     padding: 20px;
     height: auto;
+    
 }
 
 .zumRezept p{
@@ -112,12 +113,13 @@ h3 {
     margin: 50px 0px 0 30px;
 }
 
-.labelCategory {
-    background-color: #F3DFA2;
-    color: black;
+.labelCategory {
+    background-color: #676767;
+    color: white;
     font-weight: 800;
     font-family: 'BenguiatGothicStd-Bold';
-    font-size: 16px;
+    font-size: 14px;
+    color: black;
     text-transform: uppercase;
 }
 .info {
@@ -128,8 +130,8 @@ h3 {
 /* NAVIGATION */
 
 .circle {
-    width: 100%;
-    height: 100%; 
+    width: 10px;
+    height: 10px; 
     border-radius: 50%;
     border-color: green;
     border-width: 2px;
@@ -138,9 +140,12 @@ h3 {
 
 ion-segment {
     background: transparent;
-    height: 40px; 
+    height: 30px; 
     width: auto;
     align-self: center;
+    position: absolute;
+
+    top: 720px;
 }
 
 /* Stil für nicht ausgewählte Segment-Buttons */
@@ -152,6 +157,8 @@ ion-segment-button .circle {
     align-items: center;
     padding: 0;
 }
+
+
   
 /* Stil für den ausgewählten Segment-Button */
 ion-segment-button.segment-activated .circle{
