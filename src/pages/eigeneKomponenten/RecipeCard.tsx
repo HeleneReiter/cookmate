@@ -87,23 +87,30 @@ const RecipeCard: React.FC<RecipeProps> = ({
         
         return (
           <>
+          <IonCard className="custom-ion-card">
             <p>{descriptionOne}</p>
-            <div className="info"><h2>Schneiden | {titleOne}</h2></div> {/*besser korrigieren*/}
+            <div className="info"><h2>Schneiden {titleOne}</h2></div> {/*besser korrigieren*/}
+            </IonCard>
+            <div className="labelbox">
             <IonChip className="labelMeat">
-              <IonLabel>Fleisch</IonLabel>
+              <IonLabel >Fleisch</IonLabel>
             </IonChip>
             <IonChip className="labelCategory" >
               <IonLabel >
                 {recipeCategoryLabelOne}
               </IonLabel>
             </IonChip>
+            </div>
           </>
         );
       case "Two":
         return (
           <>
+          <IonCard className="custom-ion-card">
             <p>{descriptionTwo}</p>
-            <div className="info"><h2>Schneiden | {titleTwo}</h2></div> {/*besser korrigieren*/}
+            <div className="info"><h2>Schneiden {titleTwo}</h2></div> {/*besser korrigieren*/}
+          </IonCard>
+          <div className="labelbox">
             <IonChip className="labelVeggie">
               <IonLabel>Vegetarisch</IonLabel>
             </IonChip>
@@ -112,13 +119,17 @@ const RecipeCard: React.FC<RecipeProps> = ({
                 {recipeCategoryLabelTwo}
               </IonLabel>
             </IonChip>
+            </div>
           </>
         );
       case "Three":
         return (
           <>
+          <IonCard className="custom-ion-card">
             <p>{descriptionThree}</p>
-            <div className="info"><h2>Schneiden | {titleThree}</h2></div> {/*besser korrigieren*/}
+            <div className="info"><h2>Schneiden {titleThree}</h2></div> {/*besser korrigieren*/}
+            </IonCard>
+            <div className="labelbox"> 
             <IonChip className="labelVegan">
               <IonLabel>Vegan</IonLabel>
             </IonChip>
@@ -127,6 +138,7 @@ const RecipeCard: React.FC<RecipeProps> = ({
                 {recipeCategoryLabelThree}
               </IonLabel>
             </IonChip>
+            </div>
           </>
         );
       default:
@@ -149,14 +161,11 @@ const RecipeCard: React.FC<RecipeProps> = ({
         alt="schließen"
         src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px'}}
       />
-
-      <IonCard className="custom-ion-card">
+      
         <IonCardContent>
           {renderCardContent()}
-          <div className="box" ></div>
+          {/*<div className="box" ></div>*/}
         </IonCardContent>
-      </IonCard>
-
   
       <IonSegment
         swipe-gesture={true}

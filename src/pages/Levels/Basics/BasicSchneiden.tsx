@@ -21,14 +21,18 @@ const BasicSchneiden: React.FC = () => {
   const renderCardContent = () => {
     return (
       <>  
-          <div className="box"></div>
-          <div className="info"><h2>Gewurze | Rezept 1</h2></div> {/*besser korrigieren*/}
+      <IonCard className="custom-ion-card">
+          <p>Griechischer Salat</p>
+          <div className="info"><h2>Schneiden Rezept1</h2></div> {/*besser korrigieren*/}
+          </IonCard>
+          <div className="labelbox">
           <IonChip className="labelVeggie">
             <IonLabel>Vegetarisch</IonLabel>
           </IonChip>
           <IonChip className="labelCategory">
             <IonLabel>Salat</IonLabel>
           </IonChip>
+          </div>
           </>
     );
   };
@@ -49,13 +53,13 @@ const BasicSchneiden: React.FC = () => {
         src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px' }}
       />
 
-      <IonCard className="custom-ion-card">
+     
         <IonCardContent>
           {renderCardContent()}
-          <div className="box"></div>
+         
         </IonCardContent>
-      </IonCard>
-      <IonButton className="zumRezept" fill="clear" routerLink="/BasicRezept_Schneiden" >
+    
+      <IonButton className="zumRezeptDark" fill="clear" routerLink="/BasicRezept_Schneiden" >
         <p>Zum Rezept &gt;</p>
       </IonButton>
     </IonPage>

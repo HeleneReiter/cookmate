@@ -21,14 +21,19 @@ const BasicTeig: React.FC = () => {
   const renderCardContent = () => {
     return (
       <>  
+      <IonCard className="custom-ion-card">
           <div className="box"></div>
-          <div className="info"><h2>Gewurze | Rezept 1</h2></div> {/*besser korrigieren*/}
+          <p>Palatschinken</p>
+          <div className="info"><h2>Teig Rezept1</h2></div> {/*besser korrigieren*/}
+        </IonCard>
+          <div className="labelbox">
           <IonChip className="labelVeggie">
             <IonLabel>Vegetarisch</IonLabel>
           </IonChip>
           <IonChip className="labelCategory">
             <IonLabel>Hauptspeise</IonLabel>
           </IonChip>
+          </div>
           </>
     );
   };
@@ -48,14 +53,13 @@ const BasicTeig: React.FC = () => {
         alt="schließen"
         src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px' }}
       />
-
-      <IonCard className="custom-ion-card">
+   
         <IonCardContent>
           {renderCardContent()}
-          <div className="box"></div>
+        
         </IonCardContent>
-      </IonCard>
-      <IonButton className="zumRezept" fill="clear" routerLink="/BasicRezept_Teig" >
+     
+      <IonButton className="zumRezeptDark" fill="clear" routerLink="/BasicRezept_Teig" >
         <p>Zum Rezept &gt;</p>
       </IonButton>
     </IonPage>

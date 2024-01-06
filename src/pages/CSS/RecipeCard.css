@@ -51,22 +51,30 @@ h3 {
     border-style: solid;
     border-radius: 30px; /* Abgerundete Ecken */
     border-color: #F3DFA2;
-    width: 85%;
+    
+    width: 90%;
     max-height: auto;
     position: relative;
     transform: translateY(20%);
     align-self: center;
+
+    padding-bottom: 50px;/* für Labels */
 }
 
 .custom-ion-card p {
     font-family: 'AnythingSkribble';
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 200;
     color: white;
-    line-height: 0.8;
-    padding: 20px;
-    height: auto;
     
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    height: auto;
+   
+    letter-spacing: -0.09px;
+    line-height: 38.6px;
 }
 
 .zumRezept p{
@@ -76,15 +84,21 @@ h3 {
     margin-bottom: -2px;
 }
 
+.zumRezeptDark p{
+    color: #040C0F;
+    font-family: 'IndieFlower';
+    font-size: 25px;
+    margin-bottom: -2px;
+}
+
 .labelMeat {
     background-color: #D50032;
     font-weight: 600;
-    /*position: relative; auf absolut umändern*/
-    /*transform: translateY(-20%);*/
     font-family: 'BenguiatGothicStd-Bold';
-    font-size: 14px;
+    font-size: 15px;
     color: black;
     text-transform: uppercase;
+    border-radius: 7px;
 }
 
 .labelVeggie {
@@ -93,8 +107,9 @@ h3 {
     font-weight: 800;
     color: black;
     font-family: 'BenguiatGothicStd-Bold';
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
+    border-radius: 7px;
 }
 
 .labelVegan {
@@ -102,9 +117,10 @@ h3 {
     color: white;
     font-weight: 800;
     font-family: 'BenguiatGothicStd-Bold';
-    font-size: 14px;
+    font-size: 15px;
     color: black;
     text-transform: uppercase;
+    border-radius: 7px;
 }
 
 .logo {
@@ -118,13 +134,36 @@ h3 {
     color: white;
     font-weight: 800;
     font-family: 'BenguiatGothicStd-Bold';
-    font-size: 14px;
+    font-size: 15px;
     color: black;
     text-transform: uppercase;
+    border-radius: 7px;
 }
+
+.labelbox {
+    position: absolute;
+   
+    max-height: auto;
+    position: relative;
+    padding-left: 45px;
+
+}
+
 .info {
-    padding: 0px 20px 20px 20px;
+    padding-left: 30px;
 }
+
+.info h2{
+    color: white;
+    font-family: 'IndieFlower';
+    font-size: 21px;
+    word-spacing: 30px;
+
+    letter-spacing: -0.04px;
+    line-height: 38.6px;
+}
+
+
 
 
 /* NAVIGATION */

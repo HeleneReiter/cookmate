@@ -17,14 +17,19 @@ const BasicGewürze: React.FC = () => {
   const renderCardContent = () => {
     return (
       <>  
+      <IonCard className="custom-ion-card">
           <div className="box"></div>
-          <div className="info"><h2>Gewurze | Rezept 1</h2></div> {/*besser korrigieren*/}
+          <p>Feta-Tomaten-Auflauf</p>
+          <div className="info"><h2>Gewürze Rezept1</h2></div> {/*besser korrigieren*/}
+          </IonCard>
+          <div className="labelbox">
           <IonChip className="labelVeggie">
             <IonLabel>Vegetarisch</IonLabel>
           </IonChip>
           <IonChip className="labelCategory">
             <IonLabel>Hauptspeise</IonLabel>
           </IonChip>
+          </div>
           </>
     );
   };
@@ -45,12 +50,10 @@ const BasicGewürze: React.FC = () => {
         src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px' }}
       />
 
-      <IonCard className="custom-ion-card">
         <IonCardContent>
           {renderCardContent()}
-          <div className="box"></div>
         </IonCardContent>
-      </IonCard>
+
       <IonButton className="zumRezept" fill="clear" routerLink="/BasicRezept_Gewürze" >
         <p>Zum Rezept &gt;</p>
       </IonButton>
