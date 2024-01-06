@@ -161,13 +161,55 @@ h3 {
 
 /* NAVIGATION */
 
-.circle {
+.circleOne {
     width: 10px;
     height: 10px; 
-    border-radius: 50%;
-    border-color: green;
+    border: 1.2px solid;
+    border-color: #D50032;
+    border-radius: 5.97px/6px;
+}
+
+.circleTwo {
+    width: 10px;
+    height: 10px; 
+    border: 1.2px solid;
+    border-color: #f3dfa2;
+    border-radius: 5.97px/6px;
+}
+
+.circleThree {
+    width: 10px;
+    height: 10px; 
+    border: 1.2px solid;
+    border-color: #7EBDC2;
+    border-radius: 5.97px/6px;
+}
+
+.circleOneFilled {
+    width: 10px;
+    height: 10px; 
+    border-radius: 5.97px/6px;
+    border-color: #D50032;
     border-width: 2px;
     background-color: #D50032;
+}
+
+.circleTwoFilled {
+    width: 10px;
+    height: 10px; 
+    border-radius: 5.97px/6px;
+    border-color: #F3DFA2;
+    border-width: 2px;
+    background-color: #F3DFA2;
+}
+
+.circleThreeFilled {
+    width: 10px;
+    height: 10px; 
+    border-radius: 5.97px/6px;
+    border-color: #7EBDC2;
+    border-width: 2px;
+    background-color: #7EBDC2;
 }
 
 ion-segment {

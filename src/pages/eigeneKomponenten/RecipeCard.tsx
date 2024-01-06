@@ -49,7 +49,6 @@ const RecipeCard: React.FC<RecipeProps> = ({
   recipeCategoryLabelOne,
   labelOne,
   classnameOne,
-  recipeCategoryColorOne,
   imgOne,
 
   titleTwo,
@@ -57,7 +56,6 @@ const RecipeCard: React.FC<RecipeProps> = ({
   labelTwo,
   classnameTwo,
   recipeCategoryLabelTwo,
-  recipeCategoryColorTwo,
   imgTwo,
 
   titleThree,
@@ -65,12 +63,10 @@ const RecipeCard: React.FC<RecipeProps> = ({
   labelThree,
   classnameThree,
   recipeCategoryLabelThree,
-  recipeCategoryColorThree,
   imgThree,
   id,
 }) => {
   const [currentSegment, setCurrentSegment] = useState("One");
-
   const handleSegmentChange = (event: CustomEvent) => {
     const newSegmentValue = event.detail.value as string;
     setCurrentSegment(newSegmentValue);
@@ -93,9 +89,16 @@ const RecipeCard: React.FC<RecipeProps> = ({
     window.location.href = "/home"; 
   };
 
+  let circleOne= "circleOne"
+  let circleTwo= "circleTow";
+  let circleThree= "circleThree";
+
   const renderCardContent = () => {
     switch (currentSegment) {
       case "One":
+        circleOne= "circleOneFilled"
+        circleTwo= "circleTwo"
+        circleThree= "circleThree"
         
         return (
           <>
@@ -116,6 +119,10 @@ const RecipeCard: React.FC<RecipeProps> = ({
           </>
         );
       case "Two":
+        circleOne= "circleOne"
+        circleTwo= "circleTwoFilled"
+        circleThree= "circleThree"
+
         return (
           <>
           <IonCard className="custom-ion-card">
@@ -135,6 +142,9 @@ const RecipeCard: React.FC<RecipeProps> = ({
           </>
         );
       case "Three":
+        circleOne= "circleOne"
+        circleTwo= "circleTwo"
+        circleThree= "circleThreeFilled"
         return (
           <>
           <IonCard className="custom-ion-card">
@@ -151,6 +161,7 @@ const RecipeCard: React.FC<RecipeProps> = ({
               </IonLabel>
             </IonChip>
             </div>
+            
           </>
         );
       default:
@@ -184,14 +195,15 @@ const RecipeCard: React.FC<RecipeProps> = ({
         value={currentSegment}
         onIonChange={handleSegmentChange}
       >
+        
         <IonSegmentButton className="SegmentButton" value="One">
-          <div className="circle"></div>
+          <div className={circleOne}></div>
         </IonSegmentButton>
         <IonSegmentButton className="SegmentButton" value="Two">
-          <div className="circle"></div>
+          <div className={circleTwo}></div>
         </IonSegmentButton>
         <IonSegmentButton className="SegmentButton" value="Three">
-          <div className="circle"></div>
+          <div className={circleThree}></div>
         </IonSegmentButton>
       </IonSegment>
 
