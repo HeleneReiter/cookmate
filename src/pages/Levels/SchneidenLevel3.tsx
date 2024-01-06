@@ -13,21 +13,27 @@ const SchneidenLevel3: React.FC = () => {
         <RecipeCard
           titleOne="Rezept1"
           descriptionOne="Beef Tatar"
+          labelOne="Fleisch"
+          classnameOne="labelMeat"
           recipeCategoryLabelOne="Hauptspeise"
           recipeCategoryColorOne="default"
           imgOne="/assets/Bildrecherche/schneiden_lvl3_beeftartare.jpeg"
 
           titleTwo="Rezept2"
-          descriptionTwo="Misosuppe"
+          descriptionTwo="Grichischer Salat"
+          labelTwo="Vegetarisch"
+          classnameTwo="labelVeggie"
           recipeCategoryLabelTwo="Hauptspeise"
           recipeCategoryColorTwo="default"
-          imgTwo="/assets/Bildrecherche/schneiden_lvl2_misosuppe.JPG"
+          imgTwo="/assets/Bildrecherche/schneiden_lvl1_griechischersalat.JPG"
 
           titleThree="Rezept3"
-          descriptionThree="Moussaka"
+          descriptionThree="Chili con Carne"
+          labelThree="Fleisch"
+          classnameThree="labelMeat"
           recipeCategoryLabelThree="Hauptspeise"
           recipeCategoryColorThree="default"
-          imgThree="/assets/Bildrecherche/schneiden_lvl2_moussaka.JPG"
+          imgThree="/assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG"
 
           id="3_"
         />

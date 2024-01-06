@@ -21,17 +21,23 @@ interface RecipeProps {
   titleOne: string;
   descriptionOne: string;
   recipeCategoryLabelOne: string;
+  labelOne: string;
+  classnameOne: string;
   recipeCategoryColorOne: string;
   imgOne: string;
 
   titleTwo: string;
   descriptionTwo: string;
+  labelTwo: string;
+  classnameTwo: string;
   recipeCategoryLabelTwo: string;
   recipeCategoryColorTwo: string;
   imgTwo: string;
 
   titleThree: string;
   descriptionThree: string;
+  labelThree: string;
+  classnameThree: string;
   recipeCategoryLabelThree: string;
   recipeCategoryColorThree: string;
   imgThree: string;
@@ -41,17 +47,23 @@ const RecipeCard: React.FC<RecipeProps> = ({
   titleOne,
   descriptionOne,
   recipeCategoryLabelOne,
+  labelOne,
+  classnameOne,
   recipeCategoryColorOne,
   imgOne,
 
   titleTwo,
   descriptionTwo,
+  labelTwo,
+  classnameTwo,
   recipeCategoryLabelTwo,
   recipeCategoryColorTwo,
   imgTwo,
 
   titleThree,
   descriptionThree,
+  labelThree,
+  classnameThree,
   recipeCategoryLabelThree,
   recipeCategoryColorThree,
   imgThree,
@@ -92,8 +104,8 @@ const RecipeCard: React.FC<RecipeProps> = ({
             <div className="info"><h2>Schneiden {titleOne}</h2></div> {/*besser korrigieren*/}
             </IonCard>
             <div className="labelbox">
-            <IonChip className="labelMeat">
-              <IonLabel >Fleisch</IonLabel>
+            <IonChip className={classnameOne}>
+              <IonLabel >{labelOne}</IonLabel>
             </IonChip>
             <IonChip className="labelCategory" >
               <IonLabel >
@@ -111,8 +123,8 @@ const RecipeCard: React.FC<RecipeProps> = ({
             <div className="info"><h2>Schneiden {titleTwo}</h2></div> {/*besser korrigieren*/}
           </IonCard>
           <div className="labelbox">
-            <IonChip className="labelVeggie">
-              <IonLabel>Vegetarisch</IonLabel>
+            <IonChip className={classnameTwo}>
+              <IonLabel>{labelTwo}</IonLabel>
             </IonChip>
             <IonChip className="labelCategory" >
               <IonLabel >
@@ -130,8 +142,8 @@ const RecipeCard: React.FC<RecipeProps> = ({
             <div className="info"><h2>Schneiden {titleThree}</h2></div> {/*besser korrigieren*/}
             </IonCard>
             <div className="labelbox"> 
-            <IonChip className="labelVegan">
-              <IonLabel>Vegan</IonLabel>
+            <IonChip className={classnameThree}>
+              <IonLabel>{labelThree}</IonLabel>
             </IonChip>
             <IonChip className="labelCategory" >
               <IonLabel>
