@@ -15,19 +15,19 @@ const MarinierenLevel1: React.FC = () => {
           descriptionOne="Schokosoße"
           recipeCategoryLabelOne="Soße"
           recipeCategoryColorOne="default"
-          imgOne="assets/Bildrecherche/marinieren_lvl1_schokosauce.JPG"
+          imgOne="/assets/Bildrecherche/marinieren_lvl1_schokosauce.JPG"
 
           titleTwo="Rezept 2"
           descriptionTwo="Joghurtsoße"
           recipeCategoryLabelTwo="Soße"
           recipeCategoryColorTwo="default"
-          imgTwo="assets/Bildrecherche/marinieren_lvl1_joghurtsauce.JPG"
+          imgTwo="/assets/Bildrecherche/marinieren_lvl1_joghurtsauce.JPG"
 
           titleThree="Rezept 3"
           descriptionThree="Bratensoße"
           recipeCategoryLabelThree="Soße"
           recipeCategoryColorThree="default"
-          imgThree="assets/Bildrecherche/marinieren_lvl1_bratensauce.JPG"
+          imgThree="/assets/Bildrecherche/marinieren_lvl1_bratensauce.JPG"
 
           id="4_"
         />

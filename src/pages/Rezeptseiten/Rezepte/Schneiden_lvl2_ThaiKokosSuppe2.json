@@ -2,7 +2,7 @@
   "name": "Thai-Kokos-Suppe mit Gemüse",
   "portionen": 4,
   "arbeitszeit": "30 min",
-  "arbeitsschritte": 3,
+  "arbeitsschritte": 6,
   "schwierigkeit": "mittel",
   "kategorie": "Suppe",
   "learning": "schneiden",
@@ -72,10 +72,10 @@
 
   "bilder": [
     "/assets/Animation/Knoblaub_schneiden.gif",
-    "", 
+    "/assets/Animation/KarottenSchneiden.gif", 
     "/assets/Animation/Topf_allgemein.gif",
     "/assets/Animation/Schneiden_LVL2_Pilze_schneiden.gif",
     "/assets/Animation/Schneiden_LVL2_Brokkoli.png",
-    ""
+    "/assets/Animation/Schneiden_LV2_Topf_Soja_Korriander.gif"
   ]
 }

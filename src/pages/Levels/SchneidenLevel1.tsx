@@ -16,19 +16,19 @@ const SchneidenLevel1: React.FC = () => {
           descriptionOne="Chinesisch gebratene Nudeln"
           recipeCategoryLabelOne="Hauptspeise"
           recipeCategoryColorOne="default"
-          imgOne="assets/Bildrecherche/schneiden_lvl1_gebratenenudeln_.JPG"
+          imgOne="/assets/Bildrecherche/schneiden_lvl1_gebratenenudeln_.JPG"
 
           titleTwo="Rezept 2"
           descriptionTwo="Avocadotomatensalat"
           recipeCategoryLabelTwo="Hauptspeise"
           recipeCategoryColorTwo="default"
-          imgTwo="assets/Bildrecherche/schneiden_lvl1_avocadotomatensalat.JPG"
+          imgTwo="/assets/Bildrecherche/schneiden_lvl1_avocadotomatensalat.JPG"
 
           titleThree="Rezept 3"
           descriptionThree="Asiatisches Gemüse"
           recipeCategoryLabelThree="Hauptspeise"
           recipeCategoryColorThree="default"
-          imgThree="assets/Bildrecherche/schneiden_lvl1_asiatischesgemüse.JPG"
+          imgThree="/assets/Bildrecherche/schneiden_lvl1_asiatischesgemüse.JPG"
 
           id="1_"
         />

@@ -15,19 +15,19 @@ const SchneidenLevel3: React.FC = () => {
           descriptionOne="Beef Tatar"
           recipeCategoryLabelOne="Hauptspeise"
           recipeCategoryColorOne="default"
-          imgOne="assets/Bildrecherche/schneiden_lvl3_beeftartare.JPG"
+          imgOne="/assets/Bildrecherche/schneiden_lvl3_beeftartare.jpeg"
 
           titleTwo="Rezept 2"
           descriptionTwo="Misosuppe"
           recipeCategoryLabelTwo="Hauptspeise"
           recipeCategoryColorTwo="default"
-          imgTwo="assets/Bildrecherche/schneiden_lvl2_misosuppe.JPG"
+          imgTwo="/assets/Bildrecherche/schneiden_lvl2_misosuppe.JPG"
 
           titleThree="Rezept 3"
           descriptionThree="Moussaka"
           recipeCategoryLabelThree="Hauptspeise"
           recipeCategoryColorThree="default"
-          imgThree="assets/Bildrecherche/schneiden_lvl2_moussaka.JPG"
+          imgThree="/assets/Bildrecherche/schneiden_lvl2_moussaka.JPG"
 
           id="3_"
         />

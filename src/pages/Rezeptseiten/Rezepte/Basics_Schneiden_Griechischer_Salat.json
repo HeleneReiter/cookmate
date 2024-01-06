@@ -2,7 +2,7 @@
   "name": "Griechischer Salat",
   "portionen": 4,
   "arbeitszeit": "20 min",
-  "arbeitsschritte": 8,
+  "arbeitsschritte": 9,
   "schwierigkeit": "ganz einfach",
   "kategorie": "Salat",
   "learning": "Schneiden",
@@ -74,14 +74,14 @@
   ],
 
   "bilder": [
-    "/assets/Animation/Knoblauch_schneiden.gif",
+    "/assets/Animation/Knoblaub_schneiden.gif",
     "/assets/Animation/Basics_Gurke_Schneiden.gif",
     "/assets/Animation/Basics_Tomate_Schneiden.gif",
     "/assets/Animation/Basics_Salat_Schneiden.gif",
     "/assets/Animation/Basics_Schafskäse_Schneiden.gif",
-    "/assets/Animation/Basics_Schüssel_Salat.gif",
-    "/assets/Animation/Basics_Schüssel_Salat.gif",
     "/assets/Animation/Basics_Schüssel_Salat_Dressing.gif",
+    "/assets/Animation/Basics_Schüssel_Salat.gif",
+    "/assets/Animation/Basics_Dressing.png",
     ""
   ]
 }

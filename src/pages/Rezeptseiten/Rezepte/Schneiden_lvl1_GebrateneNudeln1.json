@@ -2,7 +2,7 @@
   "name": "Gebratene Nudeln mit Huhn",
   "portionen": 1,
   "arbeitszeit": "35 min",
-  "arbeitsschritte": 5,
+  "arbeitsschritte": 7,
   "schwierigkeit": "einfach",
   "kategorie": "Hauptspeise",
   "learning": "schneiden",
@@ -64,6 +64,8 @@
   "anleitung": [
     "Die Nudeln mit warmem Wasser übergießen, ca. 15 Min. ziehen lassen (bzw. nach Packungsangabe kochen), bis sie gar, aber nicht zu weich sind, und dann abtropfen lassen.",
     "Das Hähnchenfleisch in kleine Stücke schneiden, in gesalzenem Wasser kochen und abtropfen lassen.",
+    "Zwiebeln schälen und klein hacken.",
+    "Karotten schälen und in Streifen schneiden.",
     "Etwas Öl in einen heißen Wok oder eine Pfanne geben, darin das verquirlte Ei kurz braten und verrühren, dann die Zwiebel hinzufügen und ganz kurz weiter braten. Die Karottenstreifen und den Lauch mit hineingeben und kurz braten.",
     "Dann die Nudeln mitbraten, mit Salz, Zucker und der dunklen Sojasauce würzen, gut mischen und weiter braten.",
     "Das Fleisch und die Sojasprossen hinzufügen und in der Hitze kurz untermischen. Etwas weißen Pfeffer und ein bisschen Sesamöl (ca. 1/2 - 1 TL) hineinmischen und die Nudeln servieren."
@@ -72,8 +74,10 @@
   "bilder": [
     "/assets/Animation/Topf_Woknudeln.gif",
     "/assets/Animation/Schneiden_LVL1_Hähnchen schneiden.gif",
+    "/assets/Animation/ZwiebelSchneiden.gif",
+    "/assets/Animation/KarottenSchneiden.gif",
+    "/assets/Animation/Schneiden_LV1_Wokpfanne_step3.png",
     "/assets/Animation/Schneiden_LVL1_Wokpfanne.gif",
-    "/assets/Animation/Basics_Teig_Pfanne.png",
-    ""
+    "/assets/Animation/Schneiden_LV1_Wokpfanne_step5.gif"
   ]
 }
