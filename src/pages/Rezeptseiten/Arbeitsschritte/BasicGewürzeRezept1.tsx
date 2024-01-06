@@ -105,7 +105,7 @@ const BasicGewürzeRezept1: React.FC = () => {
   };
 
   const resetTimer = () => {
-    setSeconds(600);
+    setSeconds(1200);
     setIsActive(false);
   };
 

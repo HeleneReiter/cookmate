@@ -104,7 +104,7 @@ const SchneidenRezept1: React.FC = () => {
   };
 
   const resetTimer = () => {
-    setSeconds(600);
+    setSeconds(900);
     setIsActive(false);
   };
 
