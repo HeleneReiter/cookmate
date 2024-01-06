@@ -41,7 +41,7 @@ const BasicTeig: React.FC = () => {
   return (
     <IonPage
       style={{
-        background: "url(/assets/Bildrecherche/teig_lvl1_palatschinke.JPG)",
+        background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(/assets/Bildrecherche/teig_lvl1_palatschinke.JPG)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
@@ -59,7 +59,7 @@ const BasicTeig: React.FC = () => {
         
         </IonCardContent>
      
-      <IonButton className="zumRezeptDark" fill="clear" routerLink="/BasicRezept_Teig" >
+      <IonButton className="zumRezept" fill="clear" routerLink="/BasicRezept_Teig" >
         <p>Zum Rezept &gt;</p>
       </IonButton>
     </IonPage>

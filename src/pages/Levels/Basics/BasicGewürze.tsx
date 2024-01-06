@@ -37,7 +37,7 @@ const BasicGewürze: React.FC = () => {
   return (
     <IonPage
       style={{
-        background: "url(/assets/Bildrecherche/gewuerze_lvl1_fetatomatenauflauf.JPG)",
+        background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(/assets/Bildrecherche/gewuerze_lvl1_fetatomatenauflauf.JPG)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}

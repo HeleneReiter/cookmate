@@ -41,7 +41,7 @@ const BasicMarinieren: React.FC = () => {
   return (
     <IonPage
       style={{
-        background: "url(/assets/Bildrecherche/marinieren_lvl1_himbeersauce.JPG)",
+        background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(/assets/Bildrecherche/marinieren_lvl1_himbeersauce.JPG)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
@@ -58,7 +58,7 @@ const BasicMarinieren: React.FC = () => {
           {renderCardContent()}
         </IonCardContent>
 
-      <IonButton className="zumRezeptDark" fill="clear" routerLink="/BasicRezept_Marinieren" >
+      <IonButton className="zumRezept" fill="clear" routerLink="/BasicRezept_Marinieren" >
         <p>Zum Rezept &gt;</p>
       </IonButton>
     </IonPage>

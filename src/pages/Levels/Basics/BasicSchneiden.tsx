@@ -40,7 +40,7 @@ const BasicSchneiden: React.FC = () => {
   return (
     <IonPage
       style={{
-        background: "url(/assets/Bildrecherche/schneiden_lvl1_griechischersalat.JPG)",
+        background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(/assets/Bildrecherche/schneiden_lvl1_griechischersalat.JPG)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
@@ -59,7 +59,7 @@ const BasicSchneiden: React.FC = () => {
          
         </IonCardContent>
     
-      <IonButton className="zumRezeptDark" fill="clear" routerLink="/BasicRezept_Schneiden" >
+      <IonButton className="zumRezept" fill="clear" routerLink="/BasicRezept_Schneiden" >
         <p>Zum Rezept &gt;</p>
       </IonButton>
     </IonPage>
