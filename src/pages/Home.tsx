@@ -43,7 +43,7 @@ const Home: React.FC = () => {
           <IonCard key={index} className="basics-card">
             <IonCardContent>
               <h2>{category.name}</h2>
-              <h3>Pflicht!</h3>
+              <h3 className="homeh3">Pflicht!</h3>
               {category.categories.map((basic, levelIndex) => (
                 <IonButton
                   routerLink={`/${category.name.toLowerCase()}/${basic}`}
@@ -64,7 +64,7 @@ const Home: React.FC = () => {
           <IonCard key={index} className="category-card">
             <IonCardContent>
               <h4>Kapitel</h4>
-              <h2>{category.name}</h2>
+              <h2 className="homeh2">{category.name}</h2>
               {category.levels.map((level, levelIndex) => (
                 <IonButton
                   routerLink={`/${category.name.toLowerCase()}/level${level}`}
@@ -82,7 +82,7 @@ const Home: React.FC = () => {
           <IonCard key={index} className="bonus-card">
             <IonCardContent>
               <h2>Bonus!</h2>
-              <h3>{category.name}</h3>
+              <h3 className="homeh3">{category.name}</h3>
               {category.levels.map((level, levelIndex) => (
                 <IonButton
                   routerLink={`/${category.name.toLowerCase()}/level${level}`}

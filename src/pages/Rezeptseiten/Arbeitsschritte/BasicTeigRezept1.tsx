@@ -192,6 +192,7 @@ const BasicTeigRezept1: React.FC = () => {
                   </IonItem>
                 ))}
               </IonList>
+              <br></br>
               <h3>Anleitung:</h3>
               <ol>
                 {rezept.anleitung.map((schritt, index) => (

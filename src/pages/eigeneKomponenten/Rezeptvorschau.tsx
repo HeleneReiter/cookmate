@@ -38,7 +38,7 @@ const Rezeptvorschau: React.FC = () => {
           src="/assets/Elemente/close_white.png" 
           />
           <h2>{rezept.name}</h2>
-          <h3>Zutaten:</h3>
+          <h3>Zutaten</h3>
           <IonList>
             {rezept.zutaten.map((zutat, index) => (
               <IonItem key={index}>

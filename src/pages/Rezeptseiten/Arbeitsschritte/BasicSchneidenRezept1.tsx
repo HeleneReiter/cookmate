@@ -24,6 +24,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Rezept from '../Rezepte/Basics_Schneiden_Griechischer_Salat.json';
 
+import '../../CSS/Rezeptvorschau.css';
+
 
 interface SlideData {
   title: string;
@@ -125,10 +127,9 @@ const BasicSchneidenRezept1: React.FC = () => {
           trigger="open-modal"
           isOpen={false}
           initialBreakpoint={0.95}
-          breakpoints={[0, 0.95]}
-        >
-          <IonContent className="ion-padding" >
-            <IonCardContent >
+          breakpoints={[0, 0.95]}        >
+          <IonContent>
+            <IonCardContent className="custom-ion-card-rezeptvorschau" >
               <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>
               <IonList>
@@ -140,6 +141,7 @@ const BasicSchneidenRezept1: React.FC = () => {
                   </IonItem>
                 ))}
               </IonList>
+              <br></br>
               <h3>Anleitung:</h3>
               <ol>
                 {rezept.anleitung.map((schritt, index) => (

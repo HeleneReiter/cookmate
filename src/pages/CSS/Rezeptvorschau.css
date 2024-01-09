@@ -20,6 +20,7 @@
     margin: 0 auto; /* Fügt automatisch margin links und rechts hinzu */
     margin-top: 40px;
     background-color: #040C0F;
+    margin-bottom: 20px;
 }
 
 .listItem {
@@ -29,6 +30,7 @@
     color: white;
     border: transparent;
 }
+
 
 ion-item{
     --background:  #040C0F;
@@ -50,7 +52,6 @@ ion-item{
     position: relative;
     transform: center;
     position: relative;
-    top: 5%;
     left: 50%;
     margin-bottom: 12%;
     transform: translate(-50%, -50%);
@@ -66,3 +67,10 @@ li {
     margin-bottom: 20px;
 }
 
+ol {
+    margin-bottom: 50px;
+}
+
+ion-card .list-ios {
+    margin-bottom: 20px;
+}

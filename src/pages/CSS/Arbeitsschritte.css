@@ -13,6 +13,39 @@
     src: url('../../../public/assets/fonts/BenguiatGothicStd-Book.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'AnythingSkribble';
+    src: url('../../../public/assets/fonts/Anything-Skribble.ttf') format('truetype');
+}
+
+
+.card-content-ios h2{
+    font-family: 'AnythingSkribble';
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.card-content-ios h3{
+    font-family: 'BenguiatGothicStd-Book';
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 40px;
+}
+.card-content-ios h3{
+    font-family: 'BenguiatGothicStd-Book';
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 40px;
+}
+
+ion-content {
+    --ion-background-color: #040C0F;
+}
+
 .card {
     background-color: transparent;
     padding-top: 80px;
@@ -43,7 +76,6 @@
     border: none;
     --border-color: transparent;
     --box-shadow: none;
-    /* Weitere Stile */
 }
 
 
@@ -61,7 +93,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #07151B;
+    background-color: #040C0F;
     border: none;
 }
   
@@ -75,7 +107,7 @@
     border-radius: 0; 
     padding: 10px 20px; 
     border: none;
-
+    margin-bottom: 12%;
 }
   
 .arrow-icon {

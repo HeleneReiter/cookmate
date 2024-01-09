@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'AnythingSkribble';
     src: url('../../../public/assets/fonts/Anything-Skribble.ttf') format('truetype');
-  }
+}
   
 @font-face {
     font-family: 'IndieFlower';
@@ -58,7 +58,7 @@ h3 {
     transform: translateY(20%);
     align-self: center;
 
-    padding-bottom: 50px;/* für Labels */
+    padding-bottom: 30px;/* für Labels */
 }
 
 .custom-ion-card p {
@@ -70,7 +70,7 @@ h3 {
     padding-left: 30px;
     padding-top: 30px;
     padding-right: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     height: auto;
    
     letter-spacing: -0.09px;
@@ -135,7 +135,6 @@ h3 {
 
 .labelbox {
     position: absolute;
-   
     max-height: auto;
     position: relative;
     padding-left: 45px;
@@ -219,7 +218,7 @@ ion-segment {
     align-self: center;
     position: absolute;
 
-    top: 720px;
+    top: 710px;
 }
 
 /* Stil für nicht ausgewählte Segment-Buttons */
@@ -232,7 +231,6 @@ ion-segment-button .circle {
     padding: 0;
 }
 
-
   
 /* Stil für den ausgewählten Segment-Button */
 ion-segment-button.segment-activated .circle{
@@ -243,4 +241,5 @@ ion-segment-button.segment-activated .circle{
 /* hier is die graue box… weiss nicht wie man verändern ka… habs aus untersuchen */
 :host {
     --indicator-color: green; /* Setzt die Farbe für die Komponente */
-  }
+}
+
