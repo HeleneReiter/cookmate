@@ -24,6 +24,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import '../../CSS/Arbeitsschritte.css';
+import '../../CSS/Rezeptvorschau.css';
 import Rezept from '../Rezepte/Schneiden_lvl1_GebrateneNudeln1.json';
 
 interface SlideData {
@@ -178,7 +179,7 @@ const SchneidenRezept1: React.FC = () => {
         >
           <IonContent className="ion-padding" >
             <IonCardContent >
-              <h2>{rezept.name}</h2>
+              <h2 className="titeluebersicht">{rezept.name}</h2>
               <h3>Zutaten:</h3>
               <IonList>
                 {rezept.zutaten.map((zutat, index) => (
@@ -189,6 +190,7 @@ const SchneidenRezept1: React.FC = () => {
                   </IonItem>
                 ))}
               </IonList>
+              <br></br>
               <h3>Anleitung:</h3>
               <ol>
                 {rezept.anleitung.map((schritt, index) => (
