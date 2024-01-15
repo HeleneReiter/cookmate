@@ -240,6 +240,6 @@ ion-segment-button.segment-activated .circle{
 
 /* hier is die graue box… weiss nicht wie man verändern ka… habs aus untersuchen */
 :host {
-    --indicator-color: green; /* Setzt die Farbe für die Komponente */
+    --indicator-color: transparent; /* Setzt die Farbe für die Komponente */
 }
 
