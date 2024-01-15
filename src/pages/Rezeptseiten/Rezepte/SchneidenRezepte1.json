@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Chinesisch gebratene Nudeln",
+    "Avocadotomatensalat",
+    "Asiatisches Gemuese"
+  ],
+  "labels": [
+    "Fleisch",
+    "Vegan",
+    "Vegan"
+  ],
+  "classnames": [
+    "labelMeat",
+    "labelVegan",
+    "labelVegan"
+  ],
+  "recipeCategoryLabels": [
+    "Hauptgericht",
+    "Salat",
+    "Hauptgericht"
+  ],
+  "images": [
+    "/assets/Bildrecherche/schneiden_lvl1_gebratenenudeln_.JPG",
+    "/assets/Bildrecherche/schneiden_lvl1_avocadotomatensalat.JPG",
+    "/assets/Bildrecherche/schneiden_lvl1_asiatischesgemüse.JPG"
+  ]
+}

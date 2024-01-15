@@ -58,7 +58,7 @@ h3 {
     transform: translateY(20%);
     align-self: center;
 
-    padding-bottom: 30px;/* für Labels */
+    
 }
 
 .custom-ion-card p {
@@ -71,7 +71,7 @@ h3 {
     padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 15px;
-    height: auto;
+   
    
     letter-spacing: -0.09px;
     line-height: 38.6px;
@@ -120,6 +120,8 @@ h3 {
     width: 30%;
     height: auto;
     margin: 50px 0px 0 30px;
+    position: absolute;
+    top: 10px;
 }
 
 .labelCategory {
@@ -241,5 +243,10 @@ ion-segment-button.segment-activated .circle{
 /* hier is die graue box… weiss nicht wie man verändern ka… habs aus untersuchen */
 :host {
     --indicator-color: transparent; /* Setzt die Farbe für die Komponente */
+}
+
+.Rezeptübersicht {
+    --ion-background-color: transparent; 
+
 }
 
