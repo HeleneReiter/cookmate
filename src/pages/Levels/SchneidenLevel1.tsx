@@ -29,7 +29,7 @@ const SchneidenLevel1: React.FC = () => {
           imgTwo="/assets/Bildrecherche/schneiden_lvl1_avocadotomatensalat.JPG"
 
           titleThree="Rezept3"
-          descriptionThree="Asiatisches Gemüse"
+          descriptionThree="Asiatisches Gemuese"
           labelThree="Vegan"
           classnameThree="labelVegan"
           recipeCategoryLabelThree="Hauptspeise"

@@ -23,15 +23,15 @@ const BasicMarinieren: React.FC = () => {
       <>  
       <IonCard className="custom-ion-card">
           <div className="box"></div>
-          <p>Himbeersosse</p>
-          <div className="info"><h2>Sosse Rezept1</h2></div> {/*besser korrigieren*/}
+          <p>Himbeersauce</p>
+          <div className="info"><h2>Sauce Rezept1</h2></div> {/*besser korrigieren*/}
           </IonCard>
           <div className="labelbox">
           <IonChip className="labelVegan">
             <IonLabel>Vegan</IonLabel>
           </IonChip>
           <IonChip className="labelCategory">
-            <IonLabel>Soße</IonLabel>
+            <IonLabel>Sauce</IonLabel>
           </IonChip>
           </div>
           </>

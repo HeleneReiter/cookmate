@@ -75,3 +75,9 @@ ol {
 ion-card .list-ios {
     margin-bottom: 20px;
 }
+
+ion-content .RezeptvorschauBackground {
+    --ion-background-color: white;
+}
+
+ 

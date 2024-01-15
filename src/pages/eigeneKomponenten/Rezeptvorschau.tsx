@@ -10,7 +10,8 @@ import {
   IonCardContent,
   IonList,
   IonItem,
-  IonLabel
+  IonLabel,
+  IonRouterOutlet
 } from '@ionic/react';
 
 import '../CSS/Rezeptvorschau.css';
@@ -28,7 +29,8 @@ const Rezeptvorschau: React.FC = () => {
   };
   
   return (
-    <IonPage>
+
+    <IonPage className="custom-page-background">
       <IonCard className="custom-ion-card-rezeptvorschau">
         <IonCardContent>
           <img

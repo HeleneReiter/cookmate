@@ -12,26 +12,26 @@ const MarinierenLevel1: React.FC = () => {
       <IonContent>
         <RecipeCard
           titleOne="Rezept1"
-          descriptionOne="Schokosoße"
+          descriptionOne="Schokosauce"
           labelOne="Vegetarisch"
           classnameOne="labelVeggie"
-          recipeCategoryLabelOne="Soße"
+          recipeCategoryLabelOne="Sauce"
           recipeCategoryColorOne="default"
           imgOne="/assets/Bildrecherche/marinieren_lvl1_schokosauce.JPG"
 
           titleTwo="Rezept2"
-          descriptionTwo="Joghurtsoße"
+          descriptionTwo="Joghurtsauce"
           labelTwo="Vegetarisch"
           classnameTwo="labelVeggie"
-          recipeCategoryLabelTwo="Soße"
+          recipeCategoryLabelTwo="Sauce"
           recipeCategoryColorTwo="default"
           imgTwo="/assets/Bildrecherche/marinieren_lvl1_joghurtsauce.JPG"
 
           titleThree="Rezept3"
-          descriptionThree="Bratensoße"
+          descriptionThree="Bratensauce"
           labelThree="Fleisch"
           classnameThree="labelMeat"
-          recipeCategoryLabelThree="Soße"
+          recipeCategoryLabelThree="Sauce"
           recipeCategoryColorThree="default"
           imgThree="/assets/Bildrecherche/marinieren_lvl1_bratensauce.JPG"
 
