@@ -46,7 +46,7 @@ const Rezept2_One: React.FC = () => {
   return (
     <IonPage
     style={{
-      background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(${Rezept.image})`,
+      background: `linear-gradient(180deg, rgba(4, 13, 16, 0) 0%, rgb(4, 13, 16) 100%), url(${rezept.image})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center'
     }}
