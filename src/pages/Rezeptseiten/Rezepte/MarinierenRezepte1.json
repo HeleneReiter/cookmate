@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Schokosauce",
+    "Joghurtsauce",
+    "Bratensauce"
+  ],
+  "labels": [
+    "Vegetarisch",
+    "Vegetarisch",
+    "VegFleischan"
+  ],
+  "classnames": [
+    "labelVeggie",
+    "labelVeggie",
+    "labelMeat"
+  ],
+  "recipeCategoryLabels": [
+    "Sauce",
+    "Sauce",
+    "Sauce"
+  ],
+  "images": [
+    "/assets/Bildrecherche/marinieren_lvl1_schokosauce.JPG",
+    "/assets/Bildrecherche/marinieren_lvl1_joghurtsauce.JPG",
+    "/assets/Bildrecherche/marinieren_lvl1_bratensauce.JPG"
+  ]
+}

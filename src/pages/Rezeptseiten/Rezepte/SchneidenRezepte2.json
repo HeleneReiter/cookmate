@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Thakokossuppe",
+    "Moussake",
+    "Misosuppe"
+  ],
+  "labels": [
+    "Vegan",
+    "Fleisch",
+    "Vegan"
+  ],
+  "classnames": [
+    "labelVegan",
+    "labelMeat",
+    "labelVegan"
+  ],
+  "recipeCategoryLabels": [
+    "Suppe",
+    "Hauptspeise",
+    "Suppe"
+  ],
+  "images": [
+    "/assets/Bildrecherche/schneiden_lvl2_thaikokossuppe.JPG",
+    "/assets/Bildrecherche/schneiden_lvl2_moussaka.JPG",
+    "/assets/Bildrecherche/schneiden_lvl2_misosuppe.JPG"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Beef Tatar",
+    "Grichischer Salat",
+    "Chili con Carne"
+  ],
+  "labels": [
+    "Fleisch",
+    "Vegetarisch",
+    "Fleisch"
+  ],
+  "classnames": [
+    "labelMeat",
+    "labelVeggie",
+    "labelMeat"
+  ],
+  "recipeCategoryLabels": [
+    "Hauptspeise",
+    "Salat",
+    "Hauptspeise"
+  ],
+  "images": [
+    "/assets/Bildrecherche/schneiden_lvl3_beeftartare.jpeg",
+    "/assets/Bildrecherche/schneiden_lvl1_griechischersalat.JPG",
+    "/assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG"
+  ]
+}

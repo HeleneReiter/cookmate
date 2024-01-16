@@ -55,6 +55,7 @@ h3 {
 
 
 .custom-ion-card {
+    --background: transparent;
     background-color: #040C0F;
     /*border-image: linear-gradient(to bottom, #F3DFA2, #7EBDC2) 1;*/
     border-width: 1.5px;

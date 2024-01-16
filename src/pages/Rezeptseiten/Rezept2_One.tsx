@@ -29,6 +29,7 @@ const Rezept2_One: React.FC = () => {
     label: Rezept.label,
     learning: Rezept.learning,
     kategorie: Rezept.kategorie,
+    image: Rezept.image,
   };
 
   const [showMoreText, setShowMoreText] = useState(false);
@@ -43,7 +44,13 @@ const Rezept2_One: React.FC = () => {
   };
 
   return (
-    <IonPage>
+    <IonPage
+    style={{
+      background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(${Rezept.image})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
+    }}
+  >
       <IonContent>
         <IonCard className='custom-ion-card-rezeptvorschau'>
           <IonCardContent>
