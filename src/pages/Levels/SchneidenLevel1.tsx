@@ -83,34 +83,38 @@ const SchneidenLevel1: React.FC = () => {
         backgroundPosition: 'center'
       }}
     >
-      <IonContent scrollX >
+      <IonContent
+        scrollX={false}
+        scrollY={false}>
         <Swiper
           onSwiper={setSwiper}
           spaceBetween={100}
           slidesPerView={1}
           scrollbar={{ draggable: false }}
           onSlideChange={handleSlideChange}
+          className="swiper"
         >
 
-      <img className="logo" src="/assets/Elemente/Logo.png" alt="Logo" />
-      <img
-        onClick={handleCloseClick}
-        className="close_dark"
-        alt="schließen"
-        src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px' }}
-      />
+          <img className="logo" src="/assets/Elemente/Logo.png" alt="Logo" />
+          <img
+                  onClick={handleCloseClick}
+                  className="close_dark"
+                  alt="schließen"
+                  src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px' }}
+                />
 
           {data.map((slide, index) => (
-            <SwiperSlide key={`slide_${index}`} >
-              <IonCardContent >
-
-
+            <SwiperSlide key={`slide_${index}`} className="swiper_slide">
+              <IonCardContent>
                 <>
+
                   <IonCard className="custom-ion-card">
-                    <div className="box"></div>
-                    <p>{slide.description}</p>
-                    <div className="info"><h2>Gewürze {slide.title}</h2></div> {/*besser korrigieren*/}
+                    <div className="box">
+                      <p>{slide.description}</p>
+                      <div className="info"><h2>Gewürze {slide.title}</h2></div> 
+                    </div>
                   </IonCard>
+
                   <div className="labelbox">
                     <IonChip className={slide.classname}>
                       <IonLabel>{slide.label}</IonLabel>
@@ -119,22 +123,26 @@ const SchneidenLevel1: React.FC = () => {
                       <IonLabel>{slide.recipeCategoryLabel}</IonLabel>
                     </IonChip>
                   </div>
-                  <div className="circleOne"></div>
                 </>
-
-
-
-                {/* <IonButton onClick={goPrev}>&lt;</IonButton>
-
-                <IonButton onClick={goNext}>&gt;</IonButton> */}
-
+                <img
+                  onClick={handleCloseClick}
+                  className="close_dark"
+                  alt="schließen"
+                  src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px', opacity:0}}
+                />
 
               </IonCardContent>
             </SwiperSlide>
           ))}
         </Swiper>
-      </IonContent>
 
+      </IonContent>
+      
+      <div className="Circles">
+        <div className="circleOne"></div>
+        <div className="circleTwo"></div>
+        <div className="circleThree"></div>
+      </div>
       <IonButton className="zumRezept" fill="clear" routerLink="/Rezept1_One" >
         <p>Zum Rezept &gt;</p>
       </IonButton>

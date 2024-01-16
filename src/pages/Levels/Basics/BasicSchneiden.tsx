@@ -22,10 +22,13 @@ const BasicSchneiden: React.FC = () => {
     return (
       <>  
       <IonCard className="custom-ion-card">
+      <div className="box">
           <p>Griechischer Salat</p>
           <div className="info"><h2>Schneiden Rezept1</h2></div> {/*besser korrigieren*/}
+          </div>
           </IonCard>
-          <div className="labelbox">
+
+          <div className="labelboxBasics">
           <IonChip className="labelVeggie">
             <IonLabel>Vegetarisch</IonLabel>
           </IonChip>
@@ -46,15 +49,16 @@ const BasicSchneiden: React.FC = () => {
       }}
     >
       <img className="logo" src="/assets/Elemente/Logo.png" alt="Logo" />
-      <img
+      
+
+     
+        <IonCardContent >
+        <img
         onClick={handleCloseClick}
         className="close_dark"
         alt="schließen"
         src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px' }}
       />
-
-     
-        <IonCardContent>
           {renderCardContent()}
          
         </IonCardContent>

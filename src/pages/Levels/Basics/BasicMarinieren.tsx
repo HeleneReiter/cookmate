@@ -22,11 +22,12 @@ const BasicMarinieren: React.FC = () => {
     return (
       <>  
       <IonCard className="custom-ion-card">
-          <div className="box"></div>
+          <div className="box">
           <p>Himbeersauce</p>
           <div className="info"><h2>Sauce Rezept1</h2></div> {/*besser korrigieren*/}
+          </div>
           </IonCard>
-          <div className="labelbox">
+          <div className="labelboxBasics">
           <IonChip className="labelVegan">
             <IonLabel>Vegan</IonLabel>
           </IonChip>
@@ -47,14 +48,15 @@ const BasicMarinieren: React.FC = () => {
       }}
     >
       <img className="logo" src="/assets/Elemente/Logo.png" alt="Logo" />
-      <img
+      
+
+        <IonCardContent>
+        <img
         onClick={handleCloseClick}
         className="close_dark"
         alt="schließen"
         src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px' }}
       />
-
-        <IonCardContent>
           {renderCardContent()}
         </IonCardContent>
 

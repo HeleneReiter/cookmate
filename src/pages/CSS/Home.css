@@ -31,6 +31,11 @@
   font-family: 'AnythingSkribble';
 }
 
+.home h3 {
+  font-family: 'AnythingSkribble';
+  font-size: 20px;
+}
+
 .basics-card {
   display: grid;
   width: 100%;
@@ -43,7 +48,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-;
+  
+
 }
 
 .basics-card::before {
@@ -77,19 +83,21 @@
 
 .basicsButton {
   width: 400px; 
-  height: 10px; 
+  height: 100px; 
   margin: 0.5em;
   border-radius: 10px;
   text-align: center;
   text-transform: uppercase;
   font-size: 40px; 
+  
   font-family: 'AnythingSkribble';
   background-color: transparent; 
   color: #F3DFA2; 
   text-decoration: none;
   display: flex;
   flex-direction: column; 
-  justify-content: center; 
+  justify-content: center;
+  margin: auto; 
 }
 
 .button-inner-content {

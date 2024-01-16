@@ -39,10 +39,20 @@ h3 {
 }
 
 
-.box {
-    margin-bottom: 30px;
-    background-color: #040C0F;
+.content {
+    --ion-background-color: transparent;
+   
 }
+
+.box {
+    height: 260px;
+    width: 336px;
+    position: relative;
+    
+    
+}
+
+
 
 .custom-ion-card {
     background-color: #040C0F;
@@ -51,22 +61,18 @@ h3 {
     border-style: solid;
     border-radius: 30px; /* Abgerundete Ecken */
     border-color: #F3DFA2;
-    
-    width: 90%;
-    max-height: auto;
-    position: relative;
-    transform: translateY(20%);
-    align-self: center;
 
-    
+    margin-top: 350px;
+    margin-left: auto;
 }
 
 .custom-ion-card p {
     font-family: 'AnythingSkribble';
-    font-size: 48px;
-    font-weight: 200;
+    font-size: 48.7px;
+    font-weight: 400;
     color: white;
-    
+
+
     padding-left: 30px;
     padding-top: 30px;
     padding-right: 30px;
@@ -75,7 +81,13 @@ h3 {
    
     letter-spacing: -0.09px;
     line-height: 38.6px;
+    text-align: left;
+
 }
+
+
+
+
 
 .zumRezept p{
     color: white;
@@ -136,25 +148,42 @@ h3 {
 }
 
 .labelbox {
-    position: absolute;
     max-height: auto;
     position: relative;
-    padding-left: 45px;
+    bottom: 50px;
+    right: 10px;
+    
+}
 
+.labelboxBasics {
+    max-height: auto;
+    display: flex;
+    position: relative;
+    
+    justify-content: center;
+    right: 10px;
+    bottom: 50px;
+    
 }
 
 .info {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 35px;
+    text-align: left;
     padding-left: 30px;
+   
 }
 
 .info h2{
     color: white;
     font-family: 'IndieFlower';
-    font-size: 21px;
+    font-size: 21.7px;
     word-spacing: 30px;
 
     letter-spacing: -0.04px;
     line-height: 38.6px;
+
 }
 
 
@@ -168,6 +197,7 @@ h3 {
     border: 1.2px solid;
     border-color: #D50032;
     border-radius: 5.97px/6px;
+    margin: 10px;
 }
 
 .circleTwo {
@@ -176,6 +206,7 @@ h3 {
     border: 1.2px solid;
     border-color: #f3dfa2;
     border-radius: 5.97px/6px;
+    margin: 10px;
 }
 
 .circleThree {
@@ -184,6 +215,7 @@ h3 {
     border: 1.2px solid;
     border-color: #7EBDC2;
     border-radius: 5.97px/6px;
+    margin: 10px;
 }
 
 .circleOneFilled {
@@ -213,14 +245,15 @@ h3 {
     background-color: #7EBDC2;
 }
 
-ion-segment {
-    background: transparent;
-    height: 30px; 
-    width: auto;
-    align-self: center;
-    position: absolute;
+.Circles {
+    display: flex;
+    position: relative;
+    margin-top: 10;
+   
+    justify-content: center;
+    align-items: center;
 
-    top: 710px;
+    
 }
 
 /* Stil für nicht ausgewählte Segment-Buttons */
@@ -248,5 +281,20 @@ ion-segment-button.segment-activated .circle{
 .Rezeptübersicht {
     --ion-background-color: transparent; 
 
+}
+
+.swiper {
+    margin: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    
+}
+
+.swiper_slide {
+    margin: none;
+    background-color: transparent;
+    
 }
 
