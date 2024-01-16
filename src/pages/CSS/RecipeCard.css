@@ -149,7 +149,7 @@ h3 {
 .labelbox {
     max-height: auto;
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;   /*normal 30px, aber bei testing passt es so*/
     display: flex;
     justify-content: center;
     margin-left: 80px;
@@ -158,7 +158,7 @@ h3 {
 .labelboxBasics {
     max-height: auto;
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;  /*normal 30px, aber bei testing passt es so*/
     display: flex;
     justify-content: center;
     align-items: center;

@@ -95,8 +95,7 @@
     text-align: center;
     background-color: #040C0F;
     border: none;
-    
-    
+   
 }
   
 #open-modal {
@@ -115,7 +114,6 @@
 .arrow-icon {
     width: 20px;
     height: auto; 
-    margin-bottom: -30px;
     border: none;
 }
 
