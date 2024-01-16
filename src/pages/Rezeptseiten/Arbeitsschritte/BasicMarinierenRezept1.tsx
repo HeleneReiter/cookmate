@@ -86,7 +86,9 @@ const BasicMarinierenRezept1: React.FC = () => {
 
   return (
     <IonPage className="custom-page-background">
-      <IonContent scrollX >
+      <IonContent 
+      scrollX={false} 
+      scrollY={false}>
         <Swiper
           onSwiper={setSwiper}
           spaceBetween={100}
@@ -95,7 +97,8 @@ const BasicMarinierenRezept1: React.FC = () => {
           onSlideChange={handleSlideChange}
         >
           {data.map((slide, index) => (
-            <SwiperSlide key={`slide_${index}`} >
+            <SwiperSlide key={`slide_${index}`} 
+            className="swiperSchritte">
               <IonCard className="card">
               <img
                   onClick={handleCloseClick}

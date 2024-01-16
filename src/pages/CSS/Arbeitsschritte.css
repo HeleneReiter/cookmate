@@ -95,6 +95,8 @@
     text-align: center;
     background-color: #040C0F;
     border: none;
+    
+    
 }
   
 #open-modal {
@@ -107,7 +109,7 @@
     border-radius: 0; 
     padding: 10px 20px; 
     border: none;
-    margin-bottom: 12%;
+
 }
   
 .arrow-icon {
@@ -124,13 +126,13 @@ p {
     color: white;
     
     line-height: 1.2;
+    padding:auto;
 }
 
 .buttonTimer {
     display: flex;
     padding-left: 80px;
     padding-right: 80px;
-    
     
     --background: transparent;
     color: #F3DFA2;
@@ -143,8 +145,18 @@ p {
     --border-width: 1px;
     position: relative;
     
-    top: 5%;
+    top: 30px;
     left: 50%;
-    margin-bottom: 12%;
+    margin-bottom: 20px;
     transform: translate(-50%, -50%);
 }
+
+.swiperSchritte {
+    background-color: transparent;
+    padding-top: 120px;
+    height:100%;
+    width: 100%;
+    align-items: center;
+    right:10px;
+}
+
