@@ -8,6 +8,11 @@
     font-family: 'BenguiatGothicStd-Book';
     src: url('../../../public/assets/fonts/BenguiatGothicStd-Book.otf') format('opentype');
 }
+@font-face {
+    font-family: 'IndieFlower';
+    src: url('../../../public/assets/fonts/IndieFlower-Regular.ttf') format('truetype');
+}
+
 
 .close {
     position: relative;
@@ -21,7 +26,24 @@
     margin-top: 40px;
     opacity: 0.8;
     background-color: #040C0F;
-    margin-bottom: 20px;
+    
+}
+
+.custom-ion-card-rezeptvorschau h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 0.8;
+    color:white;
+    margin-bottom: 15px;
+}
+
+.custom-ion-card-rezeptvorschau h3 {
+    font-family: 'BenguiatGothicStd-Bold';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color:white;
+    margin-top: 20px;
 }
 
 .listItem {
@@ -32,8 +54,18 @@
     border: transparent;
 }
 
+.anzeigen {
+    color: #7ebdc2;
+    font-family: "Indie Flower";
+    font-size: 20.5px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    text-align: center;
+}
 
-ion-item{
+
+.custom-ion-card-rezeptvorschau ion-item{
     --background:  #040C0F;
     color: white;
     --background-activated: #040C0F;
@@ -77,5 +109,102 @@ ion-card .list-ios {
     margin-bottom: 20px;
 }
 
+/* labels */
 
+.labelboxVorschau {
+    max-height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.labelMeat {
+    background-color: #D50032;
+    font-weight: 600;
+    font-family: 'BenguiatGothicStd-Bold';
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 7px;
+    margin-right: 10px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 25px;
+    width: auto;
+    text-align: center;
+    text-justify: center;
+
+}
+
+.labelVeggie {
+    background-color: #F3DFA2;
+    font-weight: 600;
+    font-family: 'BenguiatGothicStd-Bold';
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 7px;
+    margin-right: 10px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 25px;
+    width: auto;
+    text-align: center;
+}
+
+.labelVegan {
+    background-color: #7EBDC2;
+    font-weight: 600;
+    font-family: 'BenguiatGothicStd-Bold';
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 7px;
+    margin-right: 10px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 25px;
+    width: auto;
+    text-align: center;
+}
+
+.labelCategory {
+    background-color: #676767;
+    font-weight: 600;
+    font-family: 'BenguiatGothicStd-Bold';
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 7px;
+    margin-right: 10px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 25px;
+    width: auto;
+    text-align: center;
+}
+
+.labeTime {
+    background-color: #FF5D52;
+    font-weight: 600;
+    font-family: 'BenguiatGothicStd-Bold';
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 7px;
+    margin-right: 10px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 25px;
+    width: auto;
+    text-align: center;
+}
+
+/* labels end */
  

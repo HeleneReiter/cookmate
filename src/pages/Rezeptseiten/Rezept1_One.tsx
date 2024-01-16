@@ -36,7 +36,7 @@ const Rezept1_One: React.FC = () => {
 
   const [showMoreText, setShowMoreText] = useState(false);
   
-  const buttonLabel = showMoreText ? 'Weniger anzeigen' : 'mehr anzeigen';
+  const buttonLabel = showMoreText ? <p className='anzeigen'>Weniger anzeigen</p> : <p className='anzeigen'>Mehr anzeigen</p> ;
 
   const toggleShowMore = () => {
     setShowMoreText(!showMoreText);
@@ -63,12 +63,18 @@ const Rezept1_One: React.FC = () => {
                 alt="schließen"
                 src="/assets/Elemente/close_white.png"
               />
-            <h2 style={{ fontSize: '50px', lineHeight: '0.8'}}>{rezept.name}</h2> {/*geht nd mit .css*/}
-            <h3 style={{ fontSize: '20px', lineHeight: '3', color:'white'}}>Zutaten</h3> {/*geht nd mit .css*/}
+            <h2>{rezept.name}</h2> 
+            <div className='labelboxVorschau'>
+              <div className='labelMeat'>Fleisch</div>
+              <div className='labelCategory'>{rezept.kategorie}</div>
+              <div className='labeTime'>{rezept.arbeitszeit}</div>
+            </div>
+            <h3>Zutaten</h3> 
+            
             <IonList>
               {rezept.zutaten.map((zutat, index) => (
                 <IonItem key={index}>
-                  <IonLabel className='listItem' style={{ fontFamily: 'BenguiatGothicStd-Book' }}> {/*geht nd mit .css*/}
+                  <IonLabel className='listItem' style={{ fontFamily: 'BenguiatGothicStd-Book' }}> 
                     –  {zutat.menge} {zutat.name}
                   </IonLabel>
                 </IonItem>
