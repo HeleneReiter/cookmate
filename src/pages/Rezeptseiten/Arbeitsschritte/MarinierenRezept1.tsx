@@ -86,7 +86,6 @@ const MarinierenRezept1: React.FC = () => {
   return (
     <IonPage className="custom-page-background">
       <IonContent 
-      scrollX={false} 
       scrollY={false}>
         <Swiper
           onSwiper={setSwiper}

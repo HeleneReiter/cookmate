@@ -126,7 +126,7 @@ const SchneidenRezept1: React.FC = () => {
   return (
     <IonPage className="custom-page-background">
       <IonContent
-      scrollX={false} 
+     
       scrollY={false}>
         <Swiper
           onSwiper={setSwiper}
@@ -179,10 +179,11 @@ const SchneidenRezept1: React.FC = () => {
           isOpen={false}
           initialBreakpoint={0.95}
           breakpoints={[0, 0.95]}
+          
         >
           <IonContent className="ion-padding" >
             <IonCardContent >
-              <h2 className="titeluebersicht">{rezept.name}</h2>
+              <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>
               <IonList>
                 {rezept.zutaten.map((zutat, index) => (
@@ -210,6 +211,7 @@ const SchneidenRezept1: React.FC = () => {
           Übersicht
         </IonButton>
       </div>
+
 
     </IonPage>
   );
