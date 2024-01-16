@@ -33,7 +33,13 @@ const SchneidenLevel1: React.FC = () => {
     image: Rezept.images[index],
   }));
 
+  const circlesFilled = ["circleOneFilled", "circleTwoFilled", "circleThreeFilled"];
+  const circles = ["circleOne", "circleTwo", "circleThree"];
+
   const [swiper, setSwiper] = useState<any>(null);
+  const [currentImage, setCurrentImage] = useState<string>(data[0].image);
+  const [currentCircleFilled, setCurrentCircleFilled] = useState<string>(circlesFilled[0]);
+  const [currentCircle, setCurrentCircle] = useState<string>(circles[0]);
 
   const goNext = () => {
     if (swiper) {
@@ -49,36 +55,22 @@ const SchneidenLevel1: React.FC = () => {
 
   const handleCloseClick = () => {
     window.location.href = "/Home";
-
   };
 
 
-  let index = 0;
 
   const handleSlideChange = () => {
     const currentSlideIndex = swiper.realIndex;
-    index = currentSlideIndex;
-  }
-
-
-  const renderImage = () => {
-    if (index === 0) {
-      return Rezept.images[0];
-
-    } else if (index === 1) {
-      return Rezept.images[1];
-
-    } else if (index === 2) {
-      return Rezept.images[2];
-
-    }
+    setCurrentImage(data[currentSlideIndex].image);
+    setCurrentCircleFilled(circlesFilled[currentSlideIndex]);
+    setCurrentCircle(circles[currentSlideIndex]);
   }
 
 
   return (
     <IonPage
       style={{
-        background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(${renderImage()})`,
+        background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(${currentImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
@@ -132,6 +124,7 @@ const SchneidenLevel1: React.FC = () => {
                 />
 
               </IonCardContent>
+
             </SwiperSlide>
           ))}
         </Swiper>
@@ -139,9 +132,9 @@ const SchneidenLevel1: React.FC = () => {
       </IonContent>
       
       <div className="Circles">
-        <div className="circleOne"></div>
-        <div className="circleTwo"></div>
-        <div className="circleThree"></div>
+        {circles.map((circle, index) => (
+          <div key={`circle_${index}`} className={currentCircle === circle ? currentCircleFilled : circle} />
+        ))}
       </div>
       <IonButton className="zumRezept" fill="clear" routerLink="/Rezept1_One" >
         <p>Zum Rezept &gt;</p>

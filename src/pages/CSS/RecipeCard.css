@@ -225,6 +225,7 @@ h3 {
     border-color: #D50032;
     border-width: 2px;
     background-color: #D50032;
+    margin: 10px;
 }
 
 .circleTwoFilled {
@@ -234,6 +235,7 @@ h3 {
     border-color: #F3DFA2;
     border-width: 2px;
     background-color: #F3DFA2;
+    margin: 10px;
 }
 
 .circleThreeFilled {
@@ -243,6 +245,7 @@ h3 {
     border-color: #7EBDC2;
     border-width: 2px;
     background-color: #7EBDC2;
+    margin: 10px;
 }
 
 .Circles {
