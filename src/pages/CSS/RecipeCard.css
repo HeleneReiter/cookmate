@@ -65,6 +65,8 @@ h3 {
 
     margin-top: 350px;
     margin-left: auto;
+
+   
 }
 
 .custom-ion-card p {
@@ -85,10 +87,6 @@ h3 {
     text-align: left;
 
 }
-
-
-
-
 
 .zumRezept p{
     color: white;
@@ -150,26 +148,27 @@ h3 {
 
 .labelbox {
     max-height: auto;
-    position: relative;
-    bottom: 50px;
-    right: 10px;
-    
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
 }
 
 .labelboxBasics {
     max-height: auto;
+    position: absolute;
+    bottom: 30px;
     display: flex;
-    position: relative;
-    
     justify-content: center;
-    right: 10px;
-    bottom: 50px;
+    align-items: center;
+    margin-left: 80px;
     
 }
 
 .info {
     margin-top: 10px;
-    position: absolute;
+    position: fixed;
     bottom: 35px;
     text-align: left;
     padding-left: 30px;

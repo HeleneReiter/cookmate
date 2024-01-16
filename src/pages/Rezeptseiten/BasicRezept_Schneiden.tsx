@@ -13,20 +13,21 @@ import {
   IonLabel,
   IonButton
 } from '@ionic/react';
-import GriechischerSalat from './Rezepte/Basics_Schneiden_Griechischer_Salat.json'; //zu grischischer salat ändern
+import Rezept from './Rezepte/Basics_Schneiden_Griechischer_Salat.json'; //zu grischischer salat ändern
 
 const BasicRezept_Schneiden: React.FC = () => {
   const rezept = {
-    name: GriechischerSalat.name,
-    portionen: GriechischerSalat.portionen,
-    arbeitszeit: GriechischerSalat.arbeitszeit,
-    arbeitsschritte: GriechischerSalat.arbeitsschritte,
-    schwierigkeit: GriechischerSalat.schwierigkeit,
-    zutaten: GriechischerSalat.zutaten,
-    anleitung: GriechischerSalat.anleitung,
-    label: GriechischerSalat.label,
-    learning: GriechischerSalat.learning,
-    kategorie: GriechischerSalat.kategorie,
+    name: Rezept.name,
+    portionen: Rezept.portionen,
+    arbeitszeit: Rezept.arbeitszeit,
+    arbeitsschritte: Rezept.arbeitsschritte,
+    schwierigkeit: Rezept.schwierigkeit,
+    zutaten: Rezept.zutaten,
+    anleitung: Rezept.anleitung,
+    label: Rezept.label,
+    learning: Rezept.learning,
+    kategorie: Rezept.kategorie,
+    image: Rezept.image,
   };
 
   const [showMoreText, setShowMoreText] = useState(false);
@@ -41,7 +42,13 @@ const BasicRezept_Schneiden: React.FC = () => {
   };
 
   return (
-    <IonPage>
+    <IonPage
+    style={{
+      background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(${rezept.image})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
+    }}
+  >
       <IonContent>
         <IonCard className='custom-ion-card-rezeptvorschau'>
           <IonCardContent>

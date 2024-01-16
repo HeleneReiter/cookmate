@@ -27,7 +27,7 @@ const BasicMarinieren: React.FC = () => {
           <div className="info"><h2>Sauce Rezept1</h2></div> {/*besser korrigieren*/}
           </div>
           </IonCard>
-          <div className="labelboxBasics">
+          <div className="labelbox">
           <IonChip className="labelVegan">
             <IonLabel>Vegan</IonLabel>
           </IonChip>

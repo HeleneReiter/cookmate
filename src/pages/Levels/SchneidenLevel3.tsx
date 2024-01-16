@@ -10,6 +10,7 @@ import {
 } from "@ionic/react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
+import '../CSS/RecipeCard.css';
 
 interface SlideData {
   title: string;
@@ -89,11 +90,11 @@ const SchneidenLevel3: React.FC = () => {
 
           <img className="logo" src="/assets/Elemente/Logo.png" alt="Logo" />
           <img
-                  onClick={handleCloseClick}
-                  className="close_dark"
-                  alt="schließen"
-                  src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px' }}
-                />
+            onClick={handleCloseClick}
+            className="close_dark"
+            alt="schließen"
+            src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px' }}
+          />
 
           {data.map((slide, index) => (
             <SwiperSlide key={`slide_${index}`} className="swiper_slide">
@@ -103,7 +104,7 @@ const SchneidenLevel3: React.FC = () => {
                   <IonCard className="custom-ion-card">
                     <div className="box">
                       <p>{slide.description}</p>
-                      <div className="info"><h2>Gewürze {slide.title}</h2></div> 
+                      <div className="info"><h2>Gewürze {slide.title}</h2></div>
                     </div>
                   </IonCard>
 
@@ -120,7 +121,7 @@ const SchneidenLevel3: React.FC = () => {
                   onClick={handleCloseClick}
                   className="close_dark"
                   alt="schließen"
-                  src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px', opacity:0}}
+                  src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px', opacity: 0 }}
                 />
 
               </IonCardContent>
@@ -130,7 +131,7 @@ const SchneidenLevel3: React.FC = () => {
         </Swiper>
 
       </IonContent>
-      
+
       <div className="Circles">
         {circles.map((circle, index) => (
           <div key={`circle_${index}`} className={currentCircle === circle ? currentCircleFilled : circle} />
