@@ -86,7 +86,9 @@ const MarinierenRezept1: React.FC = () => {
   return (
     <IonPage className="custom-page-background">
       <IonContent 
-      scrollY={false}>
+      scrollY={true}
+   
+      scrollX={false}>
         <Swiper
           onSwiper={setSwiper}
           spaceBetween={100}
@@ -112,7 +114,6 @@ const MarinierenRezept1: React.FC = () => {
 
                 </div>
                 <p>{slide.description}</p>
-
                 {/* showFinish nur bei letzter Seite anzeigen*/}
                 {showFinish && (
                   <IonButton className="buttonTimer" onClick={handleFinishClick}>Fertig!</IonButton>
@@ -122,14 +123,19 @@ const MarinierenRezept1: React.FC = () => {
           ))}
         </Swiper>
 
+
         <IonModal
           trigger="open-modal"
           isOpen={false}
           initialBreakpoint={0.95}
           breakpoints={[0, 0.95]}
+          className="custom-page-background"
+          
         >
-          <IonContent className="ion-padding" >
-            <IonCardContent >
+          <IonContent 
+          className="ion-padding" 
+          scrollY={true}>
+            <IonCardContent className="custom-page-background">
               <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>
               <IonList>

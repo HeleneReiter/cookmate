@@ -123,11 +123,12 @@ const SchneidenRezept1: React.FC = () => {
      setShowFinish(currentSlideIndex === rezept.arbeitsschritte - 1);
    }
 
-  return (
+   return (
     <IonPage className="custom-page-background">
-      <IonContent
-     
-      scrollY={false}>
+      <IonContent 
+      scrollY={false}
+   
+      scrollX={false}>
         <Swiper
           onSwiper={setSwiper}
           spaceBetween={100}
@@ -150,21 +151,21 @@ const SchneidenRezept1: React.FC = () => {
                   <IonButton className="navigationbuttons" onClick={goPrev}>&lt;</IonButton>
                   <h2 className="step">{slide.title.toUpperCase()}</h2>
                   <IonButton className="navigationbuttons" onClick={goNext}>&gt;</IonButton>
+
                 </div>
                 <p>{slide.description}</p>
 
-
-                {/* showTimer nur bei Seite mit Timer anzeigen -> index = 1 */}
+                {/* showTimer nur bei Seite mit Timer anzeigen*/}
                 {showTimer && (
 
                   // Button um Zeit zu starten und zu stoppen -> zeigt auch gleichzeitig die Zeit an
                   <><IonButton className="buttonTimer" onClick={(toggleTimer)}>
                     {isActive ? formatTime(seconds) : 'Timer Starten'}</IonButton>
+                    
 
                     {/* Button um Zeit zurückzusetzen */}
                     <IonButton className="buttonTimer" onClick={resetTimer}>reset </IonButton></>
                 )}
-
                 {/* showFinish nur bei letzter Seite anzeigen*/}
                 {showFinish && (
                   <IonButton className="buttonTimer" onClick={handleFinishClick}>Fertig!</IonButton>
@@ -174,18 +175,23 @@ const SchneidenRezept1: React.FC = () => {
           ))}
         </Swiper>
 
+
         <IonModal
           trigger="open-modal"
           isOpen={false}
           initialBreakpoint={0.95}
           breakpoints={[0, 0.95]}
+          className="custom-page-background"
           
         >
-          <IonContent className="ion-padding" >
-            <IonCardContent >
+          <IonContent 
+          className="ion-padding" 
+          scrollY={true}>
+            
+            <IonCardContent className="custom-page-background">
               <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>
-              <IonList>
+              <IonList >
                 {rezept.zutaten.map((zutat, index) => (
                   <IonItem key={index}>
                     <IonLabel>
@@ -211,7 +217,6 @@ const SchneidenRezept1: React.FC = () => {
           Übersicht
         </IonButton>
       </div>
-
 
     </IonPage>
   );

@@ -14,7 +14,6 @@ const Start: React.FC = () => {
         <div className="start">
           <div className="overlap-group-wrapper">
             <div className="overlap-group">
-              {/* Add the overlay element */}
               <div className="overlay"></div>
 
               <img

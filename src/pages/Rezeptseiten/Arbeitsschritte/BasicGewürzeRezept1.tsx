@@ -126,8 +126,9 @@ const BasicGewürzeRezept1: React.FC = () => {
   return (
     <IonPage className="custom-page-background">
       <IonContent 
+      scrollY={true}
    
-      scrollY={false}>
+      scrollX={false}>
         <Swiper
           onSwiper={setSwiper}
           spaceBetween={100}
@@ -180,9 +181,13 @@ const BasicGewürzeRezept1: React.FC = () => {
           isOpen={false}
           initialBreakpoint={0.95}
           breakpoints={[0, 0.95]}
+          className="custom-page-background"
+          
         >
-          <IonContent className="ion-padding" >
-            <IonCardContent >
+          <IonContent 
+          className="ion-padding" 
+          scrollY={true}>
+            <IonCardContent className="custom-page-background">
               <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>
               <IonList>

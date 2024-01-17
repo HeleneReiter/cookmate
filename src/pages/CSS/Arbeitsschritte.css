@@ -42,9 +42,7 @@
     line-height: 40px;
 }
 
-.Arbeitschrittebackground {
-    --ion-background-color: #7bacbe;
-}
+
 
 .card {
     background-color: transparent;
@@ -54,6 +52,8 @@
 
 .custom-page-background {
     --ion-background-color: linear-gradient(to top, rgba(4,12,15,1), rgb(7, 21, 27, 1)); 
+    --ion-item-background: #040C0F;
+    --ion-card-background: #040C0F;
 }
 
   
@@ -99,7 +99,7 @@
 }
   
 #open-modal {
-    --background: transparent; 
+    --background: #040C0F; 
     --border: none; 
     --box-shadow: none; 
     color: white;

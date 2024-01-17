@@ -89,7 +89,9 @@ const BasicSchneidenRezept1: React.FC = () => {
   return (
     <IonPage className="custom-page-background">
       <IonContent 
-      scrollY={false}>
+      scrollY={true}
+   
+      scrollX={false}>
         <Swiper
           onSwiper={setSwiper}
           spaceBetween={100}
@@ -97,12 +99,11 @@ const BasicSchneidenRezept1: React.FC = () => {
           scrollbar={{ draggable: false }}
           onSlideChange={handleSlideChange}
         >
-
           {data.map((slide, index) => (
             <SwiperSlide key={`slide_${index}`} 
             className="swiperSchritte">
               <IonCard className="card">
-                <img
+              <img
                   onClick={handleCloseClick}
                   className="close_dark"
                   alt="schließen"
@@ -113,25 +114,32 @@ const BasicSchneidenRezept1: React.FC = () => {
                   <IonButton className="navigationbuttons" onClick={goPrev}>&lt;</IonButton>
                   <h2 className="step">{slide.title.toUpperCase()}</h2>
                   <IonButton className="navigationbuttons" onClick={goNext}>&gt;</IonButton>
+
                 </div>
                 <p>{slide.description}</p>
+
                 {/* showFinish nur bei letzter Seite anzeigen*/}
                 {showFinish && (
                   <IonButton className="buttonTimer" onClick={handleFinishClick}>Fertig!</IonButton>
                 )}
-
               </IonCard>
             </SwiperSlide>
           ))}
         </Swiper>
 
+
         <IonModal
           trigger="open-modal"
           isOpen={false}
           initialBreakpoint={0.95}
-          breakpoints={[0, 0.95]}        >
-          <IonContent>
-            <IonCardContent className="custom-ion-card-rezeptvorschau" >
+          breakpoints={[0, 0.95]}
+          className="custom-page-background"
+          
+        >
+          <IonContent 
+          className="ion-padding" 
+          scrollY={true}>
+            <IonCardContent className="custom-page-background">
               <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>
               <IonList>
