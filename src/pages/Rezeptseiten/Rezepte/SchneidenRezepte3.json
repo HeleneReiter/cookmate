@@ -6,27 +6,27 @@
   ],
   "descriptions": [
     "Beef Tatar",
-    "Grichischer Salat",
-    "Chili con Carne"
+    "Chili con Carne",
+    "Gemuese Lasagne"
   ],
   "labels": [
     "Fleisch",
-    "Vegetarisch",
-    "Fleisch"
+    "Fleisch",
+    "Vegetarisch"
   ],
   "classnames": [
     "labelMeat",
-    "labelVeggie",
-    "labelMeat"
+    "labelMeat",
+    "labelVeggie"
   ],
   "recipeCategoryLabels": [
     "Hauptspeise",
-    "Salat",
+    "Hauptspeise",
     "Hauptspeise"
   ],
   "images": [
     "/assets/Bildrecherche/schneiden_lvl3_beeftartare.jpeg",
-    "/assets/Bildrecherche/schneiden_lvl1_griechischersalat.JPG",
-    "/assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG"
+    "/assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG",
+    "/assets/Bildrecherche/gewuerze_lvl3_bauernauflauf.JPG"
   ]
 }

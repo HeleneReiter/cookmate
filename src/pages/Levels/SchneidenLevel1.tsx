@@ -36,11 +36,13 @@ const SchneidenLevel1: React.FC = () => {
 
   const circlesFilled = ["circleOneFilled", "circleTwoFilled", "circleThreeFilled"];
   const circles = ["circleOne", "circleTwo", "circleThree"];
+  const recipes = ["/Rezept1_One", "/Rezept1_Two", "/Rezept1_Three"]
 
   const [swiper, setSwiper] = useState<any>(null);
   const [currentImage, setCurrentImage] = useState<string>(data[0].image);
   const [currentCircleFilled, setCurrentCircleFilled] = useState<string>(circlesFilled[0]);
   const [currentCircle, setCurrentCircle] = useState<string>(circles[0]);
+  const [currentRecipe, setCurrentRecipe] = useState<string>(recipes[0]);
 
   const goNext = () => {
     if (swiper) {
@@ -58,13 +60,12 @@ const SchneidenLevel1: React.FC = () => {
     window.location.href = "/Home";
   };
 
-
-
   const handleSlideChange = () => {
     const currentSlideIndex = swiper.realIndex;
     setCurrentImage(data[currentSlideIndex].image);
     setCurrentCircleFilled(circlesFilled[currentSlideIndex]);
     setCurrentCircle(circles[currentSlideIndex]);
+    setCurrentRecipe(recipes[currentSlideIndex]);
   }
 
 
@@ -137,7 +138,7 @@ const SchneidenLevel1: React.FC = () => {
           <div key={`circle_${index}`} className={currentCircle === circle ? currentCircleFilled : circle} />
         ))}
       </div>
-      <IonButton className="zumRezept" fill="clear" routerLink="/Rezept1_One" >
+      <IonButton className="zumRezept" fill="clear" routerLink={currentRecipe} >
         <p>Zum Rezept &gt;</p>
       </IonButton>
 
