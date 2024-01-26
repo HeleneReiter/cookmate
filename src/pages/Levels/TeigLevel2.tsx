@@ -20,7 +20,7 @@ interface SlideData {
   recipeCategoryLabel: string;
   image: string;
 }
-import Rezept from '../Rezeptseiten/Rezepte/TeigRezepte2.json';
+import Rezept from '../Rezeptseiten/Rezepte/Levels/TeigRezepte2.json';
 
 const TeigLevel2 : React.FC = () => {
 

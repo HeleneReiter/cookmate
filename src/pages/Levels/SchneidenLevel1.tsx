@@ -20,7 +20,7 @@ interface SlideData {
   recipeCategoryLabel: string;
   image: string;
 }
-import Rezept from '../Rezeptseiten/Rezepte/SchneidenRezepte1.json';
+import Rezept from '../Rezeptseiten/Rezepte/Levels/SchneidenRezepte1.json';
 
 const SchneidenLevel1: React.FC = () => {
 

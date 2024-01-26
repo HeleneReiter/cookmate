@@ -20,7 +20,7 @@ interface SlideData {
   recipeCategoryLabel: string;
   image: string;
 }
-import Rezept from '../Rezeptseiten/Rezepte/GewürzeRezepte2.json';
+import Rezept from '../Rezeptseiten/Rezepte/Levels/GewürzeRezepte2.json';
 
 const GewürzeLevel2 : React.FC = () => {
 

@@ -20,7 +20,7 @@ interface SlideData {
   recipeCategoryLabel: string;
   image: string;
 }
-import Rezept from '../Rezeptseiten/Rezepte/MarinierenRezepte3.json';
+import Rezept from '../Rezeptseiten/Rezepte/Levels/MarinierenRezepte3.json';
 
 const MarinierenLevel3 : React.FC = () => {
 
