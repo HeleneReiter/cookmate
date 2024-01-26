@@ -1,0 +1,63 @@
+{
+    "name": "Tomatensoße",
+    "portionen": 4,
+    "arbeitszeit": "10 min",
+    "arbeitsschritte": 7,
+    "schwierigkeit": "einfach",
+    "kategorie": "Soße",
+    "learning": "Soßen",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Tomaten",
+        "menge": "500g"
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "2 Stk"
+      },
+      {
+        "name": "Basilikum",
+        "menge": "5 Blätter"
+      },
+      {
+        "name": "Zwiebeln",
+        "menge": "1/2 Stk"
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Zucker",
+        "menge": "2 TL"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Tomatenmark",
+        "menge": "1 EL"
+      },
+      {
+        "name": "Sahne",
+        "menge": "40 ml"
+      }
+    ],
+    "anleitung": [
+      "Den Stielansatz der Tomaten abschneiden und Tomaten halbieren und in eine Schüssel geben.",
+      "Knoblauch schälen, fein hacken und zu den Tomaten geben.",
+      "1 EL Olivenöl darüber träufeln.",
+      "Für 4 Minuten bei 750 W in die Mikrowelle stellen, danach in einen Mixer umfüllen.",
+      "Die Zwiebel klein hacken und mit 1 EL Olivenöl bei starker Hitze in einer kleinen Pfanne anbraten, bis sie leicht Farbe nimmt.",
+      "Die Zwiebel zusammen mit den Basilikumblättern, dem Zucker, dem Tomatenmark und der Sahne ebenfalls in den Mixer geben und alles fein pürieren.",
+      "Mit Salz und Pfeffer abschmecken.",
+      "Tipp: kann für Spaghetti Napoli oder als Grundlage für viele andere Rezepte mit Tomatensauce verwendet werden."
+    ]
+  }
+  

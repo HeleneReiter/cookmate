@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Bananenbrot",
+    "Zebrakuchen",
+    "Lebkuchen"
+  ],
+  "labels": [
+    "Vegetarisch",
+    "Vegetarisch",
+    "Vegetarisch"
+  ],
+  "classnames": [
+    "labelVeggie",
+    "labelVeggie",
+    "labelVeggie"
+  ],
+  "recipeCategoryLabels": [
+    "Nachspeise",
+    "Nachspeise",
+    "Kekse"
+  ],
+  "images": [
+    "/assets/Bildrecherche/backen_lvl2_bananenbrot.JPG",
+    "/assets/Bildrecherche/backen_lvl2_zebrakuchen.JPG",
+    "/assets/Bildrecherche/backen_lvl2_lebkuchen.JPG"
+  ]
+}

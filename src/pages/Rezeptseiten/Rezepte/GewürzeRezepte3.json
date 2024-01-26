@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Palak Paneer",
+    "Gyros-Geschnetzeltes",
+    "Griechischer Bauernauflauf"
+  ],
+  "labels": [
+    "Vegetarisch",
+    "Fleisch",
+    "Vegetarisch"
+  ],
+  "classnames": [
+    "labelVeggie",
+    "labelMeat",
+    "labelVeggie"
+  ],
+  "recipeCategoryLabels": [
+    "Hauptspeise",
+    "Hauptspeise",
+    "Hauptspeise"
+  ],
+  "images": [
+    "/assets/Bildrecherche/gewuerze_lvl3_palakpaneer.JPG",
+    "/assets/Bildrecherche/gewuerze_lvl3_gyrosgeschnetzeltes.JPG",
+    "/assets/Bildrecherche/gewuerze_lvl3_bauernauflauf.JPG"
+  ]
+}

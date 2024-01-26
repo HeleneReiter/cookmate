@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Orientalisch Hackbällchen",
+    "Falafel",
+    "Linsensuppe"
+  ],
+  "labels": [
+    "Fleisch",
+    "Vegan",
+    "Vegan"
+  ],
+  "classnames": [
+    "labelMeat",
+    "labelVegan",
+    "labelVegan"
+  ],
+  "recipeCategoryLabels": [
+    "Hauptspeise",
+    "Hauptspeise",
+    "Suppe"
+  ],
+  "images": [
+    "/assets/Bildrecherche/gewuerze_lvl2_hackbaellchenmitcahsews.JPG",
+    "/assets/Bildrecherche/gewuerze_lvl2_falafel.JPG",
+    "/assets/Bildrecherche/gewuerze_lvl1_linsensuppe.JPG"
+  ]
+}

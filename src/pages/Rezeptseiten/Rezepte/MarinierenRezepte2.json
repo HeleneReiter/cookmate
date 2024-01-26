@@ -5,19 +5,19 @@
     "Rezept3"
   ],
   "descriptions": [
-    "Schokosauce",
-    "Joghurtsauce",
-    "Bratensauce"
+    "Knoblauchsauce mit Chili",
+    "Tomatensauce",
+    "Kraeutersauce"
   ],
   "labels": [
     "Vegetarisch",
     "Vegetarisch",
-    "Fleisch"
+    "Vegetarisch"
   ],
   "classnames": [
     "labelVeggie",
     "labelVeggie",
-    "labelMeat"
+    "labelVeggie"
   ],
   "recipeCategoryLabels": [
     "Sauce",
@@ -25,8 +25,8 @@
     "Sauce"
   ],
   "images": [
-    "/assets/Bildrecherche/marinieren_lvl1_schokosauce.JPG",
-    "/assets/Bildrecherche/marinieren_lvl1_joghurtsauce.JPG",
-    "/assets/Bildrecherche/marinieren_lvl1_bratensauce.JPG"
+    "/assets/Bildrecherche/marinieren_lvl2_knoblauchsauce.JPG",
+    "/assets/Bildrecherche/tomatensauce.JPG",
+    "/assets/Bildrecherche/marinieren_lvl2_kaeutersauce.JPG"
   ]
 }

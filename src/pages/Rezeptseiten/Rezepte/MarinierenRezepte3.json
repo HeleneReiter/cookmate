@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Sweet-Chili-Sauce",
+    "Kaesesauce",
+    "Hollandaise"
+  ],
+  "labels": [
+    "Vegan",
+    "Vegetarisch",
+    "Vegetarisch"
+  ],
+  "classnames": [
+    "labelVegan",
+    "labelVeggie",
+    "labelVeggie"
+  ],
+  "recipeCategoryLabels": [
+    "Sauce",
+    "Sauce",
+    "Sauce"
+  ],
+  "images": [
+    "/assets/Bildrecherche/marinieren_lvl3_sweetchilisauce.JPG",
+    "/assets/Bildrecherche/marinieren_lvl3_kaesesauce.JPG",
+    "/assets/Bildrecherche/marinieren_lvl3_hollandaise.JPG"
+  ]
+}

@@ -5,9 +5,9 @@
     "Rezept3"
   ],
   "descriptions": [
-    "Schokosauce",
-    "Joghurtsauce",
-    "Bratensauce"
+    "Linzer Torte",
+    "Pandamuffins",
+    "Ratatouille"
   ],
   "labels": [
     "Vegetarisch",
@@ -20,13 +20,13 @@
     "labelMeat"
   ],
   "recipeCategoryLabels": [
-    "Sauce",
-    "Sauce",
-    "Sauce"
+    "Nachspeise",
+    "Nachspeise",
+    "Hauptspeise"
   ],
   "images": [
-    "/assets/Bildrecherche/marinieren_lvl1_schokosauce.JPG",
-    "/assets/Bildrecherche/marinieren_lvl1_joghurtsauce.JPG",
-    "/assets/Bildrecherche/marinieren_lvl1_bratensauce.JPG"
+    "/assets/Bildrecherche/backen_lvl3_linzertorte.JPG",
+    "/assets/Bildrecherche/backen_lvl3_pandamuffins.JPG",
+    "/assets/Bildrecherche/backen_lvl3_ratatouille.JPG"
   ]
 }

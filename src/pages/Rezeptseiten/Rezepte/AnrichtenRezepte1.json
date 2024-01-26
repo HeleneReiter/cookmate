@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Mango Smoothie Bowl",
+    "Griechische Hackspieße in Tomatensauce",
+    "Griechischer Hotdog"
+  ],
+  "labels": [
+    "Vegan",
+    "Fleisch",
+    "Fleisch"
+  ],
+  "classnames": [
+    "labelVegan",
+    "labelMeat",
+    "labelMeat"
+  ],
+  "recipeCategoryLabels": [
+    "Snack",
+    "Hauptspeise",
+    "Hauptspeise"
+  ],
+  "images": [
+    "/assets/Bildrecherche/anrichten_lvl1_mangosmoothie.JPG",
+    "/assets/Bildrecherche/anrichten_Hackspieße.JPG",
+    "/assets/Bildrecherche/anrichten_hotdog.JPG"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Vorarlberger Käsespätzle",
+    "Lahmacun",
+    "Pide"
+  ],
+  "labels": [
+    "Vegetarisch",
+    "Fleisch",
+    "Vegetarisch"
+  ],
+  "classnames": [
+    "labelVeggie",
+    "labelMeat",
+    "labelVeggie"
+  ],
+  "recipeCategoryLabels": [
+    "Hauptspeise",
+    "Hauptspeise",
+    "Hauptspeise"
+  ],
+  "images": [
+    "/assets/Bildrecherche/teig_lvl2_kaesespaetzle.JPG",
+    "/assets/Bildrecherche/teig_lvl2_lahmacun.JPG",
+    "/assets/Bildrecherche/teig_lvl2_pide.JPG"
+  ]
+}

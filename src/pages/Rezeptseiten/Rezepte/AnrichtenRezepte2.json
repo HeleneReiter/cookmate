@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Griechischer Salat im Gurkenring",
+    "Griechischer Hotdog",
+    "Schokoladeneis"
+  ],
+  "labels": [
+    "Vegetarisch",
+    "Fleisch",
+    "Vegetarisch"
+  ],
+  "classnames": [
+    "labelVeggie",
+    "labelMeat",
+    "labelVeggie"
+  ],
+  "recipeCategoryLabels": [
+    "Salat",
+    "Hauptspeise",
+    "Nachspeise"
+  ],
+  "images": [
+    "/assets/Bildrecherche/anrichten_salatring.JPG",
+    "/assets/Bildrecherche/anrichten_hotdog.JPG",
+    "/assets/Bildrecherche/anrichten_lvl2_schokoeis.JPG"
+  ]
+}

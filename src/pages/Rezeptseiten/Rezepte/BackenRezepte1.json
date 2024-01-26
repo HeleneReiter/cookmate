@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Vanillekipferl",
+    "Mamorgugelhupf",
+    "Vollkornbrot"
+  ],
+  "labels": [
+    "Vegetarisch",
+    "Vegetarisch",
+    "Vegan"
+  ],
+  "classnames": [
+    "labelVeggie",
+    "labelVeggie",
+    "labelVegan"
+  ],
+  "recipeCategoryLabels": [
+    "Kekse",
+    "Nachspeise",
+    "Brot"
+  ],
+  "images": [
+    "/assets/Bildrecherche/backen_lvl1_vanillekipferl.JPG",
+    "/assets/Bildrecherche/backen_lvl1_marmorgugelhupf.JPG",
+    "/assets/Bildrecherche/backen_lvl1_vollkornbrot.JPG"
+  ]
+}

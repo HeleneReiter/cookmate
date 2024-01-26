@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Marillenknödel",
+    "Krabbenchips",
+    "Takoyaki"
+  ],
+  "labels": [
+    "Vegetarisch",
+    "Fleisch",
+    "Fleisch"
+  ],
+  "classnames": [
+    "labelVeggie",
+    "labelMeat",
+    "labelMeat"
+  ],
+  "recipeCategoryLabels": [
+    "Nachspeise",
+    "Snack",
+    "Hauptspeise"
+  ],
+  "images": [
+    "/assets/Bildrecherche/teig_lvl3_marillenknödel.JPG",
+    "/assets/Bildrecherche/teig_hummerchips.JPG",
+    "/assets/Bildrecherche/teig_lvl3_takoyaki.JPG"
+  ]
+}

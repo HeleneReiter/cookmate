@@ -1,0 +1,32 @@
+{
+  "titles": [
+    "Rezept1",
+    "Rezept2",
+    "Rezept3"
+  ],
+  "descriptions": [
+    "Topfennockerl mit Brösel",
+    "Fladenbrot",
+    "gebackene Früchte"
+  ],
+  "labels": [
+    "Vegetarisch",
+    "Vegetarisch",
+    "Vegetarisch"
+  ],
+  "classnames": [
+    "labelVeggie",
+    "labelVeggie",
+    "labelVeggie"
+  ],
+  "recipeCategoryLabels": [
+    "Hauptspeise",
+    "Brot",
+    "Nachspeise"
+  ],
+  "images": [
+    "/assets/Bildrecherche/teig_lvl1_topfennockerl.JPG",
+    "/assets/Bildrecherche/teig_lvl1_fladenbrot.JPG",
+    "/assets/Bildrecherche/teig_lvl1_gebackenefruechte.JPG"
+  ]
+}
