@@ -5,9 +5,9 @@
     "Rezept3"
   ],
   "descriptions": [
-    "Orientalisch Hackbällchen",
+    "Orientalisch Hackbaellchen",
     "Falafel",
-    "Linsensuppe"
+    "Kartoffelcurry"
   ],
   "labels": [
     "Fleisch",
@@ -27,6 +27,6 @@
   "images": [
     "/assets/Bildrecherche/gewuerze_lvl2_hackbaellchenmitcahsews.JPG",
     "/assets/Bildrecherche/gewuerze_lvl2_falafel.JPG",
-    "/assets/Bildrecherche/gewuerze_lvl1_linsensuppe.JPG"
+    "/assets/Bildrecherche/gewuerze_lvl2_kartoffelcurry.jpg"
   ]
 }

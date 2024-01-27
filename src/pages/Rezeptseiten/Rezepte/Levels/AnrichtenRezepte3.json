@@ -7,7 +7,7 @@
   "descriptions": [
     "Griechische Wraps",
     "Ratatouille",
-    "Schokoladeneis"
+    "Spaghetti-Eis"
   ],
   "labels": [
     "Fleisch",
@@ -27,6 +27,6 @@
   "images": [
     "/assets/Bildrecherche/anrichten_lvl2_griechischewraps.JPG",
     "/assets/Bildrecherche/anrichten_lvl3_ratatouille.JPG",
-    "/assets/Bildrecherche/anrichten_lvl2_schokoeis.JPG"
+    "/assets/Bildrecherche/anrichten_lvl3_spaghettieis.JPG"
   ]
 }

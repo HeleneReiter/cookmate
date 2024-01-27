@@ -7,26 +7,26 @@
   "descriptions": [
     "Mango Smoothie Bowl",
     "Griechische Hackspieße in Tomatensauce",
-    "Griechischer Hotdog"
+    "Avocado-Mozzarella-Salat mit Mango"
   ],
   "labels": [
     "Vegan",
     "Fleisch",
-    "Fleisch"
+    "Vegetarisch"
   ],
   "classnames": [
     "labelVegan",
     "labelMeat",
-    "labelMeat"
+    "labelVeggie"
   ],
   "recipeCategoryLabels": [
     "Snack",
     "Hauptspeise",
-    "Hauptspeise"
+    "Salat"
   ],
   "images": [
     "/assets/Bildrecherche/anrichten_lvl1_mangosmoothie.JPG",
     "/assets/Bildrecherche/anrichten_Hackspieße.JPG",
-    "/assets/Bildrecherche/anrichten_hotdog.JPG"
+    "/assets/Bildrecherche/anrichten_lvl1_avocadomangosalat.JPG"
   ]
 }
