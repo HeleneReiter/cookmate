@@ -44,8 +44,6 @@ const BasicSchneiden: React.FC = () => {
     <IonPage
       style={{
         background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(/assets/Bildrecherche/schneiden_lvl1_griechischersalat.JPG)`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
       }}
     >
       <img className="logo" src="/assets/Elemente/Logo.png" alt="Logo" />

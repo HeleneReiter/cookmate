@@ -43,8 +43,6 @@ const BasicTeig: React.FC = () => {
     <IonPage
       style={{
         background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(/assets/Bildrecherche/teig_lvl1_palatschinke.JPG)`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
       }}
     >
       <img className="logo" src="/assets/Elemente/Logo.png" alt="Logo" />

@@ -45,8 +45,6 @@ const BasicRezept_Schneiden: React.FC = () => {
     <IonPage
     style={{
       background: `linear-gradient(180deg, rgba(4, 13, 16, 0) 0%, rgb(4, 13, 16) 100%), url(${rezept.image})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center'
     }}
   >
       <IonContent>
