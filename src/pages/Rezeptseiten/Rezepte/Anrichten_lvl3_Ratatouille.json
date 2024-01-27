@@ -1,0 +1,77 @@
+{
+    "name": "Ratatouille",
+    "portionen": 4,
+    "arbeitszeit": "75 min",
+    "arbeitsschritte": 13,
+    "schwierigkeit": "schwer",
+    "kategorie": "Hauptspeise", 
+    "learning": "anrichten",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Mozzarella oder Büffelmozzarella",
+        "menge": "125 g"
+      },
+      {
+        "name": "Aubergine",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Zucchini (gelb und grün)",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Tomaten",
+        "menge": "3-4 Stk."
+      },
+      {
+        "name": "Scharlotten",
+        "menge": "3 Stk."
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "8 EL"
+      },
+      {
+        "name": "Tomatenmark",
+        "menge": "1,5 EL"
+      },
+      {
+        "name": "Chiliflocken",
+        "menge": "nach Geschmack"
+      },
+      {
+        "name": "Kräuter der Provence",
+        "menge": "nach Geschmack"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "1 Prise"
+      }
+    ],
+    "anleitung": [
+      "Ofen auf 200 Grad Umluft vorheizen.",
+      "Schalotten schälen und in feine Streifen schneiden, Knoblauchzehen schälen und in feine Würfel schneiden.",
+      "2 EL Olivenöl in einer beschichteten Pfanne erhitzen und Zwiebeln und Knoblauch auf mittlerer Stufe ca. 3 Minuten andünsten.",
+      "1,5 EL Tomatenmark und Chiliflocken unterrühren und beides kurz mit anrösten.",
+      "Mit Salz, Pfeffer und Kräuter der Provence abschmecken, vom Herd nehmen und kurz zur Seite stellen.",
+      "Aubergine, Zucchini und die Tomaten waschen, putzen und in gleichmäßig dünne Scheiben (ca. 2-3 mm) schneiden.",
+      "Die Schalotten-Tomatenmark-Masse nun gleichmäßig auf dem Boden einer Auflaufform (26 cm Ø) oder einer ofenfesten Pfanne (mit Deckel) verteilen.",
+      "Abwechselnd dicht an dicht das Gemüse dachziegelartig schichten.",
+      "Das geschichtete Gemüse kräftig mit Salz und Pfeffer würzen und 6 EL Olivenöl darüber träufeln.",
+      "Die Auflaufform mit Alufolie abdecken bzw. die Pfanne mit einem Deckel. Dann Ratatouille auf der mittleren Schiene im Backofen ca. 40-45 Minuten backen.",
+      "In der Zeit 125 g Mozzarella abtropfen zu lassen und in feine Stücke zupfen.",
+      "Nach Ablauf Ofenzeit das Gemüse aus dem Ofen nehmen, die Alufolie oder den Deckel entfernen und Käse gleichmäßig auf dem Gemüse verteilen.",
+      "Dann für weitere 10-15 Minuten auf der mittleren Schiene zu Ende backen bzw. bis der Käse die gewünschte Farbe angekommen hat."
+    ],
+    "image": "/assets/Bildrecherche/anrichten_lvl3_ratatouille.JPG"
+  }
+  

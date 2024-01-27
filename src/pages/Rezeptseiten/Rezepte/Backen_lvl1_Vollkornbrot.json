@@ -1,0 +1,42 @@
+{
+    "name": "Vollkornbrot",
+    "portionen": 8,
+    "arbeitszeit": "20 min",
+    "arbeitsschritte": 6,
+    "schwierigkeit": "einfach",
+    "kategorie": "Brot", 
+    "learning": "backen",
+    "label": "vegan",
+    "zutaten": [
+      {
+        "name": "Germ (oder Trockenhefe)",
+        "menge": "1 Würfel"
+      },
+      {
+        "name": "Wasser (warm)",
+        "menge": "350 ml"
+      },
+      {
+        "name": "Weizenvollkornmehl",
+        "menge": "500 g"
+      },
+      {
+        "name": "Salz",
+        "menge": "2 TL"
+      },
+      {
+        "name": "Körner (z.B. Sesam, Leinsamen, Sonnenblumenkerne)",
+        "menge": "150 g"
+      }
+    ],
+    "anleitung": [
+      "In einer Schüssel Germ einbröckeln und im warmen Wasser verrühren, bis sich der Germ aufgelöst hat. Mehl und das Salz dazugeben.",
+      "Alles gut vermengen und den Teig am besten mit dem Knethaken des Handrührgeräts durchkneten. Eventuell etwas mehr Mehl oder Wasser zugeben.",
+      "Den Teig in der Schüssel für 45 Min. an einem warmen Ort gehen lassen.",
+      "Dann nochmals durchkneten und die Körner zufügen. Den Teig in eine gefettete Kastenform füllen und nochmals für 15 Min. gehen lassen.",
+      "In den vorgeheizten Backofen stellen und 60 Minuten bei 200° Ober/Unterhitze backen.",
+      "Nach der Stunde aus der Form stürzen und 10 Minuten nochmals bei 100° kurz nachbacken."
+        ],
+    "image": "/assets/Bildrecherche/backen_lvl1_vollkornbrot.JPG"
+  }
+  

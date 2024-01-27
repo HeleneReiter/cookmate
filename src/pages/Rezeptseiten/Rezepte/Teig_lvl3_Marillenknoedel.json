@@ -1,0 +1,65 @@
+{
+    "name": "Marillenknoedel",
+    "portionen": 3,
+    "arbeitszeit": "15 min",
+    "arbeitsschritte": 9,
+    "schwierigkeit": "schwer",
+    "kategorie": "Nachspeise", 
+    "learning": "teig",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Magertopfen",
+        "menge": "250 g"
+      },
+      {
+        "name": "Eier",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Magarine (oder Butter)",
+        "menge": "70 g"
+      },
+      {
+        "name": "Mehl (glatt)",
+        "menge": "130 g"
+      },
+      {
+        "name": "Staubzucker zum Bestreuen", 
+        "menge": "5 EL"
+      },
+      {
+        "name": "Salz",
+        "menge": "Prise"
+      },
+      {
+        "name": "Marillen",
+        "menge": "6 Stk."
+      },
+      {
+        "name": "Würfelzucker",
+        "menge": "6 Stk."
+      },
+      {
+        "name": "Butter",
+        "menge": "1 EL"
+      },
+      {
+        "name": "Semmelbrösel",
+        "menge": "140 g"
+      }
+    ],
+    "anleitung": [
+      "Für den Topfenteig Margarine und Ei flaumig in einer Schüssel verrühren.",
+      "Topfen, Mehl und Salz hinzugeben und gut durchkneten bis ein Teig entsteht.",
+      "Teig in 6 gleich große Stücke aufteilen und mit bemehlten Händen die einzelnen Teigteile zu einer flachen runden Teigscheibe drücken.",
+      "Marillen gut waschen, abtrocknen, halbieren und den Kern entfernen. Anstelle des Kernes ein Stück Würfelzucker geben und die beiden Marillenhälften wieder zusammensetzen.",
+      "Nun die beiden Marillenhälften, mit dem Würfelzucker in der Mitte auf die flachgedrückten Teigstücke geben und mit dem Teig zu einem Knödel formen. Marillenstücke sollten komplett vom Teig umhüllt sein.",
+      "In einen Topf Salzwasser zum Kochen bringen, Marillenknödel ins Wasser geben und schwach siedend für rund 10-12 Minuten gar kochen bis die Knödel an der Wasseroberfläche schwimmen.",
+      "In der Zwischenzeit kann man in einer Pfanne mit einem Esslöffel Butter die Semmelbröseln kurz anrösten.",
+      "Zum Schluss die fertig gekochten Topfenknödel in der Pfanne mit den Semmelbröseln wälzen.",
+      "Vor dem Servieren werden die Marillenknödel mit Staubzucker (oder Zimtzucker) bestreut."
+        ],
+    "image": "/assets/Bildrecherche/teig_lvl3_marillenknödel.JPG"
+  }
+  

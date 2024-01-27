@@ -1,0 +1,76 @@
+{
+    "name": "Palak Paneer",
+    "portionen": 4,
+    "arbeitszeit": "25 min",
+    "arbeitsschritte": 8,
+    "schwierigkeit": "schwer",
+    "kategorie": "Hauptspeise", 
+    "learning": "Gewuerze",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Paneer-Käse",
+        "menge": "250 g"
+      },
+      {
+        "name": "Blattspinat",
+        "menge": "600 g"
+      },
+      {
+        "name": "Tomaten",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Zwiebeln",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Ingwer",
+        "menge": "20 g"
+      },
+      {
+        "name": "Koriandersaat",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Kurkuma",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Kümmelsaat",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Garam Masala",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Chiliflocken",
+        "menge": "nach Bedarf"
+      },
+      {
+        "name": "Öl",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Salz",
+        "menge": "nach Bedarf"
+      }
+    ],
+    "anleitung": [
+      "Koriandersamen, Kurkuma, Kümmel und Garam Masala in einen Mörser geben und gut miteinder vermengen.",
+      "Ingwer fein reiben, Zwiebeln und Knoblauch schälen und in feinste Würfel schneiden. Tomate putzen und in kleine Würfel schneiden.",
+      "1 El Öl in einer tiefen Pfanne erhitzen, Gewürze zugeben und kurz rösten. Zwiebeln, Knoblauch und Ingwer zugeben und glasig dünsten. Tomaten zugeben und kurz mitdünsten.",
+      "Den Blattspinat und etwa 200 ml Wasser zugeben. Wenn der Spinat aufgetaut ist, mit einem Pürierstab alles fein pürieren.",
+      "Mit Salz und Chiliflocken nach Belieben würzen und 10 Minuten auf kleinster Stufe köcheln lassen.",
+      "Paneer in mundgerechte Stücke schneiden. 1 El Öl in einer Pfanne erhitzen und die Pannerstücke 2 Minuten anbraten, dabei immer wieder wenden",
+      "Paneer zur Spinatmasse geben und gut unterrühren. Mit Reis oder Naan-Brot servieren.",
+      "Tipp: Wenn Sie keinen Paneer finden, können Sie alternativ auch auf Halloumi zurückgreifen."
+        ],
+    "image": "/assets/Bildrecherche/gewuerze_lvl3_palakpaneer.JPG"
+  }
+  

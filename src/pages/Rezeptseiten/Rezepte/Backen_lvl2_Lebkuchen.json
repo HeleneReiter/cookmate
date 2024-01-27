@@ -1,0 +1,53 @@
+{
+    "name": "Lebkuchen",
+    "portionen": 15,
+    "arbeitszeit": "20 min",
+    "arbeitsschritte": 5,
+    "schwierigkeit": "mittel",
+    "kategorie": "Kekse", 
+    "learning": "backen",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Mehl",
+        "menge": "300 g"
+      },
+      {
+        "name": "Zucker",
+        "menge": "180 g"
+      },
+      {
+        "name": "Eier",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Zimt",
+        "menge": "10 g"
+      },
+      {
+        "name": "Natron",
+        "menge": "10 g"
+      },
+      {
+        "name": "Lebkuchengewürz",
+        "menge": "20 g"
+      },
+      {
+        "name": "Honig",
+        "menge": "80 g"
+      },
+      {
+        "name": "Milch/Ei",
+        "menge": "1 Schuss"
+      }
+    ],
+    "anleitung": [
+      "Mehl, Zucker, Eier, Zimt, Natron, Honig und Lebkuchengewürz miteinander verrühren und zu einem Teig kneten.",
+      "Anschließend den Teig in Klarsichtfolie packen und für einige Stunden ruhen lassen.",
+      "Den Backofen auf 175° vorheizen.",
+      "Danach den Lebkuchen auf einer bemehlten Arbeitsfläche etwa 3 mm dick ausrollen und beliebige Formen ausstechen.",
+      "Die Lebkuchen mit Ei oder Milch bestreichen und bei 175° für etwa 10-15 Minuten braun backen."
+        ],
+    "image": "/assets/Bildrecherche/backen_lvl2_lebkuchen.JPG"
+  }
+  

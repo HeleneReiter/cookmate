@@ -1,0 +1,54 @@
+{
+    "name": "Krabbenchips",
+    "portionen": 4,
+    "arbeitszeit": "120 min",
+    "arbeitsschritte": 10,
+    "schwierigkeit": "schwer",
+    "kategorie": "Snack", 
+    "learning": "teig",
+    "label": "Fleisch",
+    "zutaten": [
+      {
+        "name": "Garnelen (geschält)",
+        "menge": "480 g"
+      },
+      {
+        "name": "Tapiocamehl",
+        "menge": "480 g"
+      },
+      {
+        "name": "Salz",
+        "menge": "30 g"
+      },
+      {
+        "name": "weißer Pfeffer",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Wasser für en Teig",
+        "menge": "250 ml"
+      },
+      {
+        "name": "Wasser zum Dämpfen",
+        "menge": "2 Tassen"
+      },
+      {
+        "name": "Öl",
+        "menge": "1 l"
+      }
+    ],
+    "anleitung": [
+      "Wasser in einen Topf geben, Salz und Pfeffer unterrühren und zum Kochen bringen.",
+      "Mehl in eine große Schüssel sieben, das kochende Wasser eingießen und alles rasch mit einem Löffel verrühren.",
+      "Garnelen fein hacken und unter die Mehlmasse kneten, bis ein fester, homogener Teig entstanden ist.",
+      "2 Tassen Wasser in einen länglichen Topf mit Siebeinsatz geben und zum Kochen bringen.",
+      "Den Teig in 4 gleiche Teile aufteilen und zu Rollen von etwa 2,5 cm Durchmesser formen.",
+      "Die Rollen im Abstand von etwa 3 cm in den Siebeinsatz legen, diesen in den Topf stellen, Deckel auflegen und 45 Minuten dämpfen.",
+      "Teigrollen aus den Einsatz nehmen und an einem kühlen Platz 2 Tage trocknen lassen.",
+      "Die getrockneten Teigrollen in Scheiben aufschneiden. Auf Bleche zum Trocknen auslegen und nochmal 1 Tag trocknen lassen, bis sie keine Feuchtigkeit mehr haben.",
+      "Das Öl in der Fritteuse auf 180°C erhitzen. Immer nur ein paar Chips auf einmal frittieren. Vorsicht, die Größe verdreifacht sich.",
+      "Frittierte Chips aus dem Öl fischen, und auf Küchenkrepp abtropfen und trocknen lassen."
+        ],
+    "image": "/assets/Bildrecherche/teig_hummerchips.JPG"
+  }
+  

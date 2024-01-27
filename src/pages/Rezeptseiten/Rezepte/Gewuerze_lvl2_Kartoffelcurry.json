@@ -1,0 +1,71 @@
+{
+    "name": "Kartoffelcurry",
+    "portionen": 3,
+    "arbeitszeit": "25 min",
+    "arbeitsschritte": 7,
+    "schwierigkeit": "mittel",
+    "kategorie": "Hauptspeise", 
+    "learning": "Gewuerze",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Kartoffeln",
+        "menge": "600 g"
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Zwiebeln",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Creme Fraiche",
+        "menge": "1 Becher"
+      },
+      {
+        "name": "Harissa",
+        "menge": "nach Bedarf"
+      },
+      {
+        "name": "Currypulver",
+        "menge": "nach Bedarf"
+      },
+      {
+        "name": "Korianderpulver",
+        "menge": "nach Bedarf"
+      },
+      {
+        "name": "Kurkumapulver",
+        "menge": "nach Bedarf"
+      },
+      {
+        "name": "Tomatenmark",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Sesamöl",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Kokosmilch",
+        "menge": "200 ml"
+      },
+      {
+        "name": "Salz und Pfeffer",
+        "menge": "nach Bedarf"
+      }
+    ],
+    "anleitung": [
+      "Kartoffeln gründlich waschen und ungeschält gar kochen. Anschließend pellen und in Würfel schneiden.",
+      "Zwiebeln und Knoblauch schälen und fein hacken.",
+      "Butter in einer großen Pfanne erhitzen und darin die Zwiebel und den Knoblauch glasig dünsten, Creme fraiche hinzufügen und mit Kokosmilch ablöschen.",
+      "Tomatenmark, Sesamöl und Rosmarin hinzufügen, kräftig mit den Gewürzen abschmecken und etwas einkochen lassen.",
+      "Die Kartoffelwürfel hinzufügen, mit der Soße bedecken und heiß werden lassen.",
+      "Mit frischer Petersilie bestreuen und servieren.",
+      "Tipp: Dazu passt ein indisches Naanbrot sehr gut."
+        ],
+    "image": "/assets/Bildrecherche/gewuerze_lvl2_kartoffelcurry.jpg"
+  }
+  

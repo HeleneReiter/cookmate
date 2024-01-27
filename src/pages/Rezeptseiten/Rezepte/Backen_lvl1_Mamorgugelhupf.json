@@ -1,0 +1,71 @@
+{
+    "name": "Mamorgugelhupf",
+    "portionen": 8,
+    "arbeitszeit": "15 min",
+    "arbeitsschritte": 6,
+    "schwierigkeit": "einfach",
+    "kategorie": "Kuchen", 
+    "learning": "backen",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Mehl",
+        "menge": "300 g"
+      },
+      {
+        "name": "Zucker",
+        "menge": "250 g"
+      },
+      {
+        "name": "Eier",
+        "menge": "5 Stk."
+      },
+      {
+        "name": "Milch",
+        "menge": "150 ml"
+      },
+      {
+        "name": "Wasser",
+        "menge": "150 ml"
+      },
+      {
+        "name": "Joghurt",
+        "menge": "50 ml"
+      },
+      {
+        "name": "Backpulver",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Kakaopulver",
+        "menge": "60 g"
+      },
+      {
+        "name": "Rum",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Wasser",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Öl",
+        "menge": "1 EL"
+      },
+      {
+        "name": "Staubzucher zum Bestreuen",
+        "menge": "nach Bedarf"
+      }
+
+    ],
+    "anleitung": [
+      "Backofen auf 180°C vorheizen.",
+      "Für den Teig: Eier, Zucker, Öl, 1 EL Wasser, Mehl, Backpulver und 1 Schuss Rum vermischen und gut durchrühren.",
+      "Für die Schokomasse: 1 EL Wasser, Kakao, 1 Schuss Rum vermischen.",
+      "Eine Gugelhupfform mit Öl ausstreichen und mit Mehl bestäuben.",
+      "Abwechselnd Teig und Schokomasse in die Form füllen und mit einer Gabel durchziehen.",
+      "Bei 180°C ca. 45-60 min backen."
+        ],
+    "image": "/assets/Bildrecherche/backen_lvl1_marmorgugelhupf.JPG"
+  }
+  

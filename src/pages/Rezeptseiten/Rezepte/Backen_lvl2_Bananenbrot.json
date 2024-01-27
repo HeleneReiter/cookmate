@@ -1,0 +1,64 @@
+{
+    "name": "Bananenbrot",
+    "portionen": 10,
+    "arbeitszeit": "20 min",
+    "arbeitsschritte": 8,
+    "schwierigkeit": "mittel",
+    "kategorie": "Nachspeise", 
+    "learning": "backen",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "reife Bananen",
+        "menge": "3 Stk."
+      },
+      {
+        "name": "Öl",
+        "menge": "80 ml"
+      },
+      {
+        "name": "brauner Zucker",
+        "menge": "110 g"
+      },
+      {
+        "name": "Eier",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Weizenmehl",
+        "menge": "200 g"
+      },
+      {
+        "name": "Backpulver",
+        "menge": "3 TL"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Zimt",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Vanilleschote",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Butter für die Form",
+        "menge": "nach Bedarf"
+      }
+    ],
+    "anleitung": [
+      "Ofen auf 180 Grad Ober-/Unterhitze (Umluft: 160 Grad) vorheizen und Kastenform gut einfetten.",
+      "Bananen mit einer Gabel in einer Schüssel zerdrücken.",
+      "Vanilleschote mit einem Messer der Länge nach einritzen und mit dem Messerrücken auskratzen.",
+      "Öl mit braunem Zucker und Eier verquirlen.",
+      "Mehl, Backpulver, Salz, Zimt und Vanilleschote vermischen und mit der Öl-Eiermasse verrühren.",
+      "Bananen-Püree einrühren. Teig in die Form geben und im vorgeheizten Ofen etwa 55 Minuten backen.",
+      "Das Bananenbrot nach dem Backen vollständig auskühlen lassen, erst dann aus der Form nehmen.",
+      "Tipp: mit ein paar gehackte Walnüsse zum Teig bekommt das Brot eine ganz neue, ebenfalls himmlisch leckere Geschmacksnote."
+        ],
+    "image": "/assets/Bildrecherche/backen_lvl2_bananenbrot.JPG"
+  }
+  

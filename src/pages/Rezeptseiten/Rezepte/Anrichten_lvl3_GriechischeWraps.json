@@ -1,0 +1,84 @@
+{
+    "name": "Griechische Wraps",
+    "portionen": 4,
+    "arbeitszeit": "60 min",
+    "arbeitsschritte": 8,
+    "schwierigkeit": "schwer",
+    "kategorie": "Hauptspeise", 
+    "learning": "anrichten",
+    "label": "fleisch",
+    "zutaten": [
+      {
+        "name": "feiner Blattspinat",
+        "menge": "200 g"
+      },
+      {
+        "name": "Milch",
+        "menge": "250 ml"
+      },
+      {
+        "name": "Eier",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Mehl",
+        "menge": "100 g"
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "1-2 Stk."
+      },
+      {
+        "name": "Zwiebeln",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Oliven",
+        "menge": "75 g"
+      },
+      {
+        "name": "Schafkäse",
+        "menge": "75 g"
+      },
+      {
+        "name": "Tomaten",
+        "menge": "4 Stk."
+      },
+      {
+        "name": "gemischtes Hackfleisch",
+        "menge": "200 g"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Tomatenmark",
+        "menge": "1 EL"
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Kräuter der Provence",
+        "menge": "nach Geschmack"
+      }
+    ],
+    "anleitung": [
+      "Spinat putzen und waschen. 100 g kurz in kochendem Salzwasser blanchieren, anschließend abtropfen lassen und pürieren. ",
+      "Milch, Eier, Mehl und pürierten Spinat zu einem glatten Teig verrühren. Mit Salz und Pfeffer würzen.",
+      "Öl portionsweise in einer Pfanne erhitzen und nacheinander 4 Wraps abbacken.",
+      "Für die Füllung Zwiebel und Knoblauch schälen und fein hacken. Oliven ebenfalls hacken.",
+      "Schafskäse und Tomaten in kleine Würfel schneiden.",
+      "Olivenöl in einer Pfanne erhitzen und Knoblauch, Zwiebel und Hack darin ca. 10 Minuten braten. Mit Salz, Pfeffer und getrockneten Kräutern würzen und Tomatenmark einrühren.",
+      "Mit 100 ml Wasser ablöschen. Oliven, Tomaten und Schafskäsewürfel zufügen, weitere 5 Minuten bei starker Hitze einkochen lassen.",
+      "Den übrigen Spinat unterheben. Füllung auf die Wraps verteilen, aufrollen und servieren."
+    ],
+    "image": "/assets/Bildrecherche/anrichten_lvl3_griechischewraps.JPG"
+  }
+  

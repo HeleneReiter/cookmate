@@ -1,0 +1,95 @@
+{
+    "name": "Pandamuffins",
+    "portionen": 12,
+    "arbeitszeit": "45 min",
+    "arbeitsschritte": 15,
+    "schwierigkeit": "schwer",
+    "kategorie": "Nachspeise", 
+    "learning": "backen",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Muffinförmchen",
+        "menge": "12 Stk."
+      },
+      {
+        "name": "Zartbitterschokolade",
+        "menge": "200 g"
+      },
+      {
+        "name": "weiche Butter",
+        "menge": "125 g"
+      },
+      {
+        "name": "Zucker",
+        "menge": "150 g"
+      },
+      {
+        "name": "Eier",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Schmand",
+        "menge": "200 g"
+      },
+      {
+        "name": "Weizenmehl",
+        "menge": "200 g"
+      },
+      {
+        "name": "Backpulver",
+        "menge": "4 TL"
+      },
+      {
+        "name": "Kakaopulver",
+        "menge": "4 EL"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "schwarzes Fondant",
+        "menge": "150 g"
+      },
+      {
+        "name": "weißes Fondant",
+        "menge": "50 g"
+      },
+      {
+        "name": "Schwarze Lebensmittelfarbe",
+        "menge": ""
+      },
+      {
+        "name": "Puderzucker",
+        "menge": "250 g"
+      },
+      {
+        "name": "Wasser",
+        "menge": "3 EL"
+      },
+      {
+        "name": "Kokosraspeln",
+        "menge": "200 g"
+      }
+    ],
+    "anleitung": [
+      "Für die Muffins Zartbitterschokolade im Wasserbad schmelzen und kurz abkühlen lassen.",
+      "Butter mit Zucker cremig rühren und Eier nach und nach unterrühren. Schmand und geschmolzene Schokolade einrühren.",
+      "Ofen auf 180 Grad Ober-/Unterhitze (Umluft: 160 Grad) vorheizen.",
+      "Muffinform mit Muffinförmchen auslegen.",
+      "Mehl mit Salz, Kakaopulver und Backpulver mischen, zum restlichen Teig geben und gut verrühren.",
+      "Teig mithilfe eines Eisportionierers in die Muffinförmchen füllen.",
+      "Im vorgeheizten Ofen ca. 30-35 Minuten backen und dann vollständig abkühlen lassen.",
+      "Für die Dekoration schwarzes Fondant knete und ausrollen. 12 Augen- und 12 Ohrenpaare ausstechen. Die Ohrenpaare mit einer Spritztülle so ausstechen, dass sie am unteren Rand abgerundet sind.",
+      "Fondant nochmal ausrollen und 12 Dreiecke für die Nasen ausstechen. 12 kleine Kugeln oder dünne Rollen formen, die als Mund dienen.",
+      "Weißes Fondant ebenfalls ausrollen und 12 kleinere Augenpaare ausstechen. Diese mit etwas Wasser oder Vodka auf die schwarzen Fondantkreise kleben.",
+      "Mit einem schwarzen Lebensmittelfarbstift oder mit dem restlichen schwarzen Fondant Pupillen aufmalen.",
+      "Für den Zuckerguss Puderzucker mit Wasser verrühren, bis alle Klümpchen verschwunden sind.",
+      "Eine Müslischüssel mit Kokosraspel bereitstellen und Muffins mit einem Pinsel mit dem Zuckerguss bestreichen. Muffins kopfüber in die Kokosraspel drücken und kurz antrocknen lassen.",
+      "Den restlichen Zuckerguss in einen kleinen Spritzbeutel füllen, eine ganz kurze Spitze abschneiden.",
+      "Jeweils an den Stellen für die Augen, Ohren, Nase und den Mund kleine Kleckse mit Zuckerguss setzen, direkt die Fondant-Stücke anbringen und Zuckerguss anziehen lassen."
+        ],
+    "image": "/assets/Bildrecherche/backen_lvl3_pandamuffins.JPG"
+  }
+  

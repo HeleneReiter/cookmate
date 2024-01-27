@@ -1,0 +1,67 @@
+{
+    "name": "Vorarlberger Kaesespaetzle",
+    "portionen": 4,
+    "arbeitszeit": "50 min",
+    "arbeitsschritte": 7,
+    "schwierigkeit": "mittel",
+    "kategorie": "Hauptspeise", 
+    "learning": "teig",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Mehl",
+        "menge": "500 g"
+      },
+      {
+        "name": "Eier",
+        "menge": "6 Stk."
+      },
+      {
+        "name": "Milch",
+        "menge": "150 ml"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Muskatnuss",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Butter",
+        "menge": "1 EL"
+      },
+      {
+        "name": "Zwiebeln",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Bergkäse (gerieben)",
+        "menge": "250 g"
+      },
+      {
+        "name": "Rässkäse oder Emmentaler (gerieben)",
+        "menge": "150 g"
+      },
+      {
+        "name": "Schnittlauch",
+        "menge": "0,5 Bund"
+      }
+    ],
+    "anleitung": [
+      "Mehl, Eier und Milch in einer Schüssel vermischen. Der Teig sollte zähflüssig sein. Ist der Teig zu fest, kann man noch ein wenig Wasser hinzufügen.",
+      "Salz, Pfeffer und Muskatnuss zum Teig hinzufügen, gut verrühren und für ca. 10 Minuten ruhen lassen.",
+      "In der Zwischenzeit Zwiebel schälen, in feine Ringe schneiden und Schnittlauch fein hacken.",
+      "Butter in einer Pfanne erhitzen und die Zwiebelringe darin goldbraun braten.",
+      "Den Teig durch das Spätzlesieb in kochendes Salzwasser durchlassen, einmal aufkochen und mit einem Lochsieb abschöpfen, sobald die Spätzle an der Wasseroberfläche schwimmen.",
+      "Sofort den geriebenen Käse dazugeben und mit dem Kochlöffel durchmischen. Der Käse sollte durch die noch heißen Spätzle ein wenig schmelzen und Fäden ziehen.",
+      "Zum Schluss die Spätzle auf Tellern anrichten und mit den gebratenen Zwiebeln und gehacktem Schnittlauch garnieren."
+        ],
+    "image": "/assets/Bildrecherche/teig_lvl2_kaesespaetzle.JPG"
+  }
+  

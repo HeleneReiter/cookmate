@@ -1,0 +1,79 @@
+{
+    "name": "Zucchini-Karotten Quiche",
+    "portionen": 8,
+    "arbeitszeit": "50 min",
+    "arbeitsschritte": 7,
+    "schwierigkeit": "schwer",
+    "kategorie": "Hauptspeise", 
+    "learning": "backen",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "gelbe Zucchini",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "grüne Zucchini",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "dicke Karotten",
+        "menge": "3 Stk."
+      },
+      {
+        "name": "Eier",
+        "menge": "3 Stk."
+      },
+      {
+        "name": "Doppelrahmfrischkäse",
+        "menge": "200 g"
+      },
+      {
+        "name": "geriebener Parmesan",
+        "menge": "50 g"
+      },
+      {
+        "name": "Schnittlauch",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Backpulver",
+        "menge": "1 Pkg."
+      },
+      {
+        "name": "Sahne",
+        "menge": "200 g"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Muskatnuss",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "gekühlter Blätterteig",
+        "menge": "1 Pkg."
+      },
+      {
+        "name": "Butter für die Form",
+        "menge": "1 EL"
+      }
+    ],
+    "anleitung": [
+      "Quicheform (Ø 28 cm) einfetten. Backofen auf 200 Grad (Umluft: 180 Grad) vorheizen.",
+      "Zucchini waschen, Enden abschneiden und der Länge nach mit einem Sparschäler dünne Streifen abhobeln.",
+      "Karotte waschen, schälen und ebenfalls vorsichtig in dünne Streifen schälen.",
+      "Frischkäse mit Eiern und Parmesan verrühren. Kräuter, Sahne und Gewürze zugeben.",
+      "Blätterteigrolle ausrollen. Form komplett mit dem Blätterteig auslegen. Überstehenden Rand wegschneiden. Mit der Gabel einige Male in den Boden stechen.",
+      "Zucchini-und Karotten Streifen hochkant und spiralförmig in die Quicheform legen. Dabvei von außen anfangen. Eier-Mischung darüber gießen.",
+      "Ca. 40 Minuten im unteren Drittel backen. Am besten heiß servieren."
+        ],
+    "image": "/assets/Bildrecherche/backen_lvl3_Zucchini-Karotten Quiche.JPG"
+  }
+  

@@ -1,0 +1,98 @@
+{
+    "name": "Lasagne Bolognese",
+    "portionen": 4,
+    "arbeitszeit": "55 min",
+    "arbeitsschritte": 10,
+    "schwierigkeit": "mittel",
+    "kategorie": "Hauptspeise", 
+    "learning": "teig",
+    "label": "Fleisch",
+    "zutaten": [
+      {
+        "name": "Lasagneblätter",
+        "menge": "12 Stk."
+      },
+      {
+        "name": "Gouda",
+        "menge": "200 g"
+      },
+      {
+        "name": "Butter",
+        "menge": "80 g"
+      },
+      {
+        "name": "Mehl",
+        "menge": "80 g"
+      },
+      {
+        "name": "Milch",
+        "menge": "800 ml"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Muskatnuss",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Basilikum",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Oregano",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Thymian",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Rinderhack",
+        "menge": "400 g"
+      },
+      {
+        "name": "Zwiebeln",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Karotten",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Tomaten",
+        "menge": "1 Dose"
+      },
+      {
+        "name": "Tomatenmark",
+        "menge": "5 EL"
+      },
+      {
+        "name": "Ketchup",
+        "menge": "3 EL"
+      }
+    ],
+    "anleitung": [
+      "Zuerst die Bolognesesauce zubereiten: Dafür Zwiebeln und Knoblauch schälen und fein hacken. Karotten schälen und raspeln.",
+      "Öl in einem Topf erhitzen, Faschiertes darin gleichmäßig anrösten und Zwiebeln, Knoblauch und Karotten zugeben und weiter anbraten.",
+      "Tomaten und Tomatenmark sowie Ketchup, Basilikum, Oregano, Thymian, Salz und Pfeffer hinzugeben und auf kleinster Stufe ca. 10 Min. köcheln lassen",
+      "Anschließend die Bechamelsauce herstellen: Dafür Butter in einem Topf zerlassen, Mehl zufügen und sofort mit einem Schneebesen umrühren.",
+      "Ganz langsam unter ständigem Rühren die Milch zufügen. Langsam aufkochen und rühren bis die Sauce dicklich ist.",
+      "Mit Pfeffer, Salz und Muskat würzen.",
+      "Für die Lasagne eine Auflaufform mit Olivenöl einfetten.",
+      "Abwechselnd die Lasagneblätter und Bolognesesauce einschichten. Mit den Lasagneblättern beginnen, danach die Sauce usw. abwechselnd schichten.",
+      "Ganz zum Schluss mit der Bechamelsauce abschließen und frisch geriebenen Gouda draufgeben.",
+      "Im vorgeheizten Ofen bei 180° C Heißluft ca. 30 Minuten backen."
+        ],
+    "image": "/assets/Bildrecherche/teig_lvl2_lasagne.JPG"
+  }
+  

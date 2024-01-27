@@ -1,0 +1,53 @@
+{
+    "name": "Spaghetti-Eis",
+    "portionen": 8,
+    "arbeitszeit": "30min",
+    "arbeitsschritte": 10,
+    "schwierigkeit": "schwer",
+    "kategorie": "Nachspeise", 
+    "learning": "anrichten",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Mascarpone",
+        "menge": "500 g"
+      },
+      {
+        "name": "Magerquark",
+        "menge": "500 g"
+      },
+      {
+        "name": "Puderzucker",
+        "menge": "100 g"
+      },
+      {
+        "name": "Zitronensaft",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Vanillezucker",
+        "menge": "2 Pkg."
+      },
+      {
+        "name": "Sahne",
+        "menge": "2 Becher"
+      },
+      {
+        "name": "Erdbeeren (TK, großer Beutel)",
+        "menge": "1 Beutel"
+      },
+      {
+        "name": "weiße Kuvertüre",
+        "menge": "2 TL"
+      }
+    ],
+    "anleitung": [
+      "Mascarpone mit Quark, Puderzucker, Zitronensaft und Vanillezucker verrühren.",
+      "Sahne steif schlagen und unterheben.",
+      "Die Erdbeeren antauen, pürieren und mit Puderzucker nach Geschmack süßen. Dann über die Quark-Mascarponemasse geben.",
+      "Mit geraspelter weißer Kuvertüre verzieren. Mindestens 2 Stunden im Kühlschrank kaltstellen.",
+      "Tipp: Dieses Dessert ist kein Eis, sondern eher eine Creme."
+    ],
+    "image": "/assets/Bildrecherche/anrichten_lvl3_spaghettieis.JPG"
+  }
+  

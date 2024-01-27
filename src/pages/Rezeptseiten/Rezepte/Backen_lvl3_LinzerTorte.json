@@ -1,0 +1,79 @@
+{
+    "name": "Linzer Torte",
+    "portionen": 8,
+    "arbeitszeit": "20 min",
+    "arbeitsschritte": 7,
+    "schwierigkeit": "schwer",
+    "kategorie": "Nachspeise", 
+    "learning": "backen",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Mehl",
+        "menge": "250 g"
+      },
+      {
+        "name": "Butter",
+        "menge": "150 g"
+      },
+      {
+        "name": "Staubzucker",
+        "menge": "150 g"
+      },
+      {
+        "name": "Ei",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Haselnüsse (gemahlen)", 
+        "menge": "100 g"
+      },
+      {
+        "name": "Zimt",
+        "menge": "0.5 TL"
+      },
+      {
+        "name": "Gewürznelken (gemahlen)",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Backpulver",
+        "menge": "10 g"
+      },
+      {
+        "name": "Zitronenschale",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Vanilleschote",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Butter für die Form",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Ribiselmarmelade (oder Himbeermarmelade)",
+        "menge": "300 g"
+      },
+      {
+        "name": "Mandeln (gehobelt)",
+        "menge": "100 g"
+      },
+      {
+        "name": "Ei zum Bestreichen",
+        "menge": "1 Stk."
+      }
+    ],
+    "anleitung": [
+      "Für den Teig: Mehl, Butter, Staubzucker, Ei, Haselnüsse, Zimt, Nelkenpulver, Backpulver, Zitronenschale und das Mark der Vanilleschote zu einem Teig verkneten.",
+      "Den Teig in Frischhaltefolie wickeln und für 1 Stunde in den Kühlschrank legen.",
+      "Den Teig in 2 Teile teilen. Einen Teil auf einer bemehlten Arbeitsfläche ausrollen und in eine gefettete Springform legen. Die Marmelade darauf verteilen.",
+      "Den zweiten Teil des Teiges ausrollen und in Streifen schneiden. Die Streifen auf die Marmelade legen und mit dem verquirlten Ei bestreichen. Die Mandeln darauf verteilen.",
+      "Die Linzer Torte im vorgeheizten Backofen bei 180 °C ca. 40 Minuten backen.",
+      "Die Linzer Torte auskühlen lassen und aus der Form nehmen.",
+      "Tipp: Die Linzer Torte kann auch mit anderen Marmeladen gefüllt werden."
+        ],
+    "image": "/assets/Bildrecherche/backen_lvl3_linzertorte.JPG"
+  }
+  

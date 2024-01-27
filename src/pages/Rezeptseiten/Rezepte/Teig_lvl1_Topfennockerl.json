@@ -1,0 +1,54 @@
+{
+    "name": "Topfennockerl mit Broesel",
+    "portionen": 4,
+    "arbeitszeit": "35 min",
+    "arbeitsschritte": 6,
+    "schwierigkeit": "einfach",
+    "kategorie": "Hauptspeise", 
+    "learning": "teig",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Eier",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Topfen (fein)",
+        "menge": "250 g"
+      },
+      {
+        "name": "Mehl",
+        "menge": "3 EL"
+      },
+      {
+        "name": "Gies",
+        "menge": "3 EL"
+      },
+      {
+        "name": "Salz",
+        "menge": "Prise"
+      },
+      {
+        "name": "Butter",
+        "menge": "3 EL"
+      },
+      {
+        "name": "Brösel",
+        "menge": "3 EL"
+      },
+      {
+        "name": "Zucker",
+        "menge": "1 EL"
+      }
+    ],
+    "anleitung": [
+      "Topfen, Ei, Mehl, Grieß und Salz zu einem geschmeidigen Teig verarbeiten, anschließend 10 Minuten rasten lassen.",
+      "Einen Topf mit Salzwasser zum Kochen bringen und aus dem Teig mit zwei Löffeln Nockerl formen.",
+      "Die Nockerl im siedendem Wasser etwa 15 Minuten köcheln lassen.",
+      "Butter in einer Pfanne schmelzen, die Brösel und den Zucker beigeben und durchrösten.",
+      "Nockerln aus dem Wasser heben, abtropfen lassen und in den Butterbröseln wälzen, dann sofort servieren.",
+      "Tipp: Dazu passt Apfelmus oder eine Fruchtsauce und frische Beeren."
+        ],
+    "image": "/assets/Bildrecherche/teig_lvl1_topfennockerl.JPG"
+  }
+  

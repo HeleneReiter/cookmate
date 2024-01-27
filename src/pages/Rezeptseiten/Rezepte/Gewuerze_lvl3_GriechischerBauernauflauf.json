@@ -1,0 +1,96 @@
+{
+    "name": "Griechischer Bauernauflauf",
+    "portionen": 4,
+    "arbeitszeit": "90 min",
+    "arbeitsschritte": 8,
+    "schwierigkeit": "schwer",
+    "kategorie": "Hauptspeise", 
+    "learning": "Gewuerze",
+    "label": "Fleisch",
+    "zutaten": [
+      {
+        "name": "Wasser",
+        "menge": "600 ml"
+      },
+      {
+        "name": "Zwiebeln",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Zucchini",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Öl",
+        "menge": "2 EL"
+      },
+      {
+        "name": "gemischtes Hackfleisch",
+        "menge": "800 g"
+      },
+      {
+        "name": "Gyrosgewürz",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Mehl",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Schlagsahne",
+        "menge": "250 ml"
+      },
+      {
+        "name": "Gemüsebrühe (instant)",
+        "menge": "2 TL"
+      },
+      {
+        "name": "Süßkartoffeln",
+        "menge": "1 Stk. (ca. 300 g)"
+      },
+      {
+        "name": "Parmesan",
+        "menge": "30 g"
+      },
+      {
+        "name": "Semmelbrösel",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Eigelbe",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Feta",
+        "menge": "150 g"
+      },
+      {
+        "name": "Salz",
+        "menge": "nach Belieben"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "nach Belieben"
+      },
+      {
+        "name": "Zimt",
+        "menge": "1 Prise"
+      }
+    ],
+    "anleitung": [
+      "Für die Hackmasse Zwiebeln und Knoblauch schälen, beides fein würfeln. Zucchini waschen und in Würfel schneiden.",
+      "Öl in einem Bräter erhitzen. Hack darin unter Rühren ca. 6 Minuten krümelig braten. Zwiebeln und Zucchini ca. 2 Minuten mitbraten.",
+      "Mit Gyrosgewürz, Salz, Pfeffer und Zimt würzen. Alles mit Mehl bestäuben und kurz anschwitzen.",
+      "Sahne und 600 ml Wasser angießen und aufkochen. Brühe einrühren und unter Rühren ca. 3 Minuten köcheln. Mit Salz und Pfeffer kräftig abschmecken.",
+      "Für den Käse-Crisp Süßkartoffel schälen und raspeln. Parmesan fein reiben.",
+      "Süßkartoffel, Parmesan, Semmelbrösel und Eigelb in einer Schüssel vermengen.",
+      "Hackmischung in eine Auflaufform geben, Feta darüberbröseln und die Süßkartoffelmischung darüber verteilen.",
+      "Auflauf im vorgeheizten Backofen (Umluft: 160) ca. 30 Minuten backen."
+        ],
+    "image": "/assets/Bildrecherche/gewuerze_lvl3_bauernauflauf.JPG"
+  }
+  

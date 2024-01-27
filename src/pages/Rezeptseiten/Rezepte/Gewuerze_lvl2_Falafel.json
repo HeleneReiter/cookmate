@@ -1,0 +1,58 @@
+{
+    "name": "Falafel",
+    "portionen": 2,
+    "arbeitszeit": "30 min",
+    "arbeitsschritte": 6,
+    "schwierigkeit": "mittel",
+    "kategorie": "Hauptspeise", 
+    "learning": "Gewuerze",
+    "label": "vegan",
+    "zutaten": [
+      {
+        "name": "getrocknete Kichererbsen",
+        "menge": "250 g"
+      },
+      {
+        "name": "Zwiebeln",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Koriander",
+        "menge": "0.5 Bund"
+      },
+      {
+        "name": "Salz",
+        "menge": "0.5 TL"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Kreuzkümmel",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Zitronensaft",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Öl zum Braten",
+        "menge": "200 ml"
+      }
+    ],
+    "anleitung": [
+      "Für die Falafeln schon am Vortag die Kichererbsen in reichlich Wasser einweichen. Am nächsten Tag das Wasser abgießen.",
+      "Den Koriander waschen, gut abtropfen lassen und fein hacken. Knoblauch und Zwiebel schälen und fein würfeln.",
+      "Die ungekochten Kichererbsen, Koriander, Knoblauch und Zwiebel mit dem Stabmixer fein pürieren.",
+      "Mit Salz, Pfeffer und Kreuzkümmel würzen, den Zitronensaft hinzugeben und alles gut vermischen.",
+      "In einer tiefen Pfanne das Öl erhitzen. Aus der Masse Bällchen formen (am Besten mit leicht feuchten Händen) und rundum die Bällchen goldbraun backen.",
+      "Vor dem Servieren auf Küchenpapier abtropfen lassen."
+        ],
+    "image": "/assets/Bildrecherche/gewuerze_lvl2_falafel.JPG"
+  }
+  

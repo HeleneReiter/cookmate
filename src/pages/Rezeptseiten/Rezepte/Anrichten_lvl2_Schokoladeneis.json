@@ -1,0 +1,54 @@
+{
+    "name": "Cremiges Schokoladeneis",
+    "portionen": 4,
+    "arbeitszeit": "55 min",
+    "arbeitsschritte": 10,
+    "schwierigkeit": "mittel",
+    "kategorie": "Nachspeise", 
+    "learning": "anrichten",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Eigelb",
+        "menge": "3 Stk."
+      },
+      {
+        "name": "Schlagsahne",
+        "menge": "250 ml"
+      },
+      {
+        "name": "Vollmilch",
+        "menge": "200 ml"
+      },
+      {
+        "name": "Zucker",
+        "menge": "60 g"
+      },
+      {
+        "name": "Vanillezucker",
+        "menge": "1 Pkg."
+      },
+      {
+        "name": "Schokolade (Zartbitter)",
+        "menge": "40 g"
+      },
+      {
+        "name": "Rum",
+        "menge": "2 TL"
+      }
+    ],
+    "anleitung": [
+      "Die Hälfte der Milch mit der Hälfte der Schlagsahne in einen Topf gießen und erhitzen.",
+      "Eigelb mit dem Zucker und Vanillezucker in einer Schüssel mischen.",
+      "Die erhitzte Milch-Sahne-Mischung unter andauerndem Rühren langsam in die Ei-Zucker-Mischung gießen.",
+      "Nun das ganze zurück in den Topf geben und unter Rühren langsam erhitzen, bis die Masse dicklich wird.",
+      "Vom Herd nehmen und erkalten lassen.",
+      "Zwischenzeitlich die Schokolade zerkleinern, mit der restlichen Milch schmelzen lassen (Tipp: geht gut in der Mikrowelle!).",
+      "Auch diese Schokoladen-Mischung erkalten lassen. Dann beide Mischungen verrühren.",
+      "Die restliche Schlagsahne steif schlagen und zufügen.",
+      "Nun die Masse in die Eismaschine (30-40 min.) geben und gefrieren lassen.",
+      "Kurz bevor das Eis fest ist, den Rum untermischen."
+    ],
+    "image": "/assets/Bildrecherche/anrichten_lvl2_schokoeis.JPG"
+  }
+  

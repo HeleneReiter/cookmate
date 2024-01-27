@@ -1,0 +1,50 @@
+{
+    "name": "Mango-Smoothie-Bowl",
+    "portionen": 2,
+    "arbeitszeit": "20 min",
+    "arbeitsschritte": 6,
+    "schwierigkeit": "einfach",
+    "kategorie": "Frühstück", 
+    "learning": "anrichten",
+    "label": "vegan",
+    "zutaten": [
+      {
+        "name": "Mangos",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Orangen",
+        "menge": "4 Stk."
+      },
+      {
+        "name": "Bananen",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Kokoschips",
+        "menge": "1 EL"
+      },
+      {
+        "name": "Kiwis",
+        "menge": "1 Skt."
+      },
+      {
+        "name": "Chia Samen",
+        "menge": "1 EL"
+      },
+      {
+        "name": "Haferflocken (geröstet)",
+        "menge": "0,5 EL"
+      }
+    ],
+    "anleitung": [
+      "Die Mango halbieren, das Fruchtfleisch von der Schale lösen und würfelig schneiden. Davon einige Mangowürfel für das Topping beiseite legen.",
+      "Banane schälen und in Stücke schneiden.",
+      "Orangen halbieren und auspressen.",
+      "Mango- und Bananenstücke in einen Mixer geben, mit Orangensaft auffüllen, zu einer dicklichen Creme mixen und in Schüsseln portionieren.",
+      "Für das Topping Kiwi schälen und in Stücke schneiden. Danach die übrigen Mangostücke mit den Kiwistücken auf die Creme setzen.",
+      "Mit Kokoschips, Chia Samen und gerösteten Haferflocken verfeinern und sofort servieren."
+    ],
+    "image": "/assets/Bildrecherche/anrichten_lvl1_mangosmoothie.JPG"
+  }
+  

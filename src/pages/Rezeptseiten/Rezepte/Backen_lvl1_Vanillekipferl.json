@@ -1,0 +1,41 @@
+{
+    "name": "Vanillekipferl",
+    "portionen": 8,
+    "arbeitszeit": "15 min",
+    "arbeitsschritte": 5,
+    "schwierigkeit": "einfach",
+    "kategorie": "Kekse", 
+    "learning": "backen",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Mehl",
+        "menge": "500 g"
+      },
+      {
+        "name": "Staubzucker",
+        "menge": "200 g"
+      },
+      {
+        "name": "Vanillezucker",
+        "menge": "3 Pkg."
+      },
+      {
+        "name": "Butter",
+        "menge": "400 g"
+      },
+      {
+        "name": "Manden (gerieben)",
+        "menge": "200 g"
+      }
+    ],
+    "anleitung": [
+      "Für den Teig: Mehl, Staubzucker (160 g), Vanillezucker (2 Pkg.), in kleine Stücke geschnittene Butter und die geriebenen Mandeln (oder Nüsse) zu einem festen Teig verarbeiten.",
+      "Den Teig zu einer 4-5 cm dicken Rolle formen und für rund 1 Stunde (in Frischhaltefolie gewickelt) in den Kühlschrank legen.",
+      "Den Teig aus dem Kühlschrank nehmen, auf einer bemehlten Arbeitsfläche, in gleich große Stücke teilen und diese zu fingerdicken Rollen formen. Daraus gleichgroße, kleine Stücke abschneiden und mit den Händen zu Kipferl formen.",
+      "Die Kipferl auf ein mit Backpapier belegtes Blech bei 175°C Umluft für ca. 12-15 Minuten hellbraun backen.",
+      "Die noch warmen Kipferl in einer Mischung aus Staubzucker und Vanillezucker wälzen und danach vollständig abkühlen lassen."
+        ],
+    "image": "/assets/Bildrecherche/backen_lvl1_vanillekipferl.JPG"
+  }
+  

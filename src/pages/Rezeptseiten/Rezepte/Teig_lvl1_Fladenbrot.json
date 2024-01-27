@@ -1,0 +1,56 @@
+{
+    "name": "Fladenbrot",
+    "portionen": 8,
+    "arbeitszeit": "20 min",
+    "arbeitsschritte": 4,
+    "schwierigkeit": "einfach",
+    "kategorie": "Brot", 
+    "learning": "teig",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "glattes Mehl",
+        "menge": "500 g"
+      },
+      {
+        "name": "Zucker",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Ei",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Milch",
+        "menge": "150 ml"
+      },
+      {
+        "name": "Wasser",
+        "menge": "150 ml"
+      },
+      {
+        "name": "Joghurt",
+        "menge": "50 ml"
+      },
+      {
+        "name": "Backpulver",
+        "menge": "1 Pkg."
+      },
+      {
+        "name": "Ghee (Butterschmalz)",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 TL"
+      }
+    ],
+    "anleitung": [
+      "Für das Fladenbrot Mehl mit Backpulver, Ei, Butterschmalz, Joghurt, Milch, Salz, Zucker und Wasser vermischen.",
+      "Den Teig gut durchkneten und zugedeckt kurz rasten lassen.",
+      "Rohr auf höchste Stufe (250 °C) vorheizen. Aus dem Teig tennisballgroße Bällchen formen, diese länglich, dünn ausrollen.",
+      "Brote auf ein mit Backpapier gelegtes Blech legen und im Rohr goldbraun backen (10-15 min)."
+        ],
+    "image": "/assets/Bildrecherche/teig_lvl1_fladenbrot.JPG"
+  }
+  

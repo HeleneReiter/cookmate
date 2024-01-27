@@ -1,0 +1,57 @@
+{
+    "name": "Gebackene Fruechte",
+    "portionen": 4,
+    "arbeitszeit": "25 min",
+    "arbeitsschritte": 5,
+    "schwierigkeit": "einfach",
+    "kategorie": "Nachspeise", 
+    "learning": "teig",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Bananen (oder andere Früchte)",
+        "menge": "6 Stk."
+      },
+      {
+        "name": "Mehl",
+        "menge": "120 g"
+      },
+      {
+        "name": "Zucker",
+        "menge": "30 g"
+      },
+      {
+        "name": "Backpulver",
+        "menge": "0,5 Pkg."
+      },
+      {
+        "name": "Ei",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Salz",
+        "menge": "Prise"
+      },
+      {
+        "name": "Milch",
+        "menge": "125 ml"
+      },
+      {
+        "name": "Vanilleshote",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Öl",
+        "menge": "5 EL"
+      }
+    ],
+    "anleitung": [
+      "Mehl, Zucker, Mark von der Vanilleschote, Backpulver, Salz, Ei und die Milch vermischen. Alles gut durchmengen und 15 Minuten ruhen lassen.",
+      "Die gewählte Frucht schälen und in 3 cm dicke Stücke schneiden.",
+      "Öl in einer Wokpfanne erhitzten. Die geschälten Fruchtstücke zuerst in den Teig tauchen und anschließend in dem heißen Fett herausbacken.",
+      "Die gebackenen Früchte anschließend auf einer Küchenrolle abtropfen lassen und nach Belieben mit Staubzucker bestreuen.",
+      "Tipp: Die gebackenen Früchte schmecken auch sehr gut mit Vanilleeis oder Honig."
+        ],
+    "image": "/assets/Bildrecherche/teig_lvl1_gebackenefruechte.JPG"
+  }
+  

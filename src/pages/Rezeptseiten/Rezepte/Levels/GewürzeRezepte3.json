@@ -12,12 +12,12 @@
   "labels": [
     "Vegetarisch",
     "Fleisch",
-    "Vegetarisch"
+    "Fleisch"
   ],
   "classnames": [
     "labelVeggie",
     "labelMeat",
-    "labelVeggie"
+    "labelMeat"
   ],
   "recipeCategoryLabels": [
     "Hauptspeise",

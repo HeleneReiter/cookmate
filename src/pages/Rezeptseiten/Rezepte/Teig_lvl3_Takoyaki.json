@@ -1,0 +1,69 @@
+{
+    "name": "Takoyaki",
+    "portionen": 4,
+    "arbeitszeit": "50 min",
+    "arbeitsschritte": 13,
+    "schwierigkeit": "schwer",
+    "kategorie": "Hauptspeise", 
+    "learning": "teig",
+    "label": "Fleisch",
+    "zutaten": [
+      {
+        "name": "kaltes Dashi (Fischfond)",
+        "menge": "450 ml"
+      },
+      {
+        "name": "Mehl",
+        "menge": "200 g"
+      },
+      {
+        "name": "Eier",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Öl",
+        "menge": "1 Schuss"
+      },
+      {
+        "name": "Oktopustentakel",
+        "menge": "200 g"
+      },
+      {
+        "name": "Tenkasu",
+        "menge": "70 g"
+      },
+      {
+        "name": "Frühlingszwiebeln",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Takoyaki-Sauce",
+        "menge": "1 Schuss"
+      },
+      {
+        "name": "Bonito-Flocken",
+        "menge": "1 Pkg."
+      },
+      {
+        "name": "Mayonnaise",
+        "menge": "1 EL"
+      }
+    ],
+    "anleitung": [
+      "Zubereitung der Füllung: Bei tiefgekühltem Oktopus, ihn über Nacht in den Kühlschrank auftauen.",
+      "Tentakel ca. 20-30 Minuten (je nach Größe) in heißem Wasser ziehen lassen.",
+      "Tentakel aus dem Wasser nehmen und sie abtropfen lassen. Anschließend in kleine Stücke schneiden.",
+      "Frühlingszwiebel in feine Ringe schneiden.",
+      "Für den Teig: Das kalte Dashi, Mehl, Eier und Öl in einer Schüssel vermischen. Verwenden Sie für das Dashi kaltes Wasser.",
+      "Mulden in der Takoyakipfanne gut mit Öl einstreichen, damit sich der Teig anschließend gut aus der Form lösen lässt.",
+      "Pfanne auf mittlerer Stufe erhitzen. Fertigen, flüssigen Teig in die Mulden der Pfanne füllen. Sollte der Teig über den Rand der Mulden fließen, kann er anschließend einfach zu den Teigkugeln dazu gemischt werden.",
+      "In den noch flüssigen Teig die Zutaten der Füllung (Oktopustentakel, Frühlingszwiebelringe und nach Belieben Tenkasu) in die Mitte eingelegen.",
+      "Nach ca. 1 Minute Wartezeit in jeder Mulde den Teig so zusammenschieben, dass eine halbkugelähnliche Form entsteht. Nach einer weiteren Minute die Teig-Halbkugeln um 90 Grad drehen, sodass sie aufrecht in der Mulde stehen.",
+      "Nach ungefähr einer weiteren Minute die Teigkugeln noch einmal um 90 Grad drehen und den Teig fortwährend zu Bällchen formen.",
+      "Die Takoyakis werden nun unter mehrmaligem Wenden goldbraun gebacken. Manche Bällchen werden dabei schneller braun als andere, man sollte daher immer achtsam sein, dass kein Takoyaki zu dunkel gerät.",
+      "Die fertigen Takoyakis auf Tellern anrichten und nach Belieben mit Takoyaki-Sauce, Mayonnaise, Frühlingszwiebeln oder Bonito-Flocken garnieren.",
+      "Tipp: Als Alternative zur Takoyakipfanne können auch eine Förtchenpfanne oder eine Cake Pop Maschine verwendet werden."
+        ],
+    "image": "/assets/Bildrecherche/teig_lvl3_takoyaki.JPG"
+  }
+  

@@ -73,8 +73,6 @@ const SchneidenLevel1: React.FC = () => {
     <IonPage
       style={{
         background: `linear-gradient(to bottom, rgba(4,13,16,0.0), rgba(0,0,0,1)), url(${currentImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
       }}
     >
       <IonContent

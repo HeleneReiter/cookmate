@@ -1,0 +1,65 @@
+{
+    "name": "Griechischer Hotdog",
+    "portionen": 4,
+    "arbeitszeit": "20 min",
+    "arbeitsschritte": 9,
+    "schwierigkeit": "einfach",
+    "kategorie": "Hauptspeise", 
+    "learning": "anrichten",
+    "label": "fleisch",
+    "zutaten": [
+      {
+        "name": "gelbe Paprikaschote",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Kirschtomaten",
+        "menge": "150 g"
+      },
+      {
+        "name": "rote Zwiebeln",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Basilikum",
+        "menge": "1/2 Bund"
+      },
+      {
+        "name": "Hotdogwürstchen",
+        "menge": "4 Skt."
+      },
+      {
+        "name": "Hotdogbrötchen",
+        "menge": "4 Stk."
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "griechischer Sahnejoghurt",
+        "menge": "200 g"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "1 Prise"
+      }
+    ],
+    "anleitung": [
+      "Backofen vorheizen (Umluft: ca. 180°C). Hotdogbrötchen darin ca. 5 Minuten backen und längs einschneiden.",
+      "Paprika würfen, Tomaten halbieren und Zwiebel schälen und in feine Ringe schneiden.",
+      "Feta fein zerbröckeln.",
+      "Basilikum waschen und trocken schütteln. Blätter abzupfen und hacken.",
+      "Paprika, Tomaten, Zwiebel, Feta und 1/3 Basilikum mischen.",
+      "Würstchen in heißem Wasser erwärmen.",
+      "Knoblauch schälen und fein hacken.",
+      "Joghurt mit Knoblauch und restlichem Basilikum verrühren. Mit Salz und Pfeffer abschmecken.",
+      "Brötchen mit Basilikumcreme bestreichen. Mit je 1 Würstchen und Fetamischung füllen, sofort servieren."
+    ],
+    "image": "/assets/Bildrecherche/anrichten_lvl2_hotdog.JPG"
+  }
+  

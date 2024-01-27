@@ -1,0 +1,56 @@
+{
+    "name": "Griechicher Bohnensalat",
+    "portionen": 4,
+    "arbeitszeit": "20 min",
+    "arbeitsschritte": 4,
+    "schwierigkeit": "einfach",
+    "kategorie": "Salat", 
+    "learning": "Gewuerze",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Bohnen",
+        "menge": "2 Dosen je 425ml"
+      },
+      {
+        "name": "Thymian",
+        "menge": "2 Stiele"
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "5 EL"
+      },
+      {
+        "name": "Weißweinessig",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Salz und Pfeffer",
+        "menge": "nach Geschmack"
+      },
+      {
+        "name": "Salatgurke",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Tomaten",
+        "menge": "4 Stk."
+      },
+      {
+        "name": "Oliven (ohne Stein)",
+        "menge": "100 g"
+      },
+      {
+        "name": "Feta",
+        "menge": "150 g"
+      }
+    ],
+    "anleitung": [
+      "Bohnen abgießen, abspülen und abtropfen lassen. Thymian waschen, trocken schütteln, Blättchen abzupfen und hacken.",
+      "Öl mit Essig verrühren. Thymian unterrühren und mit Salz und Pfeffer würzen.",
+      "Gurke und Tomaten waschen und in kleine Würfel schneiden. Oliven halbieren. Petersilie waschen, trocken schütteln, Blättchen abzupfen und grob hacken.",
+      "Bohnen, Gurke, Tomaten, Petersilie und Oliven mit dem Dressing vermengen. Mit Salz und Pfeffer abschmecken. Den Feta darüberbröseln."
+        ],
+    "image": "/assets/Bildrecherche/gewuerze_lvl1_bohnensalat.JPG"
+  }
+  

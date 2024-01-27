@@ -1,0 +1,84 @@
+{
+    "name": "Orientalische Hackbaellchen mit Cashews",
+    "portionen": 2,
+    "arbeitszeit": "25 min",
+    "arbeitsschritte": 8,
+    "schwierigkeit": "mittel",
+    "kategorie": "Hauptspeise", 
+    "learning": "Gewuerze",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Hackbällchen aus Fleisch oder vegetarisch",
+        "menge": "12 Stk."
+      },
+      {
+        "name": "Schalotten",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "1 EL"
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Mehl",
+        "menge": "1-2 EL"
+      },
+      {
+        "name": "Ras-el-Hanout",
+        "menge": "2 TL"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "menge": "300 ml"
+      },
+      {
+        "name": "geröstete und gesalzene Cashewkerne",
+        "menge": "2 Handvoll"
+      },
+      {
+        "name": "Trockenfeigen",
+        "menge": "3 Stk."
+      },
+      {
+        "name": "Hummus",
+        "menge": "150 g"
+      },
+      {
+        "name": "Joghurt",
+        "menge": "150 g"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Cashews",
+        "menge": "1 Handvoll"
+      },
+      {
+        "name": "Granatäpfel",
+        "menge": "1 Handvoll"
+      },
+      {
+        "name": "Petersilie",
+        "menge": "1 Handvoll"
+      }
+    ],
+    "anleitung": [
+      "Schalotten schälen und fein würfeln. Knoblauch schälen und fein reiben. Cashewkerne grob hacken. Feigen in kleine Würfel schneiden.",
+      "Das Olivenöl in einer Pfanne erhitzen und darin für ein paar Minuten die Hackbällchen rundherum anbraten.",
+      "Schalottenwürfel und geriebenen Knoblauch dazugeben und unter gelegentlichem Rühren anschwitzen. Inhalt der Pfanne in eine Schüssel leeren und zur Seite stellen.",
+      "Für eine Bechamelsauce in der Pfanne einen weiteren EL Olivenöl erhitzen, das Mehl das Gewürz Ras-el-Hanout hinein geben und sofort mit einem Schneebesen aufrühren.",
+      "Etwas Gemüsebrühe dazugeben und weiterrühren. Dabei dickt die Masse wieder an. Das Ablöschen und Rühren solange wiederholen, bis die Gemüsebrühe aufgebraucht ist. Daraufhin die Sauce kurz aufkochen lassen.",
+      "Die Temperatur reduzieren, dass es nicht mehr kocht und Cashews und die Feigenstücke, sowie 2/3 des Hummus und des Joghurts unterrühren und mit Salz würzen.",
+      "Die zur Seite gestellten Häckbällchen mit Zwiebeln und Knoblauch wieder dazugeben und noch einmal kurz heiß werden lassen. Die Sauce sollte nicht mehr kochen, damit der Joghurt nicht ausflocken kann.",
+      "Die orientalischen Hackbällchen können nun mit weiteren Cashews, etwas Petersilie und mit den Granatapfelkernen serviert werden. In einem kleinen Schälchen die restliche Menge an Hummus und Joghurt angerühren, um es am Ende darüber zu geben."
+        ],
+    "image": "/assets/Bildrecherche/gewuerze_lvl2_hackbaellchenmitcahsews.JPG"
+  }
+  

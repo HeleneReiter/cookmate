@@ -1,0 +1,135 @@
+{
+    "name": "Lahmacun",
+    "portionen": 5,
+    "arbeitszeit": "80 min",
+    "arbeitsschritte": 11,
+    "schwierigkeit": "mittel",
+    "kategorie": "Hauptspeise", 
+    "learning": "teig",
+    "label": "fleisch",
+    "zutaten": [
+      {
+        "name": "Mehl",
+        "menge": "300 g"
+      },
+      {
+        "name": "warmes Wasser",
+        "menge": "125 ml"
+      },
+      {
+        "name": "Trockenhefe",
+        "menge": "1/2 Pkg."
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Joghurt",
+        "menge": "60 g"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Rinderhack",
+        "menge": "125 g"
+      },
+      {
+        "name": "weiße Zwiebel",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Petersilie",
+        "menge": "1/2 Bund"
+      },
+      {
+        "name": "Spietzpaprika",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Tomatenmark",
+        "menge": "0.5 TL"
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "gehackte Tomaten aus der Dose",
+        "menge": "100 g"
+      },
+      {
+        "name": "Kreuzkümmel",
+        "menge": "0.25 TL"
+      },
+      {
+        "name": "Oregano",
+        "menge": "0.5 TL"
+      },
+      {
+        "name": "Paprika edelsüß",
+        "menge": "0.5 TL"
+      },
+      {
+        "name": "Chiliflocken",
+        "menge": "0.5 TL"
+      },
+      {
+        "name": "Zucker",
+        "menge": "0.5 TL"
+      },
+      {
+        "name": "Sumach",
+        "menge": "0.25 TL"
+      },
+      {
+        "name": "schwarzer Pfeffer",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Türkischer Hirtenkäse (oder Feta)",
+        "menge": "100 g"
+      },
+      {
+        "name": "Kopfsalat",
+        "menge": "1/2 Stk."
+      },
+      {
+        "name": "rote Zwiebel",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Tomaten",
+        "menge": "1-2 Stk."
+      },
+      {
+        "name": "Zitrone",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Petersilie",
+        "menge": "0.5 Bund"
+      },
+      {
+        "name": "eingelegte Peperoni",
+        "menge": "0.5 Glas"
+      }
+    ],
+    "anleitung": [
+      "Für den Teig: Die Trockenhefe in warmen Wasser auflösen und ca. 5 Minuten stehen lassen.",
+      "Mehl, Joghurt, Olivenöl und Salz mischen. Hefewasser dazuschütten und mit Knethaken zu einer Teigkugel kneten.",
+      "Teigkugel aus der Schüssel heben und ein wenig Olivenöl auf dem Schüsselboden verteilen. Teigkugel wieder in Schüssel setzen und mit Olivenöl einreiben.",
+      "Teig mit einem feuchten Tuch abdecken und 45 Minuten an einem warmen Ort gehen lassen.",
+      "Für die Hackmasse: Zwiebel, Petersilie, Paprika und Knoblauch fein mixen. Die Masse zum Hackfleisch geben",
+      "Restlichen Zutaten (Tomatenmark, gehackte Tomaten) und Gewürze (Kreuzkümmel, Oregano, Paprika edelsüß, Chiliflocken, Sumach, Zucker, Salz, Pfeffer) dazu geben und alles gut vermengen.",
+      "Backofen auf 250 Grad Ober/Unterhitze vorheizen.",
+      "Vom Teig 10 Portionen mit je 100 g zupfen, zu gleichmäßigen Kugeln formen und auf einem leicht gemehlten Backblech 10-15 Minuten abgedeckt ruhen lassen.",
+      "Eine Teigkugel dünn ausrollen und mit ca. 1 EL der Hackmasse bestreichen. Die Hackmasse sollte dünn, aber gleichmäßig verteilt werden.",
+      "Den Teigfladen auf einem Backblech legen und in den Backofen schieben. Ca 6 Minuten backen, bis der Lahmacun leicht Farbe bekommt.",
+      "Den Lahmacun aus dem Backofen holen und sofort mit etwas Zitronensaft beträufeln. Dann nach Wunsch mit Petersilie, Salat, Zwiebeln, Tomaten, Peperoni und Käse belegen."        
+    ],
+    "image": "/assets/Bildrecherche/teig_lvl2_lahmacun.JPG"
+  }
+  

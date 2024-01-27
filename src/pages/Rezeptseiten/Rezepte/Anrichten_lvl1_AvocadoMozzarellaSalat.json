@@ -1,0 +1,69 @@
+{
+    "name": "Avocado-Mozzarella-Salat mit Mango",
+    "portionen": 4,
+    "arbeitszeit": "25 min",
+    "arbeitsschritte": 9,
+    "schwierigkeit": "einfach",
+    "kategorie": "Salat", 
+    "learning": "anrichten",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Mangos",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Orangensaft",
+        "menge": "100 ml"
+      },
+      {
+        "name": "Pinienkerne",
+        "menge": "50 g"
+      },
+      {
+        "name": "Mozzarella",
+        "menge": "50 g"
+      },
+      {
+        "name": "Rucola",
+        "menge": "50 g"
+      },
+      {
+        "name": "Salz und Pfeffer",
+        "menge": "Prise"
+      },
+      {
+        "name": "Chilischoten",
+        "menge": "1/2 Stk."
+      },
+      {
+        "name": "Avocados",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "3 EL"
+      },
+      {
+        "name": "Akazienhonig",
+        "menge": "1 EL"
+      },
+      {
+        "name": "Limetten",
+        "menge": "1/2 Stk."
+      }
+    ],
+    "anleitung": [
+      "Avocado halbieren, Kern entfernen und das Fruchtfleisch mit einem Löffel aus der Schale lösen. Anschließend in Würfel schneiden.",
+      "Mango schälen, das Fruchtfleisch vom Kern lösen und in Würfel schneiden.",
+      "Chilischote halbieren, entkernen und in feine Würfel schneiden.",
+      "Mozzarella in Würfel schneiden und Rucola waschen.",
+      "Orangensaft auf die Hälfte in einem Topf einkochen. Das Konzentrat mit Salz, Pfeffer, roter Chilischote, Olivenöl und Honig zu einer Vinaigrette verrühren.",
+      "Avocadowürfel mit dem Limettensaft beträufeln, salzen und pfeffern.",
+      "Zum Anrichten einen höheren Metallring auf jeden Teller setzen, und jeweils eine Lage Avocado einfüllen. Darauf Mozzarella, dann Mango geben. Das Ganze mit einem Löffel fest drücken und mit etwas Orangen-Vinaigrette beträufeln. Ring abziehen.",
+      "Rucola mit der übrigen Vinaigrette in einer Schüssel vermischen und auf jedes Türmchen ein paar Rucolablätter setzen. Den Rest darum verteilen.",
+      "Mit Pinienkernen bestreut sofort servieren."
+        ],
+    "image": "/assets/Bildrecherche/anrichten_lvl1_avocadomangosalat.JPG"
+  }
+  

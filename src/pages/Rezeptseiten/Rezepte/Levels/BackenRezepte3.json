@@ -7,17 +7,17 @@
   "descriptions": [
     "Linzer Torte",
     "Pandamuffins",
-    "Ratatouille"
+    "Zucchini-Karotten Quiche"
   ],
   "labels": [
     "Vegetarisch",
     "Vegetarisch",
-    "Fleisch"
+    "Vegetarisch"
   ],
   "classnames": [
     "labelVeggie",
     "labelVeggie",
-    "labelMeat"
+    "labelVeggie"
   ],
   "recipeCategoryLabels": [
     "Nachspeise",
@@ -27,6 +27,6 @@
   "images": [
     "/assets/Bildrecherche/backen_lvl3_linzertorte.JPG",
     "/assets/Bildrecherche/backen_lvl3_pandamuffins.JPG",
-    "/assets/Bildrecherche/backen_lvl3_ratatouille.JPG"
+    "/assets/Bildrecherche/backen_lvl3_Zucchini-Karotten Quiche.JPG"
   ]
 }

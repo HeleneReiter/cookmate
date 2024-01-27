@@ -1,0 +1,76 @@
+{
+    "name": "Griechische Hackspieße in Tomatensauce",
+    "portionen": 4,
+    "arbeitszeit": "60 min",
+    "arbeitsschritte": 8,
+    "schwierigkeit": "einfach",
+    "kategorie": "Hauptspeise", 
+    "learning": "anrichten",
+    "label": "fleisch",
+    "zutaten": [
+      {
+        "name": "Zwiebeln",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Eier",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Scheinemett",
+        "menge": "300 g"
+      },
+      {
+        "name": "Rinderhack",
+        "menge": "300 g"
+      },
+      {
+        "name": "Paniermehl",
+        "menge": "3 EL"
+      },
+      {
+        "name": "Gyros Gewürz",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Salz",
+        "menge": "Prise"
+      },
+      {
+        "name": "weißer Pfeffer",
+        "menge": "Prise"
+      },
+      {
+        "name": "Zucker",
+        "menge": "Prise"
+      },
+      {
+        "name": "Zucchini",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Oregano und Rosmarin",
+        "menge": "etwas"
+      },
+      {
+        "name": "Tomaten",
+        "menge": "1 Dose"
+      }
+    ],
+    "anleitung": [
+      "Eine Zwiebel, Knoblauch schälen und fein würfeln.",
+      "Zwiebel und Knoblauch mit Mett, Hack, Ei, Paniermehl, Würzmischung, Pfeffer und wenig Salz verkneten.",
+      "Aus der Mischung ca. 8 längliche Frikadellen formen und auf Spieße stecken.",
+      "Auf eine gefettete Pfanne/Ofenform legen und im vorgeheizten Ofen (Umluft: ca. 175 °C) ca. 40-45 Minuten braten, zwischendurch wenden und nächste Schritte ausführen.",
+      "Zucchini putzen, waschen und grob würfeln. Eine Zwiebel schälen und würfeln. Kräuter waschen und hacken",
+      "Zucchini und Zwiebel um die Spieße verteilen.",
+      "Tomaten samt Saft in eine Schüssel gießen und zerkleinern. Kräuter unterrühren. Mit Salz, Pfeffer und Zucker würzen",
+      "Nach weiteren 10 Minuten Tomatensoße zu den Spießen gießen, zu Ende schmoren. Soße abschmecken, alles anrichten. Dazu passen Röstkartoffeln oder Pommes und Tsatsiki."
+    ],
+    "image": "/assets/Bildrecherche/anrichten_lvl1_Hackspieße.JPG"
+  }
+  

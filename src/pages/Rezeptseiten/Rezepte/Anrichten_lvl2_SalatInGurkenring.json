@@ -1,0 +1,68 @@
+{
+    "name": "Griechischer Salat im Gurkenring",
+    "portionen": 4,
+    "arbeitszeit": "25 min",
+    "arbeitsschritte": 8,
+    "schwierigkeit": "einfach",
+    "kategorie": "Salat", 
+    "learning": "anrichten",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "Salatgurken",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Tomaten",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Zwiebeln",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Feta",
+        "menge": "200 g"
+      },
+      {
+        "name": "Petersilie",
+        "menge": "4 Stiele"
+      },
+      {
+        "name": "Kalamata_Oliven (entsteint)",
+        "menge": "75 g"
+      },
+      {
+        "name": "Bio-Zitronen",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "4 EL"
+      },
+      {
+        "name": "Salz",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Pfeffer",
+        "menge": "1 Prise"
+      },
+      {
+        "name": "Zucker",
+        "menge": "1 Prise"
+      }
+    ],
+    "anleitung": [
+      "Für die Ringe Gurke waschen, putzen. Mit einem breiten Sparschäler längs 12 Streifen abhobeln. Je 3 Streifen aufeinanderlegen, zu einem Ring formen und mit Holzspießchen feststecken.",
+      "Für den Salat den rest der Gurke entkernen und fein würfeln. Tomate waschen und würfeln.",
+      "Zwiebel schälen, vierteln und in feine Streifen schneiden. Petersilie waschen und fein hacken.",
+      "Feta fein würfeln. Oliven in Ringe schneiden. Vorbereitete Salatzutaten mischen.",
+      "Zitronenschale abreiben und Saft auspressen.",
+      "Zitronenschale, -saft, Salz, Pfeffer und Zucker verrühren. Öl darunterschlagen. Mit Salat mischen und abschmecken.",
+      "Gurkenringe auf vier Teller setzen. Salat in den Ringen anrichten.",
+      "Tipp: Dazu schmecken Sesamkringel."
+    ],
+    "image": "/assets/Bildrecherche/anrichten_lvl2_salatring.JPG"
+  }
+  

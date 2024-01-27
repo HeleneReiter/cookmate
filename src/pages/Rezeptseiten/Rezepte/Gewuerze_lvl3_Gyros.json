@@ -1,0 +1,63 @@
+{
+    "name": "Gyros-Geschnetzeltes",
+    "portionen": 2,
+    "arbeitszeit": "35 min",
+    "arbeitsschritte": 7,
+    "schwierigkeit": "schwer",
+    "kategorie": "Hauptspeise", 
+    "learning": "Gewuerze",
+    "label": "Fleisch",
+    "zutaten": [
+      {
+        "name": "Salatgurken",
+        "menge": "ca. 150 g"
+      },
+      {
+        "name": "griechischer Joghurt",
+        "menge": "300 g"
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Schweineschnitzel",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Gyrosgewürz",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Öl",
+        "menge": "3 EL"
+      },
+      {
+        "name": "Zwiebeln",
+        "menge": "2 Stk."
+      },
+      {
+        "name": "Petersilie",
+        "menge": "2 EL"
+      },
+      {
+        "name": "Salz und Pfeffer",
+        "menge": "nach Belieben"
+      }
+    ],
+    "anleitung": [
+      "Salatgurken streifig schälen, längs halbieren und mit einem Teelöffel entkernen. Die Gurke auf der Haushaltsreibe grob raspeln.",
+      "Griechischen Joghurt in eine Schüssel geben. Knoblauchzehen dazupressen und mit Salz und Pfeffer würzen. Gurkenraspel untermischen und mit 2 El Olivenöl beträufeln.",
+      "Schweineschnitzel quer in dünne Streifen schneiden. In einer Schüssel mit Gyros-Gewürz und 3 El Öl mischen.",
+      "Zwiebeln halbieren und in halbe Ringe schneiden.",
+      "Eine beschichtete Pfanne erhitzen und das Fleisch bei starker Hitze rundherum 3-6 Minuten hellbraun anbraten.",
+      "Fleisch salzen und aus der Pfanne nehmen. Zwiebeln darin 4 Min. braten und Fleisch wieder zugeben und 1 Min. erhitzen.",
+      "Mit gehackter Petersilie bestreuen und mit Zaziki servieren."
+        ],
+    "image": "/assets/Bildrecherche/gewuerze_lvl3_gyrosgeschnetzeltes.JPG"
+  }
+  

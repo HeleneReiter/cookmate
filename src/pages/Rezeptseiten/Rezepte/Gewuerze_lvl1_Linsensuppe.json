@@ -1,0 +1,66 @@
+{
+    "name": "Linsensuppe",
+    "portionen": 4,
+    "arbeitszeit": "30 min",
+    "arbeitsschritte": 6,
+    "schwierigkeit": "einfach",
+    "kategorie": "Suppe", 
+    "learning": "Gewuerze",
+    "label": "vegetarisch",
+    "zutaten": [
+      {
+        "name": "rote Linsen",
+        "menge": "250 g"
+      },
+      {
+        "name": "Zwiebeln",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Knoblauchzehen",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Kartoffeln",
+        "menge": "1 Stk."
+      },
+      {
+        "name": "Karotten",
+        "menge": "1 Stk. (ca. 100 g)"
+      },
+      {
+        "name": "Olivenöl",
+        "menge": "3 EL"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "menge": "1.4 l"
+      },
+      {
+        "name": "Salz und Pfeffer",
+        "menge": "nach Geschmack"
+      },
+      {
+        "name": "getrocknete Minze",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Paprikapulver edelsüß",
+        "menge": "1 TL"
+      },
+      {
+        "name": "Zitronenspalten",
+        "menge": "nach Geschmack"
+      }
+    ],
+    "anleitung": [
+      "Linsen abspülen. Zwiebel und Knoblauch klein hacken, Karotten und Kartoffeln schälen und in Würfel schneiden.",
+      "Olivenöl in einem Topf erhitzen und Zwiebeln, Knoblauch, Karotten, Kartoffeln und Linsen unter Rühren kurz anschwitzen.",
+      "Gemüsebrühe zugeben und alles einmal aufkochen. Bei geringer Hitze für 20-30 Minuten köcheln lassen, bis die Linsen weich sind.",
+      "Die Suppe pürieren und mit Salz und Pfeffer abschmecken.",
+      "Für das Topping Olivenöl in einer Pfanne erhitzen und Minze und Paprikapulver einrühren.",
+      "Die Suppe mit dem Öl-Topping und mit Zitronenspalten servieren."
+        ],
+    "image": "/assets/Bildrecherche/gewuerze_lvl1_linsensuppe.JPG"
+  }
+  
