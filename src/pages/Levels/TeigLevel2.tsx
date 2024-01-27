@@ -104,7 +104,7 @@ const TeigLevel2 : React.FC = () => {
                   <IonCard className="custom-ion-card">
                     <div className="box">
                       <p>{slide.description}</p>
-                      <div className="info"><h2>Marinieren {slide.title}</h2></div>
+                      <div className="info"><h2>Teig {slide.title}</h2></div>
                     </div>
                   </IonCard>
 

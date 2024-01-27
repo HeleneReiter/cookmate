@@ -22,11 +22,11 @@
   "recipeCategoryLabels": [
     "Hauptspeise",
     "Hauptspeise",
-    "Suppe"
+    "Hauptspeise"
   ],
   "images": [
     "/assets/Bildrecherche/gewuerze_lvl2_hackbaellchenmitcahsews.JPG",
     "/assets/Bildrecherche/gewuerze_lvl2_falafel.JPG",
-    "/assets/Bildrecherche/gewuerze_lvl2_kartoffelcurry.jpg"
+    "/assets/Bildrecherche/gewuerze_lvl2_kartoffelcurry.JPG"
   ]
 }

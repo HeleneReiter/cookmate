@@ -6,8 +6,8 @@
   ],
   "descriptions": [
     "Mango Smoothie Bowl",
-    "Griechische Hackspieße in Tomatensauce",
-    "Avocado-Mozzarella-Salat mit Mango"
+    "Griechische Hackspiesse in Tomatensauce",
+    "Avocado-Mozzarella-Salat"
   ],
   "labels": [
     "Vegan",
@@ -26,7 +26,7 @@
   ],
   "images": [
     "/assets/Bildrecherche/anrichten_lvl1_mangosmoothie.JPG",
-    "/assets/Bildrecherche/anrichten_Hackspieße.JPG",
+    "/assets/Bildrecherche/anrichten_lvl1_Hackspieße.JPG",
     "/assets/Bildrecherche/anrichten_lvl1_avocadomangosalat.JPG"
   ]
 }
