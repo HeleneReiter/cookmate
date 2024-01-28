@@ -28,6 +28,7 @@ const BasicRezept_Gewürze: React.FC = () => {
     learning: Rezept.learning,
     kategorie: Rezept.kategorie,
     image: Rezept.image,
+    classname: Rezept.classname,
   };
 
   // Zustand für das Anzeigen des zusätzlichen Textes
@@ -59,7 +60,7 @@ const BasicRezept_Gewürze: React.FC = () => {
               />
             <h2>{rezept.name}</h2> 
             <div className='labelboxVorschau'>
-              <div className='labelVeggie'>Vegetarisch</div>
+              <div className={rezept.classname}>{rezept.label}</div>
               <div className='labelCategory'>{rezept.kategorie}</div>
               <div className='labeTime'>{rezept.arbeitszeit}</div>
             </div>

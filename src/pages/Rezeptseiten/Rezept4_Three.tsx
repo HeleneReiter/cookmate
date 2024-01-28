@@ -30,6 +30,7 @@ const Rezept4_Three: React.FC = () => {
     learning: Rezept.learning,
     kategorie: Rezept.kategorie,
     image: Rezept.image,
+    classname: Rezept.classname,
   };
 
   const [showMoreText, setShowMoreText] = useState(false);
@@ -60,7 +61,7 @@ const Rezept4_Three: React.FC = () => {
               />
             <h2>{rezept.name}</h2> 
             <div className='labelboxVorschau'>
-              <div className='labelVeggie'>Vegetarisch</div>
+            <div className={rezept.classname}>{rezept.label}</div>
               <div className='labelCategory'>{rezept.kategorie}</div>
               <div className='labeTime'>{rezept.arbeitszeit}</div>
             </div>

@@ -1,12 +1,13 @@
 {
-    "name": "Orientalische Hackbaellchen mit Cashews",
+    "name": "Orientalische Hackbaellchen",
     "portionen": 2,
     "arbeitszeit": "25 min",
     "arbeitsschritte": 8,
     "schwierigkeit": "mittel",
     "kategorie": "Hauptspeise", 
     "learning": "Gewuerze",
-    "label": "vegetarisch",
+    "label": "Fleisch",
+    "classname":"labelMeat",
     "zutaten": [
       {
         "name": "Hackbällchen aus Fleisch oder vegetarisch",

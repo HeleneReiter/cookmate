@@ -7,6 +7,7 @@
     "kategorie": "Hauptspeise", 
     "learning": "teig",
     "label": "Fleisch",
+    "classname":"labelMeat",
     "zutaten": [
       {
         "name": "Lasagneblätter",

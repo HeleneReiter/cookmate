@@ -7,6 +7,7 @@
     "kategorie": "Nachspeise", 
     "learning": "Backen",
     "label": "Vegetarisch",
+    "classname":"labelVeggie",
     "zutaten": [
       {
         "name": "Äpfel",

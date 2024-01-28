@@ -7,6 +7,7 @@
     "kategorie": "Salat", 
     "learning": "anrichten",
     "label": "vegetarisch",
+    "classname":"labelVeggie",
     "zutaten": [
       {
         "name": "Salatgurken",

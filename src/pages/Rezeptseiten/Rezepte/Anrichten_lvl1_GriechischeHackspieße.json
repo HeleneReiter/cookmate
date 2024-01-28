@@ -1,12 +1,13 @@
 {
-    "name": "Griechische Hackspieße in Tomatensauce",
+    "name": "Griechische Hackspiesse in Tomatensauce",
     "portionen": 4,
     "arbeitszeit": "60 min",
     "arbeitsschritte": 8,
     "schwierigkeit": "einfach",
     "kategorie": "Hauptspeise", 
     "learning": "anrichten",
-    "label": "fleisch",
+    "label": "Fleisch",
+    "classname":"labelMeat",
     "zutaten": [
       {
         "name": "Zwiebeln",

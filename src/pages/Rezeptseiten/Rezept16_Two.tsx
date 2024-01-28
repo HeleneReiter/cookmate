@@ -17,7 +17,7 @@ import {
 import '../CSS/Rezeptvorschau.css';
 
 
-import Rezept from './Rezepte/Basics_Saucen_Himbeersosse.json';
+import Rezept from './Rezepte/Anrichten_lvl1_GriechischeHackspieße.json';
 
 const Rezept16_Two: React.FC = () => {
   const rezept = {
@@ -32,6 +32,7 @@ const Rezept16_Two: React.FC = () => {
     learning: Rezept.learning,
     kategorie: Rezept.kategorie,
     image: Rezept.image,
+    classname: Rezept.classname,
   };
 
   const [showMoreText, setShowMoreText] = useState(false);
@@ -63,7 +64,7 @@ const Rezept16_Two: React.FC = () => {
               />
             <h2>{rezept.name}</h2> 
             <div className='labelboxVorschau'>
-              <div className='labelMeat'>Fleisch</div>
+            <div className={rezept.classname}>{rezept.label}</div>
               <div className='labelCategory'>{rezept.kategorie}</div>
               <div className='labeTime'>{rezept.arbeitszeit}</div>
             </div>

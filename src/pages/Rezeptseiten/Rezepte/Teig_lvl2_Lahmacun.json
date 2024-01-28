@@ -6,7 +6,8 @@
     "schwierigkeit": "mittel",
     "kategorie": "Hauptspeise", 
     "learning": "teig",
-    "label": "fleisch",
+    "label": "Fleisch",
+    "classname":"labelMeat",
     "zutaten": [
       {
         "name": "Mehl",

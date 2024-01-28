@@ -6,7 +6,8 @@
   "schwierigkeit": "einfach",
   "kategorie": "Hauptspeise",
   "learning": "schneiden",
-  "label": "",
+  "label": "Fleisch",
+  "classname":"labelMeat",
   "zutaten": [
     {
       "name": "Kartoffeln",

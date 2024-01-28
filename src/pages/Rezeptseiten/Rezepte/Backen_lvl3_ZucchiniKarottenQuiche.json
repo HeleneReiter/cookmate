@@ -1,5 +1,5 @@
 {
-    "name": "Zucchini-Karotten Quiche",
+    "name": "Zucchini-Karotten-Quiche",
     "portionen": 8,
     "arbeitszeit": "50 min",
     "arbeitsschritte": 7,
@@ -7,6 +7,7 @@
     "kategorie": "Hauptspeise", 
     "learning": "backen",
     "label": "vegetarisch",
+    "classname":"labelVeggie",
     "zutaten": [
       {
         "name": "gelbe Zucchini",

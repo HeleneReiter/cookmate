@@ -7,6 +7,7 @@
     "kategorie": "Hauptspeise", 
     "learning": "Gewuerze",
     "label": "Fleisch",
+    "classname":"labelMeat",
     "zutaten": [
       {
         "name": "Salatgurken",

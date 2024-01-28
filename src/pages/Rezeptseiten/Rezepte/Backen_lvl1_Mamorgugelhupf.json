@@ -1,5 +1,5 @@
 {
-    "name": "Mamorgugelhupf",
+    "name": "Mamor-Gugelhupf",
     "portionen": 8,
     "arbeitszeit": "15 min",
     "arbeitsschritte": 6,
@@ -7,6 +7,7 @@
     "kategorie": "Kuchen", 
     "learning": "backen",
     "label": "vegetarisch",
+    "classname":"labelVeggie",
     "zutaten": [
       {
         "name": "Mehl",

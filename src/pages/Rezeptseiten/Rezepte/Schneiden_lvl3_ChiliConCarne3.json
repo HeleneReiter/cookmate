@@ -6,7 +6,8 @@
   "schwierigkeit": "schwer",
   "kategorie": "Hauptspeise",
   "learning": "schneiden",
-  "label": "",
+  "label": "Fleisch",
+  "classname":"labelMeat",
   "zutaten": [
     {
       "name": "Zwiebel",

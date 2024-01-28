@@ -3,10 +3,11 @@
   "portionen": 4,
   "arbeitszeit": "13 min",
   "arbeitsschritte": 2,
-  "schwierigkeit": "Nicht angegeben",
+  "schwierigkeit": "einfach",
   "kategorie": "Sauce",
   "learning": "Sauce",
-  "label": "Nicht angegeben",
+  "label": "vegetarisch",
+  "classname":"labelVeggie",
   "zutaten": [
     {
       "name": "Schokolade",

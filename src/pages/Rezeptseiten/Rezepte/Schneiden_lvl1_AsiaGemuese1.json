@@ -6,7 +6,8 @@
     "schwierigkeit": "einfach",
     "kategorie": "Hauptspeise", 
     "learning": "schneiden",
-    "label": "vegetarisch",
+    "label": "vegan",
+    "classname":"labelVegan",
     "zutaten": [
       {
         "name": "Champignons",

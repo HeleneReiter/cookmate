@@ -7,6 +7,7 @@
     "kategorie": "Brot", 
     "learning": "backen",
     "label": "vegan",
+    "classname":"labelVegan",
     "zutaten": [
       {
         "name": "Germ (oder Trockenhefe)",

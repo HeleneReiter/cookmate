@@ -83,9 +83,53 @@ import Rezept6_One from "./pages/Rezeptseiten/Rezept6_One";
 import Rezept6_Two from "./pages/Rezeptseiten/Rezept6_Two";
 import Rezept6_Three from "./pages/Rezeptseiten/Rezept6_Three";
 
+import Rezept7_One from "./pages/Rezeptseiten/Rezept7_One";
+import Rezept7_Two from "./pages/Rezeptseiten/Rezept7_Two";
+import Rezept7_Three from "./pages/Rezeptseiten/Rezept7_Three";
+
+import Rezept8_One from "./pages/Rezeptseiten/Rezept8_One";
+import Rezept8_Two from "./pages/Rezeptseiten/Rezept8_Two";
+import Rezept8_Three from "./pages/Rezeptseiten/Rezept8_Three";
+
+import Rezept9_One from "./pages/Rezeptseiten/Rezept9_One";
+import Rezept9_Two from "./pages/Rezeptseiten/Rezept9_Two";
+import Rezept9_Three from "./pages/Rezeptseiten/Rezept9_Three";
+
+import Rezept10_One from "./pages/Rezeptseiten/Rezept10_One";
+import Rezept10_Two from "./pages/Rezeptseiten/Rezept10_Two";
+import Rezept10_Three from "./pages/Rezeptseiten/Rezept10_Three";
+
+import Rezept11_One from "./pages/Rezeptseiten/Rezept11_One";
+import Rezept11_Two from "./pages/Rezeptseiten/Rezept11_Two";
+import Rezept11_Three from "./pages/Rezeptseiten/Rezept11_Three";
+
+import Rezept12_One from "./pages/Rezeptseiten/Rezept12_One";
+import Rezept12_Two from "./pages/Rezeptseiten/Rezept12_Two";
+import Rezept12_Three from "./pages/Rezeptseiten/Rezept12_Three";
+
+import Rezept13_One from "./pages/Rezeptseiten/Rezept13_One";
+import Rezept13_Two from "./pages/Rezeptseiten/Rezept13_Two";
+import Rezept13_Three from "./pages/Rezeptseiten/Rezept13_Three";
+
+import Rezept14_One from "./pages/Rezeptseiten/Rezept14_One";
+import Rezept14_Two from "./pages/Rezeptseiten/Rezept14_Two";
+import Rezept14_Three from "./pages/Rezeptseiten/Rezept14_Three";
+
+import Rezept15_One from "./pages/Rezeptseiten/Rezept15_One";
+import Rezept15_Two from "./pages/Rezeptseiten/Rezept15_Two";
+import Rezept15_Three from "./pages/Rezeptseiten/Rezept15_Three";
+
 import Rezept16_One from "./pages/Rezeptseiten/Rezept16_One";
 import Rezept16_Two from "./pages/Rezeptseiten/Rezept16_Two";
 import Rezept16_Three from "./pages/Rezeptseiten/Rezept16_Three";
+
+import Rezept17_One from "./pages/Rezeptseiten/Rezept17_One";
+import Rezept17_Two from "./pages/Rezeptseiten/Rezept17_Two";
+import Rezept17_Three from "./pages/Rezeptseiten/Rezept17_Three";
+
+import Rezept18_One from "./pages/Rezeptseiten/Rezept18_One";
+import Rezept18_Two from "./pages/Rezeptseiten/Rezept18_Two";
+import Rezept18_Three from "./pages/Rezeptseiten/Rezept18_Three";
 
 import BackenLevel1 from "./pages/Levels/BackenLevel1";
 import BackenLevel2 from "./pages/Levels/BackenLevel2";
@@ -179,11 +223,53 @@ const App: React.FC = () => (
           <Route exact path="/rezept6_Two" component={Rezept6_Two}></Route>
           <Route exact path="/rezept6_Three" component={Rezept6_Three}></Route>
 
+          <Route exact path="/rezept7_One" component={Rezept7_One}></Route>
+          <Route exact path="/rezept7_Two" component={Rezept7_Two}></Route>
+          <Route exact path="/rezept7_Three" component={Rezept7_Three}></Route>
 
+          <Route exact path="/rezept8_One" component={Rezept8_One}></Route>
+          <Route exact path="/rezept8_Two" component={Rezept8_Two}></Route>
+          <Route exact path="/rezept8_Three" component={Rezept8_Three}></Route>
+
+          <Route exact path="/rezept9_One" component={Rezept9_One}></Route>
+          <Route exact path="/rezept9_Two" component={Rezept9_Two}></Route>
+          <Route exact path="/rezept9_Three" component={Rezept9_Three}></Route>
+
+          <Route exact path="/rezept10_One" component={Rezept10_One}></Route>
+          <Route exact path="/rezept10_Two" component={Rezept10_Two}></Route>
+          <Route exact path="/rezept10_Three" component={Rezept10_Three}></Route>
+
+          <Route exact path="/rezept11_One" component={Rezept11_One}></Route>
+          <Route exact path="/rezept11_Two" component={Rezept11_Two}></Route>
+          <Route exact path="/rezept11_Three" component={Rezept11_Three}></Route>
+
+          <Route exact path="/rezept12_One" component={Rezept12_One}></Route>
+          <Route exact path="/rezept12_Two" component={Rezept12_Two}></Route>
+          <Route exact path="/rezept12_Three" component={Rezept12_Three}></Route>
+
+          <Route exact path="/rezept13_One" component={Rezept13_One}></Route>
+          <Route exact path="/rezept13_Two" component={Rezept13_Two}></Route>
+          <Route exact path="/rezept13_Three" component={Rezept13_Three}></Route>
+
+          <Route exact path="/rezept14_One" component={Rezept14_One}></Route>
+          <Route exact path="/rezept14_Two" component={Rezept14_Two}></Route>
+          <Route exact path="/rezept14_Three" component={Rezept14_Three}></Route>
+
+          <Route exact path="/rezept15_One" component={Rezept15_One}></Route>
+          <Route exact path="/rezept15_Two" component={Rezept15_Two}></Route>
+          <Route exact path="/rezept15_Three" component={Rezept15_Three}></Route>
 
           <Route exact path="/rezept16_One" component={Rezept16_One}></Route>
           <Route exact path="/rezept16_Two" component={Rezept16_Two}></Route>
           <Route exact path="/rezept16_Three" component={Rezept16_Three}></Route>
+
+          <Route exact path="/rezept17_One" component={Rezept17_One}></Route>
+          <Route exact path="/rezept17_Two" component={Rezept17_Two}></Route>
+          <Route exact path="/rezept17_Three" component={Rezept17_Three}></Route>
+
+          <Route exact path="/rezept18_One" component={Rezept18_One}></Route>
+          <Route exact path="/rezept18_Two" component={Rezept18_Two}></Route>
+          <Route exact path="/rezept18_Three" component={Rezept18_Three}></Route>
         
           
           <Route exact path="/BasicSchneidenRezept1" component={BasicSchneidenRezept1}></Route>

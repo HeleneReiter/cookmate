@@ -1,12 +1,13 @@
 {
-    "name": "Kartoffelcurry",
+    "name": "Kartoffel-Curry",
     "portionen": 3,
     "arbeitszeit": "25 min",
     "arbeitsschritte": 7,
     "schwierigkeit": "mittel",
     "kategorie": "Hauptspeise", 
     "learning": "Gewuerze",
-    "label": "vegetarisch",
+    "label": "vegan",
+    "classname":"labelVegan",
     "zutaten": [
       {
         "name": "Kartoffeln",

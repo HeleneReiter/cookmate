@@ -6,7 +6,8 @@
     "schwierigkeit": "einfach",
     "kategorie": "Suppe", 
     "learning": "Gewuerze",
-    "label": "vegetarisch",
+    "label": "Vegan",
+    "classname":"labelVegan",
     "zutaten": [
       {
         "name": "rote Linsen",
