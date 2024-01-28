@@ -80,7 +80,7 @@ const SchneidenRezept2: React.FC = () => {
    }
    
    const handleCloseClick = () => {
-    window.location.href = "/schneiden/level2"; 
+    window.location.href = "/rezept2_One"; 
   };
 
   return (
