@@ -102,7 +102,17 @@ import TeigRezept12_One from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept12_
 import TeigRezept12_Two from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept12_Two";
 import TeigRezept12_Three from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept12_Three";
 
+import GewuerzeRezept13_One from "./pages/Rezeptseiten/Arbeitsschritte/GewuerzeRezept13_One";
+import GewuerzeRezept13_Two from "./pages/Rezeptseiten/Arbeitsschritte/GewuerzeRezept13_Two";
+import GewuerzeRezept13_Three from "./pages/Rezeptseiten/Arbeitsschritte/GewuerzeRezept13_Three";
 
+import GewuerzeRezept14_One from "./pages/Rezeptseiten/Arbeitsschritte/GewuerzeRezept14_One";
+import GewuerzeRezept14_Two from "./pages/Rezeptseiten/Arbeitsschritte/GewuerzeRezept14_Two";
+import GewuerzeRezept14_Three from "./pages/Rezeptseiten/Arbeitsschritte/GewuerzeRezept14_Three";
+
+import GewuerzeRezept15_One from "./pages/Rezeptseiten/Arbeitsschritte/GewuerzeRezept15_One";
+import GewuerzeRezept15_Two from "./pages/Rezeptseiten/Arbeitsschritte/GewuerzeRezept15_Two";
+import GewuerzeRezept15_Three from "./pages/Rezeptseiten/Arbeitsschritte/GewuerzeRezept15_Three";
 
 import Rezept1_One from "./pages/Rezeptseiten/Rezept1_One";
 import Rezept1_Two from "./pages/Rezeptseiten/Rezept1_Two";
@@ -381,6 +391,18 @@ const App: React.FC = () => (
           <Route exact path="/TeigRezept12_One" component={TeigRezept12_One}></Route>
           <Route exact path="/TeigRezept12_Two" component={TeigRezept12_Two}></Route>
           <Route exact path="/TeigRezept12_Three" component={TeigRezept12_Three}></Route>
+
+          <Route exact path="/GewuerzeRezept13_One" component={GewuerzeRezept13_One}></Route>
+          <Route exact path="/GewuerzeRezept13_Two" component={GewuerzeRezept13_Two}></Route>
+          <Route exact path="/GewuerzeRezept13_Three" component={GewuerzeRezept13_Three}></Route>
+
+          <Route exact path="/GewuerzeRezept14_One" component={GewuerzeRezept14_One}></Route>
+          <Route exact path="/GewuerzeRezept14_Two" component={GewuerzeRezept14_Two}></Route>
+          <Route exact path="/GewuerzeRezept14_Three" component={GewuerzeRezept14_Three}></Route>
+
+          <Route exact path="/GewuerzeRezept15_One" component={GewuerzeRezept15_One}></Route>
+          <Route exact path="/GewuerzeRezept15_Two" component={GewuerzeRezept15_Two}></Route>
+          <Route exact path="/GewuerzeRezept15_Three" component={GewuerzeRezept15_Three}></Route>
 
           <Route exact path="/AnrichtenRezept16_One" component={AnrichtenRezept16_One}></Route>
           <Route exact path="/AnrichtenRezept16_Two" component={AnrichtenRezept16_Two}></Route>
