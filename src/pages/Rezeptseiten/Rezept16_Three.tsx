@@ -92,7 +92,7 @@ const Rezept16_Three: React.FC = () => {
             <p onClick={toggleShowMore}>{buttonLabel}</p>
           </IonCardContent>
         </IonCard>
-        <IonButton className='buttonJetztKochen'> Jetzt Kochen! </IonButton>
+        <IonButton routerLink="AnrichtenRezept16_Three" className='buttonJetztKochen'> Jetzt Kochen! </IonButton>
       </IonContent>
     </IonPage>
   );

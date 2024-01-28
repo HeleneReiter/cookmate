@@ -50,6 +50,12 @@
     height: 900px;
 }
 
+.OhneBildcard {
+    background-color: transparent;
+    padding-top: 400px;
+    height: 900px;
+}
+
 .custom-page-background {
     --ion-background-color: linear-gradient(to top, rgba(4,12,15,1), rgb(7, 21, 27, 1)); 
     --ion-item-background: #040C0F;
