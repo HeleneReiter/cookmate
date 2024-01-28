@@ -90,6 +90,19 @@ import BackenRezept9_One from "./pages/Rezeptseiten/Arbeitsschritte/BackenRezept
 import BackenRezept9_Two from "./pages/Rezeptseiten/Arbeitsschritte/BackenRezept9_Two";
 import BackenRezept9_Three from "./pages/Rezeptseiten/Arbeitsschritte/BackenRezept9_Three";
 
+import TeigRezept10_One from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept10_One";
+import TeigRezept10_Two from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept10_Two";
+import TeigRezept10_Three from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept10_Three";
+
+import TeigRezept11_One from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept11_One";
+import TeigRezept11_Two from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept11_Two";
+import TeigRezept11_Three from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept11_Three";
+
+import TeigRezept12_One from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept12_One";
+import TeigRezept12_Two from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept12_Two";
+import TeigRezept12_Three from "./pages/Rezeptseiten/Arbeitsschritte/TeigRezept12_Three";
+
+
 
 import Rezept1_One from "./pages/Rezeptseiten/Rezept1_One";
 import Rezept1_Two from "./pages/Rezeptseiten/Rezept1_Two";
@@ -356,6 +369,18 @@ const App: React.FC = () => (
           <Route exact path="/BackenRezept9_One" component={BackenRezept9_One}></Route>
           <Route exact path="/BackenRezept9_Two" component={BackenRezept9_Two}></Route>
           <Route exact path="/BackenRezept9_Three" component={BackenRezept9_Three}></Route>
+
+          <Route exact path="/TeigRezept10_One" component={TeigRezept10_One}></Route>
+          <Route exact path="/TeigRezept10_Two" component={TeigRezept10_Two}></Route>
+          <Route exact path="/TeigRezept10_Three" component={TeigRezept10_Three}></Route>
+
+          <Route exact path="/TeigRezept11_One" component={TeigRezept11_One}></Route>
+          <Route exact path="/TeigRezept11_Two" component={TeigRezept11_Two}></Route>
+          <Route exact path="/TeigRezept11_Three" component={TeigRezept11_Three}></Route>
+
+          <Route exact path="/TeigRezept12_One" component={TeigRezept12_One}></Route>
+          <Route exact path="/TeigRezept12_Two" component={TeigRezept12_Two}></Route>
+          <Route exact path="/TeigRezept12_Three" component={TeigRezept12_Three}></Route>
 
           <Route exact path="/AnrichtenRezept16_One" component={AnrichtenRezept16_One}></Route>
           <Route exact path="/AnrichtenRezept16_Two" component={AnrichtenRezept16_Two}></Route>
