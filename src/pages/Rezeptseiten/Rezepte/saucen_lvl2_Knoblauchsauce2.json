@@ -1,11 +1,11 @@
 {
-  "name": "Knoblauchsauce",
+  "name": "Knoblauch-Sauce",
   "portionen": 2,
   "arbeitszeit": "20 min",
   "arbeitsschritte": 2,
   "schwierigkeit": "mittel",
-  "kategorie": "Soße",
-  "learning": "Soßen",
+  "kategorie": "Sauce",
+  "learning": "Sauce",
   "label": "vegetarisch",
   "zutaten": [
     {

@@ -1,11 +1,11 @@
 {
-    "name": "Tomatensoße",
+    "name": "Tomatensauce",
     "portionen": 4,
     "arbeitszeit": "10 min",
     "arbeitsschritte": 7,
     "schwierigkeit": "einfach",
-    "kategorie": "Soße",
-    "learning": "Soßen",
+    "kategorie": "Sauce",
+    "learning": "Sauce",
     "label": "vegetarisch",
     "zutaten": [
       {

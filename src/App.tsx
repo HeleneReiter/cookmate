@@ -72,6 +72,16 @@ import Rezept3_Two from "./pages/Rezeptseiten/Rezept3_Two";
 import Rezept3_Three from "./pages/Rezeptseiten/Rezept3_Three";
 
 import Rezept4_One from "./pages/Rezeptseiten/Rezept4_One";
+import Rezept4_Two from "./pages/Rezeptseiten/Rezept4_Two";
+import Rezept4_Three from "./pages/Rezeptseiten/Rezept4_Three";
+
+import Rezept5_One from "./pages/Rezeptseiten/Rezept5_One";
+import Rezept5_Two from "./pages/Rezeptseiten/Rezept5_Two";
+import Rezept5_Three from "./pages/Rezeptseiten/Rezept5_Three";
+
+import Rezept6_One from "./pages/Rezeptseiten/Rezept6_One";
+import Rezept6_Two from "./pages/Rezeptseiten/Rezept6_Two";
+import Rezept6_Three from "./pages/Rezeptseiten/Rezept6_Three";
 
 import Rezept16_One from "./pages/Rezeptseiten/Rezept16_One";
 import Rezept16_Two from "./pages/Rezeptseiten/Rezept16_Two";
@@ -104,7 +114,6 @@ const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonSplitPane contentId="main">
-        <Menu />
         <IonRouterOutlet id="main">
           <Route path="/start" component={Start} exact />
           <Route path="/loading" component={Loading} exact />
@@ -159,6 +168,16 @@ const App: React.FC = () => (
           <Route exact path="/rezept3_Three" component={Rezept3_Three}></Route>
           
           <Route exact path="/rezept4_One" component={Rezept4_One}></Route>
+          <Route exact path="/rezept4_Two" component={Rezept4_Two}></Route>
+          <Route exact path="/rezept4_Three" component={Rezept4_Three}></Route>
+
+          <Route exact path="/rezept5_One" component={Rezept5_One}></Route>
+          <Route exact path="/rezept5_Two" component={Rezept5_Two}></Route>
+          <Route exact path="/rezept5_Three" component={Rezept5_Three}></Route>
+
+          <Route exact path="/rezept6_One" component={Rezept6_One}></Route>
+          <Route exact path="/rezept6_Two" component={Rezept6_Two}></Route>
+          <Route exact path="/rezept6_Three" component={Rezept6_Three}></Route>
 
 
 

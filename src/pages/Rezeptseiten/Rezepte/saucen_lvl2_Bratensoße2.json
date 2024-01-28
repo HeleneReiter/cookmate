@@ -1,11 +1,11 @@
 {
-  "name": "Rotweinsauce",
+  "name": "Bratensauce",
   "portionen": 1,
   "arbeitszeit": "40 min",
   "arbeitsschritte": 5,
   "schwierigkeit": "mittel",
-  "kategorie": "Soße",
-  "learning": "Soßen",
+  "kategorie": "Sauce",
+  "learning": "Sauce",
   "label": "vegan",
   "zutaten": [
     {

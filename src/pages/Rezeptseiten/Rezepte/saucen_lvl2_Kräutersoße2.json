@@ -1,11 +1,11 @@
 {
-  "name": "Kräutersauce",
+  "name": "Kraeutersauce",
   "portionen": 4,
   "arbeitszeit": "15 min",
   "arbeitsschritte": 3,
   "schwierigkeit": "mittel",
-  "kategorie": "Soße",
-  "learning": "Soßen",
+  "kategorie": "Sauce",
+  "learning": "Sauce",
   "label": "vegetarisch",
   "zutaten": [
     {

@@ -1,11 +1,11 @@
 {
-    "name": "Joghurt-Kraeuter-Dressing",
+    "name": "Joghurtsauce",
     "portionen": 4,
     "arbeitszeit": "45 min",
     "arbeitsschritte": 4,
     "schwierigkeit": "einfach",
-    "kategorie": "Soße",
-    "learning": "Soßen",
+    "kategorie": "Sauce",
+    "learning": "Sauce",
     "label": "vegetarisch",
     "zutaten": [
       {
