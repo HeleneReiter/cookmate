@@ -49,10 +49,18 @@ import BasicRezept_Gewürze from "./pages/Rezeptseiten/BasicRezept_Gewürze";
 import SchneidenLevel1 from "./pages/Levels/SchneidenLevel1";
 import SchneidenLevel2 from "./pages/Levels/SchneidenLevel2";
 import SchneidenLevel3 from "./pages/Levels/SchneidenLevel3";
+
 import SchneidenRezept1 from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept1";
+import SchneidenRezept1_Two from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept1_Two";
+import SchneidenRezept1_Three from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept1_Three";
 
 import SchneidenRezept2 from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept2";
+import SchneidenRezept2_Two from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept2_Two";
+import SchneidenRezept2_Three from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept2_Three";
+
 import SchneidenRezept3 from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept3";
+import SchneidenRezept3_Two from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept3_Two";
+import SchneidenRezept3_Three from "./pages/Rezeptseiten/Arbeitsschritte/SchneidenRezept3_Three";
 
 import MarinierenLevel1 from "./pages/Levels/MarinierenLevel1";
 import MarinierenLevel2 from "./pages/Levels/MarinierenLevel2";
@@ -290,8 +298,17 @@ const App: React.FC = () => (
           <Route exact path="/BasicGewürzeRezept1" component={BasicGewürzeRezept1}></Route>
 
           <Route exact path="/SchneidenRezept1" component={SchneidenRezept1}></Route>
+          <Route exact path="/SchneidenRezept1_Two" component={SchneidenRezept1_Two}></Route>
+          <Route exact path="/SchneidenRezept1_Three" component={SchneidenRezept1_Three}></Route>
+
           <Route exact path="/SchneidenRezept2" component={SchneidenRezept2}></Route>
+          <Route exact path="/SchneidenRezept2_Two" component={SchneidenRezept2_Two}></Route>
+          <Route exact path="/SchneidenRezept2_Three" component={SchneidenRezept2_Three}></Route>
+
           <Route exact path="/SchneidenRezept3" component={SchneidenRezept3}></Route>
+          <Route exact path="/SchneidenRezept3_Two" component={SchneidenRezept3_Two}></Route>
+          <Route exact path="/SchneidenRezept3_Three" component={SchneidenRezept3_Three}></Route>
+          
           <Route exact path="/MarinierenRezept1" component={MarinierenRezept1}></Route>
 
           <Route exact path="/AnrichtenRezept16_One" component={AnrichtenRezept16_One}></Route>
