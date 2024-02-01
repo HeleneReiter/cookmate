@@ -74,7 +74,7 @@ const SchneidenRezept1: React.FC = () => {
 
   // timer
   // show Timer only when needed
-  const [showTimer, setShowTimer] = useState(false);
+  const [showTimer, setShowTimer] = useState(true);
 
   // Settings for Timer
   const [seconds, setSeconds] = useState(900); // 15 minutes in seconds
