@@ -91,12 +91,15 @@ const BackenLevel1 : React.FC = () => {
         >
 
           <img className="logo" src="/assets/Elemente/Logo.png" alt="Logo" />
-          <img
-            onClick={handleCloseClick}
-            className="close_dark"
-            alt="schließen"
-            src="/assets/Elemente/Close.png" style={{ position: 'absolute', right: '40px', top: '90px' }}
-          />
+          <div className="CloseButton">
+            <img
+              className="close_dark"
+              alt="schließen"
+              src="/assets/Elemente/Close.png"
+              onClick={handleCloseClick}
+              style={{ position: 'absolute', right: '60px', top: '140px' }}
+            />
+          </div>
 
           {data.map((slide, index) => (
             <SwiperSlide key={`slide_${index}`} className="swiper_slide">
