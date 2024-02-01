@@ -111,6 +111,7 @@ const SchneidenRezept1: React.FC = () => {
 
    // Finish
    const [showFinish, setShowFinish] = useState(false);
+   const [showModal, setShowModal] = useState(false);
 
    const handleFinishClick = () => {
      window.location.href = "/finish";
@@ -122,6 +123,7 @@ const SchneidenRezept1: React.FC = () => {
      setShowTimer(currentSlideIndex === 0);
      setShowFinish(currentSlideIndex === rezept.arbeitsschritte - 1);
    }
+    
 
    return (
     <IonPage className="custom-page-background">
@@ -178,17 +180,18 @@ const SchneidenRezept1: React.FC = () => {
 
         <IonModal
           trigger="open-modal"
-          isOpen={false}
-          initialBreakpoint={0.95}
-          breakpoints={[0, 0.95]}
+          isOpen={showModal}
+          initialBreakpoint={1}
+          breakpoints={[0, 1]}
           className="custom-page-background"
-          
         >
           <IonContent 
           className="ion-padding" 
           scrollY={true}>
             
-            <IonCardContent className="custom-page-background">
+            <IonCardContent 
+            className="custom-page-background"
+            >
               <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>
               <IonList >

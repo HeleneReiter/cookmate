@@ -179,8 +179,8 @@ const BasicGewürzeRezept1: React.FC = () => {
         <IonModal
           trigger="open-modal"
           isOpen={false}
-          initialBreakpoint={0.95}
-          breakpoints={[0, 0.95]}
+          initialBreakpoint={1}
+          breakpoints={[0, 1]}
           className="custom-page-background"
           
         >
