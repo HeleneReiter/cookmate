@@ -30,6 +30,7 @@ import Rezept from '../Rezepte/Schneiden_lvl1_AvocadoTomatenSalat1.json';
 interface SlideData {
   title: string;
   description: string;
+  image: string;
 }
 
 const SchneidenRezept1_Two: React.FC = () => {
@@ -44,10 +45,12 @@ const SchneidenRezept1_Two: React.FC = () => {
     label: Rezept.label,
     learning: Rezept.learning,
     kategorie: Rezept.kategorie,
+    bilder: Rezept.bilder,
   };
 
   const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte }, (_, index) => ({
     title: `Schritt ${index + 1} von ${rezept.arbeitsschritte}`,
+    image: rezept.bilder[index],
     description: rezept.anleitung[index],
   }));
 
@@ -136,13 +139,14 @@ const SchneidenRezept1_Two: React.FC = () => {
           {data.map((slide, index) => (
             <SwiperSlide key={`slide_${index}`} 
             className="swiperSchritte">
-              <IonCard className="OhneBildcard">
+              <IonCard className="card">
               <img
                   onClick={handleCloseClick}
                   className="close_dark"
                   alt="schließen"
                   src="/assets/Elemente/close_white.png" style={{ position: 'absolute', right: '25px', top: '35px' }}
                 />
+                <img src={slide.image} />
                 <div className="navigation-row">
                   <IonButton className="navigationbuttons" onClick={goPrev}>&lt;</IonButton>
                   <h2 className="step">{slide.title.toUpperCase()}</h2>

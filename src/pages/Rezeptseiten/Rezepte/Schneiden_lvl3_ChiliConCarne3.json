@@ -2,7 +2,7 @@
   "name": "Chili con Carne",
   "portionen": 4,
   "arbeitszeit": "50 min",
-  "arbeitsschritte": 4,
+  "arbeitsschritte": 6,
   "schwierigkeit": "schwer",
   "kategorie": "Hauptspeise",
   "learning": "schneiden",
@@ -71,10 +71,21 @@
     }
   ],
   "anleitung": [
-    "Zuerst Zwiebel fein hacken und Paprika in kleine Würfel schneiden. Dann Öl in einem Topf erhitzen und Zwiebel darin anschwitzen. Fleisch hinzufügen und scharf anbraten.",
-    "Danach Tomatenmark und Dosentomaten einrühren und mit der Rindsuppe aufgießen - alles ca. 20 Minuten köcheln lassen.",
+    "Zwiebel fein hacken.",
+    "Paprika in kleine Würfel schneiden.",
+    "Öl in einem Topf erhitzen und Zwiebel darin anschwitzen. Fleisch hinzufügen und scharf anbraten.",
+    "Tomatenmark und Dosentomaten einrühren und mit der Rindsuppe aufgießen - alles ca. 20 Minuten köcheln lassen.",
     "Zum Würzen den Knoblauch durch die Presse drücken und zusätzlich mit Salz, Cayennepfeffer, Kreuzkümmel und Paprikapulver abschmecken.",
     "Nun noch Bohnen, Paprika und den Mais hinzufügen. Je nach gewünschter Schärfe Chiligewürz oder Chilischoten beigeben und alles ca. 20 Minuten bei geringer Hitze ziehen lassen."
   ],
-  "image": "/assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG"
+  "image": "/assets/Bildrecherche/schneiden_lvl3_chiliconcarne.JPG",
+
+  "bilder": [
+    "/assets/Animation/ZwiebelSchneiden.gif",
+    "/assets/Animation/Paprika.gif",
+    "/assets/Animation/ChiliconCarneStep3.gif",
+    "/assets/Animation/ChiliconcarneStep4.gif",
+    "/assets/Animation/KnoblauchundGewürze.png",
+    "/assets/Animation/LetzterstepChili.gif"
+  ]
 }

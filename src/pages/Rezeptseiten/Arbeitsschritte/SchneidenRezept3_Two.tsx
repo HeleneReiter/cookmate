@@ -30,6 +30,7 @@ import Rezept from '../Rezepte/Schneiden_lvl3_ChiliConCarne3.json';
 interface SlideData {
   title: string;
   description: string;
+  image: string;
 }
 
 const SchneidenRezept3_Two: React.FC = () => {
@@ -44,10 +45,12 @@ const SchneidenRezept3_Two: React.FC = () => {
     label: Rezept.label,
     learning: Rezept.learning,
     kategorie: Rezept.kategorie,
+    bilder: Rezept.bilder,
   };
 
   const data: SlideData[] = Array.from({ length: rezept.arbeitsschritte }, (_, index) => ({
     title: `Schritt ${index + 1} von ${rezept.arbeitsschritte}`,
+    image: rezept.bilder[index],
     description: rezept.anleitung[index],
   }));
 
@@ -74,7 +77,7 @@ const SchneidenRezept3_Two: React.FC = () => {
   const [showTimer, setShowTimer] = useState(false);
 
   // Settings for Timer
-  const [seconds, setSeconds] = useState(900); // 15 minutes in seconds
+  const [seconds, setSeconds] = useState(1200); // 20 minutes in seconds
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
@@ -102,30 +105,30 @@ const SchneidenRezept3_Two: React.FC = () => {
   };
 
   const resetTimer = () => {
-    setSeconds(900);
+    setSeconds(1200);
     setIsActive(false);
   };
 
-   // Finish
-   const [showFinish, setShowFinish] = useState(false);
+  // Finish
+  const [showFinish, setShowFinish] = useState(false);
 
-   const handleFinishClick = () => {
-     window.location.href = "/finish";
- 
-   };
- 
-   const handleSlideChange = () => {
-     const currentSlideIndex = swiper.realIndex;
-     //setShowTimer(currentSlideIndex === 0);
-     setShowFinish(currentSlideIndex === rezept.arbeitsschritte - 1);
-   }
+  const handleFinishClick = () => {
+    window.location.href = "/finish";
 
-   return (
+  };
+
+  const handleSlideChange = () => {
+    const currentSlideIndex = swiper.realIndex;
+    setShowTimer(currentSlideIndex === 3 || currentSlideIndex === 5);
+    setShowFinish(currentSlideIndex === rezept.arbeitsschritte - 1);
+  }
+
+  return (
     <IonPage className="custom-page-background">
-      <IonContent 
-      scrollY={false}
-   
-      scrollX={false}>
+      <IonContent
+        scrollY={false}
+
+        scrollX={false}>
         <Swiper
           onSwiper={setSwiper}
           spaceBetween={100}
@@ -134,15 +137,16 @@ const SchneidenRezept3_Two: React.FC = () => {
           onSlideChange={handleSlideChange}
         >
           {data.map((slide, index) => (
-            <SwiperSlide key={`slide_${index}`} 
-            className="swiperSchritte">
-              <IonCard className="OhneBildcard">
-              <img
+            <SwiperSlide key={`slide_${index}`}
+              className="swiperSchritte">
+              <IonCard className="card">
+                <img
                   onClick={handleCloseClick}
                   className="close_dark"
                   alt="schließen"
                   src="/assets/Elemente/close_white.png" style={{ position: 'absolute', right: '25px', top: '35px' }}
                 />
+                <img src={slide.image} />
                 <div className="navigation-row">
                   <IonButton className="navigationbuttons" onClick={goPrev}>&lt;</IonButton>
                   <h2 className="step">{slide.title.toUpperCase()}</h2>
@@ -150,6 +154,17 @@ const SchneidenRezept3_Two: React.FC = () => {
 
                 </div>
                 <p>{slide.description}</p>
+                {/* showTimer nur bei Seite mit Timer anzeigen*/}
+                {showTimer && (
+
+                  // Button um Zeit zu starten und zu stoppen -> zeigt auch gleichzeitig die Zeit an
+                  <><IonButton className="buttonTimer" onClick={(toggleTimer)}>
+                    {isActive ? formatTime(seconds) : 'Timer Starten'}</IonButton>
+
+
+                    {/* Button um Zeit zurückzusetzen */}
+                    <IonButton className="buttonTimer" onClick={resetTimer}>reset </IonButton></>
+                )}
                 {/* showFinish nur bei letzter Seite anzeigen*/}
                 {showFinish && (
                   <IonButton className="buttonTimer" onClick={handleFinishClick}>Fertig!</IonButton>
@@ -166,12 +181,12 @@ const SchneidenRezept3_Two: React.FC = () => {
           initialBreakpoint={1}
           breakpoints={[0, 1]}
           className="custom-page-background"
-          
+
         >
-          <IonContent 
-          className="ion-padding" 
-          scrollY={true}>
-            
+          <IonContent
+            className="ion-padding"
+            scrollY={true}>
+
             <IonCardContent className="custom-page-background">
               <h2>{rezept.name}</h2>
               <h3>Zutaten:</h3>

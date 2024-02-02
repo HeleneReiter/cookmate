@@ -2,7 +2,7 @@
   "name": "Avocado-Tomaten-Salat",
   "portionen": 4,
   "arbeitszeit": "20 min",
-  "arbeitsschritte": 5,
+  "arbeitsschritte": 6,
   "schwierigkeit": "einfach",
   "kategorie": "Salat",
   "learning": "schneiden",
@@ -54,9 +54,19 @@
     "Für das Dressing Zitrone auspressen, Zitronensaft mit dem Zucker verrühren, damit sich dieser gut löst. Öl unterrühren und mit Pfeffer und etwas Salz würzen.",
     "Kirschtomaten waschen, halbieren. Lauchzwiebeln putzen, waschen, in feine Ringe schneiden.",
     "Avocados waschen, mit einem Messer ringsherum vorsichtig aufschneiden (halbieren), Seiten gegeneinander verdrehen und auseinandernehmen. Den Avocadokern vorsichtig herauslösen (Achtung: Verletzungsgefahr!). Das Fruchtfleisch mithilfe eines Esslöffels herausnehmen, würfeln.",
-    "Optional die Petersilie abbrausen, trockenschütteln und fein hacken.",
-    "Tomatenhälften, Avocadowürfel, Lauchzwiebelringe und gehackte Petersilie in einer Schüssel mischen. Dressing darüber geben, mischen und kurz durchziehen lassen, servieren. Tomaten-Avocado-Salat mit den Vollkornbrötchen servieren."
+    "Optional die Petersilie abbrausen, trockenschütteln und fein hacken. Tomatenhälften, Avocadowürfel, Lauchzwiebelringe und gehackte Petersilie in einer Schüssel mischen.",
+    "Dressing darüber geben, mischen und kurz durchziehen lassen, servieren.",
+    "Tipp: Tomaten-Avocado-Salat mit den Vollkornbrötchen servieren."
   ],
 
-  "image": "/assets/Bildrecherche/schneiden_lvl1_avocadotomatensalat.JPG"
+  "image": "/assets/Bildrecherche/schneiden_lvl1_avocadotomatensalat.JPG",
+
+  "bilder": [
+    "/assets/Animation/AvocadoStep1.gif",
+    "/assets/Animation/AvocadoStep2.gif",
+    "/assets/Animation/AvocadoStep3.gif",
+    "/assets/Animation/AcocadoStep4.gif",
+    "/assets/Animation/Basics_Dressing.png",
+    "/assets/Animation/Tips.png"
+  ]
 }
