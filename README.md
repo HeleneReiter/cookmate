@@ -1,26 +1,10 @@
 # CookMate
 
-## Type
-
-- Web / App
-
 ## Team Members
 
 - Ladan Ghezel - Teamleiterin, Animation, Design, Programmieren
 - Jeannine Neunteufl - Animation, Design
 - Helene Reiter - Programmieren, Entwicklung der App, Building
-
-## Supervisor
-
-Rudisch-Sommer Rimbert
-
-## Involved Programs
-
-- Media Technology and Design Bachelor (MTD.ba)
-
-## Course
-
-PRO5PT Semesterprojekt 3
 
 ## English Short Description
 
